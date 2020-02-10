@@ -3,25 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Municipalidad de Siguatepeque</title>
 </head>
 <body>
-    <!-- Logo -->
-    <div class="logo">
-        <img src="" alt="">
-    </div>
-
-    <!-- Navegación -->
-    <nav>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </nav>
-
-
-
-
+   
 </body>
 </html>
