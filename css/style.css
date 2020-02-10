@@ -15,10 +15,19 @@ body {
   font-family: var(--fuentePrincipal);
 }
 
-img {
+/* Banner de la imagen */
+.banner {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: -1;
+}
+
+/* Logo */
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 12%;
 }
