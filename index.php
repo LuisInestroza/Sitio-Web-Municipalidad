@@ -24,17 +24,32 @@
     <img class= "logo"src="img/logoNuevo.png" alt="" srcset="">
     <!-- Input de buscar -->
     <input class="buscar" type="search" name="" id=""  placeholder="Buscar" >
-    
-    
+    <!-- Barra de navegacion -->
     <nav class="navegacion">
-        <a href="">Inicio</a>
-        <a href="">Noticias</a>
-        <a href="">Gobierno</a>
-        <a href="">Portal de Transparencia</a>
-        <a href="">Conoce a Siguatepeque</a>
-        <a href="">Login Linea Base</a>
+       <ul>
+           <li><a href="">Inicio</a></li>
+           <li><a href="">Noticias</a></li>
+           <li><a href="">Gobierno</a>
+            <ul>
+                <li><a href="">Alcalde Municipal</a></li>
+                <li><a href="">Gobiernos</a></li>
+                <li><a href="">Regidores</a></li>
+            </ul>
+           </li>
+           <li><a href="">Portal de Transparencia</a></li>
+           <li><a href="">Conoce a Siguatepeque</a>
+           <ul>
+               <li><a href="">Números Telefónicos</a></li>
+               <li><a href="">Lugares Populares</a></li>
+               <li><a href="">Educación Superior</a></li>
+           </ul>
+           </li>
+           <li><a href="">Login Linea Base</a></li>
+
+       </ul>
 
     </nav>
+    <!-- Texto de mostrar la bienvenida al sitio -->
     <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
   
 </div>

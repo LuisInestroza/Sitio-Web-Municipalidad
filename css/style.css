@@ -66,9 +66,11 @@ body {
   margin-right: auto;
 }
 
-.navegacion a {
+/* Barra de navegación */
+.navegacion ul, a, li{
   text-decoration: none;
   font-weight: bold;
   color: var(--colorNegro);
-
+  font-size: 0.5em;
 }
+
