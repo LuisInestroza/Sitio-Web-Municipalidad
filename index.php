@@ -13,7 +13,7 @@
 <div class="navegacion">
     <img class="banner" src="img/banner2.png" alt="">
     <img class= "logo"src="img/logoNuevo.png" alt="" srcset="">
-    <input class="buscar" type="search" name="" id="">
+    <input class="buscar" type="search" name="" id=""  placeholder="Buscar">
     <nav class="navegacion">
         
     </nav>

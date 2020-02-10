@@ -5,6 +5,10 @@
   --fuentePrincipal: "Roboto", sans-serif;
 
   /* Estilo de los colores */
+  --colorNegro: #000000;
+  --colorBlanco: #ffffff;
+  --colorVerde: #00a778;
+  --colorAzul: #0095de;
 }
 
 html {
@@ -30,4 +34,19 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 12%;
+}
+
+/* Input de buscar */
+.buscar {
+  position: relative;
+  border-radius: 100px;
+  border-color: var(--colorNegro);
+  size: 1em;
+  background-color: transparent;
+  width: 20%;
+  height: 50px;
+}
+::placeholder {
+  font-family: var(--fuentePrincipal);
+  color: var(--colorNegro);
 }
