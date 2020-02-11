@@ -75,12 +75,26 @@
          <div class="contenedor">
             <img src="img/bosqueCalanterique.png" alt="" srcset="">
         </div>
+    </div>
+    <div class="button">
+        <a href="">VER MAS LUGARES</a>
+    </div>
 
+    <!-- Seccion de ferias y celebridades de siguatepeque -->
+    <div class="fiestas">
+        <div class="lugares">
+            <div class="contenedor">
+                <img src="img/feriaSanPablo.png" alt="" srcset="">
+            </div>
+            <div class="contenedor">
+                <img src="img/festivalDeLasFLores.png" alt="" srcset="">
+            </div>
+            <div class="contenedor">
+                <img src="img/festivalDelPino.png" alt="" srcset="">
+            </div>
+        </div>
     </div>
 </div>
-
-
-
    
 </body>
 </html>

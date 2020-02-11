@@ -8,6 +8,7 @@
   --colorNegro: #000000;
   --colorBlanco: #ffffff;
   --colorVerde: #00a778;
+  --colorVerdeOpaco: #e8f3ff;
   --colorAzul: #0095de;
 }
 
@@ -146,4 +147,25 @@ body {
 .contenedor {
   /* Centrar la imagenes en el centro */
   align-self: center;
+}
+
+/* Boton de ver mas */
+.button {
+  text-align: center;
+  padding-top: 50px;
+}
+.button a {
+  background-color: var(--colorAzul);
+  color: var(--colorBlanco);
+  text-decoration: none;
+  padding: 20px 20px;
+  font-weight: bold;
+  border-radius: 10rem;
+}
+
+/* Seccion de fiestas y ferias patronales */
+.fiestas {
+  margin-top: 40px;
+  background-color: var(--colorVerdeOpaco);
+  padding-top: 40px;
 }
