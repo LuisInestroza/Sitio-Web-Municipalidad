@@ -53,6 +53,33 @@
   
 </div>
 
+<!-- Contenido del sitio web -->
+<div class="ciudad">
+    <p class="texto">¡La ciudad más emocionante del Centro!</p>
+    <div class="lugares">
+        <div class="contenedor">
+            <img src="img/escudoSiguatepeque.png" alt="" srcset="">
+        </div>
+         <div class="contenedor">
+            <img src="img/BanderaSiguatepeque.png" alt="" srcset="">
+        </div>
+         <div class="contenedor">
+            <img src="img/plazaSanPedro.png" alt="" srcset="">
+        </div>
+         <div class="contenedor">
+            <img src="img/parqueCentralSiguatepeque.png" alt="" srcset="">
+        </div>
+         <div class="contenedor">
+            <img src="img/plazaCivicaAmistadSiguatepeque.png" alt="" srcset="">
+        </div>
+         <div class="contenedor">
+            <img src="img/bosqueCalanterique.png" alt="" srcset="">
+        </div>
+
+    </div>
+</div>
+
+
 
    
 </body>

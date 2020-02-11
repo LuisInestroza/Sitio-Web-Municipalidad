@@ -119,4 +119,31 @@ body {
 .navegacion li:hover > ul {
   display: block;
   padding-top: 10px;
+  font-size: 1.2em;
+}
+
+/* Contenido de las imagenes */
+
+.texto {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5em;
+}
+
+.contenedor img {
+  /* Tamaño de la imagenes */
+  width: 100%;
+  align-items: unset;
+}
+
+.lugares {
+  /* Posicionar las imagenes en columanas */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.contenedor {
+  /* Centrar la imagenes en el centro */
+  align-self: center;
 }
