@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="navegacion">
+<div class="nav">
     <!-- Banner -->
     <img class="banner" src="img/banner2.png" alt="">
     <!-- Logo -->
@@ -45,7 +45,6 @@
            </ul>
            </li>
            <li><a href="">Login Linea Base</a></li>
-
        </ul>
 
     </nav>

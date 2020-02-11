@@ -49,6 +49,7 @@ body {
   width: 20%;
   height: 50px;
   float: right;
+  display: flex;
 }
 ::placeholder {
   font-family: var(--fuentePrincipal);
@@ -56,6 +57,7 @@ body {
   font-weight: bold;
 }
 
+/* Mensaje de Bienvenida */
 .letras {
   color: var(--colorBlanco);
   font-weight: bold;
@@ -67,10 +69,54 @@ body {
 }
 
 /* Barra de navegación */
-.navegacion ul, a, li{
+
+.navegacion {
+  padding-top: 150px;
+}
+.navegacion ul li a {
+  color: var(--colorNegro);
   text-decoration: none;
   font-weight: bold;
-  color: var(--colorNegro);
-  font-size: 0.5em;
 }
 
+.navegacion ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.navegacion a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navegacion li {
+  /* flex-grow: ; */
+  align-items: center;
+}
+.navegacion ul {
+  /* Centrar los elementos de la navegacion */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+}
+.navegacion li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Sub menu */
+.navegacion li ul {
+  position: absolute;
+  display: none;
+  text-align: center;
+  z-index: 100;
+}
+
+.navegacion li:hover > ul {
+  display: block;
+  padding-top: 10px;
+}
