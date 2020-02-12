@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -82,23 +82,32 @@
 
     <!-- Seccion de ferias y celebridades de siguatepeque -->
     <div class="fiestas">
-        <p>Festivales-Ferias Oficiales</p>
+        <p style="text-align: center;font-weight: bold;font-size: 3.5em;">Festivales-Ferias Oficiales</p>
         <div class="lugares">
-            <div class="contenedor">
+            <div class="contenedorFiestas">
                 <img src="img/feriaSanPablo.png" alt="" srcset="">
-                <p class="text2" styele="font-size: xx-large;" >FERIA PATRONAL</p>
+                <p class="text2" styele="font-size: 1em;" >FERIA PATRONAL</p>
             </div>
-            <div class="contenedor">
+            <div class="contenedorFiestas">
                 <img src="img/festivalDeLasFLores.png" alt="" srcset="">
-                <p class="text2">FESTIVAL DE LAS FLORES</p>
+                <p class="text2" styele="font-size: xx-large;">FESTIVAL DE LAS FLORES</p>
             </div>
-            <div class="contenedor">
+            <div class="contenedorFiestas">
                 <img src="img/festivalDelPino.png" alt="" srcset="">
-                <p class="text2">FESTIVAL DEL PINO</p>
+                <p class="text2" styele="font-size: xx-large;">FESTIVAL DEL PINO</p>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Servicios para la ciudadania -->
+<div class="servicios">
+    <div class="servicios-contenedor">
+        <p>SERVIVIOS PARA LA CIUDADANÍA.</p>
+
+    </div>
+</div>
+
    
 </body>
 </html>

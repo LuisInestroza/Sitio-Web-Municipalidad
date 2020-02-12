@@ -164,6 +164,10 @@ body {
 }
 
 /* Seccion de fiestas y ferias patronales */
+.lugares {
+  padding-bottom: 40px;
+}
+
 .fiestas {
   margin-top: 40px;
   background-color: var(--colorVerdeOpaco);
@@ -174,10 +178,17 @@ body {
   color: var(--colorBlanco);
   text-align: center;
   font-weight: bold;
-  font-size: xx-large;
+  font-size: 1rem;
 }
-.fiestas p {
-  text-align: center;
-  font-size: 4.5rem;
-  font-weight: bold;
+
+.contenedorFiestas img {
+  /* Tamaño de la imagenes */
+  width: 65%;
+}
+
+.contenedorFiestas {
+  align-self: center;
+  background-color: var(--colorVerde);
+  border-radius: 0.5rem;
+  align-items: center;
 }
