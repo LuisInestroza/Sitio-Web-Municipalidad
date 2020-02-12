@@ -86,15 +86,15 @@
         <div class="lugares">
             <div class="contenedorFiestas">
                 <img src="img/feriaSanPablo.png" alt="" srcset="">
-                <p class="text2" styele="font-size: 1em;" >FERIA PATRONAL</p>
+                <p class="text2" style="font-size: 1.5em;" >FERIA PATRONAL</p>
             </div>
             <div class="contenedorFiestas">
                 <img src="img/festivalDeLasFLores.png" alt="" srcset="">
-                <p class="text2" styele="font-size: xx-large;">FESTIVAL DE LAS FLORES</p>
+                <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
             </div>
             <div class="contenedorFiestas">
                 <img src="img/festivalDelPino.png" alt="" srcset="">
-                <p class="text2" styele="font-size: xx-large;">FESTIVAL DEL PINO</p>
+                <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
             </div>
         </div>
     </div>
