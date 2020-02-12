@@ -101,7 +101,7 @@
 </div>
 
 <!-- Servicios para la ciudadania -->
-<div class="servicios">
+<div class="servicios" style="text-align: center;font-weight: bold;font-size: 3.5em;">
     <div class="servicios-contenedor">
         <p>SERVIVIOS PARA LA CIUDADANÍA.</p>
 
