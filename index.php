@@ -82,7 +82,7 @@
 
     <!-- Seccion de ferias y celebridades de siguatepeque -->
     <div class="fiestas">
-        <p style="text-align: center;font-weight: bold;font-size: 3.5em;">Festivales-Ferias Oficiales</p>
+        <p style="text-align: center;font-weight: bold;font-size: 3.5em;">Festivales - Ferias Oficiales</p>
         <div class="lugares">
             <div class="contenedorFiestas">
                 <img src="img/feriaSanPablo.png" alt="" srcset="">
@@ -106,8 +106,5 @@
         <p>SERVIVIOS PARA LA CIUDADANÍA.</p>
 
     </div>
-</div>
-
-   
 </body>
 </html>
