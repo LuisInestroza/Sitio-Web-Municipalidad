@@ -82,15 +82,19 @@
 
     <!-- Seccion de ferias y celebridades de siguatepeque -->
     <div class="fiestas">
+        <p>Festivales-Ferias Oficiales</p>
         <div class="lugares">
             <div class="contenedor">
                 <img src="img/feriaSanPablo.png" alt="" srcset="">
+                <p class="text2" styele="font-size: xx-large;" >FERIA PATRONAL</p>
             </div>
             <div class="contenedor">
                 <img src="img/festivalDeLasFLores.png" alt="" srcset="">
+                <p class="text2">FESTIVAL DE LAS FLORES</p>
             </div>
             <div class="contenedor">
                 <img src="img/festivalDelPino.png" alt="" srcset="">
+                <p class="text2">FESTIVAL DEL PINO</p>
             </div>
         </div>
     </div>

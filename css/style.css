@@ -167,5 +167,17 @@ body {
 .fiestas {
   margin-top: 40px;
   background-color: var(--colorVerdeOpaco);
-  padding-top: 40px;
+  padding-top: 2px;
+}
+
+.text2 {
+  color: var(--colorBlanco);
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.fiestas p {
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: bold;
 }
