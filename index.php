@@ -101,10 +101,100 @@
 </div>
 
 <!-- Servicios para la ciudadania -->
-<div class="servicios" style="text-align: center;font-weight: bold;font-size: 3.5em;">
+<div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
     <div class="servicios-contenedor">
-        <p>SERVIVIOS PARA LA CIUDADANÍA.</p>
+        <p>SERVICIOS PARA LA CIUDADANÍA.</p>
 
-    </div>
+         <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <!-- <img src="img1.jpg" style="width:100%"> -->
+                <div class="text">Servicios Regulares
+                 <div>
+                    <samp>Agua potable.</samp>
+                    <samp>Alcantarillado sanitalio.</samp>
+                    <samp>Recolección de basura</sam>
+                    <samp>Alumbrado público</samp>
+                    <samp>Limpieza de solares baldíos, calles, avenidas, parque</samp>
+                    <samp>Bomberos</samp>
+                    <samp>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</samp>
+                    <samp>Cementerios</samp>
+                    <samp>Policíá y vigilancia</samp>
+                    <samp>Escuelas de educación especial</samp>
+                    <samp>Colaboración en el mantenimiento de escuelas públicas y privadas</samp>
+                    <samp>Mantenimiento y conservación del ambiente</samp>
+                </div>
+                </div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <!-- <img src="img2.jpg" style="width:100%"> -->
+                <div class="text" ">Servicios Permamentes
+                    <div>
+                        <samp>Mercados y abastos</samp>
+                        <samp>Rasto municipal de carnes</samp>
+                        <samp>Cementerio de propiedad y/o administración municipal</samp>
+                        <samp>Servicios para estacionamiento de vehículos</samp>
+                        <samp>Utilizaciíon de bienes municipales o ejidales</samp>
+                        <samp>Postes de teléfonos y torres de electricidad</samp>
+                        <samp>Tendido de alambre y cables de toda clase</samp>
+                        <samp>Espacios para rótulos</samp>
+                        <samp>Ocupación de calles y aceras en forma temporal</samp>
+                        <samp>Facilidad para destace de ganado ysimilares</samp>
+                        <samp>Terminal de transporte</samp>
+                        <samp>Comité vial</samp>
+                    
+                    </div>
+                
+                </div>
+                
+                           
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <!-- <img src="img3.jpg" style="width:100%"> -->
+                <div class="text">Servicios Eventuales
+                    <div class="servicios-samp">
+                        <samp>Autorización de libros contables  otros</samp>
+                        <samp>Permisos para apertura y operacón de negocios</samp>
+                        <samp>Autorización y permisos para espectaculos públicos</samp>
+                        <samp>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</samp>
+                        <samp>Tramitacón y celebración de matrimonios civiles</samp>
+                        <samp>Permisos de contrucción, urbanizaciones, edificiones, adiciones y remodelaciones</samp>
+                        <samp>Autorización y permisos de instalación de antenas de comunicación</samp>
+                        <samp>Servicios de inspecciónm avalúo, medición y elaboracón de planos</samp>
+                        <samp>Extensión de certificaciones, constancias y transcripciones de los actos propios de la alcaldía</samp>
+                        <samp>Acceso, control y administración a los sitios de explotación y recursos de canteras</samp>
+                        <span>Otros permitidos por las disposiciones legales</span>
+                    </div>
+                
+                
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            </div> 
+
+
+
+        </div>
 </body>
+
+<!-- Script de las funciones de animaciones de JavaScript -->
+<script src="js/funcions.js"></script>
 </html>
