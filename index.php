@@ -103,7 +103,7 @@
 <!-- Servicios para la ciudadania -->
 <div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
     <div class="servicios-contenedor">
-        <p>SERVICIOS PARA LA CIUDADANÍA.</p>
+        <p style="text-align: center;font-weight: bold;font-size: 3.5em;">SERVICIOS PARA LA CIUDADANÍA.</p>
 
          <!-- Slideshow container -->
         <div class="slideshow-container">
@@ -111,21 +111,21 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div class="numbertext">1 / 3</div>
-                <!-- <img src="img1.jpg" style="width:100%"> -->
-                <div class="text">Servicios Regulares
+                <!-- <img src="img/escudoSiguatepeque.png" style="width:100%"> -->
+                <div class="text">Servicios Regulares <br><br>
                  <div>
-                    <samp>Agua potable.</samp>
-                    <samp>Alcantarillado sanitalio.</samp>
-                    <samp>Recolección de basura</sam>
-                    <samp>Alumbrado público</samp>
-                    <samp>Limpieza de solares baldíos, calles, avenidas, parque</samp>
-                    <samp>Bomberos</samp>
-                    <samp>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</samp>
-                    <samp>Cementerios</samp>
-                    <samp>Policíá y vigilancia</samp>
-                    <samp>Escuelas de educación especial</samp>
-                    <samp>Colaboración en el mantenimiento de escuelas públicas y privadas</samp>
-                    <samp>Mantenimiento y conservación del ambiente</samp>
+                    <span>Agua potable.</span> <br>
+                    <span>Alcantarillado sanitalio.</span><br>
+                    <span>Recolección de basura</span><br>
+                    <span>Alumbrado público</span><br>
+                    <span>Limpieza de solares baldíos, calles, avenidas, parque</span><br>
+                    <span>Bomberos</span><br>
+                    <span>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</span><br>
+                    <span>Cementerios</span><br>
+                    <span>Policíá y vigilancia</span><br>
+                    <span>Escuelas de educación especial</span><br>
+                    <span>Colaboración en el mantenimiento de escuelas públicas y privadas</span><br>
+                    <span>Mantenimiento y conservación del ambiente</span><br>
                 </div>
                 </div>
             </div>
@@ -133,20 +133,20 @@
             <div class="mySlides fade">
                 <div class="numbertext">2 / 3</div>
                 <!-- <img src="img2.jpg" style="width:100%"> -->
-                <div class="text" ">Servicios Permamentes
+                <div class="text" style="">Servicios Permamentes <br><br>
                     <div>
-                        <samp>Mercados y abastos</samp>
-                        <samp>Rasto municipal de carnes</samp>
-                        <samp>Cementerio de propiedad y/o administración municipal</samp>
-                        <samp>Servicios para estacionamiento de vehículos</samp>
-                        <samp>Utilizaciíon de bienes municipales o ejidales</samp>
-                        <samp>Postes de teléfonos y torres de electricidad</samp>
-                        <samp>Tendido de alambre y cables de toda clase</samp>
-                        <samp>Espacios para rótulos</samp>
-                        <samp>Ocupación de calles y aceras en forma temporal</samp>
-                        <samp>Facilidad para destace de ganado ysimilares</samp>
-                        <samp>Terminal de transporte</samp>
-                        <samp>Comité vial</samp>
+                        <span>Mercados y abastos</span><br>
+                        <span>Rasto municipal de carnes</span><br>
+                        <span>Cementerio de propiedad y/o administración municipal</span><br>
+                        <span>Servicios para estacionamiento de vehículos</span><br>
+                        <span>Utilizaciíon de bienes municipales o ejidales</span><br>
+                        <span>Postes de teléfonos y torres de electricidad</span><br>
+                        <span>Tendido de alambre y cables de toda clase</span><br>
+                        <span>Espacios para rótulos</span><br>
+                        <span>Ocupación de calles y aceras en forma temporal</span><br>
+                        <span>Facilidad para destace de ganado y similares</span><br>
+                        <span>Terminal de transporte</span><br>
+                        <span>Comité vial</span><br>
                     
                     </div>
                 
@@ -158,19 +158,20 @@
             <div class="mySlides fade">
                 <div class="numbertext">3 / 3</div>
                 <!-- <img src="img3.jpg" style="width:100%"> -->
-                <div class="text">Servicios Eventuales
+                <div class="text">Servicios Eventuales <br><br>
                     <div class="servicios-samp">
-                        <samp>Autorización de libros contables  otros</samp>
-                        <samp>Permisos para apertura y operacón de negocios</samp>
-                        <samp>Autorización y permisos para espectaculos públicos</samp>
-                        <samp>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</samp>
-                        <samp>Tramitacón y celebración de matrimonios civiles</samp>
-                        <samp>Permisos de contrucción, urbanizaciones, edificiones, adiciones y remodelaciones</samp>
-                        <samp>Autorización y permisos de instalación de antenas de comunicación</samp>
-                        <samp>Servicios de inspecciónm avalúo, medición y elaboracón de planos</samp>
-                        <samp>Extensión de certificaciones, constancias y transcripciones de los actos propios de la alcaldía</samp>
-                        <samp>Acceso, control y administración a los sitios de explotación y recursos de canteras</samp>
-                        <span>Otros permitidos por las disposiciones legales</span>
+                        <span>Autorización de libros contables  otros</span><br>
+                        <span>Permisos para apertura y operacón de negocios</span><br>
+                        <span>Autorización y permisos para espectaculos públicos</span><br>
+                        <span>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</span><br>
+                        <span>Tramitacón y celebración de matrimonios civiles</span><br>
+                        <span>Permisos de contrucción, urbanizaciones, edificiones, adiciones y remodelaciones</span><br>
+                        <span>Autorización y permisos de instalación de antenas de comunicación</span><br>
+                        <span>Servicios de inspecciónm avalúo, medición y elaboracón de planos</span><br>
+                        <span>Extensión de certificaciones, constancias y transcripciones de los actos propios de la alcaldía</span><br>
+                        <span>Acceso, control y administración a los sitios de explotación y recursos de canteras</span><br>
+                        <span>Otros permitidos por las disposiciones legales</span><br>
+
                     </div>
                 
                 
@@ -192,7 +193,50 @@
 
 
 
+</div>
+
+<!-- Seccion de noticias de la ciudad -->
+<div class="noticias-ciudad">
+
+    <div class="noticias-contenedor">
+        <p style="text-align: center;font-weight: bold;font-size: 3.5em;">NOTICIAS DE CIUDAD</p>
+    
+    </div>
+
+</div>
+
+
+<!-- Seccion de eventos -->
+<div class="eventos-ciudad">
+</div>
+
+<!-- Seccion de comunicados -->
+<div class="comunicados-ciudad">
+</div>
+
+
+<!-- footer -->
+<div class="footer-ciudad">
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Links</p>
+            <div class="links">
+                <a href="">Casa Presidencial</a>
+                <a href="">Noticias</a>
+                <a href="">Agenda</a>
+                <a href="">Contacto</a>
+            </div>
         </div>
+        <div class="contenedor">
+            <p>Facebook</p>
+        </div>
+        <div class="contenedor">
+        </div>
+        
+    </footer>
+    <p >Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
+</div>
+
 </body>
 
 <!-- Script de las funciones de animaciones de JavaScript -->
