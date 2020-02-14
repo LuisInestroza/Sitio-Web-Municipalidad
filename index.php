@@ -11,7 +11,12 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Links de iconos -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
 </head>
     <title>Municipalidad de Siguatepeque</title>
 </head>
@@ -23,7 +28,14 @@
     <!-- Logo -->
     <img class= "logo"src="img/logoNuevo.png" alt="" srcset="">
     <!-- Input de buscar -->
-    <input class="buscar" type="search" name="" id=""  placeholder="Buscar" >
+    
+    <div>
+        <i class="fa fa-search" ></i>
+        <input class="buscar" type="search" name="" id=""  placeholder="Buscar"  >  
+
+    </div>
+    
+
     <!-- Barra de navegacion -->
     <nav class="navegacion">
        <ul>
@@ -59,6 +71,7 @@
     <div class="lugares">
         <div class="contenedor">
             <img src="img/escudoSiguatepeque.png" alt="" srcset="">
+           
         </div>
          <div class="contenedor">
             <img src="img/BanderaSiguatepeque.png" alt="" srcset="">
@@ -221,7 +234,7 @@
         <div class="contenedor">
             <p>Links</p>
             <div class="links">
-                <a href="">Casa Presidencial</a>
+                <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
                 <a href="">Noticias</a>
                 <a href="">Agenda</a>
                 <a href="">Contacto</a>
@@ -229,8 +242,12 @@
         </div>
         <div class="contenedor">
             <p>Facebook</p>
+            <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
+            
+            
         </div>
         <div class="contenedor">
+            <p>Noticias Recientes</p>
         </div>
         
     </footer>
@@ -238,6 +255,9 @@
 </div>
 
 </body>
+
+
+
 
 <!-- Script de las funciones de animaciones de JavaScript -->
 <script src="js/funcions.js"></script>

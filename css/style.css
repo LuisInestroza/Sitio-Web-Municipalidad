@@ -42,17 +42,21 @@ body {
 /* Input de buscar */
 .buscar {
   display: block;
-  /* position: relative; */
-  border-radius: 100px;
+  position: relative;
+  border-radius: 1200px;
+  border: solid 4px var(--colorNegro);
   border-color: var(--colorNegro);
   size: 1em;
   background-color: transparent;
   width: 20%;
-  height: 50px;
+  height: 45px;
   float: right;
   display: flex;
+  bottom: 120px;
+  right: 200px;
+  color: var(--colorNegro);
 }
-::placeholder {
+.buscar::placeholder {
   font-family: var(--fuentePrincipal);
   color: var(--colorNegro);
   font-weight: bold;
@@ -72,7 +76,7 @@ body {
 /* Barra de navegación */
 
 .navegacion {
-  padding-top: 150px;
+  padding-bottom: 110px;
 }
 .navegacion ul li a {
   color: var(--colorNegro);
@@ -323,4 +327,9 @@ body {
   color: var(--colorBlanco);
   display: grid;
   padding-top: 10px;
+}
+
+/* Icono de facebook */
+.fab {
+  font-size: 4em;
 }
