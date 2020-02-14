@@ -30,9 +30,8 @@
     <!-- Input de buscar -->
     
     <div>
-        <i class="fa fa-search" ></i>
-        <input class="buscar" type="search" name="" id=""  placeholder="Buscar"  >  
-
+        <input class="buscar" type="search" name="" id=""  placeholder="Buscar"  > 
+        <i class="fa fa-search" > </i>
     </div>
     
 
@@ -43,7 +42,7 @@
            <li><a href="">Noticias</a></li>
            <li><a href="">Gobierno</a>
             <ul>
-                <li><a href="">Alcalde Municipal</a></li>
+                <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
                 <li><a href="">Gobiernos</a></li>
                 <li><a href="">Regidores</a></li>
             </ul>

@@ -56,6 +56,14 @@ body {
   right: 200px;
   color: var(--colorNegro);
 }
+.fa {
+  /* font-size: 4em; */
+  display: block;
+  position: relative;
+  display: flex;
+  float: right;
+}
+
 .buscar::placeholder {
   font-family: var(--fuentePrincipal);
   color: var(--colorNegro);
