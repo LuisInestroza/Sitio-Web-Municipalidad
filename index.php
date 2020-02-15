@@ -69,23 +69,46 @@
     <p class="texto">¡La ciudad más emocionante del Centro!</p>
     <div class="lugares">
         <div class="contenedor">
-            <img src="img/escudoSiguatepeque.png" alt="" srcset="">
-           
+            <img src="img/escudoSiguatepeque.png"  class="imagen" alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Escudo Oficial de Siguatepeque</p>
+            </div>
         </div>
          <div class="contenedor">
-            <img src="img/BanderaSiguatepeque.png" alt="" srcset="">
+            <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Bandera Oficial de Siguatepeque</p>
+            </div>
         </div>
          <div class="contenedor">
-            <img src="img/plazaSanPedro.png" alt="" srcset="">
+            <img src="img/plazaSanPedro.png"  class="imagen" alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Plaza San Pedro Siguatepeque</p>
+            </div>
         </div>
          <div class="contenedor">
-            <img src="img/parqueCentralSiguatepeque.png" alt="" srcset="">
+            <img src="img/parqueCentralSiguatepeque.png"  class="imagen"  alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Parque Central de Siguatepeque</p>
+            </div>
         </div>
          <div class="contenedor">
-            <img src="img/plazaCivicaAmistadSiguatepeque.png" alt="" srcset="">
+            <img src="img/plazaCivicaAmistadSiguatepeque.png"  class="imagen" alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Plaza Civica La Amistad</p>
+            </div>
         </div>
          <div class="contenedor">
-            <img src="img/bosqueCalanterique.png" alt="" srcset="">
+            <img src="img/bosqueCalanterique.png"  class="imagen" alt="" srcset="">
+            <p>Información...</p>
+            <div class="informacion">
+                <p class="info">Bosque Calanterique</p>
+            </div>
         </div>
     </div>
     <div class="button">

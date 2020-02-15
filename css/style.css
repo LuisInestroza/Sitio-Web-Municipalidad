@@ -147,6 +147,8 @@ body {
   /* Tamaño de la imagenes */
   width: 100%;
   align-items: unset;
+  opacity: 1;
+  display: block;
 }
 
 .lugares {
@@ -161,6 +163,35 @@ body {
 .contenedor {
   /* Centrar la imagenes en el centro */
   align-self: center;
+  position: relative;
+}
+
+.imagen {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.informacion {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.contenedor:hover .imagen {
+  opacity: 0.3;
+}
+
+.contenedor:hover .informacion {
+  opacity: 1;
 }
 
 /* Boton de ver mas */

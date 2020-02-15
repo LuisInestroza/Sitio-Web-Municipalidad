@@ -11,11 +11,7 @@
 <body>
 
 <div class="nav">
-    <!-- Banner -->
-    <img class="banner" src="img/banner2.png" alt="">
-    <!-- Logo -->
-    <img class= "logo"src="img/logoNuevo.png" alt="" srcset="">
-    <!-- Input de buscar -->
+
     
     <div>
         <input class="buscar" type="search" name="" id=""  placeholder="Buscar"  > 
@@ -26,7 +22,7 @@
     <!-- Barra de navegacion -->
     <nav class="navegacion">
        <ul>
-           <li><a href="">Inicio</a></li>
+           <li><a href="index.php">Inicio</a></li>
            <li><a href="">Noticias</a></li>
            <li><a href="">Gobierno</a>
             <ul>
