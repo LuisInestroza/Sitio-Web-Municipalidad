@@ -70,44 +70,50 @@
     <div class="lugares">
         <div class="contenedor">
             <img src="img/escudoSiguatepeque.png"  class="imagen" alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Escudo Oficial de Siguatepeque</p>
+                <a href="">ver</a>
             </div>
         </div>
          <div class="contenedor">
             <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Bandera Oficial de Siguatepeque</p>
+                <a href="">ver</a>
             </div>
         </div>
          <div class="contenedor">
             <img src="img/plazaSanPedro.png"  class="imagen" alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Plaza San Pedro Siguatepeque</p>
+                <a href="">ver</a>
             </div>
         </div>
          <div class="contenedor">
             <img src="img/parqueCentralSiguatepeque.png"  class="imagen"  alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Parque Central de Siguatepeque</p>
+                <a href="">ver</a>
             </div>
         </div>
          <div class="contenedor">
             <img src="img/plazaCivicaAmistadSiguatepeque.png"  class="imagen" alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Plaza Civica La Amistad</p>
+                <a href="">ver</a>
             </div>
         </div>
          <div class="contenedor">
             <img src="img/bosqueCalanterique.png"  class="imagen" alt="" srcset="">
-            <p>Información...</p>
+            <p style="text-align: center;">Información...</p>
             <div class="informacion">
                 <p class="info">Bosque Calanterique</p>
+                <a href="">ver</a>
             </div>
         </div>
     </div>

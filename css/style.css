@@ -160,6 +160,7 @@ body {
   padding-right: 30px;
 }
 
+/* metodo hover */
 .contenedor {
   /* Centrar la imagenes en el centro */
   align-self: center;
@@ -171,6 +172,7 @@ body {
   display: block;
   width: 100%;
   height: auto;
+
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -184,6 +186,10 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.info {
+  font-size: 1rem;
 }
 
 .contenedor:hover .imagen {
