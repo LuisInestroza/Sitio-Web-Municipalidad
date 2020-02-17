@@ -64,6 +64,9 @@ body {
   float: right;
 }
 
+.fa.fa-bars {
+  display: none;
+}
 .buscar::placeholder {
   font-family: var(--fuentePrincipal);
   color: var(--colorNegro);
@@ -132,9 +135,27 @@ body {
 .navegacion li:hover > ul {
   display: block;
   padding-top: 10px;
-  font-size: 1.2em;
 }
 
+@media (max-width: 768px) {
+  .navegacion {
+    display: none;
+  }
+  .letras {
+    padding-top: 250px;
+  }
+  .fa.fa-bars {
+    display: block;
+    float: right;
+    font-size: 4rem;
+  }
+  .fa.fa-search {
+    display: none;
+  }
+  .texto {
+    padding-top: 40px;
+  }
+}
 /* Contenido de las imagenes */
 
 .texto {
@@ -242,9 +263,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .contenedorFiestas img {
-    /* width: 50px; */
-  }
   .contenedorFiestas {
     /* Desplazar las columnas */
     grid-column: 1/5;
@@ -288,6 +306,16 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  margin-left: -600px;
+  margin-right: -100px;
+}
+
+@media (max-width: 768px) {
+  .prev,
+  .next {
+    margin-left: -220px;
+    margin-right: -2px;
+  }
 }
 
 /* Position the "next button" to the right */

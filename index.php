@@ -38,10 +38,12 @@
     <div>
         <input class="buscar" type="search" name="" id=""  placeholder="Buscar"  > 
         <i class="fa fa-search" > </i>
+        
     </div>
     
 
     <!-- Barra de navegacion -->
+    <i class="fa fa-bars"></i>
     <nav class="navegacion">
        <ul>
            <li><a href="">Inicio</a></li>
