@@ -136,7 +136,7 @@
                 <p class="text2" style="font-size: 1.5em;" >FERIA PATRONAL</p>
             </div>
             <div class="contenedorFiestas">
-                <img src="img/festivalDeLasFLores.png" alt="" srcset="">
+                <img style =""src="img/festivalDeLasFLores.png" alt="" srcset="">
                 <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
             </div>
             <div class="contenedorFiestas">
