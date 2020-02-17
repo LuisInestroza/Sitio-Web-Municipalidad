@@ -241,6 +241,15 @@ body {
   margin-right: 70px;
 }
 
+@media (max-width: 768px) {
+  .contenedorFiestas img {
+    /* width: 50px; */
+  }
+  .contenedorFiestas {
+    /* Desplazar las columnas */
+    grid-column: 1/5;
+  }
+}
 .contenedorFiestas {
   align-self: center;
   background-color: var(--colorVerde);
