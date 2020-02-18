@@ -56,12 +56,17 @@ body {
   right: 200px;
   color: var(--colorNegro);
 }
-.fa {
+.fa.fa-search {
   /* font-size: 4em; */
   display: block;
   position: relative;
   display: flex;
   float: right;
+  border-bottom-style: solid;
+  bottom: 109px;
+  border-bottom-width: 0px;
+  left: 40px;
+  font-size: x-large;
 }
 
 .fa.fa-bars {
@@ -154,6 +159,10 @@ body {
   }
   .texto {
     padding-top: 40px;
+  }
+
+  .contenedor {
+    grid-column: 1/4;
   }
 }
 /* Contenido de las imagenes */
