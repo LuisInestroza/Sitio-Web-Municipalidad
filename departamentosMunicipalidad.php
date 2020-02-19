@@ -67,68 +67,103 @@
     <div class="departamentos">
         <p class="texto">DEPARTAMENTOS</p>
         <div class="deptos">
-
             <div class="contenedor">
-                <img src="img/Departamentos/alcaldia.jpg" alt="oficina-alcalde">
+                <img src="img/Departamentos/alcaldia.jpg" class="imagen" alt="oficina-alcalde">
                 <p>Oficina del Alcalde</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
 
             <div class="contenedor">
-                <img src="img/Departamentos/mapa-siguatepeque.jpg" alt="catastro-municipal">
+                <img class="imagen" src="img/Departamentos/mapa-siguatepeque.jpg" alt="catastro-municipal">
                 <p>Catastro Municipalipal</p>
                 <p>Servicios Prestados.</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/47069145_949496568573081_4123151995521466368_o-740x460.jpg" alt="control-tributario">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/47069145_949496568573081_4123151995521466368_o-740x460.jpg" alt="control-tributario">
                 <p>Control Tributario</p>
                 <p>Servicios</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/tesoreria.jpg" alt="tesoria-municipal">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/tesoreria.jpg" alt="tesoria-municipal">
                 <p>Tesoría Municipal</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/72485567_1115145785341491_8897221304252366848_n-e1573655647796-740x460.jpg" alt="obras-publicas">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/72485567_1115145785341491_8897221304252366848_n-e1573655647796-740x460.jpg" alt="obras-publicas">
                 <p>Obras Públicas</p>
                 <p>Servicios Prestados</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt="contabilidad-presupuesto">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt="contabilidad-presupuesto">
                 <p>Contabilidad y Presupuesto</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
                 <p>Justicia Municipal</p>
                 <p>Servicios</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/justiciamunicipal-740x460.jpg" alt="medio-ambiente">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/justiciamunicipal-740x460.jpg" alt="medio-ambiente">
                 <p>Medio Ambiente (UMA)</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/desarrollo-comunitario.png" alt="desarrollo-comunitario">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/desarrollo-comunitario.png" alt="desarrollo-comunitario">
                 <p>Desarrollo Comunitario</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
 
             <div class="contenedor">
-                <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/secretaria-e1573655696973.jpg" alt="secretaria-municipal">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/secretaria-e1573655696973.jpg" alt="secretaria-municipal">
                 <p>Secretaria Municipal</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="" alt="oficina-mujer-niñez">
+                <img class="imagen" src="" alt="oficina-mujer-niñez">
                 <p>Oficina de la mujer y niñez</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
             <div class="contenedor">
-                <img src="" alt="gerencia-general-municipal">
+                <img class="imagen" src="" alt="gerencia-general-municipal">
                 <p>Gerencia General Municipal</p>
                 <p>Atribuciones</p>
+                <div class="informacion">
+                    <a href="">Ver</a>
+                </div>
             </div>
 
         </div>
