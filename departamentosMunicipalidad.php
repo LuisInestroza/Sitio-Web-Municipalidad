@@ -64,9 +64,9 @@
 
 
     <div class="departamentos">
-
+        <p class="texto">DEPARTAMENTOS</p>
         <div class="deptos">
-            <p class="texto">Departamentos</p>
+
             <div class="contenedor">
                 <img src="" alt="oficina-alcalde">
                 <p>Oficina del Alcalde</p>
@@ -149,9 +149,9 @@
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
     </div>
     <!-- Div final de footer -->
-
-
-
 </body>
+
+<!-- Scripts de JavaScrits -->
+<script src="js/functions.js"></script>
 
 </html>
