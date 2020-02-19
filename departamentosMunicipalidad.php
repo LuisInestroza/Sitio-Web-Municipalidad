@@ -66,13 +66,90 @@
     <div class="departamentos">
 
         <div class="deptos">
-            <p>Departamentos</p>
+            <p class="texto">Departamentos</p>
+            <div class="contenedor">
+                <img src="" alt="oficina-alcalde">
+                <p>Oficina del Alcalde</p>
+            </div>
+
+            <div class="contenedor">
+                <img src="" alt="catastro-municipal">
+                <p>Catastro Municipalipal</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="control-tributario">
+                <p>Control Tributario</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="tesoria-municipal">
+                <p>Tesoría Municipal</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="obras-publicas">
+                <p>Obras Públicas</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="contabilidad-presupuesto">
+                <p>Contabilidad y Presupuesto</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="justicia-municipal">
+                <p>Justicia Municipal</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="medio-ambiente">
+                <p>Medio Ambiente (UMA)</p>
+            </div>
             <div class="contenedor">
                 <img src="" alt="">
                 <p></p>
             </div>
+            <div class="contenedor">
+                <img src="" alt="desarrollo-comunitario">
+                <p>Desarrollo Comunitario</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="secretaria-municipal">
+                <p>Secretaria Municipal</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="oficina-mujer-niñez">
+                <p>Oficina de la mujer y niñez</p>
+            </div>
+            <div class="contenedor">
+                <img src="" alt="gerencia-general-municipal">
+                <p>Gerencia General Municipal</p>
+            </div>
         </div>
     </div>
+
+    <!-- Footer -->
+    <div class="footer-ciudad">
+        <footer class="footer">
+            <div class="contenedor">
+                <p>Links</p>
+                <div class="links">
+                    <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
+                    <a href="">Noticias</a>
+                    <a href="">Agenda</a>
+                    <a href="">Contacto</a>
+                </div>
+            </div>
+            <div class="contenedor">
+                <p>Facebook</p>
+                <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
+
+
+            </div>
+            <div class="contenedor">
+                <p>Noticias Recientes</p>
+            </div>
+
+        </footer>
+        <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
+    </div>
+    <!-- Div final de footer -->
+
 
 
 </body>
