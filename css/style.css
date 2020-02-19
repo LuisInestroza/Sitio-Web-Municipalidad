@@ -433,8 +433,18 @@ body {
 /* Estilos de la view de alcaldiaMunicipal.php */
 
 .alcaldia img {
-  position: inherit;
-  width: 40%;
+  width: 45%;
+}
+
+.alcaldia p {
+  font-size: 1.2rem;
 }
 
 /* ----------------------------------------------------------- */
+
+/* ------------------------------------------------------------ */
+/* Estilos de la view departamentos */
+
+.departamentos {
+}
+/* -------------------------------------------------------------- */

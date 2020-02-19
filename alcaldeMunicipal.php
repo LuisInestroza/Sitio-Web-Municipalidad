@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Link de icoco -->
+    
+    <link rel="icon" type="image/png" href="logo.ico" />
+    
     <!-- Aceder al css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -67,15 +71,16 @@
 
 <div class="alcaldia">
     <img src="img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
-    <span>Abog. Juan Carlos Morales Pacheco</span> <br>
-    <span>Alcalde Municipal</span><br>
-    <span>2018-2022</span>
+    <p>Abog. Juan Carlos Morales Pacheco</p>
+    <p>Alcalde Municipal</p> 
+    <p>2018-2022</p>
+    
 </div> 
 
 <!-- Div final de los datos del alcalde -->
 
 
-<!-- footer -->
+
 <div class="footer-ciudad">
     <footer class="footer">
         <div class="contenedor">
