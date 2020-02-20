@@ -145,8 +145,10 @@ body {
 
 @media (max-width: 768px) {
   .navegacion {
-    display: none;
+    margin-top: 30px;
+    position: absolute;
   }
+
   .letras {
     padding-top: 250px;
   }
@@ -156,8 +158,11 @@ body {
     padding-left: 10px;
     padding-top: 10px;
   }
+
   .fa.fa-search {
-    display: none;
+    display: inline;
+    top: -30px;
+    left: 230px;
   }
   .texto {
     padding-top: 40px;
@@ -166,7 +171,21 @@ body {
   .contenedor {
     grid-column: 1/4;
   }
+  .buscar {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 70%;
+    right: 50px;
+  }
+  .logo {
+    display: inline;
+    margin-left: 70px;
+    margin-top: -80px;
+    padding-bottom: 60px;
+    width: 12%;
+  }
 }
+
 /* Contenido de las imagenes */
 
 .texto {
@@ -471,7 +490,8 @@ body {
 }
 
 .datosOficinaAlcalde {
-  margin-right: 120px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {

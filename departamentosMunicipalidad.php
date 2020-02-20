@@ -23,45 +23,47 @@
 <body>
 
     <!-- Barra de navegacion -->
-    <i class="fa fa-bars"></i>
-    <div class="nav">
+    <header>
 
-
+        <!-- <input type="checkbox" id="btnMenu"> -->
+        <label for="btnMenu"><i class="fa fa-bars"></i></label>
         <img class="logo" src="img/logoNuevo.png" alt="" srcset="">
-        <!-- Input de buscar -->
+        <p style="color: #000000;">Municipalidad de Siguatepeque</p>
+        <div class="nav">
+            <!-- Input de buscar -->
+            <div>
+                <input class="buscar" type="search" name="" id="" placeholder="Buscar">
+                <i class="fa fa-search"> </i>
 
-        <div>
-            <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-            <i class="fa fa-search"> </i>
+            </div>
+            <!-- Barra de navegacion -->
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="index.php">Inicio</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Gobierno</a>
+                        <ul>
+                            <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                            <li><a href="">Departamentos</a></li>
+                            <li><a href="">Regidores</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Portal de Transparencia</a></li>
+                    <li><a href="">Conoce a Siguatepeque</a>
+                        <ul>
+                            <li><a href="">Números Telefónicos</a></li>
+                            <li><a href="">Lugares Populares</a></li>
+                            <li><a href="">Educación Superior</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Login Linea Base</a></li>
+                </ul>
+
+            </nav>
 
         </div>
 
-        <!-- Barra de navegacion -->
-        <nav class="navegacion">
-            <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Gobierno</a>
-                    <ul>
-                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="">Departamentos</a></li>
-                        <li><a href="">Regidores</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Portal de Transparencia</a></li>
-                <li><a href="">Conoce a Siguatepeque</a>
-                    <ul>
-                        <li><a href="">Números Telefónicos</a></li>
-                        <li><a href="">Lugares Populares</a></li>
-                        <li><a href="">Educación Superior</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Login Linea Base</a></li>
-            </ul>
-
-        </nav>
-
-    </div>
+    </header>
     <!-- Div final de la barra de navegación -->
 
 
