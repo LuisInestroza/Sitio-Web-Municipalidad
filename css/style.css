@@ -152,8 +152,9 @@ body {
   }
   .fa.fa-bars {
     display: block;
-    float: right;
-    font-size: 4rem;
+    font-size: 3rem;
+    padding-left: 10px;
+    padding-top: 10px;
   }
   .fa.fa-search {
     display: none;
@@ -461,3 +462,23 @@ body {
 }
 
 /* -------------------------------------------------------------- */
+
+/* Estilos de los departamentos */
+
+.imagenDepto {
+  width: 50%;
+  align-self: center;
+}
+
+.datosOficinaAlcalde {
+  margin-right: 120px;
+}
+
+@media (max-width: 768px) {
+  .imagenDepto {
+    width: 100%;
+  }
+  .datosOficinaAlcalde p {
+    text-align: justify;
+  }
+}

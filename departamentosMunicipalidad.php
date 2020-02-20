@@ -22,6 +22,8 @@
 
 <body>
 
+    <!-- Barra de navegacion -->
+    <i class="fa fa-bars"></i>
     <div class="nav">
 
 
@@ -72,7 +74,7 @@
                 <p>Oficina del Alcalde</p>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/oficinaAlcalde.php">Ver</a>
                 </div>
             </div>
 

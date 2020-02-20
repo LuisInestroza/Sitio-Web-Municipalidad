@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Link de icoco -->
-
     <link rel="icon" type="image/png" href="logo.ico" />
-
 
     <!-- Link de las hojas de estilos -->
     <link rel="stylesheet" href="css/normalize.css">
@@ -25,6 +23,8 @@
 
 <body>
 
+    <!-- Barra de navegacion -->
+    <i class="fa fa-bars"></i>
     <div class="nav">
         <!-- Banner -->
         <img class="banner" src="img/banner2.png" alt="">
@@ -39,8 +39,7 @@
         </div>
 
 
-        <!-- Barra de navegacion -->
-        <i class="fa fa-bars"></i>
+
         <nav class="navegacion">
             <ul>
                 <li><a href="">Inicio</a></li>
