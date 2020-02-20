@@ -33,8 +33,9 @@
     <!-- Barra de navegacion -->
     <div class="nav">
         <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
-        <!-- Input de buscar -->
 
+        <p class="msg">Municipalidad de Siguatepeque</p>
+        <!-- Input de buscar -->
         <div>
             <input class="buscar" type="search" name="" id="" placeholder="Buscar">
             <i class="fa fa-search"> </i>
