@@ -29,12 +29,15 @@
     <!-- Barra de navegacion -->
 
 
-    <i class="fa fa-bars"></i>
+    <div class="actionBar">
+        <i class="fa fa-bars"></i>
+        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
+        <p class="msg">Municipalidad de Siguatepeque</p>
+    </div>
+
     <!-- Barra de navegacion -->
     <div class="nav">
-        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
 
-        <p class="msg">Municipalidad de Siguatepeque</p>
         <!-- Input de buscar -->
         <div>
             <input class="buscar" type="search" name="" id="" placeholder="Buscar">
@@ -100,6 +103,7 @@
             </div>
             <div class="contenedor">
                 <p>Facebook</p>
+                <p></p>
                 <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
 
 
@@ -107,12 +111,9 @@
             <div class="contenedor">
                 <p>Noticias Recientes</p>
             </div>
-
         </footer>
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
     </div>
-
-
 </body>
 
 </html>

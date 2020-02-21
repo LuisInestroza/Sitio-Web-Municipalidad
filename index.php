@@ -239,54 +239,55 @@
 
 
         </div>
+    </div>
 
-        <!-- Seccion de noticias de la ciudad -->
-        <div class="noticias-ciudad">
+    <!-- Seccion de noticias de la ciudad -->
+    <div class="noticias-ciudad">
 
-            <div class="noticias-contenedor">
-                <p style="text-align: center;font-weight: bold;font-size: 3.5em;">NOTICIAS DE CIUDAD</p>
+        <div class="noticias-contenedor">
+            <p style="text-align: center;font-weight: bold;font-size: 3.5em;">NOTICIAS DE CIUDAD</p>
+        </div>
+
+    </div>
+
+
+    <!-- Seccion de eventos -->
+    <div class="eventos-ciudad">
+    </div>
+
+    <!-- Seccion de comunicados -->
+    <div class="comunicados-ciudad">
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer-ciudad">
+        <footer class="footer">
+            <div class="contenedor">
+                <p>Links</p>
+                <div class="links">
+                    <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
+                    <a href="">Noticias</a>
+                    <a href="">Agenda</a>
+                    <a href="">Contacto</a>
+                </div>
+            </div>
+            <div class="contenedor">
+                <p>Facebook</p>
+                <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
+
 
             </div>
+            <div class="contenedor">
+                <p>Noticias Recientes</p>
+            </div>
 
-        </div>
-
-
-        <!-- Seccion de eventos -->
-        <div class="eventos-ciudad">
-        </div>
-
-        <!-- Seccion de comunicados -->
-        <div class="comunicados-ciudad">
-        </div>
-
-
-        <!-- footer -->
-        <div class="footer-ciudad">
-            <footer class="footer">
-                <div class="contenedor">
-                    <p>Links</p>
-                    <div class="links">
-                        <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
-                        <a href="">Noticias</a>
-                        <a href="">Agenda</a>
-                        <a href="">Contacto</a>
-                    </div>
-                </div>
-                <div class="contenedor">
-                    <p>Facebook</p>
-                    <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
-
-
-                </div>
-                <div class="contenedor">
-                    <p>Noticias Recientes</p>
-                </div>
-
-            </footer>
-            <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
-        </div>
+        </footer>
+        <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
+    </div>
 
 </body>
+
 
 
 
