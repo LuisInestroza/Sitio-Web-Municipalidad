@@ -38,39 +38,41 @@
 
         </div>
 
+        <header class="header">
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Gobierno</a>
+                        <ul>
+                            <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                            <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
+                            <li><a href="">Regidores</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Portal de Transparencia</a></li>
+                    <li><a href="">Conoce a Siguatepeque</a>
+                        <ul>
+                            <li><a href="">Números Telefónicos</a></li>
+                            <li><a href="">Lugares Populares</a></li>
+                            <li><a href="">Educación Superior</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Login Linea Base</a></li>
+                </ul>
+
+            </nav>
+        </header>
 
 
-        <nav class="navegacion">
-            <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Gobierno</a>
-                    <ul>
-                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
-                        <li><a href="">Regidores</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Portal de Transparencia</a></li>
-                <li><a href="">Conoce a Siguatepeque</a>
-                    <ul>
-                        <li><a href="">Números Telefónicos</a></li>
-                        <li><a href="">Lugares Populares</a></li>
-                        <li><a href="">Educación Superior</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Login Linea Base</a></li>
-            </ul>
-
-        </nav>
         <!-- Texto de mostrar la bienvenida al sitio -->
-        <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
+        <p class="letras" style="padding-top: 120px;">BIENVENIDOS A NUESTRO SITIO WEB</p>
 
     </div>
 
     <!-- Contenido del sitio web -->
     <div class="ciudad">
-        <p class="texto">¡La ciudad más emocionante del Centro!</p>
+        <p class="texto" style="padding-top: 20px;">¡La ciudad más emocionante del Centro!</p>
         <div class="lugares">
             <div class="contenedor">
                 <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
@@ -261,30 +263,31 @@
 
 
     <!-- footer -->
-    <div class="footer-ciudad">
-        <footer class="footer">
-            <div class="contenedor">
-                <p>Links</p>
-                <div class="links">
-                    <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
-                    <a href="">Noticias</a>
-                    <a href="">Agenda</a>
-                    <a href="">Contacto</a>
-                </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Links</p>
+            <div class="links">
+                <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
+                <a href="">Noticias</a>
+                <a href="">Agenda</a>
+                <a href="">Contacto</a>
             </div>
-            <div class="contenedor">
-                <p>Facebook</p>
-                <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
+        </div>
+        <div class="contenedor">
+            <p>Facebook</p>
+            <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
 
 
-            </div>
-            <div class="contenedor">
-                <p>Noticias Recientes</p>
-            </div>
-
-        </footer>
+        </div>
+        <div class="contenedor">
+            <p>Noticias Recientes</p>
+        </div>
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
-    </div>
+
+    </footer>
+
+
 
 </body>
 

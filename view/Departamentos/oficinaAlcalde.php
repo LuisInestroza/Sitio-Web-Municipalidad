@@ -44,29 +44,34 @@
             <i class="fa fa-search"> </i>
         </div>
 
-        <nav class="navegacion">
-            <ul>
-                <li><a href="/index.php">Inicio</a></li>
-                <li><a href="">Noticias</a></li>
-                <li><a href="">Gobierno</a>
-                    <ul>
-                        <li><a href="/alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="">Departamentos</a></li>
-                        <li><a href="">Regidores</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Portal de Transparencia</a></li>
-                <li><a href="">Conoce a Siguatepeque</a>
-                    <ul>
-                        <li><a href="">Números Telefónicos</a></li>
-                        <li><a href="">Lugares Populares</a></li>
-                        <li><a href="">Educación Superior</a></li>
-                    </ul>
-                </li>
-                <li><a href="">Login Linea Base</a></li>
-            </ul>
+        <header class="header">
+            <nav class="navegacion">
+                <ul>
+                    <li><a href="/index.php">Inicio</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Gobierno</a>
+                        <ul>
+                            <li><a href="/alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                            <li><a href="">Departamentos</a></li>
+                            <li><a href="">Regidores</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Portal de Transparencia</a></li>
+                    <li><a href="">Conoce a Siguatepeque</a>
+                        <ul>
+                            <li><a href="">Números Telefónicos</a></li>
+                            <li><a href="">Lugares Populares</a></li>
+                            <li><a href="">Educación Superior</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Login Linea Base</a></li>
+                </ul>
 
-        </nav>
+            </nav>
+
+        </header>
+
+
 
     </div>
     <!-- Div final de la barra de navegación -->
@@ -76,9 +81,7 @@
         <p class="texto">OFICINA DEL ALCALDE</p>
         <img class="imagenDepto" src="/img/Departamentos/alcaldia.jpg" class="imagen" alt="oficina-alcalde">
         <p>Articulo 43, 44 y 47 - Ley de Municipalidades Artículo 39 y 40-Reglamento de la Ley de Municipalida Atribuciones del Alcalde Municipal.</p>
-    </div>
-
-    <div class="datosOficinaAlcalde">
+        <br>
         <p>Las facultades de administración general y representación legal de la municipalidad corresponden al Alcalde Municipal</p>
         <p>El Alcalde Municipal es la máxima autoridad ejecutiva dentro del término municipal y sancionara los acuerdos, ordenanzas y resoluciones emitidos por la Corporación Municipal, convirtiéndolas en normas de obligatorio cumplimiento para los habitantes y demás autoridades. En consecuencia, toda otra autoridad, civil o de policía, acatara, colaborara y asistirá en el cumplimiento de dichas disposiciones</p>
         <p>Hacer efectivo por la vía administrativa y judicial, el cobro de los impuestos, tasas, servicios, contribuciones, multas y recargos establecidos por la Ley y Plan de Arbitrios emitidas por la Corporación Municipal en su caso</p>
@@ -89,31 +92,33 @@
         <p>Someter a consideración de la Corporación Municipal los instrumentos siguientes: a) Presupuesto por programas del plan Operativo Anual b) Plan de Arbitrios c) Ordenanzas Municipales; d) Reconocimientos que se otorguen a personas e instituciones por relevantes servicios prestados a la comunidad. e) Manual de clasificación de Puestos y Salarios f) Reglamentos Especial; y, g) Las demás que de conformidad con la Ley de Municipalidades sean de competencia de la Corporación</p>
     </div>
 
+
+
     <!-- footer -->
-    <div class="footer-ciudad">
-        <footer class="footer">
-            <div class="contenedor">
-                <p>Links</p>
-                <div class="links">
-                    <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
-                    <a href="">Noticias</a>
-                    <a href="">Agenda</a>
-                    <a href="">Contacto</a>
-                </div>
-            </div>
-            <div class="contenedor">
-                <p>Facebook</p>
-                <p></p>
-                <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
 
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Links</p>
+            <div class="links">
+                <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
+                <a href="">Noticias</a>
+                <a href="">Agenda</a>
+                <a href="">Contacto</a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <p>Facebook</p>
+            <p></p>
+            <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
 
-            </div>
-            <div class="contenedor">
-                <p>Noticias Recientes</p>
-            </div>
-        </footer>
+        </div>
+        <div class="contenedor">
+            <p>Noticias Recientes</p>
+        </div>
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
-    </div>
+
+    </footer>
+
 </body>
 
 </html>
