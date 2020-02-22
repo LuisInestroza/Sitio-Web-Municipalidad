@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
     <!-- Link de icoco -->
     <link rel="icon" type="image/png" href="/logo.ico" />
@@ -27,54 +28,46 @@
 
 <body>
     <!-- Barra de navegacion -->
-
-
-    <div class="actionBar">
-        <i class="fa fa-bars"></i>
-        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
-        <p class="msg">Municipalidad de Siguatepeque</p>
-    </div>
-
-    <!-- Barra de navegacion -->
-    <div class="nav">
-
-        <!-- Input de buscar -->
-        <div>
-            <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-            <i class="fa fa-search"> </i>
+    <header>
+        <div class="actionBar">
+            <i class="fa fa-bars"></i>
+            <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
+            <p class="msg">Municipalidad de Siguatepeque</p>
         </div>
 
-        <header class="header">
-            <nav class="navegacion">
-                <ul>
-                    <li><a href="/index.php">Inicio</a></li>
-                    <li><a href="">Noticias</a></li>
-                    <li><a href="">Gobierno</a>
-                        <ul>
-                            <li><a href="/alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                            <li><a href="">Departamentos</a></li>
-                            <li><a href="">Regidores</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Portal de Transparencia</a></li>
-                    <li><a href="">Conoce a Siguatepeque</a>
-                        <ul>
-                            <li><a href="">Números Telefónicos</a></li>
-                            <li><a href="">Lugares Populares</a></li>
-                            <li><a href="">Educación Superior</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Login Linea Base</a></li>
-                </ul>
+        <nav>
+            <ul>
+                <li><a href="/index.php">Inicio</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Gobierno</a>
+                    <ul>
+                        <li><a href="/alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li><a href="">Departamentos</a></li>
+                        <li><a href="">Regidores</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Portal de Transparencia</a></li>
+                <li><a href="">Conoce a Siguatepeque</a>
+                    <ul>
+                        <li><a href="">Números Telefónicos</a></li>
+                        <li><a href="">Lugares Populares</a></li>
+                        <li><a href="">Educación Superior</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Login Linea Base</a></li>
+            </ul>
 
-            </nav>
+        </nav>
 
-        </header>
-
-
-
-    </div>
+    </header>
     <!-- Div final de la barra de navegación -->
+
+
+    <!-- Input de buscar -->
+    <div>
+        <input class="buscar" type="search" name="" id="" placeholder="Buscar">
+        <i class="fa fa-search"> </i>
+    </div>
 
     <!-- Div de datos de la ofina del alcalde -->
     <div class="oficinaAlcalde">
@@ -120,5 +113,9 @@
     </footer>
 
 </body>
+
+
+<script src="http://code.jquery.com/jquery-latest.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="js/functions.js"></script>
 
 </html>
