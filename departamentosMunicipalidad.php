@@ -113,7 +113,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/tesoreriaMunicipal.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -123,7 +123,7 @@
                 </a>
                 <p>Servicios Prestados</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/obrasPublicas.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -133,7 +133,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/contabilidadYPresupuesto.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -143,7 +143,7 @@
                 </a>
                 <p>Servicios</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/justiciaMunicipal.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">

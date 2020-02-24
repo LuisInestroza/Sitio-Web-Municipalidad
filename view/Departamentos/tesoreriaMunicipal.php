@@ -103,6 +103,34 @@
 
         </ol>
     </div>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p>Links</p>
+            <div class="links">
+                <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
+                <a href="">Noticias</a>
+                <a href="">Agenda</a>
+                <a href="">Contacto</a>
+            </div>
+        </div>
+        <div class="contenedor">
+            <p>Facebook</p>
+            <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
+
+
+        </div>
+        <div class="contenedor">
+            <p>Noticias Recientes</p>
+        </div>
+        <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
+
+    </footer>
+
+
+    <!-- Div final de footer -->
 </body>
 
 </html>
