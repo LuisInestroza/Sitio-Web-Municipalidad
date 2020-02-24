@@ -111,7 +111,6 @@ body {
   width: 50px;
   height: 50px;
   padding: 10px;
-  border-right: 1px solid #ffffff;
 }
 
 .header label:hover {
@@ -164,6 +163,10 @@ body {
   color: var(--colorVerde);
 }
 
+.buscarNav {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .header {
     background: var(--colorAzul);
@@ -172,6 +175,8 @@ body {
   .header label {
     background: var(--colorAzul);
     display: block;
+    height: 60px;
+    width: 60px;
   }
 
   .menu {
@@ -199,8 +204,34 @@ body {
     text-decoration: none;
     font-weight: bold;
   }
+
   #btn-menu:checked ~ .menu {
     margin: 0;
+  }
+  .buscarNav {
+    display: inline-block;
+  }
+  .buscar {
+    display: none;
+  }
+  .fa.fa-search {
+    position: absolute;
+    left: 200px;
+    z-index: 1;
+  }
+
+  div.buscarNav > i:nth-child(2) {
+    left: 220px;
+    top: 18px;
+    font-size: 1.5rem;
+  }
+  .buscarIndex {
+    display: none;
+  }
+  .buscarNav input {
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
   }
 }
 
@@ -213,8 +244,7 @@ body {
   .fa.fa-bars {
     display: block;
     font-size: 2.4rem;
-    /* padding-left: 10px; */
-    /* padding-top: 10px; */
+
     color: var(--colorBlanco);
   }
 
@@ -226,7 +256,6 @@ body {
   .texto {
     font-size: 2.2rem;
     position: relative;
-    bottom: -120px;
   }
   .contenedor {
     grid-column: 1/4;
@@ -240,7 +269,7 @@ body {
   .logo {
     display: inline;
     margin-left: 70px;
-    margin-top: -80px;
+    margin-top: -85px;
     padding-bottom: 60px;
     width: 12%;
   }
@@ -252,7 +281,6 @@ body {
     float: inline-end;
     font-size: large;
     font-weight: bold;
-    /* margin: -20px; */
   }
 }
 

@@ -32,11 +32,24 @@
         <input type="checkbox" id="btn-menu" />
         <label for="btn-menu">
             <i class="fa fa-bars" id="btnMenu"></i>
-
         </label>
 
+
+
+
         <nav class="menu">
+
+
             <ul>
+
+                <li>
+                    <div class="buscarNav">
+                        <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
+                        <i class="fa fa-search"> </i>
+                    </div>
+                </li>
+
+
                 <li><a href="/index.php">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
@@ -58,6 +71,7 @@
             </ul>
 
 
+
         </nav>
 
         <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
@@ -66,12 +80,14 @@
     </header>
     <!-- Div final de la barra de navegación -->
 
-
     <!-- Input de buscar -->
-    <div>
+    <div class="buscarIndex">
         <input class="buscar" type="search" name="" id="" placeholder="Buscar">
         <i class="fa fa-search"> </i>
     </div>
+
+
+
 
     <!-- Div de datos de la ofina del alcalde -->
     <div class="oficinaAlcalde">
