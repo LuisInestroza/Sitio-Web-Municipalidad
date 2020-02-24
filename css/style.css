@@ -578,25 +578,18 @@ body {
   align-self: center;
 }
 
-.datosOficinaAlcalde {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
 @media (max-width: 768px) {
   .imagenDepto {
     width: 100%;
     position: relative;
     /* bottom: 10px; */
   }
-  .oficinaAlcalde p {
+  .contenido {
     text-align: justify;
     margin: 20px;
   }
-  .oficinaAlcade {
+  .oficina {
     position: relative;
-    bottom: 100px;
     text-align: justify;
-    /* bottom: 20px; */
   }
 }

@@ -88,23 +88,29 @@
 
             <div class="contenedor">
                 <img class="imagen" src="img/Departamentos/mapa-siguatepeque.jpg" alt="catastro-municipal">
-                <p>Catastro Municipalipal</p>
+                <a href="view/Departamentos/catastroMunicipal.php">
+                    <p>Catastro Municipalipal</p>
+                </a>
                 <p>Servicios Prestados.</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/catastroMunicipal.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/47069145_949496568573081_4123151995521466368_o-740x460.jpg" alt="control-tributario">
-                <p>Control Tributario</p>
+                <a href="view/Departamentos/controlTributario.php">
+                    <p>Control Tributario</p>
+                </a>
                 <p>Servicios</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/controlTributario.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/tesoreria.jpg" alt="tesoria-municipal">
-                <p>Tesoría Municipal</p>
+                <a href="view/Departamentos/tesoreriaMunicipal.php">
+                    <p>Tesoría Municipal</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -112,7 +118,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/72485567_1115145785341491_8897221304252366848_n-e1573655647796-740x460.jpg" alt="obras-publicas">
-                <p>Obras Públicas</p>
+                <a href="view/Departamentos/obrasPublicas.php">
+                    <p>Obras Públicas</p>
+                </a>
                 <p>Servicios Prestados</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -120,7 +128,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt="contabilidad-presupuesto">
-                <p>Contabilidad y Presupuesto</p>
+                <a href="view/Departamentos/contabilidadYPresupuesto.php">
+                    <p>Contabilidad y Presupuesto</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -128,7 +138,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
-                <p>Justicia Municipal</p>
+                <a href="view/Departamentos/justiciaMunicipal.php">
+                    <p>Justicia Municipal</p>
+                </a>
                 <p>Servicios</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -136,7 +148,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/justiciamunicipal-740x460.jpg" alt="medio-ambiente">
-                <p>Medio Ambiente (UMA)</p>
+                <a href="view/Departamentos/medioAmbiente.php">
+                    <p>Medio Ambiente (UMA)</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -144,7 +158,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/desarrollo-comunitario.png" alt="desarrollo-comunitario">
-                <p>Desarrollo Comunitario</p>
+                <a href="view/Departamentos/desarrolloComunitario.php">
+                    <p>Desarrollo Comunitario</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -153,7 +169,9 @@
 
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/secretaria-e1573655696973.jpg" alt="secretaria-municipal">
-                <p>Secretaria Municipal</p>
+                <a href="view/Departamentos/secretariaMunicipal.php">
+                    <p>Secretaria Municipal</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -161,7 +179,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="" alt="oficina-mujer-niñez">
-                <p>Oficina de la mujer y niñez</p>
+                <a href="view/Departamentos/oficinaMujer-Niñez.php">
+                    <p>Oficina de la mujer y niñez</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
@@ -169,7 +189,9 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="" alt="gerencia-general-municipal">
-                <p>Gerencia General Municipal</p>
+                <a href="view/Departamentos/gerenciaGeneralMunicipal.php">
+                    <p>Gerencia General Municipal</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="">Ver</a>
