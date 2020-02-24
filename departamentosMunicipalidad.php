@@ -137,7 +137,8 @@
                 </div>
             </div>
             <div class="contenedor">
-                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/justiciamunicipal-740x460.jpg" alt="medio-ambiente">
+
                 <a href="view/Departamentos/justiciaMunicipal.php">
                     <p>Justicia Municipal</p>
                 </a>
@@ -147,7 +148,7 @@
                 </div>
             </div>
             <div class="contenedor">
-                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/justiciamunicipal-740x460.jpg" alt="medio-ambiente">
+                <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
                 <a href="view/Departamentos/medioAmbiente.php">
                     <p>Medio Ambiente (UMA)</p>
                 </a>
@@ -158,6 +159,8 @@
             </div>
             <div class="contenedor">
                 <img class="imagen" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/desarrollo-comunitario.png" alt="desarrollo-comunitario">
+
+
                 <a href="view/Departamentos/desarrolloComunitario.php">
                     <p>Desarrollo Comunitario</p>
                 </a>
