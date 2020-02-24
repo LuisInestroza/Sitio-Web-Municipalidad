@@ -153,7 +153,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/medioAmbiente.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -163,7 +163,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/desarrolloComunitario.php">Ver</a>
                 </div>
             </div>
 
@@ -174,7 +174,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/secretariaMunicipal.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -184,7 +184,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/oficinaMujer-Niñez.php">Ver</a>
                 </div>
             </div>
             <div class="contenedor">
@@ -194,7 +194,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="">Ver</a>
+                    <a href="view/Departamentos/gerenciaGeneralMunicipal.php">Ver</a>
                 </div>
             </div>
 
