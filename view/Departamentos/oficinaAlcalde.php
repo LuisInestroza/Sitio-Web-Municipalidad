@@ -28,21 +28,21 @@
 
 <body>
     <!-- Barra de navegacion -->
-    <header>
-        <div class="actionBar">
-            <i class="fa fa-bars"></i>
-            <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
-            <p class="msg">Municipalidad de Siguatepeque</p>
-        </div>
+    <header class="header">
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+            <i class="fa fa-bars" id="btnMenu"></i>
 
-        <nav>
+        </label>
+
+        <nav class="menu">
             <ul>
                 <li><a href="/index.php">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
                     <ul>
-                        <li><a href="/alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="">Departamentos</a></li>
+                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
                         <li><a href="">Regidores</a></li>
                     </ul>
                 </li>
@@ -57,7 +57,11 @@
                 <li><a href="">Login Linea Base</a></li>
             </ul>
 
+
         </nav>
+
+        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
+        <p class="msg">Municipalidad de Siguatepeque</p>
 
     </header>
     <!-- Div final de la barra de navegación -->
@@ -115,7 +119,7 @@
 </body>
 
 
-<script src="http://code.jquery.com/jquery-latest.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
-<script src="js/functions.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script src="/js/menu.js"></script>
 
 </html>

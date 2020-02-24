@@ -24,51 +24,72 @@
 <body>
 
     <!-- Barra de navegacion -->
-    <i class="fa fa-bars"></i>
-    <div class="nav">
-        <!-- Banner -->
-        <img class="banner" src="img/banner2.png" alt="">
-        <!-- Logo -->
-        <img class="logo" src="img/logoNuevo.png" alt="" srcset="">
-        <!-- Input de buscar -->
+
+
+    <!-- Banner -->
+    <img class="banner" src="img/banner2.png" alt="">
+    <!-- Logo -->
+    <!-- <img class="logo" src="img/logoNuevo.png" alt="" srcset="">
+    
 
         <div>
             <input class="buscar" type="search" name="" id="" placeholder="Buscar">
             <i class="fa fa-search"> </i>
 
-        </div>
+        </div> -->
 
-        <header class="header">
-            <nav class="navegacion">
-                <ul>
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Noticias</a></li>
-                    <li><a href="">Gobierno</a>
-                        <ul>
-                            <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                            <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
-                            <li><a href="">Regidores</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Portal de Transparencia</a></li>
-                    <li><a href="">Conoce a Siguatepeque</a>
-                        <ul>
-                            <li><a href="">Números Telefónicos</a></li>
-                            <li><a href="">Lugares Populares</a></li>
-                            <li><a href="">Educación Superior</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="">Login Linea Base</a></li>
-                </ul>
+    <!-- Barra de navegacion -->
+    <header class="header">
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+            <i class="fa fa-bars" id="btnMenu"></i>
 
-            </nav>
-        </header>
+        </label>
 
 
-        <!-- Texto de mostrar la bienvenida al sitio -->
-        <p class="letras" style="padding-top: 120px;">BIENVENIDOS A NUESTRO SITIO WEB</p>
 
+        <nav class="menu">
+            <ul>
+                <li><a href="/index.php">Inicio</a></li>
+                <li><a href="">Noticias</a></li>
+                <li><a href="">Gobierno</a>
+                    <ul>
+                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
+                        <li><a href="">Regidores</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Portal de Transparencia</a></li>
+                <li><a href="">Conoce a Siguatepeque</a>
+                    <ul>
+                        <li><a href="">Números Telefónicos</a></li>
+                        <li><a href="">Lugares Populares</a></li>
+                        <li><a href="">Educación Superior</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Login Linea Base</a></li>
+            </ul>
+
+
+        </nav>
+
+        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
+        <p class="msg">Municipalidad de Siguatepeque</p>
+
+
+    </header>
+
+
+    <!-- Input de buscar -->
+    <div>
+        <input class="buscar" type="search" name="" id="" placeholder="Buscar">
+        <i class="fa fa-search"> </i>
     </div>
+
+
+    <!-- Texto de mostrar la bienvenida al sitio -->
+    <p class="letras" style="padding-top: 120px;">BIENVENIDOS A NUESTRO SITIO WEB</p>
+
 
     <!-- Contenido del sitio web -->
     <div class="ciudad">
@@ -296,6 +317,6 @@
 
 
 <!-- Script de las funciones de animaciones de JavaScript -->
-<script src="js/functions.js"></script>
+<script src="js/slider.js"></script>
 
 </html>

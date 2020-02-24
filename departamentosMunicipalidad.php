@@ -22,28 +22,23 @@
 
 <body>
 
-    <!-- Barra de navegacion -->
+    <header class="header">
+        <input type="checkbox" id="btn-menu" />
+        <label for="btn-menu">
+            <i class="fa fa-bars" id="btnMenu"></i>
+
+        </label>
 
 
 
-    <i class="fa fa-bars"></i>
-    <div class="nav">
-
-        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
-        <!-- Input de buscar -->
-        <div>
-            <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-            <i class="fa fa-search"> </i>
-        </div>
-        <!-- Barra de navegacion -->
-        <nav class="navegacion">
+        <nav class="menu">
             <ul>
-                <li><a href="index.php">Inicio</a></li>
+                <li><a href="/index.php">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
                     <ul>
                         <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="">Departamentos</a></li>
+                        <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
                         <li><a href="">Regidores</a></li>
                     </ul>
                 </li>
@@ -58,10 +53,20 @@
                 <li><a href="">Login Linea Base</a></li>
             </ul>
 
+
         </nav>
 
-    </div>
+        <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
+        <p class="msg">Municipalidad de Siguatepeque</p>
 
+
+    </header>
+
+    <!-- Input de buscar -->
+    <div>
+        <input class="buscar" type="search" name="" id="" placeholder="Buscar">
+        <i class="fa fa-search"> </i>
+    </div>
 
     <!-- Div final de la barra de navegación -->
 
