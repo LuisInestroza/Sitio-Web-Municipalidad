@@ -77,7 +77,9 @@
         <div class="deptos">
             <div class="contenedor">
                 <img src="img/Departamentos/alcaldia.jpg" class="imagen" alt="oficina-alcalde">
-                <p>Oficina del Alcalde</p>
+                <a href="view/Departamentos/oficinaAlcalde.php">
+                    <p>Oficina del Alcalde</p>
+                </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
                     <a href="view/Departamentos/oficinaAlcalde.php">Ver</a>
