@@ -597,9 +597,11 @@ body {
 /* Estilo para las tablas */
 
 .table {
-  font-size: 2rem;
+  font-size: 1.5rem;
+
   position: center;
   margin: 20px;
+  margin: auto;
 }
 
 .table td {

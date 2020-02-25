@@ -82,7 +82,7 @@
     <div class="oficina">
         <p class="texto">NÚMUEROS DE TELEFONO</p>
 
-        <table class="table">
+        <table class="table" width="600" cellspacing="3" cellpadding="3">
             <tbody>
                 <tr>
                     <td>Oficina Principal</td>
@@ -96,7 +96,7 @@
             </tbody>
         </table>
 
-        <table class="table">
+        <table class="table" width="600" cellspacing="3" cellpadding="3">
             <tbody>
                 <tr>
                     <td>Repepción</td>
