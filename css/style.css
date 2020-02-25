@@ -595,3 +595,14 @@ body {
 }
 
 /* Estilo para las tablas */
+
+.table {
+  font-size: 2rem;
+  position: center;
+  margin: 20px;
+}
+
+.table td {
+  padding: 10px;
+  text-align: center;
+}
