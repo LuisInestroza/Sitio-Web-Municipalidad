@@ -62,7 +62,7 @@
                 <li><a href="">Portal de Transparencia</a></li>
                 <li><a href="">Conoce a Siguatepeque</a>
                     <ul>
-                        <li><a href="">Números Telefónicos</a></li>
+                        <li><a href="view/Contactos/contactos.php">Números Telefónicos</a></li>
                         <li><a href="">Lugares Populares</a></li>
                         <li><a href="">Educación Superior</a></li>
                     </ul>
