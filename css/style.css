@@ -618,3 +618,13 @@ body {
     padding-left: 80px;
   }
 }
+
+.imagenes {
+  float: left;
+}
+
+@media (max-width: 768px) {
+  .imagenes {
+    width: 100%;
+  }
+}

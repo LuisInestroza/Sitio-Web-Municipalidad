@@ -80,7 +80,9 @@
     <div class="oficina">
         <p class="texto">Historia de Siguatepeque</p>
 
+
         <div class="contenido">
+            <img src="/img/ImagenesSiguatepeque/iglasiasp640px.jpg" alt="iglesia" style="float: right;" class="imagenes">
             El actual emplazamiento de <b>Siguatepeque</b> era habitado por indígenas de la
             etnia Lenca, que vivían de casas de paja yen la ribera de los ríos y
             riachuelos. De este grupo humano han sido hallados algunos utensilios
