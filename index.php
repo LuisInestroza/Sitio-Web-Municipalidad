@@ -60,7 +60,7 @@
                     </ul>
                 </li>
                 <li><a href="">Portal de Transparencia</a></li>
-                <li><a href="">Conoce a Siguatepeque</a>
+                <li><a href="view/ConoceSiguatepeque/conoceSiguatepeque.php">Conoce a Siguatepeque</a>
                     <ul>
                         <li><a href="view/Contactos/contactos.php">Números Telefónicos</a></li>
                         <li><a href="">Lugares Populares</a></li>
