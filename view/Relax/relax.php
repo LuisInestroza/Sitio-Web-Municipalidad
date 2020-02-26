@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,9 +19,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <title>Relax - Municipalidad de Siguatepeque</title>
 </head>
+
 <body>
 
- <!-- Barra de navegacion -->
+    <!-- Barra de navegacion -->
     <header class="header">
         <input type="checkbox" id="btn-menu" />
         <label for="btn-menu">
@@ -80,7 +82,12 @@
         <div class="lugares">
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/eliben2-740x460.jpg" alt="" class="imagen">
-                <p>Centro Turistico Eliben</p>
+
+                <a href="">
+                    <p>Centro Turistico Eliben</p>
+                </a>
+
+
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/lakes1-1-740x448.jpg" alt="" class="imagen">
@@ -112,13 +119,13 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/71403647_2422253198049177_4278101350270631936_o-740x460.jpg" alt="" class="imagen">
-                <p>Centro Turistico Granja D’elia</p>
+                <a href="/view/Relax/granjaD'elia.php">
+                    <p>Centro Turistico Granja D’elia</p>
+                </a>
             </div>
-          
+
         </div>
     </div>
-
-
 
     <!-- footer -->
 
@@ -144,6 +151,7 @@
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
 
     </footer>
-    
+
 </body>
+
 </html>
