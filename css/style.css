@@ -347,6 +347,7 @@ body {
 .button {
   text-align: center;
   padding-top: 50px;
+  margin: 50px;
 }
 .button a {
   background-color: var(--colorAzul);
