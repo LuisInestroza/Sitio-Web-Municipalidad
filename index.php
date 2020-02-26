@@ -63,7 +63,7 @@
                 <li><a href="view/ConoceSiguatepeque/historiaSiguatepeque.php">Conoce a Siguatepeque</a>
                     <ul>
                         <li><a href="view/Contactos/contactos.php">Números Telefónicos</a></li>
-                        <li><a href="">Lugares Populares</a></li>
+                        <li><a href="view/Relax/relax.php">Lugares Populares</a></li>
                         <li><a href="">Educación Superior</a></li>
                     </ul>
                 </li>
