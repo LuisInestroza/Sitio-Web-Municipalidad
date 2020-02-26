@@ -104,7 +104,9 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/plaza-sanpedro2.jpg" alt="" class="imagen">
-                <p>Plaza San Pedro Siguatepeque</p>
+                <a href="/view/Relax/plazaSanPedro.php">
+                    <p>Plaza San Pedro Siguatepeque</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/calanterique2-717x460.jpeg" alt="">
