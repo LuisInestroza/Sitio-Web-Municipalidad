@@ -82,7 +82,7 @@
     <div class="oficina">
         <p class="texto">NÚMUEROS DE TELEFONO</p>
 
-        <table class="table" width="600" cellspacing="3" cellpadding="3">
+        <table class="table">
             <tbody>
                 <tr>
                     <td>Oficina Principal</td>
@@ -94,9 +94,11 @@
                     <td>(504) 2773-0219</td>
                 </tr>
             </tbody>
+
+
         </table>
 
-        <table class="table" width="600" cellspacing="3" cellpadding="3">
+        <table class="table">
             <tbody>
                 <tr>
                     <td>Repepción</td>
@@ -179,6 +181,7 @@
                     <td>Ext. 123</td>
                 </tr>
             </tbody>
+
         </table>
 
     </div>
@@ -213,5 +216,6 @@
 
 
 </body>
+<script src="/js/menu.js"></script>
 
 </html>
