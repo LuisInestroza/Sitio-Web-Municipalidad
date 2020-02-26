@@ -80,18 +80,17 @@
 
     <!-- Contenido de catastro -->
     <div class="oficina">
-        <p class="texto">NÚMUEROS DE TELEFONO</p>
+        <p class="texto">NÚMEROS DE TELEFONO</p>
 
         <table class="table">
             <tbody>
                 <tr>
                     <td>Oficina Principal</td>
-                    <td>(504) 2773-0039</td>
-
+                    <td class="td">(504) 2773-0039</td>
                 </tr>
                 <tr>
                     <td>Oficina Catastro</td>
-                    <td>(504) 2773-0219</td>
+                    <td class="td">(504) 2773-0219</td>
                 </tr>
             </tbody>
 

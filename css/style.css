@@ -598,7 +598,14 @@ body {
 
 .table {
   font-size: 1.5rem;
-  padding-right: 20px;
+  padding: 10px;
+  margin: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.td {
+  padding-left: 190px;
 }
 @media (max-width: 768px) {
   .table {
@@ -606,5 +613,8 @@ body {
     padding: 10px;
     margin: 25px;
     font-size: 1rem;
+  }
+  .td {
+    padding-left: 80px;
   }
 }
