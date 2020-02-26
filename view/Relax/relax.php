@@ -110,7 +110,9 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/calanterique2-717x460.jpeg" alt="">
-                <p>Bosque Calanterique</p>
+                <a href="/view/Relax/bosqueCalanterique.php">
+                    <p>Bosque Calenterique</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/siguaextreme-740x460.jpg" alt="" class="imagen">
