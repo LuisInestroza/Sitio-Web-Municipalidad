@@ -83,7 +83,7 @@
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/eliben2-740x460.jpg" alt="" class="imagen">
 
-                <a href="">
+                <a href="/view/Relax/centroEliben.php">
                     <p>Centro Turistico Eliben</p>
                 </a>
 
@@ -91,11 +91,16 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/lakes1-1-740x448.jpg" alt="" class="imagen">
-                <p>Balneario Lake’s Aguas calientes</p>
+                <a href="/view/Relax/balnearioAguasCalientes.php">
+                    <p>Balneario Lake’s Aguas calientes</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/waterislan2-1-740x460.jpg" alt="" class="imagen">
-                <p>Balneario Water Island</p>
+
+                <a href="/view/Relax/balnearioWaterIsland.php">
+                    <p>Balneario Water Island</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/plaza-sanpedro2.jpg" alt="" class="imagen">
