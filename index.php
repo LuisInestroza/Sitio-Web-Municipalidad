@@ -18,8 +18,8 @@
    <!-- Links de iconos -->
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-</head>
-<title>Municipalidad de Siguatepeque</title>
+
+   <title>Municipalidad de Siguatepeque</title>
 </head>
 
 <body>
@@ -29,15 +29,7 @@
 
    <!-- Banner -->
    <img class="banner" src="img/banner2.png" alt="">
-   <!-- Logo -->
-   <!-- <img class="logo" src="img/logoNuevo.png" alt="" srcset="">
-    
 
-        <div>
-            <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-            <i class="fa fa-search"> </i>
-
-        </div> -->
 
    <!-- Barra de navegacion -->
    <header class="header">
@@ -68,10 +60,8 @@
                   <li><a href="">Educación Superior</a></li>
                </ul>
             </li>
-            <li><a href="">Login Linea Base</a></li>
+            <lsi><a href="">Login Linea Base</a></lsi>
          </ul>
-
-
       </nav>
 
       <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
