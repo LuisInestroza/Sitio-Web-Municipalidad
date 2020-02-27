@@ -315,7 +315,6 @@ body {
   display: block;
   width: 100%;
   height: auto;
-
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
@@ -643,5 +642,26 @@ body {
     height: 10%;
     position: relative;
     /* bottom: 10px; */
+  }
+}
+
+/* Estilo de la view de regidores */
+.regidores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.imagenRegidor {
+  width: 50%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .contenedorRegidor {
+    grid-column: 1/9;
+  }
+  .imagenRegidor {
+    width: 100%;
+    position: relative;
   }
 }
