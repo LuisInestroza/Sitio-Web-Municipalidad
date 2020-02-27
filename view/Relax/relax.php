@@ -128,7 +128,9 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/casagrande2-740x460.jpg" alt="" class="imagen">
-                <p>La Casa Grande Siguatepeque</p>
+                <a href="/view/Relax/casaGrande.php">
+                    <p>La Casa Grande Siguatepeque</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/71403647_2422253198049177_4278101350270631936_o-740x460.jpg" alt="" class="imagen">
