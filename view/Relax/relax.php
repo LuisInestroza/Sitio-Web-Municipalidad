@@ -116,7 +116,9 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/siguaextreme-740x460.jpg" alt="" class="imagen">
-                <p>CentroTurístico Siguaxtreme</p>
+                <a href="/view/Relax/centroSiguaxtreme.php">
+                    <p>CentroTurístico Siguaxtreme</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/aventura4-740x460.jpg" alt="" class="imagen">
