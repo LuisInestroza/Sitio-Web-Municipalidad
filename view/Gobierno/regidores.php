@@ -78,6 +78,13 @@
         <i class="fa fa-search"> </i>
     </div>
 
+    <!-- Contenido de los regidores -->
+    <div class="regidores">
+        <p class="texto">Regidores 2018 - 2022</p>
+
+
+
+    </div>
 
 
 

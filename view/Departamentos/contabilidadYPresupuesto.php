@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Links de iconos -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
 
     <title>Contabilidad Y Presupuestos - Municipalidad de Siguatepeque</title>
@@ -45,7 +46,7 @@
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
                     <ul>
-                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li> <a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
                         <li><a href="/departamentosMunicipalidad.php">Departamentos </a></li>
                         <li><a href="">Regidores</a></li>
                     </ul>
@@ -80,7 +81,8 @@
     <!-- Contenido de catastro -->
     <div class="oficina">
         <p class="texto">CONTABILIDAD Y PRESUPUESTOS</p>
-        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt="" class="imagenDepto">
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt=""
+            class="imagenDepto">
 
 
         <ol type="1" class="contenido">
