@@ -122,7 +122,9 @@
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/aventura4-740x460.jpg" alt="" class="imagen">
-                <p>Park Place Hotel & Cinema</p>
+                <a href="/view/Relax/parkPlaceCenter.php">
+                    <p>Park Place Hotel & Cinema</p>
+                </a>
             </div>
             <div class="contenedor">
                 <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/casagrande2-740x460.jpg" alt="" class="imagen">
