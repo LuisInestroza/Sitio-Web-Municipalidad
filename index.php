@@ -56,7 +56,7 @@
                     <ul>
                         <li><a href="view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
                         <li><a href="view/Gobierno/departamentosMunicipalidad.php">Departamentos</a></li>
-                        <li><a href="">Regidores</a></li>
+                        <li><a href="view/Gobierno/regidores.php">Regidores</a></li>
                     </ul>
                 </li>
                 <li><a href="">Portal de Transparencia</a></li>
