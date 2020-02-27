@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link de icoco -->
-    <link rel="icon" type="image/png" href="/logo.ico" />
-    <!-- Hojas de estilo -->
+
+    <link rel="icon" type="/image/png" href="logo.ico" />
+
+    <!-- Aceder al css -->
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/normalize.css">
 
-    <!-- Estilo de la fuente -->
     <!-- Link de el estilo de las fuentes -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Links de iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-
-    <title>La Casa Grande Siguatepeque - Municipalidad de Siguatepeque</title>
+    <title>Alcalde Municipal</title>
 </head>
 
 <body>
@@ -43,8 +43,8 @@
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
                     <ul>
-                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="/departamentosMunicipalidad.php">Departamentos </a></li>
+                        <li><a href="/view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li><a href="/view/Gobierno/departamentosMunicipalidad.php">Departamentos </a></li>
                         <li><a href="">Regidores</a></li>
                     </ul>
                 </li>
@@ -68,28 +68,25 @@
 
     </header>
     <!-- Div final de la barra de navegación -->
+
     <!-- Input de buscar -->
     <div class="buscarIndex">
         <input class="buscar" type="search" name="" id="" placeholder="Buscar">
         <i class="fa fa-search"> </i>
     </div>
 
-    <!-- Contenido de la información -->
 
-    <div class="turismo">
-        <p class="texto">La Casa Grande Siguatepeque</p>
-        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/casagrande2.jpg" alt="" class="imagenTurismo">
-        <p class="contenido">
-            Un rincón especial ubicado en el corazón de Siguatepeque ideal para descansar, compartir y ejercitarse. Brindamos la comodidad del hogar en nuestras habitaciones. Nos esforzamos para que cada detalle, se sienta como estar en casa.
-            ¿Ya conoce nuestro restaurante? Platillos especializados en el buen sabor de Siguatepeque.
-            Sea parte de nuestras instalaciones abiertas a todo público en Siguatepeque. Gimnasio. Restaurante. Hotel. Eventos. Visítenos en Siguatepeque.
-        </p>
-
-        <div class="button">
-            <a href=" https://www.facebook.com/pg/LaCasaGrandeHn/about/?ref=page_internal">Facebook</a>
-        </div>
+    <div class="alcaldia">
+        <img src="/img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
+        <p>Abog. Juan Carlos Morales Pacheco</p>
+        <p>Alcalde Municipal</p>
+        <p>2018-2022</p>
 
     </div>
+
+    <!-- Div final de los datos del alcalde -->
+
+
 
     <!-- footer -->
     <footer class="footer">
@@ -114,6 +111,8 @@
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
 
     </footer>
+    <!-- Div final de footer -->
+
 
 </body>
 

@@ -54,8 +54,8 @@
                 <li><a href="">Noticias</a></li>
                 <li><a href="">Gobierno</a>
                     <ul>
-                        <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                        <li><a href="departamentosMunicipalidad.php">Departamentos</a></li>
+                        <li><a href="view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                        <li><a href="view/Gobierno/departamentosMunicipalidad.php">Departamentos</a></li>
                         <li><a href="">Regidores</a></li>
                     </ul>
                 </li>
