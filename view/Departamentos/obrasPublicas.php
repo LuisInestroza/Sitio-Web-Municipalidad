@@ -15,7 +15,8 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
     <!-- Links de iconos -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
 
     <title>Obras Públicas - Municipalidad de Siguatepeque</title>
@@ -30,7 +31,6 @@
         </label>
 
         <nav class="menu">
-
             <ul>
                 <li>
                     <div class="buscarNav">
@@ -38,7 +38,6 @@
                         <i class="fa fa-search"> </i>
                     </div>
                 </li>
-
 
                 <li><a href="/index.php">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
@@ -79,7 +78,8 @@
     <!-- Contenido de catastro -->
     <div class="oficina">
         <p class="texto">OBRAS PÚBLICAS</p>
-        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/72485567_1115145785341491_8897221304252366848_n-e1573655647796-740x460.jpg" alt="" class="imagenDepto">
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/72485567_1115145785341491_8897221304252366848_n-e1573655647796-740x460.jpg"
+            alt="" class="imagenDepto">
         <p class="contenido">SERVICIOS PRESTADOS</p>
 
         <ol type="1" class="contenido">
@@ -120,7 +120,9 @@
     </footer>
 
 
-
 </body>
+
+
+</header>
 
 </html>
