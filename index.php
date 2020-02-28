@@ -16,8 +16,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
    <!-- Links de iconos -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
    <title>Municipalidad de Siguatepeque</title>
 </head>
@@ -49,10 +48,10 @@
                <ul>
                   <li><a href="view/Contactos/contactos.php">Números Telefónicos</a></li>
                   <li><a href="view/Relax/relax.php">Lugares Populares</a></li>
-                  <li><a href="">Educación Superior</a></li>
+                  <li><a href="view/ConoceSiguatepeque/educacionSuperior.php">Educación Superior</a></li>
                </ul>
             </li>
-            <lsi><a href="">Login Linea Base</a></lsi>
+            <li><a href="">Login Linea Base</a></li>
          </ul>
       </nav>
 

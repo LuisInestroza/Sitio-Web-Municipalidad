@@ -666,3 +666,14 @@ body {
     position: relative;
   }
 }
+
+/* Estilo de  educacion superior*/
+.educacionSuperior {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding: 20px;
+}
+.educacionSuperior p {
+  text-align: center;
+}

@@ -8,8 +8,8 @@
   <link rel="icon" type="image/png" href="logo.ico" />
 
   <!-- Link de las hojas de estilos -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
 
   <!-- Link de el estilo de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -58,33 +58,41 @@
   </header>
   <!-- Div final de la barra de navegación -->
 
+  <!-- Div final de la barra de navegación -->
+
+  <!-- Input de buscar -->
+  <div class="buscarIndex">
+    <input class="buscar" type="search" name="" id="" placeholder="Buscar">
+    <i class="fa fa-search"> </i>
+  </div>
+
   <!-- Contenido de educación superior -->
   <div>
     <p class="texto">Universidades En Siguatepeque</p>
     <div class="educacionSuperior">
       <div class="contenedor">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/uthlogo-e1573588651204.png" alt="" class="imagen">
-        <p class="contenido">Universidad Técnologica de Honduras</p>
+        <p>Universidad Técnologica de Honduras</p>
       </div>
       <div class="contenedor">
-        <img src="http://municipalidaddesiguatepeque.com/universidad-metropolitana-de-honduras/" alt="" class="imagen">
-        <p class="contenido">Universidad Metropolitana de Honduras</p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/umh1-e1573588542345-740x460.png" alt="" class="imagen">
+        <p>Universidad Metropolitana de Honduras</p>
       </div>
       <div class="contenedor">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/LOGOUNACIFOR-e1573590546926.png" alt="" class="imagen">
-        <p class="contenido">UNACIFOR Siguatepeque Honduras</p>
+        <p>UNACIFOR Siguatepeque Honduras</p>
       </div>
       <div class="contenedor">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/LOUNFM-740x460.jpg" alt="" class="imagen">
-        <p class="contenido">Universidad Pedagógica Francisco Morazán</p>
+        <p>Universidad Pedagógica Francisco Morazán</p>
       </div>
       <div class="contenedor">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/logo-unah-740x460.jpg" alt="" class="imagen">
-        <p class="contenido">UNAH-CRAED Siguatepeque Honduras</p>
+        <p>UNAH-CRAED Siguatepeque Honduras</p>
       </div>
       <div class="contenedor">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/logounicah-e1573591204254-740x460.png" alt="" class="imagen">
-        <p class="contenido">Universidad Católica de Honduras</p>
+        <p>Universidad Católica de Honduras</p>
       </div>
     </div>
 
