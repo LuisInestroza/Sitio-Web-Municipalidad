@@ -59,43 +59,40 @@
   <!-- Div final de la barra de navegación -->
 
   <!-- Contenido de educación superior -->
-
   <div>
     <p class="texto">Universidades En Siguatepeque</p>
     <div class="educacionSuperior">
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/uthlogo-e1573588651204.png" alt="" class="imagen">
+        <p class="contenido">Universidad Técnologica de Honduras</p>
       </div>
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/universidad-metropolitana-de-honduras/" alt="" class="imagen">
+        <p class="contenido">Universidad Metropolitana de Honduras</p>
       </div>
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/LOGOUNACIFOR-e1573590546926.png" alt="" class="imagen">
+        <p class="contenido">UNACIFOR Siguatepeque Honduras</p>
       </div>
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/LOUNFM-740x460.jpg" alt="" class="imagen">
+        <p class="contenido">Universidad Pedagógica Francisco Morazán</p>
       </div>
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/logo-unah-740x460.jpg" alt="" class="imagen">
+        <p class="contenido">UNAH-CRAED Siguatepeque Honduras</p>
       </div>
       <div class="contenedor">
-        <img src="" alt="" class="imagen">
-        <p class="contenido"></p>
+        <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/logounicah-e1573591204254-740x460.png" alt="" class="imagen">
+        <p class="contenido">Universidad Católica de Honduras</p>
       </div>
     </div>
 
   </div>
-
   <!-- Final del div -->
 
 
   <!-- Footer -->
-
   <footer class="footer">
     <div class="contenedor">
       <p>Links</p>
