@@ -26,21 +26,13 @@
 
    <!-- Barra de navegacion -->
 
-
    <!-- Banner -->
    <img class="banner" src="img/banner2.png" alt="">
-
 
    <!-- Barra de navegacion -->
    <header class="header">
       <input type="checkbox" id="btn-menu" />
-      <label for="btn-menu">
-         <i class="fa fa-bars" id="btnMenu"></i>
-
-      </label>
-
-
-
+      <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
       <nav class="menu">
          <ul>
             <li><a href="/index.php">Inicio</a></li>
