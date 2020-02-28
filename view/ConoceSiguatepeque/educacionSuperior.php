@@ -21,7 +21,6 @@
 </head>
 
 <body>
-
   <!-- Barra de navegacion -->
   <header class="header">
     <input type="checkbox" id="btn-menu" />
@@ -58,6 +57,41 @@
     <p class="msg">Municipalidad de Siguatepeque</p>
   </header>
   <!-- Div final de la barra de navegación -->
+
+  <!-- Contenido de educación superior -->
+
+  <div>
+    <p class="texto">Universidades En Siguatepeque</p>
+    <div class="educacionSuperior">
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+      <div class="contenedor">
+        <img src="" alt="" class="imagen">
+        <p class="contenido"></p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Final del div -->
 
 
   <!-- Footer -->
