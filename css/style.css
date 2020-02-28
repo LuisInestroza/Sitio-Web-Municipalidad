@@ -674,6 +674,20 @@ body {
   grid-gap: 2rem;
   padding: 20px;
 }
+
 .educacionSuperior p {
   text-align: center;
+}
+
+.imagenUniversidad {
+  width: 50%;
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .imagenUniversidad {
+    width: 100%;
+    position: relative;
+    padding: 20px;
+  }
 }
