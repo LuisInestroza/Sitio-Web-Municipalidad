@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link de icoco -->
@@ -17,7 +17,7 @@
     <!-- Links de iconos -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
-    <title>Departementos-Municipalidad</title>
+    <title>Departementos - Municipalidad</title>
 
 </head>
 
@@ -71,7 +71,7 @@
     <!-- Div final de la barra de navegación -->
 
     <!-- Input de buscar -->
-    <div>
+    <div class="buscarIndex">
         <input class="buscar" type="search" name="" id="" placeholder="Buscar">
         <i class="fa fa-search"> </i>
     </div>
