@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Link de icoco -->
 
-   <link rel="icon" type="/image/png" href="logo.ico" />
+   <link rel="icon" type="/image/png" href="/logo.ico" />
 
    <!-- Aceder al css -->
    <link rel="stylesheet" href="/css/style.css">
@@ -16,8 +16,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
    <!-- Links de iconos -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
    <title>Alcalde Municipal</title>
 </head>
 

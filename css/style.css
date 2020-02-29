@@ -20,8 +20,6 @@ body {
   font-family: var(--fuentePrincipal);
 }
 
-/*
-
 /* Banner de la imagen */
 .banner {
   position: absolute;
