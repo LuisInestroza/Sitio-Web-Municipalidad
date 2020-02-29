@@ -89,7 +89,7 @@
                 </a>
                 <p>Atribuciones</p>
                 <div class="informacion">
-                    <a href="view/Departamentos/oficinaAlcalde.php">Ver</a>
+                    <a href="/view/Departamentos/oficinaAlcalde.php">Ver</a>
                 </div>
             </div>
 
