@@ -167,7 +167,7 @@ body {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .header {
     background: var(--colorAzul);
     height: 60px;
@@ -237,7 +237,7 @@ body {
 
 /*  */
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .letras {
     padding-top: 250px;
   }
@@ -384,7 +384,7 @@ body {
   margin-right: 70px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .contenedorFiestas {
     /* Desplazar las columnas */
     grid-column: 1/5;
@@ -432,7 +432,7 @@ body {
   margin-right: -100px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .prev,
   .next {
     margin-left: -220px;
@@ -578,7 +578,7 @@ body {
   align-self: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .imagenDepto {
     width: 100%;
     position: relative;
@@ -607,7 +607,7 @@ body {
 .td {
   padding-left: 190px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .table {
     width: 90%;
     padding: 10px;
@@ -628,7 +628,7 @@ body {
   align-self: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .imagenes {
     width: 100%;
   }
@@ -656,7 +656,7 @@ body {
   align-self: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .contenedorRegidor {
     grid-column: 1/4;
     margin: 20px;
@@ -684,7 +684,7 @@ body {
   align-self: center;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .imagenUniversidad {
     width: 100%;
     position: relative;
