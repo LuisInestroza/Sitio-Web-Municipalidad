@@ -104,6 +104,30 @@ body {
   display: none;
 }
 
+/* --------------------------------- */
+header {
+  width: 100%;
+}
+
+.menu {
+  background: #023859;
+  z-index: 1000;
+  width: 100%;
+}
+
+header nav ul li:hover {
+  background: var(--colorVerde);
+}
+
+header nav ul li .children {
+  display: none;
+  background: #011826;
+  position: absolute;
+  width: 20%;
+  z-index: 100;
+}
+/* ----------------------------- */
+
 .header label {
   display: none;
   width: 50px;
@@ -117,7 +141,7 @@ body {
 }
 
 .menu ul li a {
-  color: var(--colorNegro);
+  color: var(--colorBlanco);
   text-decoration: none;
   font-weight: bold;
 }
@@ -127,20 +151,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 /* Sub menu */
 .menu li ul {
   position: absolute;
   display: none;
-  text-align: center;
-  z-index: 100;
+  text-align: left;
 }
 
 .menu li:hover > ul {
   display: block;
   padding-top: 10px;
+  color: var(--colorBlanco);
 }
 
 .menu ul {
@@ -150,15 +174,12 @@ body {
   display: flex;
   justify-content: flex-end;
 }
+
 .menu li a {
-  font-family: "Francois One", sans-serif;
   display: block;
   padding: 10px 20px;
   color: var(--colorBlanco);
   text-decoration: none;
-}
-.menu li a:hover {
-  color: var(--colorVerde);
 }
 
 .buscarNav {
