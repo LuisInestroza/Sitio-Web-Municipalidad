@@ -42,7 +42,7 @@
             </li>
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="">Noticias</a></li>
-            <li class="submenu"><a href="">Gobierno</a>
+            <li class="submenu"><a href="">Gobierno<i class="fa fa-angle-down"></i></a>
                <ul class="children">
                   <li><a href="/view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
                   <li><a href="/view/Gobierno/departamentosMunicipalidad.php">Departamentos </a></li>
@@ -50,7 +50,7 @@
                </ul>
             </li>
             <li><a href="">Portal de Transparencia</a></li>
-            <li class="submenu"><a href="">Conoce a Siguatepeque</a>
+            <li class="submenu"><a href="#">Conoce a Siguatepeque<i class="fa fa-angle-down"></i></a>
                <ul class="children">
                   <li><a href="">Números Telefónicos</a></li>
                   <li><a href="">Lugares Populares</a></li>
@@ -300,6 +300,8 @@
 
 
 
+
+
 </body>
 
 
@@ -308,6 +310,7 @@
 
 <!-- Script de las funciones de animaciones de JavaScript -->
 <script src="js/slider.js"></script>
+<script src="js/menu.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 
 
