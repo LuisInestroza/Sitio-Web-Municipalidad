@@ -16,8 +16,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
    <!-- Links de iconos -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
 
    <title>Regidores - Municipalidad de Siguatepeque</title>
@@ -29,7 +28,6 @@
    <header class="header">
       <input type="checkbox" id="btn-menu" />
       <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
-
       <nav class="menu">
          <ul>
             <li>
@@ -38,32 +36,28 @@
                   <i class="fa fa-search"> </i>
                </div>
             </li>
-
-
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="">Noticias</a></li>
-            <li><a href="">Gobierno</a>
-               <ul>
-                  <li><a href="alcaldeMunicipal.php">Alcalde Municipal</a></li>
-                  <li><a href="/departamentosMunicipalidad.php">Departamentos </a></li>
-                  <li><a href="">Regidores</a></li>
+            <li class="submenu"><a href="#">Gobierno<i class="fa fa-angle-down "></i></a>
+               <ul class="children">
+                  <li><a href="/view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
+                  <li><a href="/view/Gobierno/departamentosMunicipalidad.php">Departamentos </a></li>
+                  <li><a href="/view/Gobierno/regidores.php">Regidores</a></li>
                </ul>
             </li>
             <li><a href="">Portal de Transparencia</a></li>
-            <li><a href="">Conoce a Siguatepeque</a>
-               <ul>
-                  <li><a href="">Números Telefónicos</a></li>
-                  <li><a href="">Lugares Populares</a></li>
-                  <li><a href="">Educación Superior</a></li>
+            <li class="submenu"><a href="#">Conoce a Siguatepeque<i class="fa fa-angle-down "></i></a>
+               <ul class="children">
+                  <li><a href="/view/Contactos/contactos.php">Números Telefónicos</a></li>
+                  <li><a href="/view/Relax/relax.php">Lugares Populares</a></li>
+                  <li><a href="/view/ConoceSiguatepeque/educacionSuperior.php">Educación Superior</a></li>
                </ul>
             </li>
             <li><a href="">Login Linea Base</a></li>
          </ul>
       </nav>
-
       <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
       <p class="msg">Municipalidad de Siguatepeque</p>
-
    </header>
    <!-- Div final de la barra de navegación -->
 
@@ -72,72 +66,59 @@
       <input class="buscar" type="search" name="" id="" placeholder="Buscar">
       <i class="fa fa-search"> </i>
    </div>
+   <!-- Div final de la barra de navegación -->
 
-   <!-- Contenido de los regidores -->
 
    <div>
       <p class="texto">Regidores 2018-2022</p>
       <div class="regidores">
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/santiagoventura-370x370.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/santiagoventura-370x370.jpg" alt="" class="imagenRegidor">
             <p>Primer Regidor</p>
             <p>Santiago Ventura</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/aslycruz-2-370x370.jpg" alt=""
-               class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/aslycruz-2-370x370.jpg" alt="" class="imagenRegidor">
             <p>Segundo Regidor</p>
             <p>Ashley Cruz</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/telmarecarte-e1571332656124.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/telmarecarte-e1571332656124.jpg" alt="" class="imagenRegidor">
             <p>Tercer Regidor</p>
             <p>Telma Recarte</p>
          </div>
          <div class="contenedorRegidor">
-            <img
-               src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/alquiles-e1573655098931-370x308.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/alquiles-e1573655098931-370x308.jpg" alt="" class="imagenRegidor">
             <p>Cuarto Regidor</p>
             <p>Efrain Perira</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/david-e1573654064790.jpg" alt=""
-               class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/david-e1573654064790.jpg" alt="" class="imagenRegidor">
             <p>Quinto Regidor</p>
             <p>David Valenzuela</p>
          </div>
          <div class="contenedorRegidor">
-            <img
-               src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/carlos-luis-2-e1573654166258-370x370.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/carlos-luis-2-e1573654166258-370x370.jpg" alt="" class="imagenRegidor">
             <p>Sexto Regidor</p>
             <p>Carlos Reyes</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/descarga-1.png" alt=""
-               class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/descarga-1.png" alt="" class="imagenRegidor">
             <p>Septimo Regidor</p>
             <p>Erika Molina</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/napoleon-370x320.jpg" alt=""
-               class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/napoleon-370x320.jpg" alt="" class="imagenRegidor">
             <p>Octavo Regidor</p>
             <p>Napoleon Mendoza</p>
          </div>
          <div class="contenedorRegidor">
-            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/hectorchavez-e1573654715274.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/hectorchavez-e1573654715274.jpg" alt="" class="imagenRegidor">
             <p>Noveno Regidor</p>
             <p>Hector Chavez</p>
          </div>
          <div class="contenedorRegidor">
-            <img
-               src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/anibal-discua-2-e1573654411438-370x370.jpg"
-               alt="" class="imagenRegidor">
+            <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/anibal-discua-2-e1573654411438-370x370.jpg" alt="" class="imagenRegidor">
             <p>Decimo Regidor</p>
             <p>Anibal Discua</p>
          </div>
