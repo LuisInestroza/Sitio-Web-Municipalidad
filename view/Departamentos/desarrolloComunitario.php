@@ -71,7 +71,7 @@
         <p class="texto">Desarrollo Comunitario</p>
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/desarrollo-comunitario.png" alt="" class="imagenDepto">
         <p class="contenido">Este departamento es el encargado de promover, planificar, organizar, dirigir, coordinar y supervisar todas las actividades tendientes a incentivar la participación ciudadana, la capacitación comunitaria y el desarrollo local, Apoyan éste departamento la Oficina Municipal de la Mujer, la UMA, Programa de la Juventud Niñez y Adolescencia COMVIDA, y La UMA, (Unidad Municipal Ambiental) en relación y colaboración del resto de los diferentes.</p>
-        <p class="contenido"></p>
+
         <ol type="1" class="contenido">
             <li>Administrar el departamento conforme a lo establecido en la Ley de Municipalidades y su
                 Reglamento en lo concerniente a la participación ciudadana.</li>
