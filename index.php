@@ -16,7 +16,8 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
    <!-- Links de iconos -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
    <title>Municipalidad de Siguatepeque</title>
 </head>
@@ -79,7 +80,7 @@
 
    <!-- Contenido del sitio web -->
    <div class="ciudad">
-      <p class="texto" style="padding-top: 20px;">¡La ciudad más emocionante del Centro!</p>
+      <p class="texto">¡La ciudad más emocionante del Centro!</p>
       <div class="lugares">
          <div class="contenedor">
             <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
@@ -219,7 +220,8 @@
                      <span>Autorización y permisos para espectaculos públicos</span><br>
                      <span>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</span><br>
                      <span>Tramitacón y celebración de matrimonios civiles</span><br>
-                     <span>Permisos de contrucción, urbanizaciones, edificiones, adiciones y remodelaciones</span><br>
+                     <span>Permisos de contrucción, urbanizaciones, edificiones, adiciones y
+                        remodelaciones</span><br>
                      <span>Autorización y permisos de instalación de antenas de comunicación</span><br>
                      <span>Servicios de inspecciónm avalúo, medición y elaboracón de planos</span><br>
                      <span>Extensión de certificaciones, constancias y transcripciones de los actos propios de la
@@ -254,11 +256,9 @@
 
    <!-- Seccion de noticias de la ciudad -->
    <div class="noticias-ciudad">
-
       <div class="noticias-contenedor">
          <p style="text-align: center;font-weight: bold;font-size: 3.5em;">NOTICIAS DE CIUDAD</p>
       </div>
-
    </div>
 
 
@@ -277,24 +277,47 @@
       <div class="contenedor">
          <p>Links</p>
          <div class="links">
-            <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
-            <a href="">Noticias</a>
-            <a href="">Agenda</a>
-            <a href="">Contacto</a>
+            <ul>
+               <li><a href="https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
+               <li><a href="">Noticias</a></li>
+               <li><a href="">Agenda</a></li>
+               <li><a href="">Contacto</a></li>
+            </ul>
          </div>
       </div>
-      <div class="contenedor">
-         <p>Facebook</p>
-         <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
 
-
-      </div>
       <div class="contenedor">
          <p>Noticias Recientes</p>
       </div>
+
+      <div class="contenedor">
+         <p>Redes Sociales</p>
+         <div class="links">
+            <ul class="icons">
+               <li>
+                  <a class="fab fa-facebook">Facebook</a>
+               </li>
+               <li>
+                  <a class="fab fa-twitter">Twitte</a>
+               </li>
+               <li>
+                  <a class="fab fa-google-plus">Google</a>
+               </li>
+               <li>
+                  <a class="fab fa-linkedin">LinkedI</a>
+               </li>
+            </ul>
+         </div>
+
+
+
+      </div>
       <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
 
+
    </footer>
+
+
 </body>
 
 

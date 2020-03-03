@@ -82,11 +82,11 @@ body {
 .letras {
   color: var(--colorBlanco);
   font-weight: bold;
-  /* display: block; */
+
   font-size: 1.5em;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .msg {
@@ -298,9 +298,14 @@ header nav ul li .children {
   .texto {
     font-size: 2.2rem;
     position: relative;
+    padding-top: 230px;
   }
   .contenedor {
     grid-column: 1/4;
+  }
+  .letras {
+    margin-left: auto;
+    margin-right: auto;
   }
   .buscar {
     margin-top: 90px;
@@ -387,7 +392,7 @@ header nav ul li .children {
 /* Boton de ver mas */
 .button {
   text-align: center;
-  padding-top: 50px;
+  padding: 10px;
   margin: 50px;
 }
 .button a {
@@ -431,7 +436,15 @@ header nav ul li .children {
     /* Desplazar las columnas */
     grid-column: 1/5;
   }
+  .contenedorFiestas img {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .button {
+    padding: 10px;
+  }
 }
+
 .contenedorFiestas {
   align-self: center;
   background-color: var(--colorVerde);
@@ -557,29 +570,6 @@ header nav ul li .children {
     opacity: 1;
   }
 }
-/* footer */
-
-.footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  padding-left: 30px;
-  padding-right: 30px;
-  background: var(--colorAzul);
-}
-.links a {
-  text-decoration: none;
-  color: var(--colorBlanco);
-  display: grid;
-  padding-top: 10px;
-}
-
-/* Icono de facebook */
-.fab {
-  font-size: 4em;
-}
-
-/*  ---------------------------------------------------------*/
 
 /* Estilos de la view de alcaldiaMunicipal.php */
 
@@ -732,4 +722,24 @@ header nav ul li .children {
     position: relative;
     padding: 20px;
   }
+}
+
+/* ------------------ */
+/* footer */
+/* ------------------- */
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: var(--colorAzul);
+}
+
+.links a {
+  color: var(--colorBlanco);
+  display: grid;
+  padding-top: 10px;
+  text-decoration: none;
 }
