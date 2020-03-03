@@ -284,7 +284,7 @@
          </div>
       </div>
       <div class="">
-         <p>Municipalidad de Siguatepeque</p>
+         <p>Empresa</p>
          <div>
             <ul>
                <li>Misión</li>
@@ -294,6 +294,8 @@
          </div>
 
       </div>
+
+
       <div class="">
          <p>Noticias Recientes</p>
       </div>
