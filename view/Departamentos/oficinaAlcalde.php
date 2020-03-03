@@ -120,7 +120,9 @@
 </body>
 
 
-<script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<!-- Script de las funciones de animaciones de JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/slider.js"></script>
 <script src="/js/menu.js"></script>
 
 </html>

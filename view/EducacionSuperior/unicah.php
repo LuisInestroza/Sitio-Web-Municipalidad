@@ -99,5 +99,10 @@
         <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
     </footer>
 </body>
+<!-- Script de las funciones de animaciones de JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/slider.js"></script>
+<script src="/js/menu.js"></script>
+
 
 </html>

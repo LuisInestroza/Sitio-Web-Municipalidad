@@ -232,7 +232,9 @@
     <!-- Div final de footer -->
 </body>
 
-<!-- Scripts de JavaScrits -->
-<script src="js/functions.js"></script>
+<!-- Script de las funciones de animaciones de JavaScript -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="/js/slider.js"></script>
+<script src="/js/menu.js"></script>
 
 </html>
