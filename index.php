@@ -16,8 +16,7 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
    <!-- Links de iconos -->
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
    <title>Municipalidad de Siguatepeque</title>
 </head>
@@ -272,12 +271,11 @@
 
 
    <!-- footer -->
-
    <footer class="footer">
-      <div class="contenedor">
+      <div class="">
          <p>Links</p>
          <div class="links">
-            <ul>
+            <ul style="text-decoration: none;">
                <li><a href="https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
                <li><a href="">Noticias</a></li>
                <li><a href="">Agenda</a></li>
@@ -285,44 +283,45 @@
             </ul>
          </div>
       </div>
+      <div class="">
+         <p>Municipalidad de Siguatepeque</p>
+         <div>
+            <ul>
+               <li>Misión</li>
+               <li>Visión</li>
+               <li>Valores</li>
+            </ul>
+         </div>
 
-      <div class="contenedor">
+      </div>
+      <div class="">
          <p>Noticias Recientes</p>
       </div>
 
-      <div class="contenedor">
+
+      <div class="contenedorRedes">
          <p>Redes Sociales</p>
          <div class="links">
             <ul class="icons">
                <li>
-                  <a class="fab fa-facebook">Facebook</a>
+                  <a href="" class="fab fa-facebook">Facebook</a>
                </li>
                <li>
-                  <a class="fab fa-twitter">Twitte</a>
+                  <a href="" class="fab fa-twitter">Twitter</a>
                </li>
                <li>
-                  <a class="fab fa-google-plus">Google</a>
+                  <a href="" class="fab fa-google-plus">Google</a>
                </li>
                <li>
-                  <a class="fab fa-linkedin">LinkedI</a>
+                  <a href="" class="fab fa-linkedin">LinkedI</a>
                </li>
             </ul>
          </div>
 
-
-
       </div>
-      <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
-
-
+      <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
    </footer>
-
-
 </body>
-
-
-
-
 
 <!-- Script de las funciones de animaciones de JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

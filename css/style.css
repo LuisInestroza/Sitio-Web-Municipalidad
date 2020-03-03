@@ -729,17 +729,19 @@ header nav ul li .children {
 /* ------------------- */
 
 .footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  padding-left: 10px;
-  padding-right: 10px;
   background: var(--colorAzul);
-}
-
-.links a {
-  color: var(--colorBlanco);
   display: grid;
-  padding-top: 10px;
+  color: var(--colorBlanco);
   text-decoration: none;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  left: -100px;
+}
+.contenedorRedes {
+  position: relative;
+  float: left;
+}
+.contenedorRedes {
+  grid-row: 2/9;
+  grid-column: 3 / 3;
 }
