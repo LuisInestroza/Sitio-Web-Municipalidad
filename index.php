@@ -79,7 +79,7 @@
 
    <!-- Contenido del sitio web -->
    <div class="ciudad">
-      <p class="texto">¡La ciudad más emocionante del Centro!</p>
+      <p class="textoIndex">¡La ciudad más emocionante del Centro!</p>
       <div class="lugares">
          <div class="contenedor">
             <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">

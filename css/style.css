@@ -97,7 +97,11 @@ body {
   font-weight: bold;
   font-size: 3.5em;
 }
-
+.textoIndex {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5em;
+}
 /* Navegacion responsive */
 
 #btn-menu {
@@ -298,7 +302,11 @@ header nav ul li .children {
   .texto {
     font-size: 2.2rem;
     position: relative;
-    /* padding-top: 230px; */
+  }
+  .textoIndex {
+    font-size: 2.2rem;
+    position: relative;
+    padding-top: 230px;
   }
   .contenedor {
     grid-column: 1/4;
