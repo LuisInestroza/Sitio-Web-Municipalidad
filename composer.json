@@ -1,4 +1,18 @@
 {
   "name": "Sitio Adminisitrativo Municipalidad",
-  "description": "Sitio web administrativo para la municipalidad"
+  "description": "Sitio web administrativo para la municipalidad",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": " LuisInestroza/Sitio-Web-Municipalidad ",
+        "version": "develop",
+        "source": {
+          "url": "https://github.com/LuisInestroza/Sitio-Web-Municipalidad/tree/develop",
+          "type": "git",
+          "reference": "develop"
+        }
+      }
+    }
+  ]
 }
