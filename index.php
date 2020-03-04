@@ -287,9 +287,9 @@
          <p>Empresa</p>
          <div>
             <ul>
-               <li>Misión</li>
-               <li>Visión</li>
-               <li>Valores</li>
+               <li><a href="">Misión</a></li>
+               <li><a href="">Visión</a></li>
+               <li><a href="">Valores</a></li>
             </ul>
          </div>
 

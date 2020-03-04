@@ -745,6 +745,12 @@ header nav ul li .children {
   grid-gap: 2em;
 }
 
+.footer ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
 .contenedorRedes {
   grid-row: 2/2;
   grid-column: 3 / 3;
