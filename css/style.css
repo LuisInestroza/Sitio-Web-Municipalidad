@@ -752,10 +752,6 @@ a {
   list-style: none;
 }
 
-.footer p {
-  margin-right: -130px;
-}
-
 .icons a {
   font-size: 1.3em;
   color: var(--colorBlanco);
