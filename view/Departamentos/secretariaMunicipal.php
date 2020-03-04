@@ -92,31 +92,59 @@
 
     </div>
 
-    <!-- Footer -->
-
+    <!-- footer -->
     <footer class="footer">
-        <div class="contenedor">
+        <div class="">
             <p>Links</p>
             <div class="links">
-                <a href="https://www.presidencia.gob.hn/">Casa Presidencial</a>
-                <a href="">Noticias</a>
-                <a href="">Agenda</a>
-                <a href="">Contacto</a>
+                <ul style="text-decoration: none;">
+                    <li><a href="https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Agenda</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
             </div>
         </div>
-        <div class="contenedor">
-            <p>Facebook</p>
-            <a href="https://www.facebook.com/siguatepequealcaldia/"><i class="fab fa-facebook"></i></a>
-
+        <div class="">
+            <p>Empresa</p>
+            <div>
+                <ul>
+                    <li><a href="">Misión</a></li>
+                    <li><a href="">Visión</a></li>
+                    <li><a href="">Valores</a></li>
+                </ul>
+            </div>
 
         </div>
-        <div class="contenedor">
+
+
+        <div class="">
             <p>Noticias Recientes</p>
         </div>
-        <p>Municipalidad de Siguatepeque &copy 2020. All rights reserved</p>
 
+
+        <div class="contenedorRedes">
+            <p>Redes Sociales</p>
+            <div class="links">
+                <ul class="icons">
+                    <li>
+                        <a href="https://es-la.facebook.com/siguatepequealcaldia" class="fab fa-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fab fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fab fa-google-plus"></a>
+                    </li>
+                    <li>
+                        <a href="" class="fab fa-linkedin"></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
     </footer>
-
 
 </body>
 <!-- Script de las funciones de animaciones de JavaScript -->
