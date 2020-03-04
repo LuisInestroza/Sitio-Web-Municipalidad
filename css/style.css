@@ -757,7 +757,7 @@ a {
 }
 
 .icons a {
-  font-size: 2em;
+  font-size: 1.3em;
   color: var(--colorBlanco);
   margin: 10px 10px;
 }
@@ -765,6 +765,11 @@ a {
   display: inline;
 }
 
+.contenedorRedes li a {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 3em;
+}
 .contenedorRedes {
   grid-row: 2/2;
   grid-column: 3 / 3;
