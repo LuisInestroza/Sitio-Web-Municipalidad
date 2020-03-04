@@ -306,7 +306,7 @@
          <div class="links">
             <ul class="icons">
                <li>
-                  <a href="https://es-la.facebook.com/siguatepequealcaldia/" class="fab fa-facebook"></a>
+                  <a href="https://es-la.facebook.com/siguatepequealcaldia" class="fab fa-facebook"></a>
                </li>
                <li>
                   <a href="" class="fab fa-twitter"></a>
