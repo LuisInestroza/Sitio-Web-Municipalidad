@@ -306,16 +306,16 @@
          <div class="links">
             <ul class="icons">
                <li>
-                  <a href="" class="fab fa-facebook">Facebook</a>
+                  <a href="" class="fab fa-facebook"></a>
                </li>
                <li>
-                  <a href="" class="fab fa-twitter">Twitter</a>
+                  <a href="" class="fab fa-twitter"></a>
                </li>
                <li>
-                  <a href="" class="fab fa-google-plus">Google</a>
+                  <a href="" class="fab fa-google-plus"></a>
                </li>
                <li>
-                  <a href="" class="fab fa-linkedin">LinkedI</a>
+                  <a href="" class="fab fa-linkedin"></a>
                </li>
             </ul>
          </div>

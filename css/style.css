@@ -751,6 +751,15 @@ a {
   list-style: none;
 }
 
+.icons a {
+  font-size: 2em;
+  color: var(--colorBlanco);
+  margin: 10px 10px;
+}
+.contenedorRedes li {
+  display: inline;
+}
+
 .contenedorRedes {
   grid-row: 2/2;
   grid-column: 3 / 3;
