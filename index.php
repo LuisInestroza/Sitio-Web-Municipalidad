@@ -34,6 +34,7 @@
       <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
       <nav class="menu">
          <ul>
+
             <li>
                <div class="buscarNav">
                   <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
@@ -58,7 +59,9 @@
                </ul>
             </li>
             <li><a href="">Login Linea Base</a></li>
+
          </ul>
+
       </nav>
       <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
       <p class="msg">Municipalidad de Siguatepeque</p>
@@ -66,10 +69,10 @@
    <!-- Div final de la barra de navegación -->
 
    <!-- Input de buscar -->
-   <div class="buscarIndex">
+   <!-- <div class="buscarIndex">
       <input class="buscar" type="search" name="" id="" placeholder="Buscar">
       <i class="fa fa-search"> </i>
-   </div>
+   </div> -->
    <!-- Div final de la barra de navegación -->
 
 
