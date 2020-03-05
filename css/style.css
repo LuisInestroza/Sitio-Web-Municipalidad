@@ -274,7 +274,7 @@ header nav ul li .children {
   }
 
   div.buscarNav > i:nth-child(2) {
-    left: 220px;
+    left: 210px;
     top: 18px;
     font-size: 1.5rem;
   }
@@ -303,8 +303,8 @@ header nav ul li .children {
 
   .fa.fa-search {
     display: inline;
-    top: -20px;
-    left: 230px;
+    top: -10px;
+    left: 210px;
   }
   .texto {
     font-size: 2.2rem;
@@ -343,6 +343,9 @@ header nav ul li .children {
     float: inline-end;
     font-size: large;
     font-weight: bold;
+  }
+  .liBuscar:hover {
+    background: none;
   }
 }
 

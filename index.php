@@ -34,8 +34,7 @@
       <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
       <nav class="menu">
          <ul>
-
-            <li>
+            <li class="liBuscar">
                <div class="buscarNav">
                   <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
                   <i class="fa fa-search"> </i>
