@@ -8,11 +8,4 @@ $(document).ready(function() {
       .next(".children")
       .slideToggle();
   });
-  $(".submenu > a").click(function(e) {
-    e.preventDefault();
-    $(this)
-      // mostrar los elementos de la etiqueta <li></li>
-      .next(".search")
-      .slideToggle();
-  });
 });

@@ -41,11 +41,21 @@ body {
   /* float: right; */
 }
 .fa.fa-search {
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-  font-size: 1.1em;
+  position: absolute;
+  color: var(--colorBlanco);
+  padding: 20px;
+  pointer-events: none;
+}
+.fa.fa.fa-search:hover {
+  cursor: auto;
 }
 
+.fa.fa-search :focus {
+  position: absolute;
+  color: var(--colorNegro);
+  padding: 20px;
+  pointer-events: none;
+}
 .fa.fa-bars {
   display: none;
 }
@@ -104,31 +114,34 @@ header nav ul li .children {
 }
 
 /* Icono de buscar */
-.buscarNav {
-  width: 100%;
-  padding: 5px;
-}
-.search input {
-  size: 1em;
+
+input[type="search"] {
+  width: 20px; /*ancho por defecto*/
+  background: transparent no-repeat 9px center; /*icono lupa*/
   padding: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 15em;
+  -webkit-transition: all 0.5s; /* transición de .5seg a todos los elementos para chrome*/
+  -moz-transition: all 0.5s; /* transición de .5seg a todos los elementos para mozilla*/
+  -o-transition: all 0.5s; /* transición de .5seg a todos los elementos para ophera*/
+  transition: all 0.5s; /* transición de .5seg a todos los elementos*/
+  outline: none; /* ocultar el fucos automático de los input */
   border: none;
-  background: #011826;
-  color: var(--colorBlanco);
+  cursor: pointer;
+}
+input[type="search"]:focus {
+  width: 230px; /*tamaño del boton buscar al hacer click*/
+  padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+  color: #000;
+  background-color: #fff;
 }
 
-::placeholder {
-  font-family: var(--fuentePrincipal);
-  color: var(--colorBlanco);
-  font-weight: bold;
+.libuscar:hover {
+  background: none;
 }
-
-.menu li:hover > .search {
-  display: block;
-  /* padding: 10px; */
-  color: var(--colorBlanco);
-  background: #011826;
-}
-
 /* ----------------------------- */
 
 .header label {
@@ -152,7 +165,7 @@ header nav ul li .children {
 /* Tamaño del menú */
 .menu li a {
   display: block;
-  padding: 10px 15px;
+  padding: 20px 15px;
   color: var(--colorBlanco);
   text-decoration: none;
 }
@@ -260,6 +273,7 @@ header nav ul li .children {
     display: none;
   }
   .fa.fa-search {
+    float: right;
   }
 
   /* Icono de buscar en responsive */
@@ -293,8 +307,6 @@ header nav ul li .children {
   }
   .fa.fa-search {
     display: inline;
-    top: -10px;
-    left: 210px;
   }
   .texto {
     font-size: 2.2rem;

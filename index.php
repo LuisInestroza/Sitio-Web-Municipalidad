@@ -52,10 +52,9 @@
                </ul>
             </li>
             <li><a href="">Login Linea Base</a></li>
-            <li class="submenu"><a href="#"><i class="fa fa-search"></i></a>
-               <ul class="search">
-                  <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
-               </ul>
+            <li class="libuscar">
+               <i class="fa fa-search"></i>
+               <input type="search" placeholder="Buscar..">
             </li>
 
          </ul>
@@ -316,7 +315,7 @@
       </div>
       <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
    </footer>
-
+   <input class=" " type="search" name="" id="" placeholder="Buscar">
 </body>
 
 <!-- Script de las funciones de animaciones de JavaScript -->
