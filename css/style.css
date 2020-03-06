@@ -40,44 +40,14 @@ body {
   /* margin: 10px; */
   /* float: right; */
 }
-
-/* Input de buscar */
-.buscar {
-  display: block;
-  position: relative;
-  border-radius: 1200px;
-  border: solid 4px var(--colorNegro);
-  border-color: var(--colorNegro);
-  size: 1em;
-  background-color: transparent;
-  width: 20%;
-  height: 45px;
-  float: right;
-  display: flex;
-  bottom: 120px;
-  right: 200px;
-  color: var(--colorNegro);
-}
 .fa.fa-search {
-  /* font-size: 4em; */
-  display: block;
-  position: relative;
-  display: flex;
-  float: right;
   border-bottom-style: solid;
-  bottom: 109px;
   border-bottom-width: 0px;
-  left: 40px;
-  font-size: x-large;
+  font-size: 1.1em;
 }
 
 .fa.fa-bars {
   display: none;
-}
-.buscar::placeholder {
-  font-family: var(--fuentePrincipal);
-  color: var(--colorNegro);
-  font-weight: bold;
 }
 
 /* Mensaje de Bienvenida */
@@ -132,6 +102,33 @@ header nav ul li .children {
   width: 20%;
   z-index: 100;
 }
+
+/* Icono de buscar */
+.buscarNav {
+  width: 100%;
+  padding: 5px;
+}
+.search input {
+  size: 1em;
+  padding: 10px;
+  border: none;
+  background: #011826;
+  color: var(--colorBlanco);
+}
+
+::placeholder {
+  font-family: var(--fuentePrincipal);
+  color: var(--colorBlanco);
+  font-weight: bold;
+}
+
+.menu li:hover > .search {
+  display: block;
+  /* padding: 10px; */
+  color: var(--colorBlanco);
+  background: #011826;
+}
+
 /* ----------------------------- */
 
 .header label {
@@ -152,12 +149,12 @@ header nav ul li .children {
   font-weight: bold;
 }
 
-.menu ul {
-  /*Centrar los elementos de la navegacion */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.1em;
+/* Tamaño del menú */
+.menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: var(--colorBlanco);
+  text-decoration: none;
 }
 
 /* Sub menu */
@@ -167,30 +164,21 @@ header nav ul li .children {
   text-align: left;
 }
 
+/* Posicion de los elementos Ul */
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
 .menu li:hover > ul {
   display: block;
   padding-top: 10px;
   color: var(--colorBlanco);
 }
 
-.menu ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu li a {
-  display: block;
-  padding: 20px 20px;
-  color: var(--colorBlanco);
-  text-decoration: none;
-}
-
-.liBuscar:hover {
-  background: none;
-}
 .fa.fa-angle-down {
   padding-left: 10px;
   padding-right: 10px;
@@ -199,8 +187,20 @@ header nav ul li .children {
 .header nav ul li:hover .children {
   display: none;
 }
-
+.header nav ul li:hover .search {
+  display: none;
+}
+/* Menu responsive */
 @media (max-width: 768px) {
+  /* Menú responsive */
+  .menu {
+    position: absolute;
+    background: #023859;
+    width: 60%;
+    margin-left: -100%;
+    transition: all 0.5s;
+    z-index: 1;
+  }
   .fa.fa-angle-down {
     display: inline;
     font-size: 1.1em;
@@ -228,14 +228,6 @@ header nav ul li .children {
   }
   .header nav ul li:hover .children {
     display: none;
-  }
-  .menu {
-    position: absolute;
-    background: #023859;
-    width: 70%;
-    margin-left: -100%;
-    transition: all 0.5s;
-    z-index: 1;
   }
 
   .menu li a:hover {
@@ -268,13 +260,11 @@ header nav ul li .children {
     display: none;
   }
   .fa.fa-search {
-    position: absolute;
-    left: 200px;
-    z-index: 1;
   }
 
+  /* Icono de buscar en responsive */
   div.buscarNav > i:nth-child(2) {
-    left: 210px;
+    left: 190px;
     top: 18px;
     font-size: 1.5rem;
   }
@@ -299,10 +289,8 @@ header nav ul li .children {
   .fa.fa-bars {
     display: block;
     font-size: 2.4rem;
-
     color: var(--colorBlanco);
   }
-
   .fa.fa-search {
     display: inline;
     top: -10px;
@@ -320,7 +308,6 @@ header nav ul li .children {
   .contenedor {
     grid-column: 1/4;
   }
-
   .buscar {
     margin-top: 90px;
     margin-bottom: 30px;
@@ -342,9 +329,6 @@ header nav ul li .children {
     float: inline-end;
     font-size: large;
     font-weight: bold;
-  }
-  .liBuscar:hover {
-    background: none;
   }
 }
 

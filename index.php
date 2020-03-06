@@ -34,12 +34,6 @@
       <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
       <nav class="menu">
          <ul>
-            <li class="liBuscar">
-               <div class="buscarNav">
-                  <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
-                  <i class="fa fa-search"> </i>
-               </div>
-            </li>
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="">Noticias</a></li>
             <li class="submenu"><a href="#">Gobierno<i class="fa fa-angle-down "></i></a>
@@ -58,8 +52,14 @@
                </ul>
             </li>
             <li><a href="">Login Linea Base</a></li>
+            <li class="submenu"><a href="#"><i class="fa fa-search"></i></a>
+               <ul class="search">
+                  <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
+               </ul>
+            </li>
 
          </ul>
+
 
       </nav>
       <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
@@ -67,17 +67,8 @@
    </header>
    <!-- Div final de la barra de navegación -->
 
-   <!-- Input de buscar -->
-   <!-- <div class="buscarIndex">
-      <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-      <i class="fa fa-search"> </i>
-   </div> -->
-   <!-- Div final de la barra de navegación -->
-
-
    <!-- Texto de mostrar la bienvenida al sitio -->
    <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
-
 
    <!-- Contenido del sitio web -->
    <div class=" ciudad">
@@ -325,6 +316,7 @@
       </div>
       <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
    </footer>
+
 </body>
 
 <!-- Script de las funciones de animaciones de JavaScript -->
