@@ -39,7 +39,7 @@
                   <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
                   <i class="fa fa-search"> </i>
                </div>
-            </li>
+            </li>x
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="">Noticias</a></li>
             <li class="submenu"><a href="#">Gobierno<i class="fa fa-angle-down "></i></a>
@@ -76,11 +76,11 @@
 
 
    <!-- Texto de mostrar la bienvenida al sitio -->
-   <p class="letras" style="padding-top: 120px;">BIENVENIDOS A NUESTRO SITIO WEB</p>
+   <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
 
 
    <!-- Contenido del sitio web -->
-   <div class="ciudad">
+   <div class=" ciudad">
       <p class="textoIndex">¡La ciudad más emocionante del Centro!</p>
       <div class="lugares">
          <div class="contenedor">

@@ -84,7 +84,7 @@ body {
 .letras {
   color: var(--colorBlanco);
   font-weight: bold;
-
+  padding-top: 220px;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 0px;
@@ -292,7 +292,9 @@ header nav ul li .children {
 
 @media (max-width: 768px) {
   .letras {
-    padding-top: 250px;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .fa.fa-bars {
     display: block;
@@ -318,10 +320,7 @@ header nav ul li .children {
   .contenedor {
     grid-column: 1/4;
   }
-  .letras {
-    margin-left: auto;
-    margin-right: auto;
-  }
+
   .buscar {
     margin-top: 90px;
     margin-bottom: 30px;
