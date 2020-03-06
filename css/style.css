@@ -188,8 +188,8 @@ header nav ul li .children {
   text-decoration: none;
 }
 
-.buscarNav {
-  display: none;
+.liBuscar:hover {
+  background: none;
 }
 .fa.fa-angle-down {
   padding-left: 10px;

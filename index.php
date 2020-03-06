@@ -39,7 +39,7 @@
                   <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
                   <i class="fa fa-search"> </i>
                </div>
-            </li>x
+            </li>
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="">Noticias</a></li>
             <li class="submenu"><a href="#">Gobierno<i class="fa fa-angle-down "></i></a>
