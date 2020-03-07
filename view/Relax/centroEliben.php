@@ -26,12 +26,7 @@
         <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
         <nav class="menu">
             <ul>
-                <li>
-                    <div class="buscarNav">
-                        <input class="buscarNav" type="search" name="" id="" placeholder="Buscar">
-                        <i class="fa fa-search"> </i>
-                    </div>
-                </li>
+
                 <li><a href="/index.php">Inicio</a></li>
                 <li><a href="">Noticias</a></li>
                 <li class="submenu"><a href="#">Gobierno<i class="fa fa-angle-down "></i></a>
@@ -50,6 +45,10 @@
                     </ul>
                 </li>
                 <li><a href="">Login Linea Base</a></li>
+                <li class="libuscar">
+                    <i class="fa fa-search"></i>
+                    <input type="search" placeholder="Buscar..">
+                </li>
             </ul>
         </nav>
         <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
