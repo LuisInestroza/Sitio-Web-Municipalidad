@@ -315,7 +315,7 @@
       </div>
       <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
    </footer>
-   <input class=" " type="search" name="" id="" placeholder="Buscar">
+
 </body>
 
 <!-- Script de las funciones de animaciones de JavaScript -->

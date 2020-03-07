@@ -1,5 +1,7 @@
 /* Estilos principales del css */
 
+@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
+
 :root {
   /* Estilo de la letra */
   --fuentePrincipal: "Roboto", sans-serif;
@@ -45,17 +47,9 @@ body {
   color: var(--colorBlanco);
   padding: 20px;
   pointer-events: none;
-}
-.fa.fa.fa-search:hover {
-  cursor: auto;
+  font-size: 1.3em;
 }
 
-.fa.fa-search :focus {
-  position: absolute;
-  color: var(--colorNegro);
-  padding: 20px;
-  pointer-events: none;
-}
 .fa.fa-bars {
   display: none;
 }
@@ -114,13 +108,12 @@ header nav ul li .children {
 }
 
 /* Icono de buscar */
-
 input[type="search"] {
   width: 20px; /*ancho por defecto*/
   background: transparent no-repeat 9px center; /*icono lupa*/
   padding: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 15em;
@@ -137,6 +130,10 @@ input[type="search"]:focus {
   padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
   color: #000;
   background-color: #fff;
+}
+
+.fa.fa-search:focus {
+  color: green;
 }
 
 .libuscar:hover {
@@ -183,7 +180,7 @@ input[type="search"]:focus {
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .menu li:hover > ul {
