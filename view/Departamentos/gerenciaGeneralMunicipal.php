@@ -72,9 +72,8 @@
       urbano y rural del municipio, bajo un enfoque social, económico y ambiental, así como dar seguimiento
       técnico y administrativo a la operación y mantenimiento de los servicios públicos, y la construcción,
       mejoramiento o ampliación de obras de infraestructura; asegurando la participación ciudadana y la
-      perspectiva de género. </p>
-
-
+      perspectiva de género.
+    </p>
 
     <ol type="1" class="contenido">
       <li>Velar por el cumplimiento de los convenios, leyes, reglamentos, manuales y disposiciones que regulan el
