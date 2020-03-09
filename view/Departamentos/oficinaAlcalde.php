@@ -94,11 +94,19 @@
     <p class="contenido">Presidir todas las sesiones, asambleas, reuniones y demás actos que realice la corporación</p>
     <p class="contenido">Presentar a la Corporación Municipal un informe trimestral sobre su gestión y uno semestral al
       gobierno central por conducto de la Secretaria del Estado en los Despachos de Gobernación y Justicia</p>
-    <p class="contenido">Someter a consideración de la Corporación Municipal los instrumentos siguientes: a) Presupuesto
-      por programas del plan Operativo Anual b) Plan de Arbitrios c) Ordenanzas Municipales; d) Reconocimientos que se
-      otorguen a personas e instituciones por relevantes servicios prestados a la comunidad. e) Manual de clasificación
-      de Puestos y Salarios f) Reglamentos Especial; y, g) Las demás que de conformidad con la Ley de Municipalidades
-      sean de competencia de la Corporación</p>
+    <p class="contenido">Someter a consideración de la Corporación Municipal los instrumentos siguientes: </p>
+
+    <ol class="contenido" type="a">
+      <li>Presupuesto por programas del plan Operativo Anual</li>
+      <li>Plan de Arbitrios</li>
+      <li>Ordenanzas Municipales</li>
+      <li>Reconocimientos que se otorguen a personas e instituciones por relevantes servicios prestados a la comunidad.
+      </li>
+      <li> Manual de clasificación de Puestos y Salarios</li>
+      <li> Reglamentos Especial</li>
+      <li>Las demás que de conformidad con la Ley de Municipalidades
+        sean de competencia de la Corporación</li>
+    </ol>
   </div>
 
 
