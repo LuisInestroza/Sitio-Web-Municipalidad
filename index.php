@@ -151,28 +151,28 @@
   <div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
     <div class="servicios-contenedor">
       <p style="text-align: center;font-weight: bold;font-size: 3.5em;">SERVICIOS PARA LA CIUDADANÍA.</p>
-
       <!-- Slideshow container -->
       <div class="slideshow-container">
-
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <!-- <img src="img/escudoSiguatepeque.png" style="width:100%"> -->
           <div class="text">Servicios Regulares <br><br>
             <div>
-              <span>Agua potable.</span> <br>
-              <span>Alcantarillado sanitalio.</span><br>
-              <span>Recolección de basura</span><br>
-              <span>Alumbrado público</span><br>
-              <span>Limpieza de solares baldíos, calles, avenidas, parque</span><br>
-              <span>Bomberos</span><br>
-              <span>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</span><br>
-              <span>Cementerios</span><br>
-              <span>Policíá y vigilancia</span><br>
-              <span>Escuelas de educación especial</span><br>
-              <span>Colaboración en el mantenimiento de escuelas públicas y privadas</span><br>
-              <span>Mantenimiento y conservación del ambiente</span><br>
+              <ol>
+                <li>Agua potable.</li>
+                <li>Alcantarillado sanitalio.</li>
+                <li>Recolección de basura</li>
+                <li>Alumbrado público</li>
+                <li>Limpieza de solares baldíos, calles, avenidas, parque</li>
+                <li>Bomberos</li>
+                <li>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</li>
+                <li>Cementerios</li>
+                <li>Policíá y vigilancia</li>
+                <li>Escuelas de educación especial</li>
+                <li>Colaboración en el mantenimiento de escuelas públicas y privadas</li>
+                <li>Mantenimiento y conservación del ambiente</li>
+              </ol>
             </div>
           </div>
         </div>
@@ -182,24 +182,22 @@
           <!-- <img src="img2.jpg" style="width:100%"> -->
           <div class="text">Servicios Permamentes <br><br>
             <div>
-              <span>Mercados y abastos</span><br>
-              <span>Rasto municipal de carnes</span><br>
-              <span>Cementerio de propiedad y/o administración municipal</span><br>
-              <span>Servicios para estacionamiento de vehículos</span><br>
-              <span>Utilizaciíon de bienes municipales o ejidales</span><br>
-              <span>Postes de teléfonos y torres de electricidad</span><br>
-              <span>Tendido de alambre y cables de toda clase</span><br>
-              <span>Espacios para rótulos</span><br>
-              <span>Ocupación de calles y aceras en forma temporal</span><br>
-              <span>Facilidad para destace de ganado y similares</span><br>
-              <span>Terminal de transporte</span><br>
-              <span>Comité vial</span><br>
-
+              <ol>
+                <li>Mercados y abastos</li>
+                <li>Rasto municipal de carnes</li>
+                <li>Cementerio de propiedad y/o administración municipal</li>
+                <li>Servicios para estacionamiento de vehículos</li>
+                <li>Utilizaciíon de bienes municipales o ejidales</li>
+                <li>Postes de teléfonos y torres de electricidad</li>
+                <li>Tendido de alambre y cables de toda clase</li>
+                <li>Espacios para rótulos</li>
+                <li>Ocupación de calles y aceras en forma temporal</li>
+                <li>Facilidad para destace de ganado y similares</li>
+                <li>Terminal de transporte</li>
+                <li>Comité vial</li>
+              </ol>
             </div>
-
           </div>
-
-
         </div>
 
         <div class="mySlides fade">
@@ -207,24 +205,23 @@
           <!-- <img src="img3.jpg" style="width:100%"> -->
           <div class="text">Servicios Eventuales <br><br>
             <div class="servicios-samp">
-              <span>Autorización de libros contables otros</span><br>
-              <span>Permisos para apertura y operacón de negocios</span><br>
-              <span>Autorización y permisos para espectaculos públicos</span><br>
-              <span>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</span><br>
-              <span>Tramitacón y celebración de matrimonios civiles</span><br>
-              <span>Permisos de contrucción, urbanizaciones, edificiones, adiciones y
-                remodelaciones</span><br>
-              <span>Autorización y permisos de instalación de antenas de comunicación</span><br>
-              <span>Servicios de inspecciónm avalúo, medición y elaboracón de planos</span><br>
-              <span>Extensión de certificaciones, constancias y transcripciones de los actos propios de la
-                alcaldía</span><br>
-              <span>Acceso, control y administración a los sitios de explotación y recursos de
-                canteras</span><br>
-              <span>Otros permitidos por las disposiciones legales</span><br>
-
+              <ol>
+                <li>Autorización de libros contables otros</li>
+                <li>Permisos para apertura y operacón de negocios</li>
+                <li>Autorización y permisos para espectaculos públicos</li>
+                <li>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</li>
+                <li>Tramitacón y celebración de matrimonios civiles</li>
+                <li>Permisos de contrucción, urbanizaciones, edificiones, adiciones y
+                  remodelaciones</li>
+                <li>Autorización y permisos de instalación de antenas de comunicación</li>
+                <li>Servicios de inspecciónm avalúo, medición y elaboracón de planos</li>
+                <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de la
+                  alcaldía</li>
+                <li>Acceso, control y administración a los sitios de explotación y recursos de
+                  canteras</li>
+                <li>Otros permitidos por las disposiciones legales</li>
+              </ol>
             </div>
-
-
           </div>
         </div>
 
@@ -240,9 +237,6 @@
         <span class="dot" onclick="currentSlide(2)"></span>
         <span class="dot" onclick="currentSlide(3)"></span>
       </div>
-
-
-
     </div>
   </div>
 
