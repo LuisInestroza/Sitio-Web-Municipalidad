@@ -63,6 +63,7 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 3.5em;
+  /* padding: 120px; */
 }
 .textoIndex {
   text-align: center;
@@ -605,6 +606,10 @@ input[type="search"]:focus {
   align-self: center;
 }
 
+.contenido {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 @media (max-width: 768px) {
   .imagenDepto {
     width: 100%;
