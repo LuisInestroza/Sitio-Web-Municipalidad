@@ -39,15 +39,6 @@ body {
   margin-right: auto;
   padding-top: 30px;
   width: 7%;
-  /* margin: 10px; */
-  /* float: right; */
-}
-.fa.fa-search {
-  position: absolute;
-  color: var(--colorBlanco);
-  padding: 20px;
-  pointer-events: none;
-  font-size: 1.3em;
 }
 
 .fa.fa-bars {
@@ -108,9 +99,22 @@ header nav ul li .children {
 }
 
 /* Icono de buscar */
+.fa.fa-search {
+  position: absolute;
+  color: var(--colorBlanco);
+  padding: 20px;
+  pointer-events: none;
+  font-size: 1.3em;
+  right: 0;
+  text-indent: -40px;
+  z-index: 2;
+}
+
 input[type="search"] {
-  width: 20px; /*ancho por defecto*/
-  background: transparent no-repeat 9px center; /*icono lupa*/
+  width: 50px;
+  /*ancho por defecto*/
+  background: transparent no-repeat 9px center;
+  /*icono lupa*/
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
@@ -127,15 +131,15 @@ input[type="search"] {
 }
 input[type="search"]:focus {
   width: 230px; /*tamaño del boton buscar al hacer click*/
-  padding-left: 32px; /*espacio entre el icono lupa y el placeholder*/
+  padding-left: 30px; /*espacio entre el icono lupa y el placeholder*/
   color: #000;
-  background-color: #fff;
+  background-color: var(--colorVerde);
+  z-index: 1;
+  cursor: text;
 }
-
-.fa.fa-search:focus {
-  color: green;
+.libuscar input[type="search"] {
+  padding-left: 40px;
 }
-
 .libuscar:hover {
   background: none;
 }
@@ -270,22 +274,7 @@ input[type="search"]:focus {
     display: none;
   }
   .fa.fa-search {
-    float: right;
-  }
-
-  /* Icono de buscar en responsive */
-  div.buscarNav > i:nth-child(2) {
-    left: 190px;
-    top: 18px;
-    font-size: 1.5rem;
-  }
-  .buscarIndex {
-    display: none;
-  }
-  .buscarNav input {
-    height: 40px;
-    padding: 10px;
-    margin: 10px;
+    float: left;
   }
 }
 
@@ -302,9 +291,7 @@ input[type="search"]:focus {
     font-size: 2.4rem;
     color: var(--colorBlanco);
   }
-  .fa.fa-search {
-    display: inline;
-  }
+
   .texto {
     font-size: 2.2rem;
     position: relative;
