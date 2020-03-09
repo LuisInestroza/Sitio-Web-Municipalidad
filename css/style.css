@@ -485,7 +485,7 @@ input[type="search"]:focus {
 @media (max-width: 768px) {
   .prev,
   .next {
-    margin-left: -220px;
+    margin-left: -230px;
     margin-right: -2px;
   }
 }

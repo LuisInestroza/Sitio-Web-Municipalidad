@@ -57,10 +57,7 @@
           <i class="fa fa-search"></i>
           <input type="search" placeholder="Buscar..">
         </li>
-
       </ul>
-
-
     </nav>
     <img class=" logo" src="/img/logoNuevo.png" alt="" srcset="">
     <p class="msg">Municipalidad de Siguatepeque</p>
@@ -274,8 +271,8 @@
       <p>Empresa</p>
       <div>
         <ul>
-          <li><a href="">Misión</a></li>
-          <li><a href="">Visión</a></li>
+          <li><a href="/view/Empresa/mision.php">Misión</a></li>
+          <li><a href="/view/Empresa/vision.php">Visión</a></li>
           <li><a href="">Valores</a></li>
         </ul>
       </div>
