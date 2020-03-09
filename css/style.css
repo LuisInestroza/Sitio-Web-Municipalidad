@@ -140,6 +140,9 @@ input[type="search"]:focus {
 .libuscar input[type="search"] {
   padding-left: 40px;
 }
+.libuscar input[type="search"]:focus {
+  padding-left: 20px;
+}
 .libuscar:hover {
   background: none;
 }
