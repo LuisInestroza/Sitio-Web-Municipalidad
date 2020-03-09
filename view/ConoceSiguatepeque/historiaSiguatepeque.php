@@ -16,7 +16,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- Links de iconos -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
 
   <title>Historia de Siguatepeque - Municipalidad de Siguatepeque</title>
@@ -58,12 +59,7 @@
   </header>
   <!-- Div final de la barra de navegación -->
 
-  <!-- Input de buscar -->
-  <div class="buscarIndex">
-    <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-    <i class="fa fa-search"> </i>
-  </div>
-  <!-- Div final de la barra de navegación -->
+
 
 
   <div class="oficina">

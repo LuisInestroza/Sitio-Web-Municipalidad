@@ -16,7 +16,8 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
   <!-- Links de iconos -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 
   <title>Medio Ambiente(UMA) - Municipaldad de Siguatepeque</title>
 </head>
@@ -58,18 +59,15 @@
   </header>
   <!-- Div final de la barra de navegación -->
 
-  <!-- Input de buscar -->
-  <div class="buscarIndex">
-    <input class="buscar" type="search" name="" id="" placeholder="Buscar">
-    <i class="fa fa-search"> </i>
-  </div>
-  <!-- Div final de la barra de navegación -->
+
 
 
   <!-- Contenido de catastro -->
   <div class="oficina">
     <p class="texto">MEDIO AMBIENTE (UMA)</p>
-    <img class="imagenDepto" src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg" alt="justicia-municipal">
+    <img class="imagenDepto"
+      src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/medioambiente-e1573656232511-740x460.jpg"
+      alt="justicia-municipal">
 
 
     <ol type="1" class="contenido">
