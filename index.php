@@ -212,7 +212,8 @@
                   remodelaciones</li>
                 <li>Autorización y permisos de instalación de antenas de comunicación</li>
                 <li>Servicios de inspecciónm avalúo, medición y elaboracón de planos</li>
-                <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de la
+                <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de
+                  la
                   alcaldía</li>
                 <li>Acceso, control y administración a los sitios de explotación y recursos de
                   canteras</li>
@@ -279,12 +280,14 @@
 
     </div>
 
-
+    <!-- Contenido de noticias -->
     <div class="">
       <p>Noticias Recientes</p>
     </div>
 
+    <img src="." alt="">
 
+    <!-- Contenido de redes sociales -->
     <div class="contenedorRedes">
       <p>Redes Sociales</p>
       <div class="links">
