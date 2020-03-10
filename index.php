@@ -285,7 +285,6 @@
       <p>Noticias Recientes</p>
     </div>
 
-    <img src="." alt="">
 
     <!-- Contenido de redes sociales -->
     <div class="contenedorRedes">
@@ -309,9 +308,12 @@
 
     </div>
     <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
+
   </footer>
 
+
 </body>
+
 
 <!-- Script de las funciones de animaciones de JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

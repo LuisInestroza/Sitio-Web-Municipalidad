@@ -10,6 +10,7 @@ function currentSlide(n) {
   showSlides((slideIndex = n));
 }
 
+// Mostrar los slides
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
