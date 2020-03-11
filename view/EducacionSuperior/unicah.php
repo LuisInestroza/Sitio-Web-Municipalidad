@@ -14,9 +14,12 @@
   <!-- Link de el estilo de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
+
   <!-- Links de iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+  <script src="https://kit.fontawesome.com/d7bc68b35c.js" crossorigin="anonymous"></script>
 
   <title>Universidad Católica de Honduras - Municipalidad de Siguatepeque</title>
 </head>
@@ -72,9 +75,27 @@
         tabindex="0"></iframe>
 
     </p>
-    <div class="button">
-      <a href="https://www.unicah.edu/">Sitio Web</a>
+    <!-- Contenido de redes sociales -->
+    <div class="contenedorRedes">
+      <p>Contactos</p>
+      <div class="links">
+        <ul class="icons">
+          <li>
+            <a href="https://www.unicah.edu" class="fa fa-globe"></a>
+          </li>
+          <li>
+            <a href="https://es-la.facebook.com/UNICAHCJS/  " class="fab fa-facebook"></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/unicahjs" class="fab fa-twitter"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/unicahcjs/" class="fab fa-instagram"></a>
+          </li>
+        </ul>
+      </div>
     </div>
+
   </div>
 
   <!-- footer -->
