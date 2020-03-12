@@ -35,10 +35,14 @@ body {
 /* Logo */
 .logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 30px;
-  width: 7%;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  /* padding-top: 30px; */
+  /* width: 7%; */
+  position: absolute;
+  left: 60px;
+  top: 10px;
+  width: 6.5%;
 }
 
 .fa.fa-bars {
@@ -49,7 +53,7 @@ body {
 .letras {
   color: var(--colorBlanco);
   font-weight: bold;
-  padding-top: 220px;
+  padding-top: 300px;
   font-size: 1.5em;
   text-align: center;
   margin-bottom: 0px;
@@ -82,13 +86,15 @@ header {
 }
 
 .menu {
-  background: #023859;
+  /* background: #023859; */
+  background-color: var(--colorAzul);
   z-index: 1000;
   width: 100%;
 }
 
 header nav ul li:hover {
-  background: var(--colorVerde);
+  /* background: var(--colorVerde); */
+  text-decoration: solid underline var(--colorVerde) 4px;
 }
 
 header nav ul li .children {
@@ -103,11 +109,11 @@ header nav ul li .children {
 .fa.fa-search {
   position: absolute;
   color: var(--colorBlanco);
-  padding: 20px;
+  padding: 50px;
   pointer-events: none;
   font-size: 1.3em;
   right: 0;
-  text-indent: -40px;
+  text-indent: -10px;
   z-index: 2;
 }
 
@@ -119,7 +125,7 @@ input[type="search"] {
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 10px;
   border-radius: 15em;
   -webkit-transition: all 0.5s; /* transición de .5seg a todos los elementos para chrome*/
@@ -170,7 +176,14 @@ input[type="search"]:focus {
 /* Tamaño del menú */
 .menu li a {
   display: block;
-  padding: 20px 15px;
+  padding: 50px 15px;
+  color: var(--colorBlanco);
+  text-decoration: none;
+}
+
+.submenu li a {
+  padding: 20px 10px;
+  display: block;
   color: var(--colorBlanco);
   text-decoration: none;
 }
@@ -222,7 +235,8 @@ input[type="search"]:focus {
   .fa.fa-angle-down {
     display: inline;
     font-size: 1.1em;
-    float: right;
+    position: absolute;
+    right: 6%;
   }
   .header {
     background: var(--colorAzul);
@@ -275,6 +289,12 @@ input[type="search"]:focus {
     width: 230px;
     background: var(--colorVerde);
   }
+  .menu li a {
+    display: block;
+    padding: 20px 10px;
+    color: var(--colorBlanco);
+    text-decoration: none;
+  }
 }
 
 /*  */
@@ -286,9 +306,10 @@ input[type="search"]:focus {
     margin-right: auto;
   }
   .fa.fa-bars {
-    display: block;
+    display: inline;
     font-size: 2.4rem;
     color: var(--colorBlanco);
+    padding-top: 20px;
   }
 
   .texto {
@@ -310,20 +331,20 @@ input[type="search"]:focus {
     right: 50px;
   }
   .logo {
-    display: inline;
-    margin-left: 70px;
-    margin-top: -85px;
-    padding-bottom: 60px;
-    width: 12%;
+    display: none;
   }
   .msg {
-    display: inline;
-    margin-top: -110px;
-    margin-right: 40px;
-    margin-left: 80px;
-    float: inline-end;
+    display: block;
+    float: left;
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    position: relative;
     font-size: large;
     font-weight: bold;
+    left: 1px;
+    top: 20px;
   }
 }
 

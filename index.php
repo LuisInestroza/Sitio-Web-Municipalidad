@@ -23,16 +23,16 @@
 </head>
 
 <body>
-
-  <!-- Barra de navegacion -->
-
   <!-- Banner -->
   <img class="banner" src="img/banner2.png" alt="">
 
   <!-- Barra de navegacion -->
   <header class="header">
+    <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">
+    <p class="msg">Municipalidad de Siguatepeque</p>
     <input type="checkbox" id="btn-menu" />
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
+
     <nav class="menu">
       <ul>
         <li><a href="/index.php">Inicio</a></li>
@@ -53,14 +53,17 @@
           </ul>
         </li>
         <li><a href="">Login Linea Base</a></li>
+        <div>
+        </div>
         <li class="libuscar">
           <i class="fa fa-search"></i>
           <input type="search" placeholder="Buscar..">
         </li>
       </ul>
+
     </nav>
-    <img class=" logo" src="/img/logoNuevo.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque</p>
+
+
   </header>
   <!-- Div final de la barra de navegación -->
 
@@ -277,7 +280,6 @@
           <li><a href="">Valores</a></li>
         </ul>
       </div>
-
     </div>
 
     <!-- Contenido de noticias -->
