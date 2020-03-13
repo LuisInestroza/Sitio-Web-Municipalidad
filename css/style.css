@@ -493,7 +493,7 @@ input[type="search"]:focus {
     padding: 10px;
   }
   .servicios {
-    padding: 0;
+    padding: 40px 0px 40px 0px;
   }
 }
 
