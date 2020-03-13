@@ -134,7 +134,7 @@
 
     <!-- Seccion de ferias y celebridades de siguatepeque -->
     <div class="fiestas">
-      <p style="text-align: center;font-weight: bold;font-size: 3.5em;">Festivales - Ferias Oficiales</p>
+      <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
       <div class="lugares">
         <div class="contenedorFiestas">
           <img src="img/feriaSanPablo.png" alt="" srcset="">
@@ -155,14 +155,15 @@
   <!-- Servicios para la ciudadania -->
   <div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
     <div class="servicios-contenedor">
-      <p style="text-align: center;font-weight: bold;font-size: 3.5em;">SERVICIOS PARA LA CIUDADANÍA.</p>
+      <p class="texto" style="text-align: center;font-weight: bold;">SERVICIOS PARA LA CIUDADANÍA.</p>
       <!-- Slideshow container -->
       <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
           <div class="numbertext">1 / 3</div>
           <!-- <img src="img/escudoSiguatepeque.png" style="width:100%"> -->
-          <div class="text">Servicios Regulares <br><br>
+          <div class="text">
+            <p class="textoServicios">Servicios Regulares <br><br></p>
             <div>
               <ol>
                 <li>Agua potable.</li>
@@ -185,7 +186,8 @@
         <div class="mySlides fade">
           <div class="numbertext">2 / 3</div>
           <!-- <img src="img2.jpg" style="width:100%"> -->
-          <div class="text">Servicios Permamentes <br><br>
+          <div class="text">
+            <p class="textoServicios">Servicios Permamentes<br><br></p>
             <div>
               <ol>
                 <li>Mercados y abastos</li>
@@ -208,7 +210,8 @@
         <div class="mySlides fade">
           <div class="numbertext">3 / 3</div>
           <!-- <img src="img3.jpg" style="width:100%"> -->
-          <div class="text">Servicios Eventuales <br><br>
+          <div class="text">
+            <p class="textoServicios">Servicios Eventuales <br><br></p>
             <div class="servicios-samp">
               <ol>
                 <li>Autorización de libros contables otros</li>
@@ -230,12 +233,13 @@
             </div>
           </div>
         </div>
-
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <br>
       </div>
-      <br>
+
+
 
       <!-- The dots/circles -->
       <div style="text-align:center">
@@ -249,7 +253,7 @@
   <!-- Seccion de noticias de la ciudad -->
   <div class="noticias-ciudad">
     <div class="noticias-contenedor">
-      <p style="text-align: center;font-weight: bold;font-size: 3.5em;">NOTICIAS DE CIUDAD</p>
+      <p class="texto" style="text-align: center;font-weight: bold;">NOTICIAS DE CIUDAD</p>
     </div>
   </div>
 
