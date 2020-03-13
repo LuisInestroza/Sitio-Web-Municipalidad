@@ -355,7 +355,6 @@ input[type="search"]:focus {
     right: 0px;
     left: auto;
     width: 11%;
-
     top: 6px;
   }
   .msg {
@@ -463,12 +462,20 @@ input[type="search"]:focus {
   font-weight: bold;
   font-size: 1rem;
 }
-
+.contenedorFiestas {
+  align-self: center;
+  background-color: var(--colorVerde);
+  border-radius: 0.5rem;
+}
+.servicios {
+  background: #e0e2df;
+  padding: 40px;
+}
 .contenedorFiestas img {
   /* Tamaño de la imagenes */
   width: 65%;
   align-items: unset;
-  padding-top: 20px;
+  margin-top: 20px;
   margin-left: 70px;
   margin-right: 70px;
 }
@@ -479,18 +486,15 @@ input[type="search"]:focus {
     grid-column: 1/5;
   }
   .contenedorFiestas img {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
   }
   .button {
     padding: 10px;
   }
-}
-
-.contenedorFiestas {
-  align-self: center;
-  background-color: var(--colorVerde);
-  border-radius: 0.5rem;
+  .servicios {
+    padding: 0;
+  }
 }
 
 /* Slider  de los servicios publicos */
@@ -537,11 +541,9 @@ input[type="search"]:focus {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
 .prev {
   left: 0;
 }
-
 .next {
   right: 0;
 }
