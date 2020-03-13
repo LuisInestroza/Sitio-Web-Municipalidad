@@ -54,7 +54,7 @@ body {
   color: var(--colorBlanco);
   font-weight: bold;
   padding-top: 300px;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -66,7 +66,7 @@ body {
 .texto {
   text-align: center;
   font-weight: bold;
-  font-size: 3.5em;
+  font-size: 2em;
   /* padding: 120px; */
 }
 .textoIndex {
@@ -333,7 +333,7 @@ input[type="search"]:focus {
     bottom: 10px;
   }
   .texto {
-    font-size: 2.2rem;
+    font-size: 1rem;
     position: relative;
   }
   .textoIndex {
@@ -352,17 +352,21 @@ input[type="search"]:focus {
   }
   .logo {
     display: block;
-    float: left;
+    right: 0px;
+    left: auto;
+    width: 11%;
+
+    top: 6px;
   }
   .msg {
     display: block;
     float: left;
-    margin-left: 60px;
-    margin-top: 0px;
+    margin-left: 58px;
+    margin-top: -1px;
     margin-bottom: 0px;
-    font-size: x-large;
+    font-size: 0.5rem;
     position: relative;
-    font-size: large;
+    font-size: 1.1em;
     font-weight: bold;
     left: 1px;
     top: 20px;

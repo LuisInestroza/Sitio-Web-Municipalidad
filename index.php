@@ -1,3 +1,8 @@
+<?php  
+
+  $title = "Municipalidad"
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 
