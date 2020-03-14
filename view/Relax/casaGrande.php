@@ -25,6 +25,8 @@
   <!-- Barra de navegacion -->
   <header class="header">
     <input type="checkbox" id="btn-menu" />
+    <img class=" logo" src="/img/logoNuevo.png" alt="" srcset="">
+    <p class="msg">Municipalidad de Siguatepeque</p>
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
     <nav class="menu">
       <ul>
@@ -53,8 +55,7 @@
         </li>
       </ul>
     </nav>
-    <img class="logo" src="/img/logoNuevo.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque</p>
+
   </header>
   <!-- Div final de la barra de navegación -->
 

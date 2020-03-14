@@ -16,6 +16,7 @@
   <!-- Link de las hojas de estilos -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 
   <!-- Link de el estilo de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
