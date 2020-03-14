@@ -23,6 +23,9 @@ html {
 
 body {
   font-family: var(--fuentePrincipal);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 /* Banner de la imagen */
@@ -236,7 +239,7 @@ input[type="search"]:focus {
     background: #023859;
     width: auto;
     margin-left: -100%;
-    transition: all 0.5s;
+    transition: all 1s;
     z-index: 1;
   }
   .fa.fa-angle-down {
@@ -852,6 +855,7 @@ a {
     grid-row: 1/ 1;
     grid-column: 1 / 1;
     display: block;
+    padding: 20px 30px 20px 30px;
   }
   .footer p {
     margin: 0px;
