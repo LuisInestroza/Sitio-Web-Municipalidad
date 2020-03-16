@@ -350,6 +350,7 @@ input[type="search"]:focus {
     bottom: 10px;
   }
   .texto {
+    padding: 20px 0 20px 0px;
     font-size: 1.5rem;
     position: relative;
   }
@@ -370,14 +371,14 @@ input[type="search"]:focus {
   .logo {
     display: block;
     right: 0px;
-    left: auto;
-    width: 11%;
+    left: 170px;
+    width: 7%;
     top: 6px;
   }
   .msg {
     display: block;
     float: left;
-    margin-left: 53px;
+    margin-left: 65px;
     margin-top: -1px;
     margin-bottom: 0px;
     font-size: 0.5rem;
@@ -385,7 +386,7 @@ input[type="search"]:focus {
     font-size: 1.1em;
     font-weight: bold;
     left: 1px;
-    top: 20px;
+    top: 35px;
   }
 }
 
