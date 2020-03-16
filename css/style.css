@@ -181,7 +181,7 @@ input[type="search"]:focus {
 
 .header label:hover {
   cursor: pointer;
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
 }
 
 .menu ul li a {
