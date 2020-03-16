@@ -347,7 +347,7 @@ input[type="search"]:focus {
     color: var(--colorBlanco);
   }
   #btnMenu {
-    bottom: 10px;
+    bottom: 14px;
   }
   .texto {
     padding: 20px 0 20px 0px;
