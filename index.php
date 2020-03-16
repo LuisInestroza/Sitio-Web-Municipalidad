@@ -13,9 +13,29 @@
   <!-- Link de icoco -->
   <link rel="icon" type="image/png" href="logo.ico" />
 
-  <!-- Link de las hojas de estilos -->
+  <!-- Link de las hojas de estilos  Principales-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.css.map">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.css.map">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="css/bootstrap-reboot.min.css.map">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.css.map">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css.map">
+
+
+
+
+
+
+
   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 
   <!-- Link de el estilo de las fuentes -->
@@ -175,7 +195,7 @@
                 <li>Bomberos</li>
                 <li>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</li>
                 <li>Cementerios</li>
-                <li>Policíá y vigilancia</li>
+                <li>Policia y vigilancia</li>
                 <li>Escuelas de educación especial</li>
                 <li>Colaboración en el mantenimiento de escuelas públicas y privadas</li>
                 <li>Mantenimiento y conservación del ambiente</li>
