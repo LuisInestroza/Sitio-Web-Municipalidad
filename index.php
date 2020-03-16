@@ -30,12 +30,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css.map">
 
-
-
-
-
-
-
   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 
   <!-- Link de el estilo de las fuentes -->
