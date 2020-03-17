@@ -49,7 +49,8 @@
   <!-- Barra de navegacion -->
   <header class="header">
     <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque</p>
+    <p class="msg">Municipalidad de Siguatepeque <br>
+      Gobierno Municipal (2018-2022)</p>
     <input type="checkbox" id="btn-menu" />
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
 
