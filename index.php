@@ -1,8 +1,3 @@
-<?php  
-
-  $title = "Municipalidad"
-?>
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -49,8 +44,12 @@
   <!-- Barra de navegacion -->
   <header class="header">
     <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque <br>
-      Gobierno Municipal (2018-2022)</p>
+    <!-- Llamar a la variable -->
+    <?php 
+      include './view/Variables/Variables.php' ; 
+      echo "<p class=msg>$msg</p>"
+    ?>
+    <!-- Final -->
     <input type="checkbox" id="btn-menu" />
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
 

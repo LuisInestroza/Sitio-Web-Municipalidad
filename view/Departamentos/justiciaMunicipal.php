@@ -38,8 +38,10 @@
   <header class="header">
     <input type="checkbox" id="btn-menu" />
     <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque <br>
-      Gobierno Municipal (2018-2022)</p>
+    <?php
+      include "../Variables/Variables.php";
+      echo "<p class=msg>$msg</p>"  
+    ?>
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
     <nav class="menu">
       <ul>

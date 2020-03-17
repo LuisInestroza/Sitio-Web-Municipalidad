@@ -34,8 +34,10 @@
   <header class="header">
     <input type="checkbox" id="btn-menu" />
     <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">
-    <p class="msg">Municipalidad de Siguatepeque <br>
-      Gobierno Municipal (2018-2022)</p>
+    <?php
+      include "../Variables/Variables.php";
+      echo "<p class=msg>$msg</p>"  
+    ?>
     <label for="btn-menu"><i class="fa fa-bars" id="btnMenu"></i></label>
     <nav class="menu">
       <ul>
@@ -73,11 +75,10 @@
 
 
   <div class="alcaldia">
-    <img src="/img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
-    <p>Abog. Juan Carlos Morales Pacheco</p>
-    <p>Alcalde Municipal</p>
-    <p>2018-2022</p>
-
+    <img class="imagenDepto" src="/img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
+    <p class="contenido">Abog. Juan Carlos Morales Pacheco</p>
+    <p class="contenido">Alcalde Municipal</p>
+    <p class="contenido">2018-2022</p>
   </div>
 
   <!-- Div final de los datos del alcalde -->
