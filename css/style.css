@@ -372,9 +372,12 @@ input[type="search"]:focus {
     display: block;
     right: 0px;
     left: 170px;
-    width: 7%;
+    width: 1.6em;
     top: 6px;
+    max-width: 100%;
+    height: auto;
   }
+
   .msg {
     display: block;
     float: left;
@@ -386,7 +389,7 @@ input[type="search"]:focus {
     font-size: 1.1em;
     font-weight: bold;
     left: 1px;
-    top: 35px;
+    top: 33px;
   }
 }
 
