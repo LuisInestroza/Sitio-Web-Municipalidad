@@ -88,19 +88,12 @@
       <tbody>
         <tr>
           <td>Oficina Principal</td>
-          <td class="td">(504) 2773-0039</td>
+          <td>(504) 2773-0039</td>
         </tr>
         <tr>
           <td>Oficina Catastro</td>
-          <td class="td">(504) 2773-0219</td>
+          <td>(504) 2773-0219</td>
         </tr>
-      </tbody>
-
-
-    </table>
-
-    <table class="table">
-      <tbody>
         <tr>
           <td>Repepción</td>
           <td>Ext 101</td>
@@ -182,9 +175,7 @@
           <td>Ext. 123</td>
         </tr>
       </tbody>
-
     </table>
-
   </div>
 
 

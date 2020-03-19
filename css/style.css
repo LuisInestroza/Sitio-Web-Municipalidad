@@ -122,6 +122,16 @@ header nav ul li .children {
   z-index: 100;
 }
 
+/* Estilo para rotar la flecha del submenu */
+.rotar {
+  transform: rotate(180deg);
+  transition: 0.4s all;
+}
+
+.rotarAbajo {
+  transform: rotate(0deg);
+  transition: 0.4s all;
+}
 /* Icono de buscar */
 .fa.fa-search {
   position: absolute;
@@ -230,6 +240,7 @@ input[type="search"]:focus {
 .fa.fa-angle-down {
   padding-left: 10px;
   padding-right: 10px;
+  font-weight: bold;
 }
 
 .header nav ul li:hover .children {
@@ -729,31 +740,10 @@ input[type="search"]:focus {
   }
 }
 
-/* Estilo para las tablas */
-
+/* Estilo de tablas */
 .table {
-  font-size: 1.5rem;
-  padding: 10px;
-  margin: 30px;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
 }
-.td {
-  padding-left: 190px;
-}
-@media (max-width: 768px) {
-  .table {
-    width: 90%;
-    padding: 10px;
-    margin: 25px;
-    font-size: 1rem;
-  }
-  .td {
-    padding-left: 80px;
-  }
-}
-
 .imagenes {
   float: left;
 }

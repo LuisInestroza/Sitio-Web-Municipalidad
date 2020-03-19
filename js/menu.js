@@ -7,5 +7,7 @@ $(document).ready(function() {
       // mostrar los elementos de la etiqueta <li></li>
       .next(".children")
       .slideToggle();
+    // Rotar la flecha
+    $(".fa-angle-down").toggleClass("rotar");
   });
 });
