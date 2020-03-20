@@ -268,17 +268,19 @@
   <!-- Seccion de noticias de la ciudad -->
   <div class="noticias-ciudad">
     <div class="noticias-contenedor">
-      <p class="texto" style="text-align: center;font-weight: bold;">NOTICIAS DE CIUDAD</p>
+      <p class="texto">NOTICIAS DE CIUDAD</p>
     </div>
   </div>
 
 
   <!-- Seccion de eventos -->
   <div class="eventos-ciudad">
+    <p class="texto">EVENTOS</p>
   </div>
 
   <!-- Seccion de comunicados -->
   <div class="comunicados-ciudad">
+    <p class="texto">COMUNICADOS</p>
   </div>
 
 
