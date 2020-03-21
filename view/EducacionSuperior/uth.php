@@ -34,6 +34,8 @@
 </head>
 
 <body>
+  <!-- Boton de desplaxar hacia arriba -->
+  <span class="arriba"><i class="fa fa-angle-up"></i></span>
   <!-- Barra de navegacion -->
   <header class="header">
     <input type="checkbox" id="btn-menu" />
@@ -155,6 +157,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="/js/slider.js"></script>
 <script src="/js/menu.js"></script>
+<script src="/js/botonArriba.js"></script>
 
 
 </html>
