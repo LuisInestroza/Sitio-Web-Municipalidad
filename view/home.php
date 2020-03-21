@@ -1,0 +1,198 @@
+<!-- Banner -->
+<img class="banner" src="/img/banner2.png" alt="">
+
+<!-- Texto de mostrar la bienvenida al sitio -->
+<p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
+
+<!-- Contenido del sitio web -->
+<div class=" ciudad">
+  <p class="textoIndex">¡La ciudad más emocionante del Centro!</p>
+  <div class="lugares">
+    <div class="contenedor">
+      <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Escudo Oficial de Siguatepeque</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+    <div class="contenedor">
+      <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Bandera Oficial de Siguatepeque</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+    <div class="contenedor">
+      <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Plaza San Pedro Siguatepeque</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+    <div class="contenedor">
+      <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Parque Central de Siguatepeque</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+    <div class="contenedor">
+      <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Plaza Civica La Amistad</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+    <div class="contenedor">
+      <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
+      <p style="text-align: center;">Información...</p>
+      <div class="informacion">
+        <p class="info">Bosque Calanterique</p>
+        <a href="">ver</a>
+      </div>
+    </div>
+  </div>
+  <div class="button">
+    <a href="">VER MAS LUGARES</a>
+  </div>
+
+  <!-- Seccion de ferias y celebridades de siguatepeque -->
+  <div class="fiestas">
+    <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
+    <div class="lugares">
+      <div class="contenedorFiestas">
+        <img src="img/feriaSanPablo.png" alt="" srcset="">
+        <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
+      </div>
+      <div class="contenedorFiestas">
+        <img src="img/festivalDeLasFLores.png" alt="" srcset="">
+        <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
+      </div>
+      <div class="contenedorFiestas">
+        <img src="img/festivalDelPino.png" alt="" srcset="">
+        <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Servicios para la ciudadania -->
+<div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
+  <div class="servicios-contenedor">
+    <p class="texto" style="text-align: center;font-weight: bold;">SERVICIOS PARA LA CIUDADANÍA.</p>
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <!-- <img src="img/escudoSiguatepeque.png" style="width:100%"> -->
+        <div class="text">
+          <p class="textoServicios">Servicios Regulares <br><br></p>
+          <div>
+            <ol>
+              <li>Agua potable.</li>
+              <li>Alcantarillado sanitalio.</li>
+              <li>Recolección de basura</li>
+              <li>Alumbrado público</li>
+              <li>Limpieza de solares baldíos, calles, avenidas, parque</li>
+              <li>Bomberos</li>
+              <li>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</li>
+              <li>Cementerios</li>
+              <li>Policia y vigilancia</li>
+              <li>Escuelas de educación especial</li>
+              <li>Colaboración en el mantenimiento de escuelas públicas y privadas</li>
+              <li>Mantenimiento y conservación del ambiente</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <!-- <img src="img2.jpg" style="width:100%"> -->
+        <div class="text">
+          <p class="textoServicios">Servicios Permamentes<br><br></p>
+          <div>
+            <ol>
+              <li>Mercados y abastos</li>
+              <li>Rasto municipal de carnes</li>
+              <li>Cementerio de propiedad y/o administración municipal</li>
+              <li>Servicios para estacionamiento de vehículos</li>
+              <li>Utilizaciíon de bienes municipales o ejidales</li>
+              <li>Postes de teléfonos y torres de electricidad</li>
+              <li>Tendido de alambre y cables de toda clase</li>
+              <li>Espacios para rótulos</li>
+              <li>Ocupación de calles y aceras en forma temporal</li>
+              <li>Facilidad para destace de ganado y similares</li>
+              <li>Terminal de transporte</li>
+              <li>Comité vial</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <!-- <img src="img3.jpg" style="width:100%"> -->
+        <div class="text">
+          <p class="textoServicios">Servicios Eventuales <br><br></p>
+          <div class="servicios-samp">
+            <ol>
+              <li>Autorización de libros contables otros</li>
+              <li>Permisos para apertura y operacón de negocios</li>
+              <li>Autorización y permisos para espectaculos públicos</li>
+              <li>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</li>
+              <li>Tramitacón y celebración de matrimonios civiles</li>
+              <li>Permisos de contrucción, urbanizaciones, edificiones, adiciones y
+                remodelaciones</li>
+              <li>Autorización y permisos de instalación de antenas de comunicación</li>
+              <li>Servicios de inspecciónm avalúo, medición y elaboracón de planos</li>
+              <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de
+                la
+                alcaldía</li>
+              <li>Acceso, control y administración a los sitios de explotación y recursos de
+                canteras</li>
+              <li>Otros permitidos por las disposiciones legales</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <br>
+    </div>
+
+
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+</div>
+
+<!-- Seccion de noticias de la ciudad -->
+<div class="noticias-ciudad">
+  <div class="noticias-contenedor">
+    <p class="texto">NOTICIAS DE CIUDAD</p>
+  </div>
+</div>
+
+
+<!-- Seccion de eventos -->
+<div class="eventos-ciudad">
+  <p class="texto">EVENTOS</p>
+</div>
+
+<!-- Seccion de comunicados -->
+<div class="comunicados-ciudad">
+  <p class="texto">COMUNICADOS</p>
+</div>
