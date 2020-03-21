@@ -1,5 +1,5 @@
 <?php  
-  require_once '../Cabeceras/header.php';
+  require_once '../layouts/header.php';
   
 ?>
 
@@ -11,7 +11,7 @@
 </div>
 
 <?php  
-  require_once '../Cabeceras/footer.php';
+  require_once '../layouts/footer.php';
 ?>
 
 <!-- Div final de los datos del alcalde -->
