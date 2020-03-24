@@ -13,7 +13,7 @@
         <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Escudo Oficial de Siguatepeque</p>
+          <p>Escudo Oficial de Siguatepeque</p>
           <p>Ver</p>
         </div>
       </a>
@@ -23,7 +23,7 @@
         <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Bandera Oficial de Siguatepeque</p>
+          <p>Bandera Oficial de Siguatepeque</p>
           <p>Ver</p>
         </div>
       </a>
@@ -33,7 +33,7 @@
         <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Plaza San Pedro Siguatepeque</p>
+          <p>Plaza San Pedro Siguatepeque</p>
           <p>Ver</p>
         </div>
       </a>
@@ -43,7 +43,7 @@
         <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Parque Central de Siguatepeque</p>
+          <p>Parque Central de Siguatepeque</p>
           <p>Ver</p>
         </div>
       </a>
@@ -53,7 +53,7 @@
         <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Plaza Civica La Amistad</p>
+          <p>Plaza Civica La Amistad</p>
           <p>Ver</p>
         </div>
       </a>
@@ -63,7 +63,7 @@
         <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p class="info">Bosque Calanterique</p>
+          <p>Bosque Calanterique</p>
           <p>Ver</p>
         </div>
       </a>
@@ -81,9 +81,7 @@
         <a href="/view/Festivales/feriaPatronal.php">
           <img src="img/feriaSanPablo.png" alt="" srcset="">
           <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
-          <div class="informacion">
-            <p class="info">Ver</p>
-          </div>
+
         </a>
 
       </div>

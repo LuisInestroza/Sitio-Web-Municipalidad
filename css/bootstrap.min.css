@@ -70,7 +70,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color:#f3f3f0;
+  background-color: #f3f3f0;
 }
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
@@ -3010,8 +3010,8 @@ input[type="submit"].btn-block {
   .fade {
     transition: none;
   }
-/* }
-.fade:not(.show) {
+}
+/* .fade:not(.show) {
   opacity: 0;
 } */
 .collapse:not(.show) {

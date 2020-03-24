@@ -463,6 +463,8 @@ input[type="search"]:focus {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  color: var(--colorNegro);
+  font-size: 2em;
 }
 
 .info {
