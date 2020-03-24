@@ -40,7 +40,6 @@
 <body>
   <!-- Boton de desplaxar hacia arriba -->
   <span class="arriba"><i class="fa fa-angle-up"></i></span>
-
   <!-- Barra de navegacion -->
   <header class="header">
     <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">

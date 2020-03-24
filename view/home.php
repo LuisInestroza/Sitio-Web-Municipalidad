@@ -9,52 +9,64 @@
   <p class="textoIndex">¡La ciudad más emocionante del Centro!</p>
   <div class="lugares">
     <div class="contenedor">
-      <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Escudo Oficial de Siguatepeque</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Escudo Oficial de Siguatepeque</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
     <div class="contenedor">
-      <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Bandera Oficial de Siguatepeque</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Bandera Oficial de Siguatepeque</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
     <div class="contenedor">
-      <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Plaza San Pedro Siguatepeque</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Plaza San Pedro Siguatepeque</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
     <div class="contenedor">
-      <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Parque Central de Siguatepeque</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Parque Central de Siguatepeque</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
     <div class="contenedor">
-      <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Plaza Civica La Amistad</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Plaza Civica La Amistad</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
     <div class="contenedor">
-      <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
-      <p style="text-align: center;">Información...</p>
-      <div class="informacion">
-        <p class="info">Bosque Calanterique</p>
-        <a href="">ver</a>
-      </div>
+      <a href="">
+        <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
+        <p style="text-align: center;">Información...</p>
+        <div class="informacion">
+          <p class="info">Bosque Calanterique</p>
+          <p>Ver</p>
+        </div>
+      </a>
     </div>
   </div>
   <div class="button">
@@ -66,16 +78,27 @@
     <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
     <div class="lugares">
       <div class="contenedorFiestas">
-        <img src="img/feriaSanPablo.png" alt="" srcset="">
-        <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
+        <a href="/view/Festivales/feriaPatronal.php">
+          <img src="img/feriaSanPablo.png" alt="" srcset="">
+          <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
+          <div class="informacion">
+            <p class="info">Ver</p>
+          </div>
+        </a>
+
       </div>
       <div class="contenedorFiestas">
-        <img src="img/festivalDeLasFLores.png" alt="" srcset="">
-        <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
+        <a href="/view/Festivales/fesivalFlores.php">
+          <img src="img/festivalDeLasFLores.png" alt="" srcset="">
+          <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
+        </a>
+
       </div>
       <div class="contenedorFiestas">
-        <img src="img/festivalDelPino.png" alt="" srcset="">
-        <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
+        <a href="/view/Festivales/festivalPino.php">
+          <img src="img/festivalDelPino.png" alt="" srcset="">
+          <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
+        </a>
       </div>
     </div>
   </div>

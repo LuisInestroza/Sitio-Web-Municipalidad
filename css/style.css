@@ -515,6 +515,14 @@ input[type="search"]:focus {
   border-radius: 0.5rem;
 }
 
+.contenedorFiestas:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+.contenedorFiestas:hover .informacion {
+  opacity: 100;
+  color: var(--colorNegro);
+}
 .contenedorFiestas img {
   /* Tamaño de la imagenes */
   width: 65%;
