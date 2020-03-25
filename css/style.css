@@ -777,7 +777,9 @@ input[type="search"]:focus {
 
 .imagenTurismo {
   width: 50%;
-  align-self: center;
+  /* align-self: center; */
+  margin: auto;
+  display: block;
 }
 
 @media (max-width: 768px) {
@@ -833,11 +835,19 @@ input[type="search"]:focus {
 
 .imagenUniversidad {
   width: 50%;
-  align-self: center;
+  /* align-self: center; */
+  margin: auto;
+  display: block;
 }
-
+.imagenFerias {
+  width: 50%;
+  /* align-self: center; */
+  margin: auto;
+  display: block;
+}
 @media (max-width: 768px) {
-  .imagenUniversidad {
+  .imagenUniversidad,
+  .imagenFerias {
     width: 100%;
     position: relative;
     padding: 20px;
