@@ -1,10 +1,10 @@
   <!-- footer -->
   <footer class="footer">
     <div class="">
-      <p>Links</p>
-      <div class="links">
-        <ul style="text-decoration: none;">
-          <li><a href="https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
+      <p class="tituloFooter">Links</p>
+      <div>
+        <ul>
+          <li><a href=" https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
           <li><a href="">Noticias</a></li>
           <li><a href="">Agenda</a></li>
           <li><a href="">Contacto</a></li>
@@ -12,8 +12,8 @@
       </div>
     </div>
     <div class="">
-      <p>Empresa</p>
       <div>
+        <p class="tituloFooter"> Empresa</p>
         <ul>
           <li><a href="/view/Empresa/mision.php">Misión</a></li>
           <li><a href="/view/Empresa/vision.php">Visión</a></li>
@@ -24,13 +24,12 @@
 
     <!-- Contenido de noticias -->
     <div class="">
-      <p>Noticias Recientes</p>
+      <p class="tituloFooter">Noticias Recientes</p>
     </div>
-
 
     <!-- Contenido de redes sociales -->
     <div class="contenedorRedes">
-      <p>Redes Sociales</p>
+      <p class="tituloFooter">Siguenos</p>
       <div class="links">
         <ul class="icons">
           <li>

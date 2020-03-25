@@ -19,7 +19,7 @@
     <div class="links">
       <ul class="icons">
         <li>
-          <a href="https://www.unicah.edu" class="fa fa-globe"></a>
+          <a href="https://www.unicah.edu" class="fa fa-globe-americas"></a>
         </li>
         <li>
           <a href="https://es-la.facebook.com/UNICAHCJS/  " class="fab fa-facebook"></a>
