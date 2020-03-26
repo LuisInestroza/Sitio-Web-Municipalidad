@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php
+  $tittle ="Univeridad Pedagógica Francisco Morazán - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 
 <!-- Contenido -->

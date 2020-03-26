@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php
+  $tittle ="Balneario Lake’s Aguas calientes - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 
 <div class="turismo">

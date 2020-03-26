@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Justicia Municipal - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <!-- Contenido de la navegación -->
 <div class="oficina">

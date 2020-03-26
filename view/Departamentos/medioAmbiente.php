@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Medio Ambiene - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 
 <!-- Contenido -->

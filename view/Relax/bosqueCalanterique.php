@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Bosque Calanterique- Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <div class="turismo">
   <p class="texto">Bosque Calanterique</p>

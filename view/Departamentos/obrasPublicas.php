@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php
+  $tittle ="Obras Publicas - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <!-- Contenido de obras publicas-->
 <div class="oficina">

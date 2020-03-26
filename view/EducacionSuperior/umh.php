@@ -1,5 +1,7 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php
+  $tittle ="Universidad Metropolitana de Honduras - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; ?>
 
 <!-- Contenido -->
 <div class="universidad">

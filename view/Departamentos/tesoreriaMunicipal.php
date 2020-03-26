@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Tesoria Municipal - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <!-- Div del contenido del departamento  -->
 

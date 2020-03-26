@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="UNACIFOR Siguatepeque Honduras - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 
 <!-- Contenido -->

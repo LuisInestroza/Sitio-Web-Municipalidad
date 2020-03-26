@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Control Tributario - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <!-- Div de datos del departamento -->
 <div class="oficina">

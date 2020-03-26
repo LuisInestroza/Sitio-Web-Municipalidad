@@ -1,5 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Oficina del Alcalde - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 <!-- Div de datos de la ofina del alcalde -->
 <div class="oficina">

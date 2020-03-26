@@ -1,6 +1,8 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
-
+<?php 
+  $tittle = "Centro Turistico Granja D’elia - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php';
+?>
 
 
 <!-- Contenido de los lugares turisticos -->

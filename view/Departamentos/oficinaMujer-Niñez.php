@@ -1,5 +1,7 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Oficina de la Mujer-Niñez - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; ?>
 
 <!-- Div de datos del departamento -->
 <div class="oficina">

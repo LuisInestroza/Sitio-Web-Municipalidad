@@ -1,9 +1,12 @@
 <!-- Header -->
-<?php require_once '../layouts/header.php'; ?>
+<?php 
+  $tittle ="Balneario Water Island - Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php'; 
+?>
 
 
 <div class="turismo">
-  <p class="texto">Balneario Lake’s Aguas calientes</p>
+  <p class="texto">Balneario Water Island</p>
   <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/waterislan2-1.jpg" alt=""
     class="imagenTurismo">
   <p class="contenido">
