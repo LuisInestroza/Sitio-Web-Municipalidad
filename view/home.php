@@ -1,3 +1,5 @@
+<title>Municipalidad de Siguatepeque</title>
+
 <!-- Banner -->
 <img class="banner" src="/img/banner2.png" alt="">
 
