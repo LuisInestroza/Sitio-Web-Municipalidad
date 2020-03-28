@@ -53,7 +53,7 @@
         <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
-          <p>Plaza Civica La Amistad</p>
+          <p>Plaza Cívica La Amistad</p>
           <p>Ver</p>
         </div>
       </a>
@@ -73,7 +73,7 @@
     <a href="">VER MAS LUGARES</a>
   </div>
 
-  <!-- Seccion de ferias y celebridades de siguatepeque -->
+  <!-- Sección de ferias y celebridades de Siguatepeque -->
   <div class="fiestas">
     <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
     <div class="lugares">
@@ -102,7 +102,7 @@
   </div>
 </div>
 
-<!-- Servicios para la ciudadania -->
+<!-- Servicios para la ciudadanía -->
 <div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
   <div class="servicios-contenedor">
     <p class="texto" style="text-align: center;font-weight: bold;">SERVICIOS PARA LA CIUDADANÍA.</p>
@@ -111,13 +111,12 @@
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <!-- <img src="img/escudoSiguatepeque.png" style="width:100%"> -->
         <div class="text">
           <p class="textoServicios">Servicios Regulares <br><br></p>
           <div>
             <ol>
               <li>Agua potable.</li>
-              <li>Alcantarillado sanitalio.</li>
+              <li>Alcantarillado sanitario.</li>
               <li>Recolección de basura</li>
               <li>Alumbrado público</li>
               <li>Limpieza de solares baldíos, calles, avenidas, parque</li>
@@ -137,14 +136,14 @@
         <div class="numbertext">2 / 3</div>
         <!-- <img src="img2.jpg" style="width:100%"> -->
         <div class="text">
-          <p class="textoServicios">Servicios Permamentes<br><br></p>
+          <p class="textoServicios">Servicios Permanentes<br><br></p>
           <div>
             <ol>
               <li>Mercados y abastos</li>
               <li>Rasto municipal de carnes</li>
               <li>Cementerio de propiedad y/o administración municipal</li>
               <li>Servicios para estacionamiento de vehículos</li>
-              <li>Utilizaciíon de bienes municipales o ejidales</li>
+              <li>Utilización de bienes municipales o ejidales</li>
               <li>Postes de teléfonos y torres de electricidad</li>
               <li>Tendido de alambre y cables de toda clase</li>
               <li>Espacios para rótulos</li>
@@ -165,14 +164,14 @@
           <div class="servicios-samp">
             <ol>
               <li>Autorización de libros contables otros</li>
-              <li>Permisos para apertura y operacón de negocios</li>
-              <li>Autorización y permisos para espectaculos públicos</li>
-              <li>Recepción por matrícula de vehiculos, trocos y armas de fuego, etc.</li>
-              <li>Tramitacón y celebración de matrimonios civiles</li>
-              <li>Permisos de contrucción, urbanizaciones, edificiones, adiciones y
+              <li>Permisos para apertura y operación de negocios</li>
+              <li>Autorización y permisos para espectáculos públicos</li>
+              <li>Recepción por matrícula de vehículos, trocos y armas de fuego, etc.</li>
+              <li>Tramitación y celebración de matrimonios civiles</li>
+              <li>Permisos de construcción, urbanizaciones, edificaciones, adiciones y
                 remodelaciones</li>
               <li>Autorización y permisos de instalación de antenas de comunicación</li>
-              <li>Servicios de inspecciónm avalúo, medición y elaboracón de planos</li>
+              <li>Servicios de inspección avalúo, medición y elaboración de planos</li>
               <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de
                 la
                 alcaldía</li>
@@ -200,7 +199,7 @@
   </div>
 </div>
 
-<!-- Seccion de noticias de la ciudad -->
+<!-- Sección de noticias de la ciudad -->
 <div class="noticias-ciudad">
   <div class="noticias-contenedor">
     <p class="texto">NOTICIAS DE CIUDAD</p>
@@ -208,12 +207,12 @@
 </div>
 
 
-<!-- Seccion de eventos -->
+<!-- Sección de eventos -->
 <div class="eventos-ciudad">
   <p class="texto">EVENTOS</p>
 </div>
 
-<!-- Seccion de comunicados -->
+<!-- Sección de comunicados -->
 <div class="comunicados-ciudad">
   <p class="texto">COMUNICADOS</p>
 </div>

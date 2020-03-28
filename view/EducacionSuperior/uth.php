@@ -1,13 +1,13 @@
 <!-- Header -->
 <?php 
-  $tittle ="Univerisidad Tecnologica de Honduras - Municipalidad de Siguatepeque";
+  $tittle ="Universidad Tecnológica de Honduras - Municipalidad de Siguatepeque";
   require_once '../layouts/header.php'; 
 ?>
 
 
 <!-- Contenido -->
 <div class="universidad">
-  <p class="texto">Universidad Tecnologica de Honduras</p>
+  <p class="texto">Universidad Tecnológica de Honduras</p>
   <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/uthlogo-e1573588651204.png" alt=""
     class="imagenUniversidad">
   <p class="contenido">
