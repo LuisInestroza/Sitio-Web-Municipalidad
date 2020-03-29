@@ -38,11 +38,9 @@ body {
 }
 /* Aside */
 aside {
-  /* display: inline-block; */
+  width: 20em;
   float: right;
-  /* position: -webkit-sticky; */
-  margin: 20px;
-  /* position: 125px auto auto auto; */
+  margin: 20px 5px 0px 5px;
 }
 
 aside p {
@@ -371,9 +369,17 @@ input[type="search"]:focus {
     text-decoration: none;
   }
 
+  .universidad {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    width: 100%;
+  }
+
   aside {
     float: none;
     margin: 20px;
+    display: inline-flex;
+    position: initial;
   }
   iframe {
     width: 100%;
