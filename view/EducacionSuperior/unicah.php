@@ -31,9 +31,7 @@
     </div>
     <p>Ubicación</p>
     <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15443.357535311456!2d-87.83542913569059!3d14.608223883254785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65950c2a62de1b%3A0x35ced69748e8107c!2sUniversidad%20Cat%C3%B3lica%20de%20Honduras!5e0!3m2!1ses!2shn!4v1583939606494!5m2!1ses!2shn"
-      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15443.357535311456!2d-87.83542913569059!3d14.608223883254785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65950c2a62de1b%3A0x35ced69748e8107c!2sUniversidad%20Cat%C3%B3lica%20de%20Honduras!5e0!3m2!1ses!2shn!4v1583939606494!5m2!1ses!2shn"></iframe>
   </aside>
 
   <div>

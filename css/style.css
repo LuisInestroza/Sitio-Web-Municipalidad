@@ -38,11 +38,16 @@ body {
 }
 /* Aside */
 aside {
+  padding: 40px;
+  background: cornflowerblue;
   width: 20em;
   float: right;
-  margin: 20px 5px 0px 5px;
+  margin: 100px 25px 0px 5px;
 }
 
+iframe {
+  width: 105%;
+}
 aside p {
   font-size: 1.2em;
   font-weight: bold;
@@ -899,6 +904,10 @@ input[type="search"]:focus {
   padding: 0;
 }
 
+.footer ul li a {
+  text-decoration: none;
+}
+
 .footer ul,
 a {
   text-decoration: none;
@@ -941,7 +950,7 @@ a {
 .contenedorContactos li a {
   padding: 10px;
   font-size: 2em;
-  color: var(--colorNegro);
+  color: var(--colorBlanco);
   text-decoration: none;
 }
 
