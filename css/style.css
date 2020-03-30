@@ -16,6 +16,9 @@
   --colorVerdeOpaco: #e8f3ff;
   --colorAzul: #0095de;
   --colorFondo: #f3f3f0;
+  --colorFacebook: #3a599d;
+  --colorTwitter: #00c1ff;
+  --colorInstagram: #ff2f47;
 }
 
 html {
@@ -38,11 +41,10 @@ body {
 }
 /* Aside */
 aside {
-  padding: 40px;
-  background: cornflowerblue;
+  padding: 20px 40px 0px 40px;
   width: 20em;
   float: right;
-  margin: 100px 25px 0px 5px;
+  margin: 30px 25px 0px 5px;
 }
 
 iframe {
@@ -52,6 +54,51 @@ aside p {
   font-size: 1.2em;
   font-weight: bold;
 }
+
+.iframe {
+  padding-top: 20px;
+}
+.contenedorContactos {
+  padding-bottom: 20px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+
+/* Contenedor de contactos */
+.contenedorContactos li {
+  display: inline;
+}
+
+/* Fondos de colores de cada etiqueta de contacto */
+.contenedorContactos li .fa.fa-globe-americas {
+  background-color: blue;
+}
+
+.contenedorContactos li .fab.fa-facebook {
+  background-color: var(--colorFacebook);
+}
+
+.contenedorContactos li .fab.fa-twitter {
+  background-color: var(--colorTwitter);
+}
+
+.contenedorContactos li .fab.fa-instagram {
+  background-color: var(--colorInstagram);
+}
+
+/* ----------------------------------------------- */
+.contenedorContactos li a {
+  padding: 10px;
+  font-size: 2em;
+  color: var(--colorBlanco);
+  text-decoration: none;
+}
+
+.contenedorContactos {
+  grid-row: 2/2;
+  grid-column: 3 / 3;
+}
+/*  */
 
 /* Banner de la imagen */
 .banner {
@@ -866,8 +913,9 @@ input[type="search"]:focus {
 }
 
 .imagenUniversidad {
-  width: 50%;
+  width: 15em;
   /* align-self: center; */
+
   margin: auto;
   display: block;
 }
@@ -941,24 +989,6 @@ a {
   grid-row: 2/2;
   grid-column: 3 / 3;
 }
-
-/* Contenedor de contactos */
-.contenedorContactos li {
-  display: inline;
-}
-
-.contenedorContactos li a {
-  padding: 10px;
-  font-size: 2em;
-  color: var(--colorBlanco);
-  text-decoration: none;
-}
-
-.contenedorContactos {
-  grid-row: 2/2;
-  grid-column: 3 / 3;
-}
-/*  */
 
 .footer a {
   color: var(--colorNegro);
