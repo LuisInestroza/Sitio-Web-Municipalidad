@@ -41,10 +41,10 @@ body {
 }
 /* Aside */
 aside {
-  padding: 20px 40px 0px 40px;
+  padding: 40px 40px 40px 40px;
   width: 20em;
   float: right;
-  margin: 30px 25px 0px 5px;
+  margin: 30px 100px 0px 5px;
 }
 
 iframe {
@@ -56,12 +56,39 @@ aside p {
 }
 
 .iframe {
-  padding-top: 20px;
+  padding: 20px 0px 40px 0px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
 }
 .contenedorContactos {
   padding-bottom: 20px;
   border-bottom-width: 2px;
   border-bottom-style: solid;
+}
+
+.carreras {
+  padding: 20px 0px 0px 0px;
+  margin: 0px -120px 0px 0px;
+}
+.carreras p {
+  font-weight: bold;
+}
+
+.carreras ul {
+  padding: 0px 0px 0px 40px;
+}
+.carreras ul li {
+  padding: 5px;
+}
+.carreras ul li a {
+  /* font-size: 1.1em; */
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--colorNegro);
+}
+
+.carreras ul li a:hover {
+  color: var(--colorAzul);
 }
 
 /* Contenedor de contactos */
@@ -70,7 +97,7 @@ aside p {
 }
 
 /* Fondos de colores de cada etiqueta de contacto */
-.contenedorContactos li .fa.fa-globe-americas {
+.contenedorContactos li .fas.fa-globe {
   background-color: blue;
 }
 
@@ -435,6 +462,14 @@ input[type="search"]:focus {
   }
   iframe {
     width: 100%;
+  }
+  .carreras ul {
+    font-size: 0.9em;
+    padding: 0px 0px 0px 0px;
+    /* margin: 0; */
+  }
+  .carreras ul li a:focus {
+    color: var(--colorAzul);
   }
 }
 
@@ -827,8 +862,10 @@ input[type="search"]:focus {
 }
 
 .contenido {
-  margin-left: 20px;
-  margin-right: 20px;
+  /* margin-left: 20px; */
+  /* margin-right: 20px; */
+  text-align: justify;
+  margin: 0px 10em 20px 40px;
 }
 @media (max-width: 768px) {
   .imagenDepto {
