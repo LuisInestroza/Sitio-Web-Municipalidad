@@ -162,15 +162,17 @@ aside p {
 /* Logo */
 .logo {
   display: block;
-  /* margin-left: auto; */
-  /* margin-right: auto; */
-  /* padding-top: 30px; */
-  /* width: 7%; */
   position: absolute;
   left: 60px;
   top: 10px;
   width: 6.5%;
 }
+@media (max-width: 768px) {
+  .logo {
+    width: 2.4em;
+  }
+}
+/* ---------------------------- */
 
 .fa.fa-bars {
   display: none;
@@ -535,14 +537,6 @@ input[type="search"]:focus {
     margin-bottom: 30px;
     width: 70%;
     right: 50px;
-  }
-  .logo {
-    /* right: 0px; */
-    /* left: 170px; */
-    width: 2.4em;
-    /* top: 6px; */
-    /* max-width: 100%; */
-    /* height: auto; */
   }
 }
 
