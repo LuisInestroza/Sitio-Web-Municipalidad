@@ -140,23 +140,25 @@ aside p {
   height: 450px;
   z-index: -1;
 }
+
+/* Botón de arriba */
 .arriba {
   display: none;
   padding: 5px 20px 5px 20px;
-  background: #007dd3;
+  background-color: #007dd3;
   font-size: 2.1em;
   cursor: pointer;
   position: fixed;
   bottom: 20px;
   right: 20px;
   border-radius: 30px;
+  text-transform: none;
 }
 .arriba i {
   color: #ffffff;
 }
-.banner {
-  opacity: 60%;
-}
+/* --------------------------- */
+
 /* Logo */
 .logo {
   display: block;
@@ -241,7 +243,7 @@ header {
 
 header nav ul li:hover {
   /* background: var(--colorVerde); */
-  text-decoration: solid underline var(--colorVerde) 4px;
+  /* text-decoration: solid underline var(--colorVerde) 4px; */
 }
 
 header nav ul li .children {
@@ -545,11 +547,11 @@ input[type="search"]:focus {
 }
 
 /* Contenido de las imágenes */
-.contenedor {
+.educacionSuperior .contenedor {
   border: 5px solid var(--colorNegro);
 }
 
-.contenedor img {
+.educacionSuperior .contenedor img {
   /* Tamaño de la imágenes */
   width: 250px;
   height: 250px;
