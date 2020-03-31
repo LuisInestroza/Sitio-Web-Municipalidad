@@ -1,7 +1,4 @@
 /* Estilos principales del css */
-
-@import "https://use.fontawesome.com/releases/v5.7.2/css/all.css";
-
 :root {
   /* Estilo de la letra */
   /* --fuentePrincipal: "Roboto", sans-serif; */
@@ -188,9 +185,28 @@ aside p {
   margin-top: 0px;
 }
 
+/* Mensaje responsive */
 .msg {
   display: none;
 }
+@media (max-width: 768px) {
+  .msg {
+    display: block;
+    float: left;
+    margin-left: 109px;
+    margin-top: -1px;
+    margin-bottom: 0px;
+    position: relative;
+    font-size: 0.9rem;
+    font-weight: bold;
+    left: 1px;
+    top: 9px;
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-left: 10px;
+  }
+}
+/* -------------------------- */
 .texto {
   padding: 20px 0px 0px 0px;
   text-align: center;
@@ -525,22 +541,6 @@ input[type="search"]:focus {
     /* top: 6px; */
     /* max-width: 100%; */
     /* height: auto; */
-  }
-
-  .msg {
-    display: block;
-    float: left;
-    margin-left: 109px;
-    margin-top: -1px;
-    margin-bottom: 0px;
-    position: relative;
-    font-size: 0.9rem;
-    font-weight: bold;
-    left: 1px;
-    top: 9px;
-    border-left-width: 2px;
-    border-left-style: solid;
-    padding-left: 10px;
   }
 }
 

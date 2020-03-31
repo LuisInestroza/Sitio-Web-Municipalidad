@@ -12,7 +12,7 @@
     <div class="contenedor">
       <a href="/view/EducacionSuperior/uth.php">
         <img src="/img/logosUniversidades/logoUTH.png" alt="" class="imagen">
-        <p>Universidad Técnologica de Honduras</p>
+        <p>Universidad Tecnológica de Honduras</p>
       </a>
     </div>
     <div class="contenedor">
