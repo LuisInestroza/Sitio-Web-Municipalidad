@@ -1,6 +1,6 @@
 <?php  
 
-  // itulo de la pagina 
+  // Titulo de la pagina 
   $tittle = "Municipalidad de Siguatepeque";
   // Iniciar valores de la pagina
   require_once 'view/layouts/header.php';
