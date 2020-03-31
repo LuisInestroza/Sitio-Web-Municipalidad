@@ -503,6 +503,7 @@ input[type="search"]:focus {
   }
   .contenedor {
     grid-column: 1/4;
+    width: 100%;
   }
   .buscar {
     margin-top: 90px;
@@ -534,13 +535,29 @@ input[type="search"]:focus {
 }
 
 /* Contenido de las imágenes */
+.contenedor {
+  border: 5px solid var(--colorNegro);
+}
+
 .contenedor img {
   /* Tamaño de la imágenes */
-  width: 100%;
+  width: 400px;
+  height: 400px;
   align-items: unset;
   opacity: 1;
   grid-column: 1 /3;
   display: block;
+  background: #f7f7f4;
+}
+
+@media (max-width: 768px) {
+  .contenedor img {
+    height: 100%;
+    width: 100%;
+  }
+  .educacionSuperior .contenedor p {
+    font-size: 1em;
+  }
 }
 
 .lugares {
@@ -945,8 +962,28 @@ input[type="search"]:focus {
   padding: 20px;
 }
 
+.educacionSuperior .contenedor a {
+  text-decoration: none;
+  color: var(--colorNegro);
+}
+
+.educacionSuperior .contenedor p {
+  background: var(--colorAzul);
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .educacionSuperior .contenedor p {
+    font-weight: bold;
+    width: auto;
+  }
+}
+
 .educacionSuperior p {
   text-align: center;
+  padding: 10px 0px 10px 0px;
+  margin: 0;
+  font-size: 1.3em;
 }
 
 .imagenUniversidad {
@@ -1030,7 +1067,10 @@ a {
 .footer a {
   color: var(--colorNegro);
 }
-
+.footer .copy {
+  margin: 40px 0px 0px 0px;
+  margin-right: -180px;
+}
 @media (max-width: 768px) {
   .footer {
     grid-row: 1/ 1;
@@ -1040,5 +1080,8 @@ a {
   }
   .footer p {
     margin: 0px;
+  }
+  .footer .copy {
+    margin: auto;
   }
 }

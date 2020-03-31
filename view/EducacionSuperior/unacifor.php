@@ -8,8 +8,7 @@
 <!-- Contenido -->
 <div class="universidad">
   <p class="texto">UNACIFOR Siguatepeque Honduras</p>
-  <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/LOGOUNACIFOR-e1573590546926.png" alt=""
-    class="imagenUniversidad">
+  <img src="/img/logosUniversidades/logoUnacifor.png" alt="" class="imagenUniversidad">
   <p class="contenido">
     Formar profesionales de la más alta calificación técnico-práctica en
     administración de los recursos naturales, ambiente, desarrollo sostenible,

@@ -47,7 +47,7 @@
         </ul>
       </div>
     </div>
-    <p>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
+    <p class="copy">Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
   </footer>
   </body>
 

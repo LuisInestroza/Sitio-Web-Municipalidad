@@ -78,27 +78,9 @@
       Somos una gran familia educativa y nuestro pilar fundamental la formación Católica. El compromiso por la
       excelencia académica nos lleva a mejorar en forma continua los servicios de educación que brindamos, basándonos en
       nuestros valores fundamentales.
-
     </p>
-
   </div>
-
-
-
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!-- footer -->
 <?php require_once '../layouts/footer.php'; ?>
