@@ -201,7 +201,7 @@ aside p {
     font-weight: bold;
     left: 1px;
     top: 9px;
-    border-left-width: 1px;
+    border-left-width: 2px;
     border-left-style: solid;
     padding-left: 10px;
   }
@@ -974,7 +974,6 @@ input[type="search"]:focus {
     grid-column: 4/1;
     grid-gap: 1rem;
     text-align: -moz-center;
-    text-align: -web-center;
     margin: 0px;
   }
 }
