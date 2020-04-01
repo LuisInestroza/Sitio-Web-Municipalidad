@@ -38,7 +38,7 @@ body {
 }
 /* Aside */
 aside {
-  padding: 40px 40px 40px 40px;
+  padding: 40px 40px 30px 40px;
   width: 20em;
   float: right;
   margin: 30px 100px 0px 5px;
@@ -241,11 +241,6 @@ header {
   z-index: 1000;
   width: 100%;
   opacity: 1;
-}
-
-header nav ul li:hover {
-  /* background: var(--colorVerde); */
-  /* text-decoration: solid underline var(--colorVerde) 4px; */
 }
 
 header nav ul li .children {
@@ -473,12 +468,6 @@ input[type="search"]:focus {
     padding: 20px 20px;
     color: var(--colorBlanco);
     text-decoration: none;
-  }
-
-  .universidad {
-    display: flex;
-    flex-flow: row wrap-reverse;
-    width: 100%;
   }
 
   aside {
@@ -1008,6 +997,20 @@ input[type="search"]:focus {
   font-weight: bold;
   font-size: 0.8em;
   height: 60px;
+}
+
+/* Contenido universidad */
+.universidad {
+  padding: 0px 0px 60px 0px;
+}
+
+@media (max-width: 768px) {
+  .universidad {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    width: 100%;
+    padding: 0px;
+  }
 }
 
 /* ----------------------------------- */

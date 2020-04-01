@@ -1,7 +1,7 @@
 <!-- Header -->
-<?php 
-  $tittle = "Universidad Católica de Honduras - Municipalidad de Siguatepeque";
-  require_once '../layouts/header.php'; 
+<?php
+$tittle = "Universidad Católica de Honduras - Municipalidad de Siguatepeque";
+require_once '../layouts/header.php';
 ?>
 
 
