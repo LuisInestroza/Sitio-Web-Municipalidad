@@ -44,7 +44,7 @@
   <header class="header">
     <img class=" logo" src="/img/logoMuni.png" alt="" srcset="">
     <!-- Llamar a la variable -->
-    <p class="msg">Municiaplidad de Siguatepeque <br>
+    <p class="msg">Municipalidad de Siguatepeque <br>
       Gobierno Municipal (2018-2020)</p>
     <!-- Final -->
     <input type="checkbox" id="btn-menu" />
