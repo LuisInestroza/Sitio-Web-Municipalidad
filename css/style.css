@@ -930,7 +930,7 @@ input[type="search"]:focus {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   max-width: 1200px;
-  width: 50%;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -943,7 +943,7 @@ input[type="search"]:focus {
 }
 @media (max-width: 768px) {
   .educacionSuperior {
-    margin: 0;
+    margin: 20px 0px 0 10px;
   }
 }
 .educacionSuperior p:hover {
@@ -969,7 +969,7 @@ input[type="search"]:focus {
   }
   .educacionSuperior .contenedor img {
     height: 354px;
-    width: 341px;
+    width: 354px;
   }
 }
 /* ------------------------------------------------------ */
