@@ -1,52 +1,51 @@
 <!-- Header -->
-<?php 
-  $tittle ="Educación Superior - Municipalidad de Siguatepeque";
-  require_once '../layouts/header.php'; 
+<?php
+$tittle = "Educación Superior - Municipalidad de Siguatepeque";
+require_once '../layouts/header.php';
 ?>
 
 
 <!-- Contenido de educación superior -->
-<div>
+<div class="lista-universidades">
   <p class="texto">Universidades En Siguatepeque</p>
   <div class="educacionSuperior">
     <div class="contenedor">
       <a href="/view/EducacionSuperior/uth.php">
-        <img src="/img/logosUniversidades/logoUTH.png" alt="" class="imagen">
-        <p>Universidad Tecnológica de Honduras</p>
+        <img src="/img/logosUniversidades/logoUTH.png" alt="">
+        <p class="nombreUniversidad">Universidad Tecnológica de Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/umh.php">
-        <img src="/img/logosUniversidades/logoUMH.png" alt="" class="imagen">
+        <img src="/img/logosUniversidades/logoUMH.png" alt="">
 
-        <p>Universidad Metropolitana de Honduras</p>
+        <p class="nombreUniversidad">Universidad Metropolitana de Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unacifor.php">
-        <img src="/img/logosUniversidades/logoUnacifor.png" alt="" class="imagen">
-
-        <p>UNACIFOR Siguatepeque Honduras</p>
+        <img src="/img/logosUniversidades/logoUnacifor.png" alt="">
+        <p class="nombreUniversidad">UNACIFOR Siguatepeque Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/upnfm.php">
-        <img src="/img/logosUniversidades/logoUPNFM.png" alt="" class="imagen">
+        <img src="/img/logosUniversidades/logoUPNFM.png" alt="">
 
-        <p>Universidad Pedagógica Francisco Morazán</p>
+        <p class="nombreUniversidad">Universidad Pedagógica Francisco Morazán</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unah.php">
-        <img src="/img/logosUniversidades/logoUNAH.jpg" alt="" class="imagen">
+        <img src="/img/logosUniversidades/logoUNAH.png" alt="">
 
-        <p>UNAH-CRAED Siguatepeque Honduras</p>
+        <p class="nombreUniversidad">UNAH-CREAD Siguatepeque Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unicah.php">
-        <img src="/img/logosUniversidades/logoUnicah.png" alt="" class="imagen">
-        <p>Universidad Católica de Honduras</p>
+        <img src="/img/logosUniversidades/logoUnicah.png" alt="">
+        <p class="nombreUniversidad">Universidad Católica de Honduras</p>
       </a>
     </div>
   </div>

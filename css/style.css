@@ -36,6 +36,7 @@ body {
   line-height: 1.5;
   min-height: 100%;
 }
+
 /* Aside */
 aside {
   padding: 40px 40px 30px 40px;
@@ -50,6 +51,9 @@ iframe {
 aside p {
   font-size: 1.2em;
   font-weight: bold;
+}
+img {
+  max-width: 100%;
 }
 
 .iframe {
@@ -517,10 +521,7 @@ input[type="search"]:focus {
     position: relative;
     padding-top: 230px;
   }
-  .contenedor {
-    grid-column: 1/4;
-    width: 100%;
-  }
+
   .buscar {
     margin-top: 90px;
     margin-bottom: 30px;
@@ -530,25 +531,6 @@ input[type="search"]:focus {
 }
 
 /* Contenido de las imágenes */
-.educacionSuperior .contenedor {
-  border: 5px solid var(--colorNegro);
-}
-
-.educacionSuperior .contenedor img {
-  /* Tamaño de la imágenes */
-  width: 250px;
-  height: 250px;
-  align-items: center;
-  opacity: 1;
-  grid-column: 1 /3;
-  background: #f7f7f4;
-}
-
-@media (max-width: 768px) {
-  .educacionSuperior .contenedor p {
-    font-size: 1em;
-  }
-}
 
 .lugares {
   /* Posicionar las imágenes en columnas */
@@ -557,13 +539,6 @@ input[type="search"]:focus {
   grid-gap: 2rem;
   padding-left: 30px;
   padding-right: 30px;
-}
-
-/* metodo hover */
-.contenedor {
-  /* Centrar la imagenes en el centro */
-  align-self: center;
-  position: relative;
 }
 
 .imagen {
@@ -944,60 +919,60 @@ input[type="search"]:focus {
   }
 }
 
-/* Estilo de  educacion superior*/
+/* ---------------------------------------------------- */
+/* -------- Estilo de  educación superior --------------*/
+/* ---------------------------------------------------- */
+.lista-universidades {
+  padding: 20px;
+}
 .educacionSuperior {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-  padding: 20px;
-  text-align: center;
-  margin: 0px 180px 0px 180px;
-}
-@media (max-width: 768px) {
-  .educacionSuperior {
-    display: grid;
-    grid-column: 4/1;
-    grid-gap: 1rem;
-    text-align: -moz-center;
-    margin: 0px;
-  }
-}
-.educacionSuperior .contenedor {
-  width: 260px;
-  height: 320px;
-}
-@media (max-width: 768px) {
-  .educacionSuperior .contenedor {
-    width: auto;
-    height: auto;
-  }
-}
-.educacionSuperior .contenedor a {
-  text-decoration: none;
-  color: var(--colorNegro);
-}
-
-.educacionSuperior .contenedor p {
-  background: var(--colorAzul);
-  width: auto;
-}
-
-@media (max-width: 768px) {
-  .educacionSuperior .contenedor p {
-    font-weight: bold;
-    height: auto;
-    padding: 20px;
-  }
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  max-width: 1200px;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .educacionSuperior p {
   text-align: center;
-  padding: 20px 0px 0px 0px;
-  margin: 0;
-  font-weight: bold;
-  font-size: 0.8em;
-  height: 60px;
+  color: var(--colorNegro);
+  line-height: 1.2;
+  font-weight: bolder;
+  padding: 1rem 0px 0px 0px;
 }
+@media (max-width: 768px) {
+  .educacionSuperior {
+    margin: 0;
+  }
+}
+.educacionSuperior p:hover {
+  color: var(--colorBlanco);
+}
+.educacionSuperior .contenedor {
+  background: var(--colorAzul);
+  padding: 1rem;
+}
+
+.educacionSuperior .contenedor img {
+  height: 150px;
+  width: 150px;
+}
+
+.educacionSuperior .nombreUniversidad {
+  font-size: 1rem;
+}
+@media (min-width: 768px) {
+  .educacionSuperior {
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .educacionSuperior .contenedor img {
+    height: 354px;
+    width: 341px;
+  }
+}
+/* ------------------------------------------------------ */
 
 /* Contenido universidad */
 .universidad {
