@@ -15,7 +15,8 @@
   --colorFondo: #f3f3f0;
   --colorFacebook: #3a599d;
   --colorTwitter: #00c1ff;
-  --colorInstagram: #ff2f47;
+  --colorInstagram: #d42f99;
+  --colorYouTube: #ff380b;
 }
 
 html {
@@ -38,11 +39,19 @@ body {
 }
 
 /* Aside */
+
 aside {
   padding: 40px 40px 30px 40px;
   width: 20em;
   float: right;
   margin: 30px 100px 0px 5px;
+  height: 1200px;
+}
+
+@media (max-width: 768px) {
+  aside {
+    height: auto;
+  }
 }
 
 iframe {
@@ -121,10 +130,14 @@ img {
   background-color: var(--colorInstagram);
 }
 
+.contenedorContactos li .fab.fa-youtube {
+  background-color: var(--colorYouTube);
+}
+
 /* ----------------------------------------------- */
 .contenedorContactos li a {
   padding: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   color: var(--colorBlanco);
   text-decoration: none;
 }
@@ -1016,6 +1029,7 @@ input[type="search"]:focus {
 /* ------------------- */
 
 .footer {
+  /* position: absolute; */
   background: var(--colorVerde);
   display: grid;
   color: var(--colorBlanco);

@@ -10,7 +10,7 @@
   <div class="lugares">
     <div class="contenedor">
       <a href="">
-        <img src="img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
+        <img src="/img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
         <div class="informacion">
           <p>Escudo Oficial de Siguatepeque</p>
