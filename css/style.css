@@ -45,7 +45,7 @@ aside {
   width: 20em;
   float: right;
   margin: 30px 100px 0px 5px;
-  height: 1200px;
+  /* height: 1200px; */
 }
 
 @media (max-width: 768px) {
@@ -860,7 +860,7 @@ input[type="search"]:focus {
   /* margin-left: 20px; */
   /* margin-right: 20px; */
   text-align: justify;
-  margin: 0px 10em 20px 40px;
+  margin: 30px 30em 20px 40px;
 }
 @media (max-width: 768px) {
   .imagenDepto {
@@ -1036,8 +1036,12 @@ input[type="search"]:focus {
   text-decoration: none;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2em;
+  bottom: 0;
+  width: 100%;
   font-size: 1.1em;
   padding: 40px 80px 20px 80px;
+  clear: both;
+  padding-top: 20px;
 }
 .footer ul {
   padding: 0;

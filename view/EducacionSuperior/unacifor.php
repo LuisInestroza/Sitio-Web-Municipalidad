@@ -47,65 +47,7 @@ require_once '../layouts/header.php';
         <li><a href="http://www.unacifor.edu.hn/?page_id=2125">Ingeniería En Ciencias Forestales</a></li>
         <li><a href="http://www.unacifor.edu.hn/?page_id=2515">Ingeniería En Energías Renovables</a></li>
         <li><a href="http://www.unacifor.edu.hn/?page_id=1803">Ingeniería En Industrias Y Negocios de la Madera</a></li>
-        <li>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi modi nisi dignissimos. Praesentium nulla
-            perferendis similique inventore iste, ipsa saepe, dolor excepturi omnis obcaecati quod neque repudiandae
-            consequatur aperiam laboriosam?</p>
-        </li>
-        <li>
-          <p>Temporibus corporis, nihil numquam blanditiis ut amet unde vitae laudantium, reprehenderit fugiat nam
-            tempora animi cum soluta provident itaque molestiae consequatur molestias ex totam? Consequatur harum
-            laborum maxime suscipit non.</p>
-        </li>
-        <li>
-          <p>Itaque, excepturi cupiditate sint sed aspernatur accusantium expedita totam incidunt fuga nam, minus, dicta
-            dolor quas dolorem vitae earum! Tenetur sapiente libero perspiciatis omnis error aspernatur alias fugiat
-            voluptatibus ducimus?</p>
-        </li>
-        <li>
-          <p>Ipsa, laudantium. Illo recusandae reprehenderit dolorum aut ullam a reiciendis consequuntur totam amet
-            nulla, adipisci, ea explicabo fugiat ipsum quos doloremque. Possimus ex voluptas fugiat doloribus cum atque
-            omnis voluptates.</p>
-        </li>
-        <li>
-          <p>Officia similique sunt quod aliquam atque adipisci excepturi, deserunt dolorem rem sequi. Reprehenderit
-            nihil ut quo obcaecati sapiente dignissimos rerum quia ipsum excepturi sequi necessitatibus libero iste,
-            repudiandae vero ea.</p>
-        </li>
-        <li>
-          <p>Sit nostrum atque ut doloribus beatae a dolores voluptate, soluta id quas consequatur commodi voluptatibus
-            alias odio corporis ipsum dolorum minima cum eos pariatur accusantium vitae minus laborum. Nesciunt,
-            laboriosam!</p>
-        </li>
-        <li>
-          <p>Sit quae consequatur itaque, dolore fugiat, maiores doloremque corporis officiis perferendis, aliquid
-            quibusdam. Ad quidem, debitis dolore rem provident iste, a nostrum accusamus corrupti maiores nulla mollitia
-            sed, possimus tempore.</p>
-        </li>
-        <li>
-          <p>Incidunt, voluptas fugit. Odio debitis explicabo, eos quas quos voluptatem veritatis omnis ut, natus itaque
-            nihil ipsa consequatur voluptatum laborum, in dignissimos! Vero, ipsum magni! Excepturi ab cupiditate cumque
-            fugit?</p>
-        </li>
-        <li>
-          <p>Eum, qui, aliquam eveniet saepe unde distinctio laudantium at error voluptatum ratione eos adipisci? Minus
-            explicabo repellendus veritatis iusto commodi quibusdam officiis, voluptas doloribus eius sint est
-            architecto perferendis facere.</p>
-        </li>
-        <li>
-          <p>Quo repudiandae error esse ab, iusto nisi reiciendis architecto saepe ullam dolorum molestias commodi,
-            blanditiis iste nemo voluptatum cum accusantium facilis nobis eos recusandae sed, dolore tenetur nihil.
-            Fugiat, maxime.</p>
-        </li>
-        <li>
-          <p>Facilis, blanditiis. Voluptates ut, eaque laboriosam corporis amet non sequi quod nesciunt quam accusamus,
-            pariatur id, excepturi quia! Earum quia, consequatur temporibus accusantium beatae repudiandae tempore
-            dicta. Sunt, repellendus quos.</p>
-        </li>
-        <li>
-          <p>Culpa sapiente libero numquam, aut nemo nihil eum deserunt iusto ut expedita cumque dicta! Natus nemo neque
-            assumenda eveniet, autem facere quo numquam nostrum nobis quae praesentium mollitia libero quaerat.</p>
-        </li>
+
 
       </ul>
     </div>
@@ -140,7 +82,9 @@ require_once '../layouts/header.php';
       Ambiente, sirviendo con altos estándares de calidad, excelencia y liderazgo, con incidencia significativa en el
       desarrollo de la sociedad”.
 
+
   </div>
+
 
 
 
