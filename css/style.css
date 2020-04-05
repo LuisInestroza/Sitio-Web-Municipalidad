@@ -1039,9 +1039,8 @@ input[type="search"]:focus {
   bottom: 0;
   width: 100%;
   font-size: 1.1em;
-  padding: 40px 80px 20px 80px;
+  padding: 20px 80px 20px 80px;
   clear: both;
-  padding-top: 20px;
 }
 .footer ul {
   padding: 0;
@@ -1090,7 +1089,7 @@ a {
 }
 .footer .copy {
   margin: 40px 0px 0px 0px;
-  margin-right: -180px;
+  margin-right: -220px;
 }
 @media (max-width: 768px) {
   .footer {

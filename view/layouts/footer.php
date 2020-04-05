@@ -1,7 +1,7 @@
   <!-- footer -->
   <footer class="footer">
     <div class="">
-      <p class="tituloFooter">Links</p>
+      <p class="tituloFooter"><b>Links</b></p>
       <div>
         <ul>
           <li><a href=" https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
@@ -13,7 +13,7 @@
     </div>
     <div class="">
       <div>
-        <p class="tituloFooter"> Empresa</p>
+        <p class="tituloFooter"><b>Empresa</b></p>
         <ul>
           <li><a href="/view/Empresa/mision.php">Misión</a></li>
           <li><a href="/view/Empresa/vision.php">Visión</a></li>
@@ -24,12 +24,12 @@
 
     <!-- Contenido de noticias -->
     <div class="">
-      <p class="tituloFooter">Noticias Recientes</p>
+      <p class="tituloFooter"><b>Noticias Recientes</b></p>
     </div>
 
     <!-- Contenido de redes sociales -->
     <div class="contenedorRedes">
-      <p class="tituloFooter">Siguenos</p>
+      <p class="tituloFooter"><b>Síguenos</b></p>
       <div class="links">
         <ul class="icons">
           <li>
@@ -47,7 +47,7 @@
         </ul>
       </div>
     </div>
-    <p class="copy">Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</p>
+    <p class="copy"> <b>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</b> </p>
   </footer>
   </body>
 

@@ -85,9 +85,6 @@ require_once '../layouts/header.php';
 
   </div>
 
-
-
-
 </div>
 
 <!-- footer -->
