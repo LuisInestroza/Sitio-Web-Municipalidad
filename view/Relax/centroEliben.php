@@ -14,16 +14,13 @@
       <div class="links">
         <ul class="icons">
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="https://www.facebook.com/centroturistico.eliben" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="https://es-la.facebook.com/UNICAHCJS/  " class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="https://twitter.com/unicahjs" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/unicahcjs/" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>

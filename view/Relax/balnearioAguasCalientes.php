@@ -14,16 +14,13 @@
       <div class="links">
         <ul class="icons">
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="https://www.facebook.com/Lekessiguatepeque/" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/centrorecreativolekes/?hl=es-la" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>
@@ -41,6 +38,18 @@
     <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/lakes1-1.jpg" alt=""
       class="imagenTurismo">
     <p class="contenido">
+      Centro Recreativo Leke’s:
+    </p>
+    <ul>
+      <li>Piscina</li>
+      <li>Salon para eventos</li>
+      <li>Vivero</li>
+    </ul>
+    <p class="contenido">
+      Un lugar para disfrutar en familia.
+      <br><br>
+      Un centro familiar ubicado en la hermosa Ciudad De Siguatepeque, que permite realizar tus eventos y demás
+      actividades.
     </p>
 
   </div>

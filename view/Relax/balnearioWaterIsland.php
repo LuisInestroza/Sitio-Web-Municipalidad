@@ -14,17 +14,15 @@
       <p>Contactos</p>
       <div class="links">
         <ul class="icons">
+
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="https://www.facebook.com/Water-Island-Siguatepeque-1391323324433228/" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/waterislandsigua/?hl=es-la" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>
@@ -44,6 +42,12 @@
       class="imagenTurismo">
 
     <p class="contenido">
+      Somos un centro de recreación contamos con: piscinas con toboganes para adultos y niños, restaurante y bar, áreas
+      de juegos, champas típicas para tu comodidad y descanso, salón para eventos y mucho más.
+
+      <br><br>
+      Piscinas con toboganes para adultos y niños, restaurante y bar, áreas de juegos, champas típicas para tu comodidad
+      y descanso, salón para eventos y mucho más.
     </p>
 
   </div>
