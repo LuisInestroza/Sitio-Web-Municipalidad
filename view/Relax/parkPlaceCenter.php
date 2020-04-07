@@ -15,16 +15,17 @@
       <div class="links">
         <ul class="icons">
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="http://www.parkplacehotelhn.com/" class="fas fa-globe"></a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/parkplacehotelsiguatepeque/" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/parkplacehotel/" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>
