@@ -48,6 +48,19 @@
       <br><br>
       Somos el único Hotel con Cine en Honduras, ven a descubrirlo. Tenemos piscina y servicio de restaurante disponible
       <br><br>
+      El Park Place Hotel está situado en Siguatepeque. El establecimiento cuenta con restaurante, servicio de
+      habitaciones, salón compartido y WiFi gratuita en todas las instalaciones. El hotel cuenta con piscina al aire
+      libre, centro de fitness, karaoke y recepción 24 horas.
+
+      Las habitaciones cuentan con escritorio, TV de pantalla plana y baño privado. Las habitaciones del Park Place
+      Hotel incluyen aire acondicionado y armario.
+
+      Los huéspedes pueden disfrutar de un desayuno inglés/irlandés completo.
+
+      El Park Place Hotel alberga un parque infantil. El hotel cuenta con mesa de ping pong.
+
+
+      <br><br>
       General InformationPuedes llamarnos a nuestro Celular también (504)97100269
     </p>
   </div>
