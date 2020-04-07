@@ -580,10 +580,6 @@ input[type="search"]:focus {
   font-size: 1rem;
 }
 
-.contenedor:hover .imagen {
-  opacity: 0.3;
-}
-
 .contenedor:hover .informacion {
   opacity: 1;
 }
@@ -915,12 +911,15 @@ input[type="search"]:focus {
 }
 
 /* ---------------------------------------------------- */
-/* -------- Estilo de  educación superior --------------*/
+/* -------- Estilo de  educación superior  --------------*/
+/* -------- Estilo de lugares turisticos----------------- */
 /* ---------------------------------------------------- */
-.lista-universidades {
+.lista-universidades,
+.lista-lugares {
   padding: 20px;
 }
-.educacionSuperior {
+.educacionSuperior,
+.lugares {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -930,6 +929,14 @@ input[type="search"]:focus {
 }
 
 .educacionSuperior p {
+  text-align: center;
+  color: var(--colorNegro);
+  line-height: 1.2;
+  font-weight: bolder;
+  padding: 1rem 0px 0px 0px;
+}
+
+.lugares p {
   text-align: center;
   color: var(--colorNegro);
   line-height: 1.2;
@@ -949,7 +956,11 @@ input[type="search"]:focus {
   padding: 1rem;
 }
 
-.educacionSuperior .contenedor img {
+.lugares .contenedor {
+  background: var(--colorAzul);
+  padding: 1rem;
+}
+.educacionSuperior .lugares .contenedor img {
   height: 150px;
   width: 150px;
 }
@@ -958,11 +969,17 @@ input[type="search"]:focus {
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  .educacionSuperior {
+  .educacionSuperior,
+  .lugares {
     width: 95%;
     grid-template-columns: repeat(3, 1fr);
   }
   .educacionSuperior .contenedor img {
+    height: 354px;
+    width: 354px;
+  }
+
+  .lugares .contenedor img {
     height: 354px;
     width: 354px;
   }

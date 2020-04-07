@@ -7,12 +7,10 @@
 
 
 <!-- Div de contenido -->
-<div class="ciudad">
+<div class="lista-lugares">
   <p class="texto">Lugares Populares</p>
   <div class="lugares">
     <div class="contenedor">
-
-
       <a href="/view/Relax/centroEliben.php">
         <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/eliben2-740x460.jpg" alt=""
           class="imagen">
