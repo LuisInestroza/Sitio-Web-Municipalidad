@@ -15,16 +15,13 @@
       <div class="links">
         <ul class="icons">
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="#" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/lacasagrandehn/" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>
@@ -43,6 +40,19 @@
     <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/casagrande2.jpg" alt=""
       class="imagenTurismo">
     <p class="contenido">
+
+
+      El Real Casa Grande Bed & Breakfast se encuentra en Siguatepeque, a 46 km de Comayagua, y ofrece terraza y WiFi
+      gratuita.
+
+      Los alojamientos disponen de patio con vistas al jardín, TV de pantalla plana, zona de estar, zona de cocina bien
+      equipada y baño privado con bidet y artículos de aseo gratuitos. El establecimiento proporciona toallas y ropa de
+      cama por un suplemento.
+
+      Este bed and breakfast sirve un desayuno continental y americano a diario.
+
+      <br><br>
+
       Un rincón especial ubicado en el corazón de Siguatepeque ideal para descansar, compartir y ejercitarse. Brindamos
       la comodidad del hogar en nuestras habitaciones. Nos esforzamos para que cada detalle, se sienta como estar en
       casa.
