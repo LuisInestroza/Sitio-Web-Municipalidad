@@ -40,6 +40,11 @@
     <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/eliben2-1170x659.jpg" alt=""
       class="imagenTurismo">
     <p class="contenido">
+      El Centro Turístico ELIBEN es un hotel de montana rústico y un lugar muy visitado por turistas caracterizado por
+      sus precios bajos en cabañas.
+      <br><br>
+      Aquí se pueden hacer actividades al aire libre como andar en bicicletas de cuatro ruedas en la naturaleza. Al
+      igual que caminatas por sus alrededores donde se puede apreciar el entorno y el aire fresco.
     </p>
   </div>
 

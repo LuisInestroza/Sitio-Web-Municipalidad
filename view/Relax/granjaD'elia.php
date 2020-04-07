@@ -16,16 +16,16 @@
       <div class="links">
         <ul class="icons">
           <li>
-            <a href="" class="fas fa-globe"></a>
+            <a href="http://granjadelia.com/" class="fas fa-globe"></a>
           </li>
           <li>
-            <a href="" class="fab fa-facebook"></a>
+            <a href="https://www.facebook.com/granjadeliahn/" class="fab fa-facebook"></a>
           </li>
           <li>
-            <a href="" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-twitter"></a>
           </li>
           <li>
-            <a href="" class="fab fa-instagram"></a>
+            <a href="https://www.instagram.com/granjadelia/" class="fab fa-instagram"></a>
           </li>
         </ul>
       </div>
