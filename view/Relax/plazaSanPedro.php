@@ -8,26 +8,7 @@
 <div class="turismo">
   <!-- Aside -->
   <aside>
-    <!-- Contenido de redes sociales -->
-    <div class="contenedorContactos">
-      <p>Contactos</p>
-      <div class="links">
-        <ul class="icons">
-          <li>
-            <a href="" class="fas fa-globe"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-facebook"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-twitter"></a>
-          </li>
-          <li>
-            <a href="" class="fab fa-instagram"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
+
     <div class="iframe">
       <p>Ubicación</p>
 
@@ -41,6 +22,9 @@
   <div>
     <p class="texto">Plaza de San Pedro</p>
     <img src="/img/plazaSanPedro.png" alt="" class="imagenTurismo">
+    <p class="contenido">
+      PROYECTO PLAZA RECREATIVA SAN PEDRO APÓSTOL, BARRIO EL PARNASO DE SIGUATEPEQUE
+    </p>
   </div>
 
 

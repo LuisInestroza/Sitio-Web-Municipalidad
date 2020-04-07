@@ -44,6 +44,13 @@
     <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/calanterique2.jpeg" alt=""
       class="imagenTurismo">
     <p class="contenido">
+      El Parque Calanterique está ubicado en el municipio de Siguatepeque, en el costado nor-oeste de la ciudad, su
+      ubicación geográfica está dentro de las coordenadas 14§,35ï 20ïï latitud norte y 87§, 50ï 20ïï longitud oeste,
+      cuenta principalmente con bosque pinar de la especie Pinus oocarpa, encontrándose también especies en plantaciones
+      como el Eucaliptus sp., Pinus maximinoii Y especies de fauna aviar y pequeños mamíferos acogidos dentro de los
+      límites del Parque; por mucho tiempo el Parque ha sido manejado como sitio de recreación y esparcimiento familiar,
+      también ha sido utilizado para el desarrollo de prácticas educativas por parte de los distintos centros de
+      educación del municipio
 
     </p>
   </div>
