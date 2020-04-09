@@ -26,11 +26,11 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css.map">
 
   <!-- Estilo del slider de noticias -->
-  <link rel="stylesheet" href="/css/tabDemo.css">
+
   <link rel="stylesheet" href="/css/tabs.css">
   <link rel="stylesheet" href="/css/tabstyles.css">
 
-  <script src="/js/modernizr.custom.js"></script>
+
 
   <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
 
