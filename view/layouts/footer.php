@@ -57,6 +57,8 @@
   <script src="/js/slider.js"></script>
   <script src="/js/menu.js"></script>
   <script src="/js/botonArriba.js"></script>
+  <script src="/js/cbpFWTabs.js"></script>
+  <script src="/js/slideTab.js"></script>
 
 
 

@@ -12,7 +12,7 @@
       <a href="">
         <img src="/img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Escudo Oficial de Siguatepeque</p>
           <p>Ver</p>
         </div>
@@ -22,7 +22,7 @@
       <a href="">
         <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Bandera Oficial de Siguatepeque</p>
           <p>Ver</p>
         </div>
@@ -32,7 +32,7 @@
       <a href="">
         <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Plaza San Pedro Siguatepeque</p>
           <p>Ver</p>
         </div>
@@ -42,7 +42,7 @@
       <a href="">
         <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Parque Central de Siguatepeque</p>
           <p>Ver</p>
         </div>
@@ -52,7 +52,7 @@
       <a href="">
         <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Plaza Cívica La Amistad</p>
           <p>Ver</p>
         </div>
@@ -62,7 +62,7 @@
       <a href="">
         <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
         <p style="text-align: center;">Información...</p>
-        <div class="informacion">
+        <div class="">
           <p>Bosque Calanterique</p>
           <p>Ver</p>
         </div>
@@ -79,7 +79,7 @@
     <div class="lugares">
       <div class="contenedorFiestas">
         <a href="/view/Festivales/feriaPatronal.php">
-          <img src="img/feriaSanPablo.png" alt="" srcset="">
+          <img src="/img/feriaSanPablo.png" alt="" srcset="">
           <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
 
         </a>
@@ -87,14 +87,14 @@
       </div>
       <div class="contenedorFiestas">
         <a href="/view/Festivales/fesivalFlores.php">
-          <img src="img/festivalDeLasFLores.png" alt="" srcset="">
-          <p class="text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
+          <img src="/img/festivalDeLasFlores.png"" alt="" srcset="">
+          <p class=" text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
         </a>
 
       </div>
       <div class="contenedorFiestas">
         <a href="/view/Festivales/festivalPino.php">
-          <img src="img/festivalDelPino.png" alt="" srcset="">
+          <img src="/img/festivalDelPino.png" alt="" srcset="">
           <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
         </a>
       </div>
@@ -203,6 +203,39 @@
 <div class="noticias-ciudad">
   <div class="noticias-contenedor">
     <p class="texto">NOTICIAS DE CIUDAD</p>
+
+
+    <section>
+      <div class="tabs tabs-style-tzoid">
+        <nav>
+          <ul>
+            <li><a href="#section-tzoid-1"><span>Home</span></a></li>
+            <li><a href="#section-tzoid-2"><span>Archive</span></a></li>
+            <li><a href="#section-tzoid-3"><span>Upload</span></a></li>
+            <li><a href="#section-tzoid-4"><span>Analytics</span></a></li>
+            <li><a href="#section-tzoid-5"><span>Settings</span></a></li>
+          </ul>
+        </nav>
+        <div class="content-wrap">
+          <section id="section-tzoid-1">
+            <p>1</p>
+          </section>
+          <section id="section-tzoid-2">
+            <p>2</p>
+          </section>
+          <section id="section-tzoid-3">
+            <p>3</p>
+          </section>
+          <section id="section-tzoid-4">
+            <p>4</p>
+          </section>
+          <section id="section-tzoid-5">
+            <p>5</p>
+          </section>
+        </div><!-- /content -->
+      </div><!-- /tabs -->
+
+    </section>
   </div>
 </div>
 
