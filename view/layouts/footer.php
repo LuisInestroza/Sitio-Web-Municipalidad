@@ -1,6 +1,6 @@
   <!-- footer -->
   <footer class="footer">
-    <div class="">
+    <div class="links-footer">
       <p class="tituloFooter"><b>Links</b></p>
       <div>
         <ul>
@@ -11,8 +11,8 @@
         </ul>
       </div>
     </div>
-    <div class="">
-      <div>
+    <div>
+      <div class="links-empresa">
         <p class="tituloFooter"><b>Empresa</b></p>
         <ul>
           <li><a href="/view/Empresa/mision.php">Misión</a></li>
@@ -47,7 +47,7 @@
         </ul>
       </div>
     </div>
-    <p class="copy"> <b>Municipalidad de Siguatepeque &copy Todos los derechos reservados 2020</b> </p>
+    <p class="copy"> <b>Municipalidad de Siguatepeque &copy 2020. All Rights Reserved</b> </p>
   </footer>
   </body>
 

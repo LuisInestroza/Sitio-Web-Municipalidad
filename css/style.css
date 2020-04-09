@@ -1036,12 +1036,19 @@ input[type="search"]:focus {
   grid-gap: 2em;
   bottom: 0;
   width: 100%;
+
   font-size: 1.1em;
   padding: 20px 80px 20px 80px;
   clear: both;
 }
 .footer ul {
   padding: 0;
+}
+.links-footer ul li {
+  padding: 5px;
+}
+.links-empresa ul li {
+  padding: 5px;
 }
 
 .footer ul li a {
@@ -1071,7 +1078,7 @@ a {
 }
 
 .contenedorRedes li a {
-  padding: 10px;
+  padding: 5px;
   font-size: 2em;
   color: var(--colorNegro);
   /* border-radius: 3em; */
@@ -1087,7 +1094,7 @@ a {
 }
 .footer .copy {
   margin: 40px 0px 0px 0px;
-  margin-right: -225px;
+  margin-right: -130px;
 }
 @media (max-width: 768px) {
   .footer {

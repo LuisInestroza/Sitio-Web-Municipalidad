@@ -209,29 +209,27 @@
       <div class="tabs tabs-style-tzoid">
         <nav>
           <ul>
-            <li><a href="#section-tzoid-1"><span>Home</span></a></li>
-            <li><a href="#section-tzoid-2"><span>Archive</span></a></li>
-            <li><a href="#section-tzoid-3"><span>Upload</span></a></li>
-            <li><a href="#section-tzoid-4"><span>Analytics</span></a></li>
-            <li><a href="#section-tzoid-5"><span>Settings</span></a></li>
+            <li><a href="#infraestructura"><span><b>Infraestructura</b></span></a></li>
+            <li><a href="#sociales"><span><b>Sociales</b></span></a></li>
+            <li><a href="#eventos"><span><b>Eventos</b></span></a></li>
+            <li><a href="#economía"><span><b>Economía</b></span></a></li>
+
           </ul>
         </nav>
         <div class="content-wrap">
-          <section id="section-tzoid-1">
+          <section id="infraestructura">
             <p>1</p>
           </section>
-          <section id="section-tzoid-2">
+          <section id="sociales">
             <p>2</p>
           </section>
-          <section id="section-tzoid-3">
+          <section id="eventos">
             <p>3</p>
           </section>
-          <section id="section-tzoid-4">
+          <section id="economía">
             <p>4</p>
           </section>
-          <section id="section-tzoid-5">
-            <p>5</p>
-          </section>
+
         </div><!-- /content -->
       </div><!-- /tabs -->
 
@@ -243,9 +241,30 @@
 <!-- Sección de eventos -->
 <div class="eventos-ciudad">
   <p class="texto">EVENTOS</p>
+
+  <section>
+    <div class="tabs tabs-style-tzoid">
+
+      <div class="content-wrap">
+        <p>Mostrar Eventos</p>
+
+      </div>
+    </div>
+
+  </section>
 </div>
 
 <!-- Sección de comunicados -->
 <div class="comunicados-ciudad">
   <p class="texto">COMUNICADOS</p>
+  <section>
+    <div class="tabs tabs-style-tzoid">
+
+      <div class="content-wrap">
+
+        <p>Mostrar Comunicados</p>
+      </div>
+    </div>
+
+  </section>
 </div>
