@@ -246,7 +246,9 @@
     <div class="tabs tabs-style-tzoid">
 
       <div class="content-wrap">
+
         <p>Mostrar Eventos</p>
+
 
       </div>
     </div>
