@@ -23,8 +23,9 @@
     </div>
 
     <!-- Contenido de noticias -->
-    <div class="">
+    <div class="noticias-recientes">
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
+      <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
     </div>
 
     <!-- Contenido de redes sociales -->
@@ -59,6 +60,7 @@
   <script src="/js/botonArriba.js"></script>
   <script src="/js/cbpFWTabs.js"></script>
   <script src="/js/slideTab.js"></script>
+
 
 
 

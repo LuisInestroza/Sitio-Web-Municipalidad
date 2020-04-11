@@ -218,16 +218,17 @@
         </nav>
         <div class="content-wrap">
           <section id="infraestructura">
-            <p>1</p>
+            <p>Noticias Infraestructura </p>
           </section>
           <section id="sociales">
-            <p>2</p>
+            <p>Noticias Sociales</p>
+
           </section>
           <section id="eventos">
-            <p>3</p>
+            <p>Noticias Eventos</p>
           </section>
           <section id="economía">
-            <p>4</p>
+            <p>Noticias Economía</p>
           </section>
 
         </div><!-- /content -->
@@ -263,10 +264,10 @@
     <div class="tabs tabs-style-tzoid">
 
       <div class="content-wrap">
+        <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
 
-        <p>Mostrar Comunicados</p>
+
       </div>
-    </div>
 
   </section>
 </div>
