@@ -264,7 +264,11 @@
     <div class="tabs tabs-style-tzoid">
 
       <div class="content-wrap">
-        <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+        <div class="contenido-comunicado">
+
+          <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+          <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
+        </div>
 
 
       </div>

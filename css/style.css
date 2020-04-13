@@ -1008,7 +1008,32 @@ input[type="search"]:focus {
   }
 }
 
+/* --------------------------- */
+
 /* Comunicados de ciudad */
+/* ---------------------------- */
+
+.content-wrap {
+  padding: 10px;
+}
+
+.content-wrap p {
+  text-align: center;
+}
+.contenido-comunicado {
+  width: 25%;
+}
+
+.fecha-comunicado {
+  background: var(--colorAzul);
+  color: var(--colorBlanco);
+  line-height: 1.2;
+  font-weight: bolder;
+  margin: 0.3em auto 0.2em;
+  padding: 5px;
+  font-size: 1rem;
+  width: max-content;
+}
 .comunicados-ciudad {
   padding: 20px;
 }
@@ -1018,10 +1043,14 @@ input[type="search"]:focus {
 }
 
 @media (max-width: 768px) {
-  .comunicados-ciudad img {
-    width: 10em;
+  .comunicados-ciudad {
+    width: 100%;
+  }
+  .fecha-comunicado {
+    font-size: 3.2vw;
   }
 }
+
 /* ------------------ */
 /* footer */
 /* ------------------- */
@@ -1051,6 +1080,10 @@ input[type="search"]:focus {
   padding: 5px;
 }
 
+.noticias-recientes img {
+  width: 10em;
+  margin: 10px;
+}
 .footer ul li a {
   text-decoration: none;
 }
