@@ -1051,6 +1051,41 @@ input[type="search"]:focus {
   }
 }
 
+/* Abrir las imagenes */
+
+.comunicado-contenido img {
+  width: 35%;
+  display: block;
+  margin: 30px auto;
+  position: relative;
+}
+
+.comunicado-contenido a {
+  float: right;
+  clear: right;
+  text-decoration: none;
+  color: var(--colorBlanco);
+  font-size: 2.5rem;
+  display: block;
+  margin: 0 80px 0 auto;
+}
+
+.imagen-comunicado {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 1s;
+}
+
+#abrirImagen:target {
+  opacity: 1;
+  pointer-events: auto;
+}
 /* ------------------ */
 /* footer */
 /* ------------------- */
