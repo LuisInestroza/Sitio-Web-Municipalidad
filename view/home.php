@@ -265,11 +265,13 @@
 
       <div class="content-wrap">
         <div class="contenido-comunicado">
-          <a href="#abrirImagen">Ver</a>
-          <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+          <a href="#abrirImagen" id="abrirModal">
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+          </a>
           <div id="abrirImagen" class="imagen-comunicado">
             <div class="comunicado-contenido">
-              <a href="#">x</a>
+              <a href="#cerrarVentana" class="cerrarVentana" title="Close">X</a>
+
               <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
             </div>
           </div>

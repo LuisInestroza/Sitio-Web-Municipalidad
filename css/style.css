@@ -1037,10 +1037,6 @@ input[type="search"]:focus {
 .comunicados-ciudad {
   padding: 20px;
 }
-.comunicados-ciudad img {
-  width: 15em;
-  margin: 10px;
-}
 
 @media (max-width: 768px) {
   .comunicados-ciudad {
@@ -1060,6 +1056,16 @@ input[type="search"]:focus {
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .comunicado-contenido img {
+    width: 90%;
+    height: 50%;
+  }
+  .comunicado-contenido .cerrarVentana {
+    margin: 0 10px 0 auto;
+  }
+}
+
 .comunicado-contenido a {
   float: right;
   clear: right;
@@ -1068,6 +1074,7 @@ input[type="search"]:focus {
   font-size: 2.5rem;
   display: block;
   margin: 0 80px 0 auto;
+  cursor: pointer;
 }
 
 .imagen-comunicado {

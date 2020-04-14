@@ -60,7 +60,7 @@
   <script src="/js/botonArriba.js"></script>
   <script src="/js/cbpFWTabs.js"></script>
   <script src="/js/slideTab.js"></script>
-
+  <script src="/js/modal.js"></script>
 
 
 
