@@ -245,15 +245,10 @@
 
   <section>
     <div class="tabs tabs-style-tzoid">
-
       <div class="content-wrap">
-
         <p>Mostrar Eventos</p>
-
-
       </div>
     </div>
-
   </section>
 </div>
 
@@ -262,7 +257,6 @@
   <p class="texto">COMUNICADOS</p>
   <section>
     <div class="tabs tabs-style-tzoid">
-
       <div class="content-wrap">
         <div class="contenido-comunicado">
           <a href="#abrirImagen" id="abrirModal">
@@ -270,18 +264,13 @@
           </a>
           <div id="abrirImagen" class="imagen-comunicado">
             <div class="comunicado-contenido">
-              <a href="#cerrarVentana" class="cerrarVentana" title="Close">X</a>
+              <a href="#/" class="cerrarVentana" title="Close">X</a>
 
               <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
             </div>
           </div>
-
-
           <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
         </div>
-
-
       </div>
-
   </section>
 </div>

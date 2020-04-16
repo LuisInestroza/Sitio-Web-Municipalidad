@@ -32,11 +32,6 @@
 
 
 
-
-
-
-  <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
-
   <!-- Link de el estilo de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
