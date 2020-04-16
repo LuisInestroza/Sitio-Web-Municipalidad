@@ -259,14 +259,15 @@
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap">
         <div class="contenido-comunicado">
-          <div id="modalImagen" class="modal-imagen">
+          <button id="modalImagen" class="modal-imagen">
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-          </div>
-          <div id="modalContenedor" class="imagen-comunicado">
+            <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
+          </button>
+          <div id="modalContenedor" class="modal-content">
             <span class="cerrarVentana">&times;</span>
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
           </div>
-          <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
+
         </div>
       </div>
   </section>

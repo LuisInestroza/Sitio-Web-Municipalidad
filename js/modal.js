@@ -1,22 +1,27 @@
 // Codigo para las ventanas modales
 
 // Declaración de variables
-var modalContenido = document.getElementById("modalImagen");
-var modalImagenContenido = document.getElementById("modalContenedor");
+var modal = document.getElementById("modalContenedor");
+var showModal = document.getElementById("modalImagen");
 var cerrarModal = document.getElementsByClassName("cerrarVentana")[0];
 
 // Funciones
 
-modalContenido.onclick = function () {
-  modalImagenContenido.style.display = "block";
+// Mostrar las ventanas modales
+showModal.onclick = function () {
+  modal.style.display = "block";
 };
 
+// cerrar la ventana modal
 cerrarModal.onclick = function () {
-  modalImagenContenido.style.display = "none";
+  modal.style.display = "none";
 };
 
+// Verificar si la ventana se esta mostrando
+// en pantalla
 window.onclick = function (event) {
-  if (event.target == this.modalImagenContenido) {
-    this.modalImagenContenido.style.display = "none";
+  if (event.target == modal) {
+    modal.style.display = "none";
+    modal.style.overflow = "hidden";
   }
 };
