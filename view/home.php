@@ -259,15 +259,12 @@
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap">
         <div class="contenido-comunicado">
-          <a href="#abrirImagen" id="abrirModal">
+          <div id="modalImagen" class="modal-imagen">
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-          </a>
-          <div id="abrirImagen" class="imagen-comunicado">
-            <div class="comunicado-contenido">
-              <a href="#/" class="cerrarVentana" title="Close">X</a>
-
-              <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-            </div>
+          </div>
+          <div id="modalContenedor" class="imagen-comunicado">
+            <span class="cerrarVentana">&times;</span>
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
           </div>
           <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
         </div>

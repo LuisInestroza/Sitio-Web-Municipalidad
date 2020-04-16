@@ -615,22 +615,15 @@ input[type="search"]:focus {
   color: var(--colorNegro);
 }
 .contenedorFiestas img {
-  /* Tamaño de la imagenes */
   width: 65%;
-  align-items: unset;
-  margin-top: 20px;
-  margin-left: 70px;
-  margin-right: 70px;
+  display: block;
+  margin: 20px auto auto auto;
 }
 
 @media (max-width: 768px) {
   .contenedorFiestas {
     /* Desplazar las columnas */
     grid-column: 1/5;
-  }
-  .contenedorFiestas img {
-    margin-left: 60px;
-    margin-right: 60px;
   }
   .button {
     padding: 10px;
@@ -1013,7 +1006,7 @@ input[type="search"]:focus {
 /* Comunicados de ciudad */
 /* ---------------------------- */
 
-.content-wrap {
+/* .content-wrap {
   padding: 10px;
 }
 
@@ -1045,13 +1038,16 @@ input[type="search"]:focus {
   .fecha-comunicado {
     font-size: 3.2vw;
   }
-}
+} */
 
 /* Abrir las imagenes */
 
+/* #modalImagen {
+  cursor: pointer;
+}
+
 .comunicado-contenido img {
   width: 35%;
-  display: block;
   margin: 30px auto;
   position: relative;
 }
@@ -1066,13 +1062,12 @@ input[type="search"]:focus {
   }
 }
 
-.comunicado-contenido a {
+.comunicado-contenido span {
   float: right;
   clear: right;
   text-decoration: none;
   color: var(--colorBlanco);
   font-size: 2.5rem;
-  display: block;
   margin: 0 80px 0 auto;
   cursor: pointer;
 }
@@ -1087,12 +1082,25 @@ input[type="search"]:focus {
   opacity: 0;
   pointer-events: none;
   transition: all 1s;
+  display: none;
+  overflow: auto;
+} 
+.cerrarVentana {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-#abrirImagen:target {
-  opacity: 1;
-  pointer-events: auto;
+.cerrarVentana:hover,
+.cerrarVentana:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
+
+*/
+
 /* ------------------ */
 /* footer */
 /* ------------------- */
