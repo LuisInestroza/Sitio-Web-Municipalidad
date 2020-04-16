@@ -263,7 +263,7 @@
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
             <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
           </button>
-          <div id="modalContenedor" class="modal-content">
+          <div id="modalContenedor" class="modal-content" style="overflow: hidden;">
             <span class="cerrarVentana">&times;</span>
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
           </div>
