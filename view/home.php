@@ -261,7 +261,7 @@
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-            <p class="fecha-comunicado"><b>12 Marzo, 2020</b></p>
+            <p class="fecha-comunicado">12 Marzo, 2020</p>
           </button>
           <div id="modalContenedor" class="modal-content" style="overflow: hidden;">
             <span class="cerrarVentana">&times;</span>
