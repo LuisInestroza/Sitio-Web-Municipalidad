@@ -977,14 +977,12 @@ input[type="search"]:focus {
 .imagenUniversidad,
 .imagenTurismo {
   width: 15em;
-  /* align-self: center; */
   margin: auto;
   display: block;
 }
 .imagenFerias {
   width: 50%;
-  /* align-self: center; */
-  margin: auto;
+  margin: 20px auto 20px auto;
   display: block;
 }
 @media (max-width: 768px) {

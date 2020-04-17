@@ -6,11 +6,6 @@
 
 <!-- Contenido -->
 
-<header>
-  <title>Festival de las Flores - Municipalidad de Siguatepeque</title>
-
-</header>
-
 <div class="contenido">
   <p class="texto">Festival de las Flores</p>
   <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/festival-de-las-rosa.jpg" alt=""
