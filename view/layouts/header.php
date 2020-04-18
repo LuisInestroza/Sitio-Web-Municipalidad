@@ -51,7 +51,7 @@
       <ul>
         <li><a href="/index.php"><b>Inicio</b></a></li>
         <li><a href=""><b>Noticias</b></a></li>
-        <li class="submenu"><a href="#"><b>Gobierno</b><i class="fa fa-angle-down flechaUno"></i></a>
+        <li class="subMenu"><a href="#"><b>Gobierno</b><i class="fa fa-angle-down flechaUno"></i></a>
           <ul class="children">
             <li><a href="/view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
             <li><a href="/view/Gobierno/departamentosMunicipalidad.php">Departamentos </a></li>
@@ -59,7 +59,7 @@
           </ul>
         </li>
         <li><a href=""><b>Portal de Transparencia</b></a></li>
-        <li class="submenu"><a href="#"><b>Conoce Siguatepeque</b><i class="fa fa-angle-down flechaDos"></i></a>
+        <li class="subMenu"><a href="#"><b>Conoce Siguatepeque</b><i class="fa fa-angle-down flechaDos"></i></a>
           <ul class="children">
             <li><a href="/view/ConoceSiguatepeque/contactos.php">Números Telefónicos</a></li>
             <li><a href="/view/Relax/relax.php">Lugares Populares</a></li>
@@ -75,16 +75,3 @@
     </nav>
 
   </header>
-
-
-  <!-- 
-  <header class="header">
-    
-
-
-    <nav class="menu">
-
-
-    </nav>
-  </header> -->
-  <!-- Div final de la barra de navegación -->
