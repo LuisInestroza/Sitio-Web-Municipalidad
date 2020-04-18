@@ -1,4 +1,4 @@
-// Codigo para las ventanas modales
+// Código para las ventanas modales
 
 // Declaración de variables
 var modal = document.getElementById("modalContenedor");
@@ -22,6 +22,5 @@ cerrarModal.onclick = function () {
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
-    modal.style.overflow = "hidden";
   }
 };

@@ -30,13 +30,8 @@
   <link rel="stylesheet" href="/css/tabs.css">
   <link rel="stylesheet" href="/css/tabstyles.css">
 
-
-
   <!-- Link de el estilo de las fuentes -->
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
-  <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Raleway:400,500,700"> -->
-
 
   <!-- Links de iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
