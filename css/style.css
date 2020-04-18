@@ -20,6 +20,7 @@
 html {
   box-sizing: border-box;
   min-height: 100%;
+  font-size: 1em;
 }
 *:before,
 *:after {
@@ -29,12 +30,158 @@ html {
 body {
   font-family: "Raleway", Arial, sans-serif;
   background-color: var(--colorFondo);
-  /* font-family: var(--fuentePrincipal); */
-  font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
   min-height: 100%;
 }
+
+/* Diseño del header */
+
+header {
+  width: 100%;
+
+  background-color: var(--colorAzul);
+}
+#btnMenu {
+  display: none;
+}
+header label {
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+}
+header label:hover {
+  cursor: pointer;
+}
+.menu ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 200px;
+}
+.menu li {
+  flex-grow: 1;
+  border-right: 1px solid var(--colorBlanco);
+}
+.menu li:hover {
+  background: #011826;
+}
+.menu li a {
+  display: block;
+  padding: 15px 15px;
+  color: var(--colorBlanco);
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+}
+.submenu > ul {
+  margin-left: 0px;
+}
+
+.fa-bars {
+  color: var(--colorBlanco);
+  font-size: 2rem;
+}
+.menu li ul {
+  background: blue;
+  position: absolute;
+  color: var(--colorBlanco);
+  font-size: 2rem;
+  width: 20%;
+  display: none;
+  min-width: 140px;
+  text-align: center;
+  z-index: 100;
+}
+.menu li:hover > ul {
+  display: block;
+}
+
+.header nav ul li:hover .children {
+  display: none;
+}
+.fa-angle-down {
+  font-size: 1.5em;
+  float: right;
+}
+.msg {
+  display: none;
+}
+@media (max-width: 768px) {
+  .msg {
+    display: block;
+    float: right;
+    border-left-width: 2px;
+    border-left-style: solid;
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0px;
+    margin: 5px 15px;
+    padding-left: 15px;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    height: 50px;
+  }
+  header label {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    background: var(--colorAzul);
+    width: 100%;
+    margin-left: -100%;
+    transition: all 1s;
+    z-index: 100;
+    top: 50px;
+  }
+  .menu > ul {
+    margin-left: 0px;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu li ul {
+    width: 100%;
+  }
+
+  .menu li {
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .menu li a {
+    text-align: left;
+  }
+
+  #btnMenu:checked ~ .menu {
+    margin: 0;
+  }
+  .header nav ul li .children {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+/* Logo */
+.logo {
+  display: block;
+  position: absolute;
+  left: 55px;
+  top: 2px;
+  width: 3%;
+}
+@media (max-width: 768px) {
+  .logo {
+    width: 2.4em;
+  }
+}
+/* Fin del diseño del header */
 
 /* Aside */
 
@@ -174,24 +321,7 @@ img {
 }
 /* --------------------------- */
 
-/* Logo */
-.logo {
-  display: block;
-  position: absolute;
-  left: 60px;
-  top: 10px;
-  width: 6.5%;
-}
-@media (max-width: 768px) {
-  .logo {
-    width: 2.4em;
-  }
-}
 /* ---------------------------- */
-
-.fa.fa-bars {
-  display: none;
-}
 
 /* Mensaje de Bienvenida */
 .letras {
@@ -205,26 +335,7 @@ img {
 }
 
 /* Mensaje responsive */
-.msg {
-  display: none;
-}
-@media (max-width: 768px) {
-  .msg {
-    display: block;
-    float: left;
-    margin-left: 109px;
-    margin-top: -1px;
-    margin-bottom: 0px;
-    position: relative;
-    font-size: 0.9rem;
-    font-weight: bold;
-    left: 1px;
-    top: 9px;
-    border-left-width: 2px;
-    border-left-style: solid;
-    padding-left: 10px;
-  }
-}
+
 /* -------------------------- */
 .texto {
   padding: 20px 0px 0px 0px;
@@ -238,33 +349,6 @@ img {
   font-weight: bold;
   font-size: 3.5em;
 }
-/* Navegacion responsive */
-
-#btn-menu {
-  display: none;
-}
-
-/* --------------------------------- */
-header {
-  width: 100%;
-}
-
-.menu {
-  /* background: #023859; */
-  /* background-color: var(--colorAzul); */
-  background: var(--colorAzul) !important;
-  z-index: 1000;
-  width: 100%;
-  opacity: 1;
-}
-
-header nav ul li .children {
-  display: none;
-  background: #011826;
-  position: absolute;
-  width: 20%;
-  z-index: 100;
-}
 
 /* Estilo para rotar la flecha del submenu */
 .rotar {
@@ -276,215 +360,11 @@ header nav ul li .children {
   transform: rotate(0deg);
   transition: 0.4s all;
 }
-/* Icono de buscar */
-.fa.fa-search {
-  position: absolute;
-  color: var(--colorBlanco);
-  padding: 50px;
-  pointer-events: none;
-  font-size: 1.3em;
-  right: 0;
-  text-indent: -10px;
-  z-index: 2;
-}
 
-input[type="search"] {
-  width: 50px;
-  /*ancho por defecto*/
-  background: transparent no-repeat 9px center;
-  /*icono lupa*/
-  padding: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  border-radius: 15em;
-  -webkit-transition: all 0.5s; /* transición de .5seg a todos los elementos para chrome*/
-  -moz-transition: all 0.5s; /* transición de .5seg a todos los elementos para mozilla*/
-  -o-transition: all 0.5s; /* transición de .5seg a todos los elementos para ophera*/
-  transition: all 0.5s; /* transición de .5seg a todos los elementos*/
-  outline: none; /* ocultar el fucos automático de los input */
-  border: none;
-  cursor: pointer;
-}
-input[type="search"]:focus {
-  width: 230px;
-  padding-left: 30px;
-  color: #000;
-  background-color: var(--colorVerde);
-  z-index: 1;
-  cursor: text;
-}
-.libuscar input[type="search"] {
-  padding-left: 40px;
-}
-.libuscar input[type="search"]:focus {
-  padding-left: 20px;
-}
-.libuscar:hover {
-  background: none;
-}
 /* ----------------------------- */
 
-.header label {
-  display: none;
-  width: 60px;
-  height: 60px;
-  padding: 10px;
-}
-
-.header label:hover {
-  cursor: pointer;
-  /* background: rgba(0, 0, 0, 0.3); */
-}
-
-.menu ul li a {
-  color: var(--colorBlanco);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* Tamaño del menú */
-.menu li a {
-  display: block;
-  padding: 50px 15px;
-  color: var(--colorBlanco);
-  text-decoration: none;
-}
-
-.submenu li a {
-  padding: 20px 10px;
-  display: block;
-  color: var(--colorBlanco);
-  text-decoration: none;
-}
-
-/* Sub menu */
-.menu li ul {
-  position: absolute;
-  display: none;
-  text-align: left;
-}
-
-/* Posicion de los elementos Ul */
-.menu ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.menu li:hover > ul {
-  display: block;
-  padding-top: 10px;
-  color: var(--colorBlanco);
-}
-
-.fa.fa-angle-down {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-weight: bold;
-}
-
-.header nav ul li:hover .children {
-  display: none;
-}
-.header nav ul li:hover .search {
-  display: none;
-}
 /* Menu responsive */
 @media (max-width: 768px) {
-  /* Menú responsive */
-  .menu {
-    position: absolute;
-    background: #023859;
-    width: auto;
-    margin-left: -100%;
-    transition: all 1s;
-    z-index: 1;
-  }
-  .fa.fa-angle-down {
-    display: inline;
-    font-size: 1.1em;
-    position: absolute;
-    right: 6%;
-  }
-  .header {
-    background: var(--colorAzul);
-    height: 60px;
-  }
-  .header label {
-    background: var(--colorAzul);
-    display: block;
-    height: 52px;
-    width: 52px;
-    cursor: pointer;
-  }
-  .header li {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  .header nav ul li .children {
-    width: 100%;
-    position: relative;
-    z-index: 1;
-  }
-  .header nav ul li:hover .children {
-    display: none;
-  }
-
-  .menu li a:hover {
-    color: var(--colorBlanco);
-  }
-
-  .menu ul {
-    flex-direction: column;
-    align-items: baseline;
-  }
-  .menu li a {
-    color: var(--colorBlanco);
-  }
-
-  .menu ul li a {
-    color: var(--colorBlanco);
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1em;
-  }
-
-  #btn-menu:checked ~ .menu {
-    margin: 0;
-  }
-
-  input[type="search"] {
-    padding: 10px;
-    margin: 5px;
-    width: 260px;
-    background: var(--colorVerde);
-  }
-  input[type="search"]:focus {
-    padding: 10px;
-    margin: 5px;
-    width: 260px;
-    background: var(--colorVerde);
-  }
-  .fa.fa-search {
-    width: auto;
-    color: var(--colorBlanco);
-    bottom: 0;
-    padding-bottom: 15px;
-    padding-right: 30px;
-  }
-
-  .menu li a {
-    display: block;
-    padding: 20px 20px;
-    color: var(--colorBlanco);
-    text-decoration: none;
-  }
-
   aside {
     float: none;
     margin: 20px;
@@ -512,16 +392,7 @@ input[type="search"]:focus {
     margin-left: auto;
     margin-right: auto;
   }
-  .fa.fa-bars {
-    position: relative;
-    display: inline;
-    font-size: 2.5rem;
 
-    color: var(--colorBlanco);
-  }
-  #btnMenu {
-    bottom: 32px;
-  }
   .texto {
     padding: 20px 0 20px 0px;
     font-size: 1.5rem;
@@ -531,13 +402,6 @@ input[type="search"]:focus {
     font-size: 2.2rem;
     position: relative;
     padding-top: 230px;
-  }
-
-  .buscar {
-    margin-top: 90px;
-    margin-bottom: 30px;
-    width: 70%;
-    right: 50px;
   }
 }
 
