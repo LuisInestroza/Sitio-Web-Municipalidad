@@ -31,10 +31,12 @@
 </head>
 
 <body>
-  <!-- Boton de desplaxar hacia arriba -->
-  <span class="arriba"><i class="fa fa-angle-up"></i></span>
-  <!-- Barra de navegacion -->
+  <!-- Botón de desplazar hacia arriba -->
+  <span class="arriba">
+    <i class="fa fa-angle-up"></i>
+  </span>
 
+  <!-- Barra de navegación -->
   <header class="header">
     <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
     <p class="msg">
@@ -47,24 +49,84 @@
 
     <nav class=menu>
       <ul>
-        <li><a href="/index.php"><b>Inicio</b></a></li>
-        <li><a href=""><b>Noticias</b></a></li>
-        <li class="subMenu"><a href="#"><b>Gobierno</b><i class="fa fa-angle-down flechaUno"></i></a>
+        <li>
+          <a href="/index.php">
+            <i class="fas fa-home"></i>
+            <b>Inicio</b>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fas fa-newspaper"></i>
+            <b>Noticias</b>
+          </a>
+        </li>
+        <li class="subMenu">
+          <a href="#">
+            <i class="fas fa-landmark"></i>
+            <b>Gobierno</b>
+            <i class="fa fa-angle-down"></i>
+          </a>
           <ul class="children">
-            <li><a href="/view/Gobierno/alcaldeMunicipal.php">Alcalde Municipal</a></li>
-            <li><a href="/view/Gobierno/departamentosMunicipalidad.php">Departamentos </a></li>
-            <li><a href="/view/Gobierno/regidores.php">Regidores</a></li>
+            <li>
+              <i class="fa fa-user-tie"></i>
+              <a href="/view/Gobierno/alcaldeMunicipal.php">
+                Alcalde Municipal
+              </a>
+            </li>
+            <li>
+              <i class="fa fa-building"></i>
+              <a href="/view/Gobierno/departamentosMunicipalidad.php">
+                Departamentos
+              </a>
+            </li>
+            <li>
+              <i class="fa fa-users"></i>
+              <a href="/view/Gobierno/regidores.php">
+                Regidores
+              </a>
+            </li>
           </ul>
         </li>
-        <li><a href=""><b>Portal de Transparencia</b></a></li>
-        <li class="subMenu"><a href="#"><b>Conoce Siguatepeque</b><i class="fa fa-angle-down flechaDos"></i></a>
+        <li>
+          <a href="">
+            <i class="fas fa-handshake"></i>
+            <b>Portal de Transparencia</b>
+          </a>
+        </li>
+        <li class="subMenu">
+          <a href="#">
+            <i class="fas fa-info-circle"></i>
+            <b>Conoce Siguatepeque</b>
+            <i class="fa fa-angle-down flechaDos"></i>
+          </a>
           <ul class="children">
-            <li><a href="/view/ConoceSiguatepeque/contactos.php">Números Telefónicos</a></li>
-            <li><a href="/view/Relax/relax.php">Lugares Populares</a></li>
-            <li><a href="/view/ConoceSiguatepeque/educacionSuperior.php">Educación Superior</a></li>
+            <li>
+              <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
+              <a href="/view/ConoceSiguatepeque/contactos.php">
+                Números Telefónicos
+              </a>
+            </li>
+            <li>
+              <i class="fa fa-map-marked"></i>
+              <a href="/view/Relax/relax.php">
+                Lugares Populares
+              </a>
+            </li>
+            <li>
+              <i class="fa fa-graduation-cap"></i>
+              <a href="/view/ConoceSiguatepeque/educacionSuperior.php">
+                Educación Superior
+              </a>
+            </li>
           </ul>
         </li>
-        <li><a href=""><b>Login Linea Base</b></a></li>
+        <li>
+          <a href="">
+            <i class="fas fa-user-lock"></i>
+            <b>Login Linea Base</b>
+          </a>
+        </li>
       </ul>
     </nav>
   </header>

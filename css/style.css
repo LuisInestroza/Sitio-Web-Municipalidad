@@ -35,14 +35,18 @@ body {
   line-height: 1.5;
   min-height: 100%;
 }
+img {
+  max-width: 100%;
+}
 
 /* Diseño del header */
 
 header {
   width: 100%;
 
-  background-color: var(--colorAzul);
+  background-color: var(--colorBlanco);
 }
+
 #btnMenu {
   display: none;
 }
@@ -64,15 +68,15 @@ header label:hover {
 }
 .menu li {
   flex-grow: 1;
-  border-right: 1px solid var(--colorBlanco);
+  border-right: 1px solid var(--colorNegro);
 }
 .menu li:hover {
-  background: #011826;
+  background: #2fa1e7;
 }
 .menu li a {
   display: block;
   padding: 15px 15px;
-  color: var(--colorBlanco);
+  color: var(--colorNegro);
   text-decoration: none;
   text-align: center;
   font-size: 1rem;
@@ -82,11 +86,11 @@ header label:hover {
 }
 
 .fa-bars {
-  color: var(--colorBlanco);
+  color: var(--colorNegro);
   font-size: 2rem;
 }
 .menu li ul {
-  background: blue;
+  background: #2b406d;
   position: absolute;
   color: var(--colorBlanco);
   font-size: 2rem;
@@ -135,7 +139,7 @@ header label:hover {
 
   .menu {
     position: absolute;
-    background: var(--colorAzul);
+    background: var(--colorBlanco);
     width: 100%;
     margin-left: -100%;
     transition: all 1s;
@@ -187,8 +191,80 @@ header label:hover {
 /* Fin del diseño del header */
 
 /* Barra búsqueda */
+.hero {
+  top: 10px;
+  margin: 10px;
+  height: 60px;
+}
 
+.busqueda {
+  float: right;
+  padding: 15px;
+}
+.busqueda > fieldset > button {
+  margin-left: -3px;
+}
+.busqueda input {
+  width: 250px;
+  height: 30px;
+  border: none;
+}
+.busqueda button {
+  background: var(--colorNegro);
+  border: none;
+  width: 40px;
+  height: 30px;
+  left: 0;
+  margin-left: -3px;
+}
+
+.fa-search {
+  color: var(--colorBlanco);
+}
+
+@media (max-width: 768px) {
+  .busqueda {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+}
 /* Fin del diseño de barra de búsqueda */
+
+/* Banner de la imagen */
+.banner {
+  top: 0;
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  height: 350px;
+}
+@media (max-width: 768px) {
+  .banner img {
+    height: 120px;
+  }
+}
+/* Fin del diseño del banner */
+
+/* Botón de arriba */
+.arriba {
+  display: none;
+  padding: 5px 20px 5px 20px;
+  background-color: #007dd3;
+  font-size: 2.1em;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 30px;
+  text-transform: none;
+  z-index: 2;
+}
+.arriba i {
+  color: #ffffff;
+}
+/*Final del diseño deñ botón arriba */
 
 /* Aside */
 
@@ -211,9 +287,6 @@ iframe {
 aside p {
   font-size: 1.2em;
   font-weight: bold;
-}
-img {
-  max-width: 100%;
 }
 
 .iframe {
@@ -299,33 +372,6 @@ img {
 }
 /*  */
 
-/* Banner de la imagen */
-.banner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 450px;
-  z-index: -1;
-}
-
-/* Botón de arriba */
-.arriba {
-  display: none;
-  padding: 5px 20px 5px 20px;
-  background-color: #007dd3;
-  font-size: 2.1em;
-  cursor: pointer;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  border-radius: 30px;
-  text-transform: none;
-  z-index: 2;
-}
-.arriba i {
-  color: #ffffff;
-}
 /* --------------------------- */
 
 /* ---------------------------- */
@@ -352,9 +398,11 @@ img {
   /* padding: 120px; */
 }
 .textoIndex {
+  z-index: 1;
+  top: 0;
   text-align: center;
   font-weight: bold;
-  font-size: 3.5em;
+  /* font-size: 3.5em; */
 }
 
 /* Estilo para rotar la flecha del submenu */
@@ -408,7 +456,6 @@ img {
   .textoIndex {
     font-size: 2.2rem;
     position: relative;
-    padding-top: 230px;
   }
 }
 

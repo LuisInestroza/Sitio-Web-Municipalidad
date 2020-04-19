@@ -1,12 +1,14 @@
 <!-- Banner -->
-<img class="banner" src="/img/banner2.png" alt="">
+<div class="banner">
+  <img src="/img/banner2.png" alt="">
+</div>
 
 <!-- Texto de mostrar la bienvenida al sitio -->
-<p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p>
+<!-- <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p> -->
 
 <!-- Contenido del sitio web -->
 <div class=" ciudad">
-  <p class="textoIndex">¡La ciudad más emocionante del Centro!</p>
+  <h1 class="textoIndex">¡La ciudad más emocionante del Centro!</h1>
   <div class="lugares">
     <div class="contenedor">
       <a href="">
