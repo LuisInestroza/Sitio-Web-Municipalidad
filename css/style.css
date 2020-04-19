@@ -15,6 +15,7 @@
   --colorTwitter: #00c1ff;
   --colorInstagram: #d42f99;
   --colorYouTube: #ff380b;
+  --colorGris: #b8b8b6;
 }
 
 html {
@@ -112,7 +113,8 @@ header label:hover {
 @media (max-width: 768px) {
   .msg {
     display: block;
-    float: right;
+    position: absolute;
+    text-align: center;
     border-left-width: 2px;
     border-left-style: solid;
     font-size: 0.9rem;
@@ -120,6 +122,7 @@ header label:hover {
     padding: 0px;
     margin: 5px 15px;
     padding-left: 15px;
+    left: 90px;
   }
 }
 @media (max-width: 768px) {
@@ -151,7 +154,7 @@ header label:hover {
   }
 
   .menu li {
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 1px solid var(--colorBlanco);
   }
 
   .menu li a {
@@ -183,6 +186,10 @@ header label:hover {
 }
 /* Fin del diseño del header */
 
+/* Barra búsqueda */
+
+/* Fin del diseño de barra de búsqueda */
+
 /* Aside */
 
 aside {
@@ -190,7 +197,6 @@ aside {
   width: 20em;
   float: right;
   margin: 30px 100px 0px 5px;
-  /* height: 1200px; */
 }
 
 @media (max-width: 768px) {
@@ -315,6 +321,7 @@ img {
   right: 20px;
   border-radius: 30px;
   text-transform: none;
+  z-index: 2;
 }
 .arriba i {
   color: #ffffff;

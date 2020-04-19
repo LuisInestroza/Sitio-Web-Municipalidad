@@ -42,12 +42,10 @@
       <br>
       Gobierno Municipal (2018-2020)
     </p>
-
     <input type="checkbox" id="btnMenu">
     <label for="btnMenu"><i class="fas fa-bars"></i></label>
 
     <nav class=menu>
-
       <ul>
         <li><a href="/index.php"><b>Inicio</b></a></li>
         <li><a href=""><b>Noticias</b></a></li>
@@ -67,11 +65,16 @@
           </ul>
         </li>
         <li><a href=""><b>Login Linea Base</b></a></li>
-
-
       </ul>
-
-
     </nav>
-
   </header>
+
+  <!-- Barra de búsqueda -->
+  <div class="hero">
+    <form class="busqueda">
+      <fieldset>
+        <input type="search" placeholder="Buscar..">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </fieldset>
+    </form>
+  </div>
