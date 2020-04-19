@@ -114,6 +114,9 @@ header label:hover {
 .msg {
   display: none;
 }
+.buscarResponsive {
+  display: none;
+}
 @media (max-width: 768px) {
   .msg {
     display: block;
@@ -121,12 +124,28 @@ header label:hover {
     text-align: center;
     border-left-width: 2px;
     border-left-style: solid;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     font-weight: bold;
     padding: 0px;
-    margin: 5px 15px;
+    margin: 10px 15px;
     padding-left: 15px;
     left: 90px;
+  }
+  .buscarResponsive {
+    display: block;
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0px;
+    margin: 10px 15px;
+    background: var(--colorNegro);
+    left: 295px;
+    border: none;
+    width: 30px;
+    height: 30px;
+  }
+  .buscarResponsive .fa-search {
+    color: var(--colorBlanco);
   }
 }
 @media (max-width: 768px) {

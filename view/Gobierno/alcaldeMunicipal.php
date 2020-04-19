@@ -10,9 +10,9 @@
 
 <div class="alcaldia">
   <img class="imagenDepto" src="/img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
-  <p class="contenido">Abog. Juan Carlos Morales Pacheco</p>
-  <p class="contenido">Alcalde Municipal</p>
-  <p class="contenido">2018-2022</p>
+  <h3>Abog. Juan Carlos Morales Pacheco</h3>
+  <h3>Alcalde Municipal</h3>
+  <h3>2018-2022</h3>
 </div>
 
 <!-- Footer -->

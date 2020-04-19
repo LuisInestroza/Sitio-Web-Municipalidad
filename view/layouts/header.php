@@ -44,6 +44,9 @@
       <br>
       Gobierno Municipal (2018-2020)
     </p>
+    <button class="buscarResponsive">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </button>
     <input type="checkbox" id="btnMenu">
     <label for="btnMenu"><i class="fas fa-bars"></i></label>
 
