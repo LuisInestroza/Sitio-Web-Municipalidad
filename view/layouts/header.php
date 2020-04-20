@@ -74,19 +74,19 @@
             <li>
               <i class="fa fa-user-tie"></i>
               <a href="/view/Gobierno/alcaldeMunicipal.php">
-                Alcalde Municipal
+                <b>Alcalde Municipal</b>
               </a>
             </li>
             <li>
               <i class="fa fa-building"></i>
               <a href="/view/Gobierno/departamentosMunicipalidad.php">
-                Departamentos
+                <b>Departamentos</b>
               </a>
             </li>
             <li>
               <i class="fa fa-users"></i>
               <a href="/view/Gobierno/regidores.php">
-                Regidores
+                <b>Regidores</b>
               </a>
             </li>
           </ul>
@@ -107,19 +107,19 @@
             <li>
               <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
               <a href="/view/ConoceSiguatepeque/contactos.php">
-                Números Telefónicos
+                <b>Números Telefónicos</b>
               </a>
             </li>
             <li>
               <i class="fa fa-map-marked"></i>
               <a href="/view/Relax/relax.php">
-                Lugares Populares
+                <b>Lugares Populares</b>
               </a>
             </li>
             <li>
               <i class="fa fa-graduation-cap"></i>
               <a href="/view/ConoceSiguatepeque/educacionSuperior.php">
-                Educación Superior
+                <b>Educación Superior</b>
               </a>
             </li>
           </ul>

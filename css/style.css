@@ -73,6 +73,16 @@ header label:hover {
 .menu li:hover {
   background: #2fa1e7;
 }
+
+.children li {
+  padding-left: 20px;
+  padding-top: 10px;
+  display: flex;
+  border-top: 1px;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
 .menu li a {
   display: block;
   padding: 15px 15px;
