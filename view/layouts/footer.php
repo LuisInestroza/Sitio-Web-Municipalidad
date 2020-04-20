@@ -62,8 +62,6 @@
   <script src="/js/cbpFWTabs.js"></script>
   <script src="/js/slideTab.js"></script>
   <script src="/js/modal.js"></script>
-
-
-
+  <script src="/js/buscador.js"></script>
 
   </html>

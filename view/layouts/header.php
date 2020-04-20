@@ -44,7 +44,7 @@
       <br>
       Gobierno Municipal (2018-2020)
     </p>
-    <button class="buscarResponsive">
+    <button onclick="return mostrarOcultar('hero')" class="buscarResponsive">
       <i class="fa fa-search" aria-hidden="true"></i>
     </button>
     <input type="checkbox" id="btnMenu">
@@ -135,7 +135,7 @@
   </header>
 
   <!-- Barra de búsqueda -->
-  <div class="hero">
+  <div id="hero" class="hero">
     <form class="busqueda">
       <fieldset>
         <input type="search" placeholder="Buscar..">

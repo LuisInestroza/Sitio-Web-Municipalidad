@@ -247,6 +247,9 @@ header label:hover {
     display: block;
     margin: auto;
   }
+  .hero {
+    display: none;
+  }
 }
 /* Fin del diseño de barra de búsqueda */
 
