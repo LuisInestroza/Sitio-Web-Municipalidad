@@ -79,10 +79,13 @@ header label:hover {
   padding-top: 10px;
   display: flex;
   border-top: 1px;
-
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
+.children li i {
+  margin-top: 10px;
+}
+
 .menu li a {
   display: block;
   padding: 15px 15px;
