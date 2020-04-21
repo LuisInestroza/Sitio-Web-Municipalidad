@@ -75,14 +75,17 @@ header label:hover {
 }
 
 .children li {
-  padding-left: 20px;
-  padding-top: 10px;
   display: flex;
   border-top: 1px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
 }
-.children li i {
+
+.children:hover {
+  color: var(--colorBlanco);
+}
+
+.subMenu .children li i {
   margin-top: 10px;
 }
 
@@ -94,10 +97,20 @@ header label:hover {
   text-align: center;
   font-size: 1rem;
 }
+.menu li a:hover {
+  color: var(--colorBlanco);
+}
 .subMenu > ul {
   margin-left: 0px;
 }
+.subMenu > ul > li > a {
+  width: 100%;
+  text-align: left;
+}
 
+.subMenu > ul > li > a > b {
+  padding: 10px;
+}
 .fa-bars {
   color: var(--colorNegro);
   font-size: 2rem;
@@ -440,7 +453,7 @@ aside p {
   /* font-size: 3.5em; */
 }
 
-/* Estilo para rotar la flecha del submenu */
+/* Estilo para rotar la flecha del sub-menú */
 .rotar {
   transform: rotate(180deg);
   transition: 0.4s all;

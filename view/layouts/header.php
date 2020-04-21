@@ -38,15 +38,19 @@
 
   <!-- Barra de navegación -->
   <header class="header">
-    <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
-    <p class="msg">
-      Municipalidad de Siguatepeque
-      <br>
-      Gobierno Municipal (2018-2020)
-    </p>
-    <button onclick="return mostrarOcultar('hero')" id="buscarResponsive" class="buscarResponsive">
-      <i class="fa fa-search" aria-hidden="true"></i>
-    </button>
+    <!-- Action Bar Responsive -->
+    <div class="actionBar">
+      <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
+      <p class="msg">
+        Municipalidad de Siguatepeque
+        <br>
+        Gobierno Municipal (2018-2020)
+      </p>
+      <button onclick="return mostrarOcultar('hero')" id="buscarResponsive" class="buscarResponsive">
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </button n>
+    </div>
+    <!-- Botón de Sub-Menú Responsive -->
     <input type="checkbox" id="btnMenu">
     <label for="btnMenu"><i class="fas fa-bars"></i></label>
 
@@ -65,60 +69,63 @@
           </a>
         </li>
         <li class="subMenu">
-          <a href="#">
+          <a href="#" onclick="return girarFlechaDepartamentos('flechaUno')" id="btnDepartamentos">
             <i class="fas fa-landmark"></i>
             <b>Gobierno</b>
-            <i class="fa fa-angle-down"></i>
+            <i id="flechaUno" class="fa fa-angle-down"></i>
           </a>
           <ul class="children">
             <li>
-              <i class="fa fa-user-tie"></i>
               <a href="/view/Gobierno/alcaldeMunicipal.php">
+                <i class="fa fa-user-tie"></i>
                 <b>Alcalde Municipal</b>
               </a>
             </li>
             <li>
-              <i class="fa fa-building"></i>
               <a href="/view/Gobierno/departamentosMunicipalidad.php">
+                <i class="fa fa-building"></i>
                 <b>Departamentos</b>
               </a>
             </li>
             <li>
-              <i class="fa fa-users"></i>
+
               <a href="/view/Gobierno/regidores.php">
+                <i class="fa fa-users"></i>
                 <b>Regidores</b>
               </a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="">
+          <a href="https://portalunico.iaip.gob.hn/portal/index.php?portal=65">
             <i class="fas fa-handshake"></i>
             <b>Portal de Transparencia</b>
           </a>
         </li>
         <li class="subMenu">
-          <a href="#">
+          <a onclick="return girarFlechaConoce('flechaDos')" id="btnConoce" href="#">
             <i class="fas fa-info-circle"></i>
             <b>Conoce Siguatepeque</b>
-            <i class="fa fa-angle-down flechaDos"></i>
+            <i id="flechaDos" class="fa fa-angle-down"></i>
           </a>
           <ul class="children">
             <li>
-              <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
+
               <a href="/view/ConoceSiguatepeque/contactos.php">
+                <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
                 <b>Números Telefónicos</b>
               </a>
             </li>
             <li>
-              <i class="fa fa-map-marked"></i>
+
               <a href="/view/Relax/relax.php">
+                <i class="fa fa-map-marked"></i>
                 <b>Lugares Populares</b>
               </a>
             </li>
             <li>
-              <i class="fa fa-graduation-cap"></i>
               <a href="/view/ConoceSiguatepeque/educacionSuperior.php">
+                <i class="fa fa-graduation-cap"></i>
                 <b>Educación Superior</b>
               </a>
             </li>
