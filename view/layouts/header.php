@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/css/tabstyles.css">
 
   <!-- Link de el estilo de las fuentes -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
 
   <!-- Links de iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -43,8 +43,7 @@
       <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
       <p class="msg">
         Municipalidad de Siguatepeque
-        <br>
-        Gobierno Municipal (2018-2020)
+        <br>Gobierno Municipal (2018-2020)
       </p>
       <button onclick="return mostrarOcultar('hero')" id="buscarResponsive" class="buscarResponsive">
         <i class="fa fa-search" aria-hidden="true"></i>

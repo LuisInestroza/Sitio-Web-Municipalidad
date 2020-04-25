@@ -2,7 +2,7 @@
 :root {
   /* Estilo de la letra */
   /* --fuentePrincipal: "Roboto", sans-serif; */
-  --fuentePrincipal: "Raleway", Arial, sans-serif;
+  --fuentePrincipal: "Raleway", sans-serif;
 
   /* Estilo de los colores */
   --colorNegro: #000000;
@@ -21,7 +21,7 @@
 html {
   box-sizing: border-box;
   min-height: 100%;
-  font-size: 1em;
+  font-size: 15px;
 }
 *:before,
 *:after {
@@ -29,7 +29,7 @@ html {
 }
 
 body {
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: var(--fuentePrincipal);
   background-color: var(--colorFondo);
   font-weight: 400;
   line-height: 1.5;
@@ -43,8 +43,11 @@ img {
 
 header {
   width: 100%;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  height: 102px;
+  z-index: 996;
 
-  background-color: var(--colorBlanco);
+  /* line-height: 102px; */
 }
 
 #btnMenu {
@@ -59,26 +62,25 @@ header label {
 header label:hover {
   cursor: pointer;
 }
+.menu > ul > li {
+  margin-top: 20px;
+}
 .menu ul {
   margin: 0;
   list-style: none;
   padding: 0;
   display: flex;
-  margin-left: 200px;
+  margin-left: 430px;
 }
 .menu li {
   flex-grow: 1;
-  border-right: 1px solid var(--colorNegro);
 }
-.menu li:hover {
-  background: #2fa1e7;
+.children li:hover > a {
+  display: block;
 }
 
 .children li {
   display: flex;
-  border-top: 1px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
 }
 
 .children:hover {
@@ -92,13 +94,14 @@ header label:hover {
 .menu li a {
   display: block;
   padding: 15px 15px;
-  color: var(--colorNegro);
+  color: var(--colorBlanco);
   text-decoration: none;
-  text-align: center;
+  text-align: right;
   font-size: 1rem;
+  font-weight: 500;
 }
 .menu li a:hover {
-  color: var(--colorBlanco);
+  color: var(--colorAzul);
 }
 .subMenu > ul {
   margin-left: 0px;
@@ -107,9 +110,14 @@ header label:hover {
   width: 100%;
   text-align: left;
 }
-
+.menu li ul :hover> .children{
+  display: block;
+}
 .subMenu > ul > li > a > b {
   padding: 10px;
+}
+.children {
+  display: block;
 }
 .fa-bars {
   color: var(--colorNegro);
@@ -125,6 +133,12 @@ header label:hover {
   min-width: 140px;
   text-align: center;
   z-index: 100;
+}
+.menu li ul :hover > .children {
+  display: block;
+}
+.menu li ul:hover {
+  display: block;
 }
 .menu li:hover > ul {
   display: block;
@@ -143,7 +157,16 @@ header label:hover {
 .buscarResponsive {
   display: none;
 }
+
+#flechaUno,
+#flechaDos {
+  display: none;
+}
 @media (max-width: 768px) {
+  #flechaUno,
+  #flechaDos {
+    display: inline;
+  }
   .msg {
     display: block;
     position: absolute;
@@ -191,6 +214,12 @@ header label:hover {
     z-index: 100;
     top: 50px;
   }
+  .menu ul a {
+    color: var(--colorNegro);
+  }
+  .menu > ul > li {
+    margin-top: 0px;
+  }
   .menu > ul {
     margin-left: 0px;
   }
@@ -208,6 +237,7 @@ header label:hover {
 
   .menu li a {
     text-align: left;
+    padding: 15px 15px;
   }
 
   #btnMenu:checked ~ .menu {
@@ -225,11 +255,12 @@ header label:hover {
   display: block;
   position: absolute;
   left: 55px;
-  top: 2px;
-  width: 3%;
+  top: 10px;
+  width: 5.5%;
 }
 @media (max-width: 768px) {
   .logo {
+    top: 2px;
     width: 2.4em;
   }
 }
@@ -445,6 +476,7 @@ aside p {
   font-size: 2em;
   /* padding: 120px; */
 }
+
 .textoIndex {
   z-index: 1;
   top: 0;
@@ -556,6 +588,7 @@ aside p {
 
 .fiestas {
   /* margin-top: 40px; */
+
   background-color: var(--colorVerdeOpaco);
   padding: 40px 0px 40px 0px;
 }
@@ -624,6 +657,7 @@ aside p {
   bottom: 8px;
   width: 100%;
   text-align: left;
+  line-height: 2.1;
 }
 .slideshow-container {
   max-width: 800px;

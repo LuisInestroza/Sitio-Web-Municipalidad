@@ -1,13 +1,13 @@
 <!-- Banner -->
-<div class="banner">
+<!-- <div class="banner">
   <img src="/img/banner2.png" alt="">
-</div>
+</div> -->
 
 <!-- Texto de mostrar la bienvenida al sitio -->
 <!-- <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p> -->
 
 <!-- Contenido del sitio web -->
-<div class=" ciudad">
+<!-- <div class=" ciudad">
   <h1 class="textoIndex">¡La ciudad más emocionante del Centro!</h1>
   <div class="lugares">
     <div class="contenedor">
@@ -73,35 +73,39 @@
   </div>
   <div class="button">
     <a href="">VER MAS LUGARES</a>
-  </div>
+  </div> -->
 
-  <!-- Sección de ferias y celebridades de Siguatepeque -->
-  <div class="fiestas">
-    <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
-    <div class="lugares">
-      <div class="contenedorFiestas">
-        <a href="/view/Festivales/feriaPatronal.php">
-          <img src="/img/feriaSanPablo.png" alt="" srcset="">
-          <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
+<div class="slider">
 
-        </a>
+</div>
 
-      </div>
-      <div class="contenedorFiestas">
-        <a href="/view/Festivales/fesivalFlores.php">
-          <img src="/img/festivalDeLasFlores.png"" alt="" srcset="">
+
+<!-- Sección de ferias y celebridades de Siguatepeque -->
+<div class="fiestas">
+  <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
+  <div class="lugares">
+    <div class="contenedorFiestas">
+      <a href="/view/Festivales/feriaPatronal.php">
+        <img src="/img/feriaSanPablo.png" alt="" srcset="">
+        <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
+
+      </a>
+
+    </div>
+    <div class="contenedorFiestas">
+      <a href="/view/Festivales/fesivalFlores.php">
+        <img src="/img/festivalDeLasFlores.png"" alt="" srcset="">
           <p class=" text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
-        </a>
-
-      </div>
-      <div class="contenedorFiestas">
-        <a href="/view/Festivales/festivalPino.php">
-          <img src="/img/festivalDelPino.png" alt="" srcset="">
-          <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
-        </a>
-      </div>
+      </a>
+    </div>
+    <div class="contenedorFiestas">
+      <a href="/view/Festivales/festivalPino.php">
+        <img src="/img/festivalDelPino.png" alt="" srcset="">
+        <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
+      </a>
     </div>
   </div>
+</div>
 </div>
 
 <!-- Servicios para la ciudadanía -->

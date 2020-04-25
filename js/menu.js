@@ -1,17 +1,32 @@
 // Codigo para dar funcinamiento a los submenus en modo responsive
 
 // Mostrar el Sub-menu
-$(document).ready(function () {
-  // Captar el nombre de la clase de la etiqueta <li></li>
-  $(".subMenu > a").click(function (e) {
-    e.preventDefault();
+if(!(screen.width < 1366)){
+  $(document).ready(function () {
+    // Captar el nombre de la clase de la etiqueta <li></li>
+    $(".subMenu > a").hover(function (e) {
+      e.preventDefault();
+  
+      $(this)
+        // mostrar los elementos de la etiqueta <li></li>
+        .next(".children")
+        .slideToggle();
+    });
+  });  
+}else{
+  $(document).ready(function () {
+    // Captar el nombre de la clase de la etiqueta <li></li>
+    $(".subMenu > a").click(function (e) {
+      e.preventDefault();
+  
+      $(this)
+        // mostrar los elementos de la etiqueta <li></li>
+        .next(".children")
+        .slideToggle();
+    });
+  });  
 
-    $(this)
-      // mostrar los elementos de la etiqueta <li></li>
-      .next(".children")
-      .slideToggle();
-  });
-});
+}
 
 // Función para girar el icono de la flecha al hacer click
 // En la etiqueta <a></a> de departamentos
