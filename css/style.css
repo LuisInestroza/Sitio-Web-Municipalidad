@@ -62,9 +62,7 @@ header label {
 header label:hover {
   cursor: pointer;
 }
-.menu > ul > li {
-  margin-top: 20px;
-}
+
 .menu ul {
   margin: 0;
   list-style: none;
@@ -75,17 +73,15 @@ header label:hover {
 .menu li {
   flex-grow: 1;
 }
-.children li:hover > a {
-  display: block;
-}
-
-.children li {
-  display: flex;
+.subMenu >ul >li >a{
+  padding: 15px 15px;
 }
 
 .children:hover {
   color: var(--colorBlanco);
+
 }
+
 
 .subMenu .children li i {
   margin-top: 10px;
@@ -93,7 +89,7 @@ header label:hover {
 
 .menu li a {
   display: block;
-  padding: 15px 15px;
+  padding: 40px 15px 40px 15px;
   color: var(--colorBlanco);
   text-decoration: none;
   text-align: right;
@@ -115,9 +111,6 @@ header label:hover {
 }
 .subMenu > ul > li > a > b {
   padding: 10px;
-}
-.children {
-  display: block;
 }
 .fa-bars {
   color: var(--colorNegro);
@@ -214,11 +207,16 @@ header label:hover {
     z-index: 100;
     top: 50px;
   }
+  .menu li a {
+    padding: 15px 15px;
+  }
   .menu ul a {
     color: var(--colorNegro);
   }
+  
   .menu > ul > li {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .menu > ul {
     margin-left: 0px;
