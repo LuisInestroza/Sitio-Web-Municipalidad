@@ -33,9 +33,9 @@
     </div>
     <!-- The dots/circles -->
     <div style="text-align:center">
-      <span class="dot" onclick="currentSlides(1)"></span>
-      <span class="dot" onclick="currentSlides(2)"></span>
-      <span class="dot" onclick="currentSlides(3)"></span>
+      <span class="dots" onclick="currentSlides(1)"></span>
+      <span class="dots" onclick="currentSlides(2)"></span>
+      <span class="dots" onclick="currentSlides(3)"></span>
     </div>
   </div>
 </div>
