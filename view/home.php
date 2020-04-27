@@ -1,84 +1,44 @@
-<!-- Banner -->
-<!-- <div class="banner">
-  <img src="/img/banner2.png" alt="">
-</div> -->
+<div class="slider">
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlide fade">
+      <img src="/img/slider/parqueCentral.jpg" alt="" srcset="">
 
-<!-- Texto de mostrar la bienvenida al sitio -->
-<!-- <p class="letras">BIENVENIDOS A NUESTRO SITIO WEB</p> -->
+      <div class="text">
+        <p class="textoServicios">Servicios Regulares <br><br></p>
+        <div>
+        </div>
+      </div>
+    </div>
 
-<!-- Contenido del sitio web -->
-<!-- <div class=" ciudad">
-  <h1 class="textoIndex">¡La ciudad más emocionante del Centro!</h1>
-  <div class="lugares">
-    <div class="contenedor">
-      <a href="">
-        <img src="/img/escudoSiguatepeque.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Escudo Oficial de Siguatepeque</p>
-          <p>Ver</p>
+    <div class="mySlide fade">
+      <div class="text">
+        <p class="textoServicios">Servicios Permanentes<br><br></p>
+        <div>
+
         </div>
-      </a>
+      </div>
     </div>
-    <div class="contenedor">
-      <a href="">
-        <img src="img/BanderaSiguatepeque.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Bandera Oficial de Siguatepeque</p>
-          <p>Ver</p>
+
+    <div class="mySlide fade">
+      <!-- <img src="img3.jpg" style="width:100%"> -->
+      <div class="text">
+        <p class="textoServicios">Servicios Eventuales <br><br></p>
+        <div class="servicios-samp">
+
         </div>
-      </a>
+
+      </div>
     </div>
-    <div class="contenedor">
-      <a href="">
-        <img src="img/plazaSanPedro.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Plaza San Pedro Siguatepeque</p>
-          <p>Ver</p>
-        </div>
-      </a>
-    </div>
-    <div class="contenedor">
-      <a href="">
-        <img src="img/parqueCentralSiguatepeque.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Parque Central de Siguatepeque</p>
-          <p>Ver</p>
-        </div>
-      </a>
-    </div>
-    <div class="contenedor">
-      <a href="">
-        <img src="img/plazaCivicaAmistadSiguatepeque.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Plaza Cívica La Amistad</p>
-          <p>Ver</p>
-        </div>
-      </a>
-    </div>
-    <div class="contenedor">
-      <a href="">
-        <img src="img/bosqueCalanterique.png" class="imagen" alt="" srcset="">
-        <p style="text-align: center;">Información...</p>
-        <div class="">
-          <p>Bosque Calanterique</p>
-          <p>Ver</p>
-        </div>
-      </a>
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlides(1)"></span>
+      <span class="dot" onclick="currentSlides(2)"></span>
+      <span class="dot" onclick="currentSlides(3)"></span>
     </div>
   </div>
-  <div class="button">
-    <a href="">VER MAS LUGARES</a>
-  </div> -->
-
-<div class="slider">
-
 </div>
-
 
 <!-- Sección de ferias y celebridades de Siguatepeque -->
 <div class="fiestas">
@@ -140,7 +100,6 @@
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <!-- <img src="img2.jpg" style="width:100%"> -->
         <div class="text">
           <p class="textoServicios">Servicios Permanentes<br><br></p>
           <div>

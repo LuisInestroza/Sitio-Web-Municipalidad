@@ -11,16 +11,20 @@
   <!-- Link de las hojas de estilos  Principales-->
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css">
-  <!-- Bootstrap -->
 
+
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="/css/bootstrap.css">
 
-  <!-- Estilo del slider de noticias -->
 
   <link rel="stylesheet" href="/css/tabs.css">
   <link rel="stylesheet" href="/css/tabstyles.css">
 
+
+
   <!-- Link de el estilo de las fuentes -->
+
+
 
 
   <!-- Links de iconos -->
@@ -31,6 +35,8 @@
 </head>
 
 <body>
+
+
   <!-- Botón de desplazar hacia arriba -->
   <span class="arriba">
     <i class="fa fa-angle-up"></i>

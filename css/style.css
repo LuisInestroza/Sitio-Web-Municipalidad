@@ -46,10 +46,7 @@ header {
   background-color: rgba(0, 0, 0, 0.2) !important;
   height: 102px;
   z-index: 996;
-
-  /* line-height: 102px; */
 }
-
 #btnMenu {
   display: none;
 }
@@ -62,7 +59,6 @@ header label {
 header label:hover {
   cursor: pointer;
 }
-
 .menu ul {
   margin: 0;
   list-style: none;
@@ -73,15 +69,13 @@ header label:hover {
 .menu li {
   flex-grow: 1;
 }
-.subMenu >ul >li >a{
+.subMenu > ul > li > a {
   padding: 15px 15px;
 }
 
 .children:hover {
   color: var(--colorBlanco);
-
 }
-
 
 .subMenu .children li i {
   margin-top: 10px;
@@ -106,9 +100,7 @@ header label:hover {
   width: 100%;
   text-align: left;
 }
-.menu li ul :hover> .children{
-  display: block;
-}
+
 .subMenu > ul > li > a > b {
   padding: 10px;
 }
@@ -116,30 +108,24 @@ header label:hover {
   color: var(--colorNegro);
   font-size: 2rem;
 }
+
+.menu .children {
+  position: absolute;
+  display: none;
+}
+
 .menu li ul {
   background: #2b406d;
-  position: absolute;
+  /* position: absolute; */
   color: var(--colorBlanco);
   font-size: 2rem;
   width: 20%;
-  display: none;
+  /* display: none; */
   min-width: 140px;
   text-align: center;
   z-index: 100;
 }
-.menu li ul :hover > .children {
-  display: block;
-}
-.menu li ul:hover {
-  display: block;
-}
-.menu li:hover > ul {
-  display: block;
-}
 
-.header nav ul li:hover .children {
-  display: none;
-}
 .fa-angle-down {
   font-size: 1.5em;
   float: right;
@@ -213,7 +199,7 @@ header label:hover {
   .menu ul a {
     color: var(--colorNegro);
   }
-  
+
   .menu > ul > li {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -308,21 +294,9 @@ header label:hover {
 }
 /* Fin del diseño de barra de búsqueda */
 
-/* Banner de la imagen */
-.banner {
-  top: 0;
-  width: 100%;
-}
-.banner img {
-  width: 100%;
-  height: 350px;
-}
-@media (max-width: 768px) {
-  .banner img {
-    height: 120px;
-  }
-}
-/* Fin del diseño del banner */
+/* Slider */
+
+/* Fin del slider */
 
 /* Botón de arriba */
 .arriba {
@@ -647,6 +621,9 @@ aside p {
   display: none;
 }
 
+.mySlide {
+  display: none;
+}
 /* Caption text */
 .text {
   color: #000000;
