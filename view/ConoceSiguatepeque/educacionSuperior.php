@@ -18,7 +18,6 @@ require_once '../layouts/header.php';
     <div class="contenedor">
       <a href="/view/EducacionSuperior/umh.php">
         <img src="/img/logosUniversidades/logoUMH.png" alt="">
-
         <p class="nombreUniversidad">Universidad Metropolitana de Honduras</p>
       </a>
     </div>

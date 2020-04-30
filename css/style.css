@@ -37,6 +37,7 @@ body {
 }
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 /* Diseño del header */
@@ -45,7 +46,6 @@ header {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2) !important;
   height: 102px;
-  z-index: 996;
 }
 #btnMenu {
   display: none;
@@ -58,6 +58,11 @@ header label {
 }
 header label:hover {
   cursor: pointer;
+}
+.menu {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  position: absolute;
+  z-index: 999;
 }
 .menu ul {
   margin: 0;
@@ -97,6 +102,7 @@ header label:hover {
   margin-left: 0px;
 }
 .subMenu > ul > li > a {
+  color: var(--colorNegro);
   width: 100%;
   text-align: left;
 }
@@ -115,12 +121,10 @@ header label:hover {
 }
 
 .menu li ul {
-  background: #2b406d;
-  /* position: absolute; */
-  color: var(--colorBlanco);
+  background: var(--colorBlanco);
+  /* background: #2b406d;*/
   font-size: 2rem;
   width: 20%;
-  /* display: none; */
   min-width: 140px;
   text-align: center;
   z-index: 100;
@@ -193,6 +197,12 @@ header label:hover {
     z-index: 100;
     top: 50px;
   }
+  .menu ul {
+    background: var(--colorBlanco);
+  }
+  .menu li ul {
+    background: #2b406d;
+  }
   .menu li a {
     padding: 15px 15px;
   }
@@ -241,6 +251,7 @@ header label:hover {
   left: 55px;
   top: 10px;
   width: 5.5%;
+  z-index: 2000;
 }
 @media (max-width: 768px) {
   .logo {
@@ -252,9 +263,12 @@ header label:hover {
 
 /* Barra búsqueda */
 .hero {
-  top: 10px;
+  /* top: 10px; */
   margin: 10px;
   height: 60px;
+  right: 0;
+  position: relative;
+  z-index: 3;
 }
 
 .busqueda {
@@ -295,7 +309,88 @@ header label:hover {
 /* Fin del diseño de barra de búsqueda */
 
 /* Slider */
+.slider.fullscreen {
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.slider,
+.slider.fullscreen {
+  position: relative;
+  width: 100%;
+}
+.slider {
+  height: 545px;
+}
+.slider.fullscreen ul.slides {
+  height: 100vh;
+}
+.slider .slides {
+  background-color: #9e9e9e;
+  margin: 0;
+  height: 545px;
+}
+ul:not(.browser-default) {
+  padding-left: 0;
+  list-style-type: none;
+}
 
+.slider .slides li {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: inherit;
+  overflow: hidden;
+}
+
+ul:not(.browser-default) > li {
+  list-style-type: none;
+}
+.slider .slides li img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+.slider .slides li .caption {
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 9%;
+  width: 70%;
+  opacity: 0;
+}
+caption {
+  top: 20%;
+}
+.slider .slides li .caption .heading {
+  font-size: 2.3rem;
+  font-weight: 500;
+  max-width: 370px;
+}
+.slider .slides li .caption p {
+  margin: 20px 0;
+  color: #fff;
+  font-weight: 400;
+  max-width: 370px;
+}
+.slider .slides li .caption .btn-alt {
+  background-color: #fff !important;
+  border: 2px solid #fff;
+  color: #0076aa !important;
+}
 /* Fin del slider */
 
 /* Botón de arriba */
@@ -559,12 +654,11 @@ aside p {
 }
 
 .fiestas {
-  /* margin-top: 40px; */
-
   background-color: var(--colorVerdeOpaco);
   padding: 40px 0px 40px 0px;
 }
-
+@media (max-width: 768px) {
+}
 .text2 {
   color: var(--colorBlanco);
   text-align: center;
@@ -779,28 +873,6 @@ aside p {
 
 /* ----------------------------------------------------------- */
 
-/* ------------------------------------------------------------ */
-/* Estilos de la view departamentos */
-
-.deptos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.deptos a {
-  text-align: center;
-}
-.contenedor a {
-  text-decoration: none;
-}
-
-/* -------------------------------------------------------------- */
-
-/* Estilos de los departamentos */
-
 .imagenDepto {
   width: 50%;
   /* align-self: center; */
@@ -813,6 +885,7 @@ aside p {
   /* margin-right: 20px; */
   text-align: justify;
   margin: 30px 30em 20px 40px;
+  line-height: 2.1;
 }
 @media (max-width: 768px) {
   .imagenDepto {
@@ -868,14 +941,17 @@ aside p {
 
 /* ---------------------------------------------------- */
 /* -------- Estilo de  educación superior  --------------*/
-/* -------- Estilo de lugares turisticos----------------- */
+/* -------- Estilo de lugares turísticos----------------- */
+/* -------- Estilo de departamentos    ----------------- */
 /* ---------------------------------------------------- */
 .lista-universidades,
-.lista-lugares {
+.lista-lugares,
+.lista-departamentos {
   padding: 20px;
 }
 .educacionSuperior,
-.lugares {
+.lugares,
+.deptos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -884,6 +960,13 @@ aside p {
   margin: 0 auto;
 }
 
+.deptos p {
+  text-align: center;
+  color: var(--colorNegro);
+  line-height: 1.2;
+  font-weight: bolder;
+  padding: 1rem 0px 0px 0px;
+}
 .educacionSuperior p {
   text-align: center;
   color: var(--colorNegro);
@@ -907,12 +990,25 @@ aside p {
 .educacionSuperior p:hover {
   color: var(--colorBlanco);
 }
+
+.lugares p:hover {
+  color: var(--colorBlanco);
+}
+
+.deptos p:hover {
+  color: var(--colorBlanco);
+}
+
 .educacionSuperior .contenedor {
   background: var(--colorAzul);
   padding: 1rem;
 }
 
 .lugares .contenedor {
+  background: var(--colorAzul);
+  padding: 1rem;
+}
+.deptos .contenedor {
   background: var(--colorAzul);
   padding: 1rem;
 }
@@ -926,7 +1022,8 @@ aside p {
 }
 @media (min-width: 768px) {
   .educacionSuperior,
-  .lugares {
+  .lugares,
+  .deptos {
     width: 95%;
     grid-template-columns: repeat(3, 1fr);
   }
@@ -939,8 +1036,12 @@ aside p {
     height: 354px;
     width: 354px;
   }
+  .deptos .contenedor img {
+    height: 354px;
+    width: 354px;
+  }
 }
-/* ------------------------------------------------------ */
+/* -----------------  Fin de hoja de estilos ------------------------- */
 
 /* Contenido universidad */
 .universidad {

@@ -1,44 +1,54 @@
-<div class="slider">
-  <!-- Slideshow container -->
-  <div class="slideshow-container">
-    <!-- Full-width images with number and caption text -->
-    <div class="mySlide fade">
-      <img src="/img/slider/parqueCentral.jpg" alt="" srcset="">
-
-      <div class="text">
-        <p class="textoServicios">Servicios Regulares <br><br></p>
-        <div>
-        </div>
+<div class="slider fullscreen">
+  <ul class="slides">
+    <li>
+      <div class="overlay"></div>
+      <img src="img/admisionenlinea.png" alt="Admisiones Campus San Pedro y San Pablo">
+      <div class="caption left-align">
+        <h1 class="heading">Admisiones ONLINE</h1>
+        <p>Ya podés solicitar tu examen de admisión Online.</p>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4OqSVd4hoTK7xaR35BJtM51ka5fXchTJMDZRF3L8Gt2FoGg/viewform"
+          class="btn-alt lefty hoverable">Descubrí cómo</a>
       </div>
-    </div>
-
-    <div class="mySlide fade">
-      <div class="text">
-        <p class="textoServicios">Servicios Permanentes<br><br></p>
-        <div>
-
-        </div>
+    </li>
+    <li>
+      <div class="overlay"></div>
+      <img src="img/principal-2.png" alt="Taller Arquitectura">
+      <div class="caption left-align">
+        <h1 class="heading">Pagos en Línea</h1>
+        <p>Ahora podrás realizar tus pagos desde UNICAH ID con todas tus tarjetas de crédito y débito VISA y Mastercard.
+        </p>
       </div>
-    </div>
-
-    <div class="mySlide fade">
-      <!-- <img src="img3.jpg" style="width:100%"> -->
-      <div class="text">
-        <p class="textoServicios">Servicios Eventuales <br><br></p>
-        <div class="servicios-samp">
-
-        </div>
-
+    </li>
+    <li>
+      <div class="overlay"></div>
+      <img src="img/principal-3.png" alt="Educación con valores">
+      <div class="caption left-align">
+        <h1 class="heading">Aprovechá al máximo tu educación.</h1>
+        <p>Preparate para ser mejor. Es hora de empezar tu camino.</p>
+        <a href="programas" class="btn-alt lefty hoverable">Descubrí cómo</a>
       </div>
-    </div>
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dots" onclick="currentSlides(1)"></span>
-      <span class="dots" onclick="currentSlides(2)"></span>
-      <span class="dots" onclick="currentSlides(3)"></span>
-    </div>
-  </div>
+    </li>
+    <li>
+      <div class="overlay"></div>
+      <img src="img/atencionpsicologicavirtual.png" alt="atención psicológica anónima">
+      <div class="caption left-align">
+        <h1 class="heading">¡Anonima &amp; GRATIS!</h1>
+        <p></p>
+        <a href="https://discord.gg/RVenhKx" class="btn-alt lefty hoverable">Descubrí cómo</a>
+      </div>
+    </li>
+    <li>
+      <div class="overlay"></div>
+      <img src="img/atencionmedicavirtua.png" alt="atención medica virtual">
+    </li>
+    <li>
+      <div class="overlay"></div>
+      <img src="img/cristoenlinea.png" alt="atención espiritual">
+    </li>
+  </ul>
 </div>
+
+
 
 <!-- Sección de ferias y celebridades de Siguatepeque -->
 <div class="fiestas">

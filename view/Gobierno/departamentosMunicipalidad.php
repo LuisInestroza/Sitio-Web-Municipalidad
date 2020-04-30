@@ -5,7 +5,7 @@
 ?>
 
 <!-- Div de departamentos -->
-<div class="departamentos">
+<div class="lista-departamentos">
   <p class="texto">DEPARTAMENTOS</p>
   <div class="deptos">
     <div class="contenedor">
@@ -14,20 +14,15 @@
         <p>Oficina del Alcalde</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/oficinaAlcalde.php">Ver</a>
-      </div>
-    </div>
 
+    </div>
     <div class="contenedor">
       <a href="/view/Departamentos/catastroMunicipal.php">
         <img class="imagen" src="/img/Departamentos/mapa-siguatepeque.jpg" alt="catastro-municipal">
         <p>Catastro Municipalipal</p>
       </a>
       <p>Servicios Prestados.</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/catastroMunicipal.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/controlTributario.php">
@@ -37,9 +32,7 @@
         <p>Control Tributario</p>
       </a>
       <p>Servicios</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/controlTributario.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/tesoreriaMunicipal.php">
@@ -49,9 +42,7 @@
         <p>Tesoría Municipal</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/tesoreriaMunicipal.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/obrasPublicas.php">
@@ -62,9 +53,7 @@
         <p>Obras Públicas</p>
       </a>
       <p>Servicios Prestados</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/obrasPublicas.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/contabilidadYPresupuesto.php">
@@ -74,9 +63,7 @@
         <p>Contabilidad y Presupuesto</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/contabilidadYPresupuesto.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/justiciaMunicipal.php">
@@ -86,9 +73,7 @@
         <p>Justicia Municipal</p>
       </a>
       <p>Servicios</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/justiciaMunicipal.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/medioAmbiente.php">
@@ -98,9 +83,7 @@
         <p>Medio Ambiente (UMA)</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/medioAmbiente.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/desarrolloComunitario.php">
@@ -110,9 +93,7 @@
         <p>Desarrollo Comunitario</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/desarrolloComunitario.php">Ver</a>
-      </div>
+
     </div>
 
     <div class="contenedor">
@@ -124,9 +105,7 @@
         <p>Secretaria Municipal</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/secretariaMunicipal.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/oficinaMujer-Niñez.php">
@@ -135,9 +114,7 @@
         <p>Oficina de la mujer y niñez</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/oficinaMujer-Niñez.php">Ver</a>
-      </div>
+
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/gerenciaGeneralMunicipal.php">
@@ -145,9 +122,7 @@
         <p>Gerencia General Municipal</p>
       </a>
       <p>Atribuciones</p>
-      <div class="informacion">
-        <a href="/view/Departamentos/gerenciaGeneralMunicipal.php">Ver</a>
-      </div>
+
     </div>
 
   </div>
