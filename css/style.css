@@ -540,7 +540,10 @@ aside p {
   padding: 20px 0px 0px 0px;
   text-align: center;
   font-weight: bold;
-  font-size: 2em;
+
+  font-size: 2.25em;
+  line-height: 1.3em;
+  font-weight: 700;
   /* padding: 120px; */
 }
 
@@ -917,28 +920,80 @@ aside p {
   }
 }
 
-/* Estilo de la view de regidores */
+/*-------------------------------------- */
+/* ---------- Estilo de Regidores -------*/
+/* ------------------------------------- */
+
+.lista-regidores {
+  padding: 20px;
+}
+
 .regidores {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 2rem;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
 }
-.imagenRegidor {
-  width: 50%;
-  align-self: center;
+.regidores p {
+  text-align: center;
+  color: var(--colorNegro);
+  line-height: 1.2;
+  font-weight: bolder;
+  padding: 1rem 0px 0px 0px;
 }
-
-@media (max-width: 768px) {
-  .contenedorRegidor {
-    grid-column: 1/4;
-    margin: 20px;
+.regidores .contenedor {
+  background: var(--colorBlanco);
+  padding: 1rem;
+}
+.regidores .informacion-regidor {
+  float: none;
+}
+.regidores .informacion-regidor .regidor {
+  color: var(--colorVerde);
+  float: none;
+}
+.regidores .informacion-regidor .nombre-regidor {
+  float: none;
+}
+.regidores .informacion-regidor .email-regidor {
+  float: none;
+}
+.regidores .informacion-regidor .phone-regidor {
+  float: none;
+}
+@media (min-width: 768px) {
+  .regidores {
+    width: 75%;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 60px;
   }
-  .imagenRegidor {
-    width: 100%;
-    position: relative;
+  .regidores .contenedor img {
+    height: 200px;
+    width: 200px;
+  }
+  .regidores .informacion-regidor {
+    width: 50%;
+    float: right;
+    overflow: auto;
+    line-height: normal;
+  }
+  .regidores .informacion-regidor .regidor {
+    float: left;
+    color: var(--colorVerde);
+  }
+  .regidores .informacion-regidor .nombre-regidor {
+    float: left;
+    font-size: 1.5rem;
+  }
+  .regidores .informacion-regidor .phone-regidor {
+    float: left;
+  }
+  .regidores .informacion-regidor .email-regidor {
+    float: left;
   }
 }
-
 /* ---------------------------------------------------- */
 /* -------- Estilo de  educación superior  --------------*/
 /* -------- Estilo de lugares turísticos----------------- */

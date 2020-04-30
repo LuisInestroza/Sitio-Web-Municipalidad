@@ -109,7 +109,9 @@
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/oficinaMujer-Niñez.php">
-        <img class="imagen" src="" alt="oficina-mujer-niñez">
+        <img class="imagen"
+          src="https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Libraries/Graphics+Library/22-11-2019_UN-Women-02.jpg/image1170x530cropped.jpg"
+          alt="oficina-mujer-niñez">
 
         <p>Oficina de la mujer y niñez</p>
       </a>
@@ -118,7 +120,8 @@
     </div>
     <div class="contenedor">
       <a href="/view/Departamentos/gerenciaGeneralMunicipal.php">
-        <img class="imagen" src="" alt="gerencia-general-municipal">
+        <img class="imagen" src="https://infomperu.com/wp-content/uploads/2013/09/Gerencia-Municipal.jpg"
+          alt="gerencia-general-municipal">
         <p>Gerencia General Municipal</p>
       </a>
       <p>Atribuciones</p>
