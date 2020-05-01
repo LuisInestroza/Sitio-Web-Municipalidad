@@ -7,12 +7,16 @@
   
 ?>
 
+<div class="alcaldía">
+  <div class="contenedor">
+    <img class="imagenDepto" src="/img/abgJCMP.png" alt="Abog. Juan Carlos Morales Pacheco">
+    <div class="informacion-alcalde">
+      <p class="nombre-alcalde">Abog. Juan Carlos Morales Pacheco</p>
+      <p class="alcalde-municipal">ALCALDE MUNICIPAL</p>
+      <p class="periodo-gobierno">2018-2022</p>
+    </div>
+  </div>
 
-<div class="alcaldia">
-  <img class="imagenDepto" src="/img/JCMP.jpg" alt="Abog. Juan Carlos Morales Pacheco">
-  <h3>Abog. Juan Carlos Morales Pacheco</h3>
-  <h3>Alcalde Municipal</h3>
-  <h3>2018-2022</h3>
 </div>
 
 <!-- Footer -->
