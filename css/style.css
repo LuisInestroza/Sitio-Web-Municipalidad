@@ -864,18 +864,6 @@ aside p {
   }
 }
 
-/* Estilos de la view de alcaldiaMunicipal.php */
-
-.alcaldia img {
-  width: 45%;
-}
-
-.alcaldia p {
-  font-size: 1.2rem;
-}
-
-/* ----------------------------------------------------------- */
-
 .imagenDepto {
   width: 50%;
   /* align-self: center; */
@@ -919,6 +907,64 @@ aside p {
     width: 100%;
   }
 }
+/* -------------------------------------------------*/
+/* ---------- Estilo de alcalde municipal --------- */
+/* ------------------------------------------------ */
+
+.alcaldía {
+  display: grid;
+  grid-gap: 2rem;
+  max-width: 1200px;
+  width: 70%;
+  margin: 0 auto 40px auto;
+  margin-top: 60px;
+}
+.alcaldía .contenedor {
+  background: var(--colorBlanco);
+  padding: 1rem;
+}
+.alcaldía p {
+  text-align: center;
+  color: var(--colorNegro);
+  line-height: 1.2;
+  font-weight: bolder;
+  padding: 1rem 0px 0px 0px;
+}
+.alcaldía .informacion-alcalde {
+  float: none;
+  margin: 0;
+}
+.alcaldía .informacion-alcalde .alcalde-municipal {
+  color: var(--colorVerde);
+}
+
+@media (min-width: 768px) {
+  .alcaldía .contenedor img {
+    display: block;
+    margin: auto;
+    float: right;
+  }
+
+  .alcaldía .informacion-alcalde {
+    position: relative;
+    top: 30%;
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+    line-height: normal;
+  }
+  .alcaldía .informacion-alcalde .nombre-alcalde {
+    font-size: 1.5rem;
+  }
+  .alcaldía .informacion-alcalde .alcalde-municipal {
+    font-size: 1.7rem;
+  }
+  .alcaldía .informacion-alcalde .periodo-gobierno {
+    font-size: 1.4rem;
+  }
+}
+/* ----- Fin de css alcalde municipal -------------- */
 
 /*-------------------------------------- */
 /* ---------- Estilo de Regidores -------*/
