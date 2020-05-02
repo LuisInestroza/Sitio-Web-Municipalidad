@@ -98,9 +98,7 @@ header label:hover {
 .menu li a:hover {
   color: var(--colorAzul);
 }
-.subMenu > ul {
-  margin-left: 0px;
-}
+
 .subMenu > ul > li > a {
   color: var(--colorNegro);
   width: 100%;
@@ -114,11 +112,18 @@ header label:hover {
   color: var(--colorNegro);
   font-size: 2rem;
 }
-
-.menu .children {
+.subMenu > ul {
+  margin-left: 0px;
   position: absolute;
+  display: block;
+}
+.subMenu ul {
   display: none;
 }
+
+/* .menu li:hover ul {
+  display: block;
+} */
 
 .menu li ul {
   background: var(--colorBlanco);
@@ -1089,28 +1094,28 @@ aside p {
   }
 }
 .educacionSuperior p:hover {
-  color: var(--colorBlanco);
+  color: var(--colorAzul);
 }
 
 .lugares p:hover {
-  color: var(--colorBlanco);
+  color: var(--colorAzul);
 }
 
 .deptos p:hover {
-  color: var(--colorBlanco);
+  color: var(--colorAzul);
 }
 
 .educacionSuperior .contenedor {
-  background: var(--colorAzul);
+  background: var(--colorBlanco);
   padding: 1rem;
 }
 
 .lugares .contenedor {
-  background: var(--colorAzul);
+  background: var(--colorBlanco);
   padding: 1rem;
 }
 .deptos .contenedor {
-  background: var(--colorAzul);
+  background: var(--colorBlanco);
   padding: 1rem;
 }
 .educacionSuperior .lugares .contenedor img {

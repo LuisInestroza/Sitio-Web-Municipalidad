@@ -55,7 +55,7 @@
 
   <!-- Script de las funciones de animaciones de JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+  <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="/js/slider.js"></script>
   <script src="/js/menu.js"></script>
   <script src="/js/botonArriba.js"></script>
