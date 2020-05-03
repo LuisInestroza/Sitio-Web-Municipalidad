@@ -10,7 +10,7 @@
   <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/conyabilidad.jpg" alt=""
     class="imagenDepto">
 
-  <ol type="1" class="contenido">
+  <ol type="1">
     <li>Desarrollar, implantar y dar seguimiento a un sistema contable y presupuestario
       de ingresos y egresos que refleje oportuna y confiable mente la situación
       económica y financiera de la Municipalidad</li>

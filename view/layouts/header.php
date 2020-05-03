@@ -54,7 +54,7 @@
       </p>
       <button onclick="return mostrarOcultar('hero')" id="buscarResponsive" class="buscarResponsive">
         <i class="fa fa-search" aria-hidden="true"></i>
-      </button n>
+      </button>
     </div>
     <!-- Botón de Sub-Menú Responsive -->
     <input type="checkbox" id="btnMenu">
@@ -143,6 +143,7 @@
             <b>Login Linea Base</b>
           </a>
         </li>
+
       </ul>
     </nav>
   </header>
