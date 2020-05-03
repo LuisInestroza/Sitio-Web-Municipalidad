@@ -296,7 +296,7 @@ header label:hover {
   font-weight: bold;
   padding: 0px;
   margin: 10px 15px;
-  background: var(--colorNegro);
+  background: none;
   right: 2%;
   border: none;
   width: 35px;
@@ -344,7 +344,7 @@ header label:hover {
     height: 30px;
   }
   .buscarResponsive .fa-search {
-    color: var(--colorBlanco);
+    color: var(--colorNegro);
   }
   .busqueda input {
     width: 87%;

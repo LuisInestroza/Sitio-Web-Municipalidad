@@ -13,11 +13,11 @@ function mostrarOcultar(id) {
   if (btnBuscador.style.display == "block") {
     // Ocultar el div y cambiar el color al hacer click
     btnBuscador.style.display = "none";
-    changeBtnColor.style.background = "#000000";
+    // changeBtnColor.style.background = "transparent";
   } else {
     // Mostrar el div y cambiar el color del button
     btnBuscador.style.display = "block";
-    changeBtnColor.style.background = "#6c757d";
+    // changeBtnColor.style.background = "#000000";
   }
   return true;
 }
