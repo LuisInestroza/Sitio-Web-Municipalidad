@@ -39,6 +39,9 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+ol {
+  padding: 0;
+}
 
 /* Diseño del header */
 
@@ -474,10 +477,6 @@ aside {
 iframe {
   width: 105%;
 }
-aside p {
-  font-size: 1.2em;
-  font-weight: bold;
-}
 
 .iframe {
   padding: 20px 0px 40px 0px;
@@ -506,7 +505,7 @@ aside p {
 }
 
 .carreras ul {
-  padding: 0px 0px 0px 40px;
+  padding: 0;
 }
 .carreras ul li {
   padding: 5px;
@@ -908,13 +907,6 @@ aside p {
   }
 }
 
-.imagenDepto {
-  width: 50%;
-  /* align-self: center; */
-  margin: auto;
-  display: block;
-}
-
 .contenido {
   /* margin-left: 20px; */
   /* margin-right: 20px; */
@@ -923,40 +915,79 @@ aside p {
   line-height: 2.1;
 }
 @media (max-width: 768px) {
-  .imagenDepto {
-    width: 100%;
-    position: relative;
-    /* bottom: 10px; */
-  }
   .contenido {
     text-align: justify;
     margin: 20px;
-  }
-  .oficina {
-    position: relative;
-    text-align: justify;
   }
 }
 
 /* ------------------------------------------------ */
 /* ---------- Estilo de los departamentos----------- */
 /* ------------------------------------------------- */
+.oficina {
+  padding: 60px;
+  text-align: justify;
+}
+.oficina .aside {
+  width: 31%;
+  margin: 0;
+  padding: 0;
+}
+
+.oficina .aside img {
+  margin: 0 0 2rem 0;
+  width: 100%;
+}
+.oficina .informacion-departamento {
+  width: 60%;
+  text-align: justify;
+  margin: 2em;
+}
+
+.oficina h1 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.oficina h3 {
+  font-weight: 600;
+  text-align: center;
+}
+.oficina ol {
+  line-height: 10em;
+  text-align: justify;
+}
 
 .oficina ol {
-  padding: 60px 120px;
   line-height: 1.6em;
 }
 @media (max-width: 768px) {
-  .oficina .imagenDepto {
-    padding: 0px 40px;
-  }
-  .oficina ol {
-    padding: 40px;
-    line-height: 2rem;
-  }
   .oficina {
-    position: relative;
-    text-align: justify;
+    padding: 20px;
+  }
+  .oficina .aside img {
+    margin: 0;
+  }
+  .oficina .aside {
+    width: 100%;
+  }
+  .oficina .informacion-departamento {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+  .oficina .aside h3 {
+    margin-top: 20px;
+  }
+  .oficina .aside p {
+    margin: 0;
+  }
+  .oficina .aside ol {
+    padding: 20px;
+    margin: 0;
   }
 }
 /* ---------------Fin de estilo de departamentos----- */
@@ -1158,7 +1189,6 @@ aside p {
 .educacionSuperior p:hover {
   color: var(--colorAzul);
 }
-
 .lugares p:hover {
   color: var(--colorAzul);
 }
