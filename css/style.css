@@ -886,7 +886,7 @@ iframe {
 /* ---------- Estilo de los departamentos----------- */
 /* ------------------------------------------------- */
 .oficina {
-  padding: 60px;
+  padding: 60px 60px 0px 60px;
   text-align: justify;
 }
 .oficina .aside {
@@ -1105,11 +1105,6 @@ iframe {
 /* -------- Estilo de departamentos    ----------------- */
 /* ---------------------------------------------------- */
 
-.lista-universidades,
-.lista-lugares,
-.lista-departamentos {
-  padding: 60px;
-}
 .educacionSuperior,
 .lugares,
 .deptos {
@@ -1225,7 +1220,7 @@ iframe {
   float: left;
 }
 .tittle {
-  padding: 60px;
+  padding: 60px 60px 10px 60px;
 }
 .tittle h1 {
   text-align: center;

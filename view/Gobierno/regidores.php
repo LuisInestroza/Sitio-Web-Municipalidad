@@ -3,9 +3,11 @@
   $tittle ="Regidores- Municipalidad de Siguatepeque";
   require_once '../layouts/header.php'; 
 ?>
-
+<div class="tittle">
+  <h1>REGIDORES 2018-2022</h1>
+</div>
 <div class="lista-regidores">
-  <p class="texto">REGIDORES 2018-2022</p>
+
 
   <div class="regidores">
     <div class="contenedor">

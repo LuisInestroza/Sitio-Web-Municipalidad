@@ -4,9 +4,14 @@
   require_once '../layouts/header.php'; 
 ?>
 
+
+<div class="tittle">
+  <h1>DEPARTAMENTOS</h1>
+</div>
+
 <!-- Div de departamentos -->
 <div class="lista-departamentos">
-  <h1>DEPARTAMENTOS</h1>
+
   <div class="deptos">
     <div class="contenedor">
       <a href="/view/Departamentos/oficinaAlcalde.php">

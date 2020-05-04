@@ -4,10 +4,12 @@ $tittle = "Educación Superior - Municipalidad de Siguatepeque";
 require_once '../layouts/header.php';
 ?>
 
+<div class="tittle">
+  <h1>UNIVERSIDADES EN SIGUATEPEQUE</h1>
+</div>
 
 <!-- Contenido de educación superior -->
 <div class="lista-universidades">
-  <h1>UNIVERSIDADES EN SIGUATEPEQUE</h1>
   <div class="educacionSuperior">
     <div class="contenedor">
       <a href="/view/EducacionSuperior/uth.php">
