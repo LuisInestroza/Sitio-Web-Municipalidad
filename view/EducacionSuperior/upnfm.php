@@ -4,14 +4,25 @@
   require_once '../layouts/header.php'; 
 ?>
 
+<div class="tittle">
+  <h1>UNIVERSIDAD PEDAGÓGICA NACIONAL FRANCISCO MORAZÁN (UPNFM)</h1>
 
+</div>
 <!-- Contenido -->
 <div class="universidad">
-  <aside>
+  <aside class="aside">
+    <!-- Carreras de la universidad -->
+    <div>
+      <h4>Carreras</h4>
+      <ul>
+
+
+      </ul>
+    </div>
     <!-- Contenedor de redes -->
     <div class="contenedorContactos">
-      <p>Contactos</p>
-      <div class="links">
+      <h4>Redes</h4>
+      <div>
         <ul class="icons">
           <li><a href="https://www.upnfm.edu.hn/" class="fas fa-globe"></a></li>
           <li><a href="https://www.facebook.com/UPNFMWEB/?fref=ts" class="fab fa-facebook"></a></li>
@@ -22,26 +33,17 @@
       </div>
     </div>
     <!-- Contenedor Ubicación -->
-    <div class="iframe">
-      <p>Ubicación</p>
-
-
+    <div>
+      <h4>Ubicación</h4>
     </div>
 
-    <!-- Carreras de la universidad -->
-    <div class="carreras">
-      <p>Carreras</p>
-      <ul>
 
-
-      </ul>
-    </div>
   </aside>
 
-  <div>
-    <p class="texto">Universidad Pedagógica Nacional Francisco Morazán (UPNFM)</p>
-    <img src="/img/logosUniversidades/logoUPNFM.png" alt="" class="imagenUniversidad">
-    <p class="contenido">
+  <div class="informacion-univeridad">
+
+    <img src="/img/logosUniversidades/logoUPNFM.png">
+    <p>
 
       Constituye el único centro de educación universitaria centroamericana dedicado a la formación de docentes para
       todos los niveles de la enseñanza. Creada como una Escuela Superior del Profesorado en 1956, se convirtió en la
@@ -50,18 +52,19 @@
       educación en su posgrado. Miembro del Consejo Superior Universitario Centroamericano (CSUCA), de la OUI y otras
       entidades internacionales, la UPNFM ha establecido convenios con universidades de Alemania, España, Estados Unidos
       de América, Taiwán, México, Chile, Cuba y otras.
-      <br><br>
-
+    </p>
+    <br>
+    <p>
       <b>Misión</b><br>
       Somos la institución estatal de educación superior responsable de la formación de docentes con competencias
       científicas, humanísticas y tecnológicas innovadoras, para el desarrollo del sistema educativo nacional.
-      <br><br>
-
+      <br>
+    </p>
+    <br>
+    <p>
       <b>Visión</b><br>
       Ser la institución de educacion superior líder en la formación docente, con sólido prestigio tanto a nivel
       nacional como internacional.
-
-
     </p>
   </div>
 

@@ -471,6 +471,10 @@ aside {
 @media (max-width: 768px) {
   aside {
     height: auto;
+    float: none;
+    margin: 20px;
+    display: inline-flex;
+    position: initial;
   }
 }
 
@@ -482,43 +486,6 @@ iframe {
   padding: 20px 0px 40px 0px;
   border-bottom-width: 2px;
   border-bottom-style: solid;
-}
-.contenedorContactos {
-  padding-bottom: 20px;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-
-.carreras {
-  padding: 20px 0px 0px 0px;
-  margin: 0px -120px 0px 0px;
-}
-
-@media (max-width: 768px) {
-  .carreras {
-    margin: 0px -50px 0px 0px;
-  }
-}
-
-.carreras p {
-  font-weight: bold;
-}
-
-.carreras ul {
-  padding: 0;
-}
-.carreras ul li {
-  padding: 5px;
-}
-.carreras ul li a {
-  /* font-size: 1.1em; */
-  font-weight: bold;
-  text-decoration: none;
-  color: var(--colorNegro);
-}
-
-.carreras ul li a:hover {
-  color: var(--colorAzul);
 }
 
 /* Contenedor de contactos */
@@ -613,12 +580,6 @@ iframe {
 
 /* Menu responsive */
 @media (max-width: 768px) {
-  aside {
-    float: none;
-    margin: 20px;
-    display: inline-flex;
-    position: initial;
-  }
   iframe {
     width: 100%;
   }
@@ -1143,10 +1104,11 @@ iframe {
 /* -------- Estilo de lugares turísticos----------------- */
 /* -------- Estilo de departamentos    ----------------- */
 /* ---------------------------------------------------- */
+
 .lista-universidades,
 .lista-lugares,
 .lista-departamentos {
-  padding: 20px;
+  padding: 60px;
 }
 .educacionSuperior,
 .lugares,
@@ -1241,35 +1203,98 @@ iframe {
 }
 /* -----------------  Fin de hoja de estilos ------------------------- */
 
-/* Contenido universidad */
+/* ----------------------------------------- */
+/* -----------Estilo de universidad--------- */
+/* ----------------------------------------- */
 .universidad {
-  padding: 0px 0px 60px 0px;
+  padding: 0 60px;
+}
+.universidad .aside {
+  width: 31%;
+  margin: 0;
+  padding: 0;
+}
+.universidad .aside div {
+  margin-top: 10px;
+}
+.informacion-univeridad img {
+  margin: 0;
+  padding: 0 1rem 0 0;
+  width: 0%;
+  width: 40%;
+  float: left;
+}
+.tittle {
+  padding: 60px;
+}
+.tittle h1 {
+  text-align: center;
+  font-weight: 600;
+  padding-bottom: 10px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.universidad h4 {
+  font-weight: 600;
+  text-align: center;
+}
+.informacion-univeridad {
+  width: 60%;
+  text-align: justify;
+  margin: 0 2em;
+}
+.informacion-univeridad p {
+  margin: 0;
+  padding: 0;
 }
 
+.universidad .aside ol li a {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--colorNegro);
+}
+
+.universidad .aside ol li a:hover {
+  color: var(--colorAzul);
+}
 @media (max-width: 768px) {
-  .universidad,
-  .turismo {
+  .tittle {
+    padding: 20px;
+  }
+  .universidad {
+    padding: 20px;
     display: flex;
     flex-flow: row wrap-reverse;
+  }
+
+  .informacion-univeridad img {
+    margin: 0;
     width: 100%;
-    padding: 0px;
+  }
+  .universidad .informacion-univeridad {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .universidad .informacion-univeridad p {
+    margin: 20px 0 0 0;
+  }
+
+  .universidad .aside {
+    padding: 20px;
+    width: 100%;
   }
 }
 
-/* ----------------------------------- */
-.imagenUniversidad,
-.imagenTurismo {
-  width: 15em;
-  margin: auto;
-  display: block;
-}
+/* -------------- Fin de estilo universidades ------------ */
+
 .imagenFerias {
   width: 50%;
   margin: 20px auto 20px auto;
   display: block;
 }
 @media (max-width: 768px) {
-  .imagenUniversidad,
   .imagenFerias {
     width: 100%;
     position: relative;

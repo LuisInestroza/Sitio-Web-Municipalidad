@@ -6,7 +6,7 @@
 
 <!-- Div de departamentos -->
 <div class="lista-departamentos">
-  <p class="texto">DEPARTAMENTOS</p>
+  <h1>DEPARTAMENTOS</h1>
   <div class="deptos">
     <div class="contenedor">
       <a href="/view/Departamentos/oficinaAlcalde.php">

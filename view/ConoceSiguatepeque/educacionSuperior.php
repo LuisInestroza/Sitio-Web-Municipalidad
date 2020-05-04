@@ -7,7 +7,7 @@ require_once '../layouts/header.php';
 
 <!-- Contenido de educación superior -->
 <div class="lista-universidades">
-  <p class="texto">Universidades En Siguatepeque</p>
+  <h1>UNIVERSIDADES EN SIGUATEPEQUE</h1>
   <div class="educacionSuperior">
     <div class="contenedor">
       <a href="/view/EducacionSuperior/uth.php">
