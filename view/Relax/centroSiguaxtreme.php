@@ -4,19 +4,20 @@
   require_once '../layouts/header.php'; 
 ?>
 
+<div class="tittle">
+  <h1>CENTRO TURÍSTICO SIGUAXTREME</h1>
+
+</div>
 
 <!-- Div contenido del lugar -->
-
 <div class="turismo">
 
-
-
   <!-- Aside -->
-  <aside>
+  <aside class="aside">
     <!-- Contenido de redes sociales -->
     <div class="contenedorContactos">
-      <p>Contactos</p>
-      <div class="links">
+      <h4>Contactos</h4>
+      <div>
         <ul class="icons">
 
           <li>
@@ -31,8 +32,8 @@
         </ul>
       </div>
     </div>
-    <div class="iframe">
-      <p>Ubicación</p>
+    <div>
+      <h4>Ubicación</h4>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.922829852181!2d-87.9075766857577!3d14.603471789800663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65bf1d67c4546f%3A0x983c4639ff528545!2sSigua%20Xtreme!5e0!3m2!1ses!2shn!4v1583784221792!5m2!1ses!2shn"></iframe>
       Aldea Buenas Casas, 2Km hacia adentro de la CA-5. Referencia: Pan de Casa Raquelita & Hotel EscambraySiguatepeque,
@@ -40,12 +41,9 @@
     </div>
 
   </aside>
-  <div>
-    <p class="texto">Centro Turístico Siguaxtreme</p>
-
-    <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/siguaextreme.jpg" alt=""
-      class="imagenTurismo">
-    <P class="contenido">
+  <div class="informacion-lugar">
+    <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/siguaextreme.jpg">
+    <P>
       Canopy – Paintball – Senderismo – Restaurante & mucho mas! VIVE LA EXPERIENCIA solo en SiguaXtreme
 
       <br><br>
@@ -54,8 +52,10 @@
       gratuita.
 
       Las habitaciones incluyen armario, TV de pantalla plana y baño privado.
+      <br>
 
       El Sigua Xtreme sirve un desayuno continental o americano.
+
 
       En Siguatepeque y sus alrededores se pueden practicar diversas actividades, como senderismo.
 

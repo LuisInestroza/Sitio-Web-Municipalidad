@@ -5,10 +5,12 @@
 ?>
 
 
-
+<div class="tittle">
+  <h1>LUGARES POPULARES</h1>
+</div>
 <!-- Div de contenido -->
 <div class="lista-lugares">
-  <h1>LUGARES POPULARES</h1>
+
   <div class="lugares">
     <div class="contenedor">
       <a href="/view/Relax/centroEliben.php">

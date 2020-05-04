@@ -5,15 +5,19 @@
 ?>
 
 
+<div class="tittle">
+  <h1>CENTRO TURISTICO GRANJA D’ELIA</h1>
+
+</div>
 <!-- Contenido de los lugares turisticos -->
 <div class="turismo">
 
   <!-- Aside -->
-  <aside>
+  <aside class="aside">
     <!-- Contenido de redes sociales -->
     <div class="contenedorContactos">
-      <p>Contactos</p>
-      <div class="links">
+      <h4>Contactos</h4>
+      <div>
         <ul class="icons">
           <li>
             <a href="http://granjadelia.com/" class="fas fa-globe"></a>
@@ -30,21 +34,18 @@
         </ul>
       </div>
     </div>
-    <div class="iframe">
-      <p>Ubicación</p>
+    <div>
+      <h4>Ubicación</h4>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.1613741831393!2d-87.86084238575793!3d14.589878789809308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65be261839f77d%3A0x1d4cc0965a3f0f3a!2sGranja%20D&#39;Elia!5e0!3m2!1ses!2shn!4v1583938141579!5m2!1ses!2shn"></iframe>
-
     </div>
 
   </aside>
 
-  <div>
-    <p class="texto">Centro Turistico Granja D’elia</p>
+  <div class="informacion-lugar">
     <img
-      src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/71403647_2422253198049177_4278101350270631936_o.jpg"
-      alt="" class="imagenTurismo">
-    <p class="contenido">
+      src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/11/71403647_2422253198049177_4278101350270631936_o.jpg">
+    <p>
       P A N E , A M O R E , E F A N T A S I A <br>
       Un complejo turístico como ningúno otro. Único en su estilo y
       transcendente en la comunidad Hondureña.

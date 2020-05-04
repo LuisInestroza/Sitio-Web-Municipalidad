@@ -1220,7 +1220,7 @@ iframe {
   float: left;
 }
 .tittle {
-  padding: 60px 60px 10px 60px;
+  padding: 60px 60px 30px 60px;
 }
 .tittle h1 {
   text-align: center;
@@ -1284,6 +1284,73 @@ iframe {
 
 /* -------------- Fin de estilo universidades ------------ */
 
+/* ----------------------------------------------------- */
+/* --------------- Estilo de los lugares turisticos --- */
+/* ----------------------------------------------------- */
+.turismo {
+  padding: 0 60px;
+}
+.turismo .aside {
+  width: 31%;
+  margin: 0;
+  padding: 0;
+}
+.turismo .aside div {
+  margin-top: 10px;
+}
+.informacion-lugar img {
+  margin: 0;
+  padding: 0 1rem 0 0;
+  width: 0%;
+  width: 40%;
+  float: left;
+}
+
+.turismo h4 {
+  font-weight: 600;
+  text-align: center;
+}
+.informacion-lugar {
+  width: 60%;
+  text-align: justify;
+  margin: 0 2em;
+}
+.informacion-turismo p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .tittle {
+    padding: 20px;
+  }
+  .turismo {
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap-reverse;
+  }
+
+  .informacion-lugar img {
+    margin: 0;
+    width: 100%;
+  }
+  .turismo .informacion-lugar {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .turismo .informacion-lugar p {
+    margin: 20px 0 0 0;
+  }
+
+  .turismo .aside {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+/* ------- Fin de hoja de estilo turismo --------------- */
 .imagenFerias {
   width: 50%;
   margin: 20px auto 20px auto;
