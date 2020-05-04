@@ -13,7 +13,7 @@
   <aside class="aside">
     <!-- Carreras de la universidad -->
     <div>
-      <h4>Carreras</h4>
+      <h4>CARRERAS</h4>
       <ul>
 
 
@@ -21,10 +21,10 @@
     </div>
     <!-- Contenedor de redes -->
     <div class="contenedorContactos">
-      <h4>Redes</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
-          <li><a href="https://www.upnfm.edu.hn/" class="fas fa-globe"></a></li>
+          <li><a href="https://www.upnfm.edu.hn/" class="fas fa-globe-americas"></a></li>
           <li><a href="https://www.facebook.com/UPNFMWEB/?fref=ts" class="fab fa-facebook"></a></li>
           <li><a href="https://twitter.com/upnfm?lang=es" class="fab fa-twitter"></a></li>
           <li><a href="#" class="fab fa-instagram"></a></li>
@@ -34,7 +34,7 @@
     </div>
     <!-- Contenedor Ubicación -->
     <div>
-      <h4>Ubicación</h4>
+      <h4>UBICACIÓN</h4>
     </div>
 
 

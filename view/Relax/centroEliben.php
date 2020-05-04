@@ -14,7 +14,7 @@
   <aside class="aside">
     <!-- Contenido de redes sociales -->
     <div class="contenedorContactos">
-      <h4>Contactos</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
           <li>
@@ -30,7 +30,7 @@
       </div>
     </div>
     <div>
-      <h4>Ubicación</h4>
+      <h4>UBICACIÓN</h4>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.3429769312771!2d-87.90024674011958!3d14.577871631143775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65be8cbfc746d9%3A0x26e306c5497cca3f!2sCentro%20Turistico%20ELIBEN!5e0!3m2!1ses!2shn!4v1583937806347!5m2!1ses!2shn"></iframe>
     </div>

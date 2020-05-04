@@ -14,11 +14,11 @@
   <aside class="aside">
     <!-- Contenido de redes sociales -->
     <div class="contenedorContactos">
-      <h4>Contactos</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
           <li>
-            <a href="http://www.parkplacehotelhn.com/" class="fas fa-globe"></a>
+            <a href="http://www.parkplacehotelhn.com/" class="fas fa-globe-americas"></a>
           </li>
 
           <li>
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div>
-      <h4>Ubicación</h4>
+      <h4>UBICACIÓN</h4>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.0342214575717!2d-87.83001948575783!3d14.597125889804692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6595a663e0a80f%3A0x83857301ba8ffca8!2sPark%20Place%20Hotel!5e0!3m2!1ses!2shn!4v1583938233112!5m2!1ses!2shn"></iframe>
     </div>

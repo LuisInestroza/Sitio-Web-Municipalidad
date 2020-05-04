@@ -11,7 +11,7 @@
   <aside class="aside">
     <!-- Carreras de la universidad -->
     <div>
-      <h4>Carreras</h4>
+      <h4>CARRERAS</h4>
       <ol type="disc">
         <li><a href="">Licenciatura en Pedagogía</a></li>
         <li><a
@@ -27,10 +27,10 @@
     </div>
     <!-- Contenedor de redes -->
     <div class="contenedorContactos">
-      <h4>Redes</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
-          <li><a href="https://sed.unah.edu.hn/craed/craed-siguatepeque" class="fas fa-globe"></a></li>
+          <li><a href="https://sed.unah.edu.hn/craed/craed-siguatepeque" class="fas fa-globe-americas"></a></li>
           <li><a href="https://www.facebook.com/profile.php?id=100015703836795" class="fab fa-facebook"></a></li>
           <li><a href="#" class="fab fa-twitter"></a></li>
           <li><a href="#" class="fab fa-instagram"></a></li>
@@ -39,7 +39,7 @@
     </div>
     <!-- Contenedor Ubicación -->
     <div>
-      <h4>Ubicación</h4>
+      <h4>UBICACIÓN</h4>
 
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.047195545784!2d-87.84242918575785!3d14.596386589805169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65959955555555%3A0xdea93e6833aa69bc!2sUNAH-CRAED%20Siguatepeque!5e0!3m2!1ses!2shn!4v1583939649755!5m2!1ses!2shn"></iframe>

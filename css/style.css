@@ -492,9 +492,11 @@ iframe {
 .contenedorContactos li {
   display: inline;
 }
-
+.contenedorContactos li a {
+  border-radius: 50px;
+}
 /* Fondos de colores de cada etiqueta de contacto */
-.contenedorContactos li .fas.fa-globe {
+.contenedorContactos li .fas.fa-globe-americas {
   background-color: blue;
 }
 
@@ -1207,10 +1209,13 @@ iframe {
 .universidad .aside {
   width: 31%;
   margin: 0;
-  padding: 0;
+  padding: 0 0 20px 0;
+}
+.universidad .aside iframe {
+  width: 100%;
 }
 .universidad .aside div {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .informacion-univeridad img {
   margin: 0;
@@ -1293,10 +1298,13 @@ iframe {
 .turismo .aside {
   width: 31%;
   margin: 0;
-  padding: 0;
+  padding: 0 0 20px 0;
+}
+.turismo .aside iframe {
+  width: 100%;
 }
 .turismo .aside div {
-  margin-top: 10px;
+  margin-top: 25px;
 }
 .informacion-lugar img {
   margin: 0;

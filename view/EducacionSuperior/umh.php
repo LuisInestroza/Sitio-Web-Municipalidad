@@ -13,7 +13,7 @@ require_once '../layouts/header.php';
   <aside class="aside">
     <!-- Carreras de la universidad -->
     <div>
-      <h4>Carreras</h4>
+      <h4>CARRERAS</h4>
       <ol type="disc">
         <li><a
             href="https://1291ba06-3447-538f-b437-710f5712feb1.filesusr.com/ugd/de548f_ba8d0698bf124828bd0909c6699db950.pdf">
@@ -38,10 +38,10 @@ require_once '../layouts/header.php';
     </div>
     <!-- Contenedor de redes -->
     <div class="contenedorContactos">
-      <h4>Redes</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
-          <li><a href="https://www.unimetro.edu.hn/" class="fas fa-globe"></a></li>
+          <li><a href="https://www.unimetro.edu.hn/" class="fas fa-globe-americas"></a></li>
           <li><a href="https://www.facebook.com/UniversidadMetropolitanaDeHondurasSiguatepeque/"
               class="fab fa-facebook"></a></li>
           <li><a href="https://twitter.com/UMHHonduras" class="fab fa-twitter"></a></li>
@@ -51,7 +51,7 @@ require_once '../layouts/header.php';
     </div>
     <!-- Contenedor Ubicación -->
     <div>
-      <h4>Ubicación</h4>
+      <h4>UBICACIÓN</h4>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d965.2647724071446!2d-87.84893077083915!3d14.59570879936285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f65958383fca171%3A0xe1d723b1168f2783!2sInstituto%20de%20Ciencia%20y%20Tecnolog%C3%ADa%20Omega!5e0!3m2!1ses!2shn!4v1585717794445!5m2!1ses!2shn"></iframe>
       Instalaciones del Instituto Ciencia y Tecnología Omega
