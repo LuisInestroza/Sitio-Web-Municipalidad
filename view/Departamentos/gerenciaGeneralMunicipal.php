@@ -9,15 +9,17 @@
   <h1>GERENCIA GENERAL MUNICIPAL</h1>
   <aside class="aside">
     <img src="https://infomperu.com/wp-content/uploads/2013/09/Gerencia-Municipal.jpg" alt="" class="imagenDepto">
-    <p>Ejercer la administración general de la Municipalidad a través de la planificación,
-      organización, supervisión y control de todas las actividades administrativas, técnicas y operativas de la
-      institución, ejecutadas a través de las diferentes Unidades Organizacionales, por delegación del Alcalde
-      Municipal, así como la coordinación de los procesos de planificación, control y supervisión del desarrollo
-      urbano y rural del municipio, bajo un enfoque social, económico y ambiental, así como dar seguimiento
-      técnico y administrativo a la operación y mantenimiento de los servicios públicos, y la construcción,
-      mejoramiento o ampliación de obras de infraestructura; asegurando la participación ciudadana y la
-      perspectiva de género.
-    </p>
+    <div>
+      <p>Ejercer la administración general de la Municipalidad a través de la planificación,
+        organización, supervisión y control de todas las actividades administrativas, técnicas y operativas de la
+        institución, ejecutadas a través de las diferentes Unidades Organizacionales, por delegación del Alcalde
+        Municipal, así como la coordinación de los procesos de planificación, control y supervisión del desarrollo
+        urbano y rural del municipio, bajo un enfoque social, económico y ambiental, así como dar seguimiento
+        técnico y administrativo a la operación y mantenimiento de los servicios públicos, y la construcción,
+        mejoramiento o ampliación de obras de infraestructura; asegurando la participación ciudadana y la
+        perspectiva de género.
+      </p>
+    </div>
   </aside>
   <div class="informacion-departamento">
     <ol type="disc">
