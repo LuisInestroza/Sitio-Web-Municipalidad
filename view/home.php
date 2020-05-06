@@ -1,52 +1,36 @@
-<div class="slider fullscreen">
-  <ul class="slides">
-    <li>
-      <div class="overlay"></div>
-      <img src="img/admisionenlinea.png" alt="Admisiones Campus San Pedro y San Pablo">
-      <div class="caption left-align">
-        <h1 class="heading">Admisiones ONLINE</h1>
-        <p>Ya podés solicitar tu examen de admisión Online.</p>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd4OqSVd4hoTK7xaR35BJtM51ka5fXchTJMDZRF3L8Gt2FoGg/viewform"
-          class="btn-alt lefty hoverable">Descubrí cómo</a>
+<div class="slider">
+  <div class="overlay"></div>
+
+
+  <ul>
+    <li class="active">
+      <div class="hero-slider">
+        <h1>BIENVENIDO A NUESTRO SITIO WEB</h1>
       </div>
+      <img src="/img/slider/parqueCentral@2x.png">
     </li>
     <li>
-      <div class="overlay"></div>
-      <img src="img/principal-2.png" alt="Taller Arquitectura">
-      <div class="caption left-align">
-        <h1 class="heading">Pagos en Línea</h1>
-        <p>Ahora podrás realizar tus pagos desde UNICAH ID con todas tus tarjetas de crédito y débito VISA y Mastercard.
-        </p>
+      <div class="hero-slider">
+        <h1>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h1>
       </div>
+      <img src="/img/slider/banner-1@2x.png">
     </li>
     <li>
-      <div class="overlay"></div>
-      <img src="img/principal-3.png" alt="Educación con valores">
-      <div class="caption left-align">
-        <h1 class="heading">Aprovechá al máximo tu educación.</h1>
-        <p>Preparate para ser mejor. Es hora de empezar tu camino.</p>
-        <a href="programas" class="btn-alt lefty hoverable">Descubrí cómo</a>
+      <div class="hero-slider">
+        <h1>VEN A NUESTRO FESTIVAL DE LAS FLORES</h1>
       </div>
+      <img src="/img/slider/festivalFlores-1@2x.png">
     </li>
     <li>
-      <div class="overlay"></div>
-      <img src="img/atencionpsicologicavirtual.png" alt="atención psicológica anónima">
-      <div class="caption left-align">
-        <h1 class="heading">¡Anonima &amp; GRATIS!</h1>
-        <p></p>
-        <a href="https://discord.gg/RVenhKx" class="btn-alt lefty hoverable">Descubrí cómo</a>
+      <div class="hero-slider">
+        <h1>DISFRUTA DE NUESTRA CIUDAD</h1>
       </div>
-    </li>
-    <li>
-      <div class="overlay"></div>
-      <img src="img/atencionmedicavirtua.png" alt="atención medica virtual">
-    </li>
-    <li>
-      <div class="overlay"></div>
-      <img src="img/cristoenlinea.png" alt="atención espiritual">
+      <img src="/img/slider/parqueCentral@2x.png" alt="">
     </li>
   </ul>
+
 </div>
+
 
 
 
