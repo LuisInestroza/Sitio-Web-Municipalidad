@@ -162,8 +162,6 @@
 <div class="noticias-ciudad">
   <div class="noticias-contenedor">
     <p class="texto">NOTICIAS DE CIUDAD</p>
-
-
     <section>
       <div class="tabs tabs-style-tzoid">
         <nav>
@@ -175,19 +173,64 @@
 
           </ul>
         </nav>
-        <div class="content-wrap">
+        <div class="content-wrap ">
           <section id="infraestructura">
-            <p>Noticias Infraestructura </p>
+            <h1>Noticias Infraestructura</h1>
+            <div class="content-noticia">
+
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+              <div class="contenido-noticia">
+                <a href="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <p class="fecha-noticia">30 Marzo, 2020</p>
+                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
+                </a>
+              </div>
+            </div>
           </section>
           <section id="sociales">
-            <p>Noticias Sociales</p>
+            <h1>Noticias Sociales</h1>
 
           </section>
           <section id="eventos">
-            <p>Noticias Eventos</p>
+            <h1>Noticias Eventos</h1>
           </section>
           <section id="economía">
-            <p>Noticias Economía</p>
+            <h1>Noticias Economía</h1>
           </section>
 
         </div><!-- /content -->
@@ -217,17 +260,28 @@
   <p class="texto">COMUNICADOS</p>
   <section>
     <div class="tabs tabs-style-tzoid">
-      <div class="content-wrap">
+      <div class="content-wrap content-comunicado">
+        <!-- Contenido de los comunicados -->
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
             <p class="fecha-comunicado">12 Marzo, 2020</p>
           </button>
-          <div id="modalContenedor" class="modal-content" style="overflow: hidden;">
+          <div id="modalContenedor" class="modal-content">
             <span class="cerrarVentana">&times;</span>
             <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
           </div>
 
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+          </button>
+          <div id="modalContenedor" class="modal-content">
+            <span class="cerrarVentana">&times;</span>
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+          </div>
         </div>
       </div>
   </section>

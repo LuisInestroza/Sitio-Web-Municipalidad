@@ -79,22 +79,12 @@
 .content-wrap section {
   display: none;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0;
   max-width: 1200px;
-  text-align: center;
 }
 
 .content-wrap section.content-current {
   display: block;
-}
-
-.content-wrap section p {
-  margin: 0;
-  padding: 0.75em 0;
-  color: rgba(40, 44, 42, 0.05);
-  font-weight: 900;
-  font-size: 4em;
-  line-height: 1;
 }
 
 @media screen and (max-width: 58em) {

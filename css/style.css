@@ -937,8 +937,6 @@ iframe {
 }
 
 .contenido {
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
   text-align: justify;
   margin: 30px 30em 20px 40px;
   line-height: 2.1;
@@ -1437,6 +1435,56 @@ iframe {
     padding: 20px;
   }
 }
+/* ----------------------------------- */
+/* ------ Noticias de la ciudad------- */
+/* ----------------------------------- */
+.content-wrap h1 {
+  margin: 10px 0 0 0;
+  text-align: center;
+  font-weight: 600;
+  width: 100%;
+}
+.content-wrap a {
+  color: var(--colorNegro);
+}
+.content-wrap a:hover {
+  opacity: 0.8;
+}
+.contenido-noticia {
+  background: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+  position: initial;
+  width: 30%;
+  margin: 5px;
+  display: inline-block;
+}
+.fecha-noticia {
+  background: var(--colorAzul);
+  margin: 10px auto;
+  font-weight: bold;
+  width: 50%;
+  color: var(--colorNegro);
+}
+@media (max-width: 768px) {
+  .content-noticia {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+  }
+  .contenido-noticia {
+    width: 100%;
+  }
+  .fecha-noticia {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  .titulo-noticia {
+    font-size: 4vw;
+  }
+}
+
+/* ------------------------------------ */
 
 /* -----------------------------*/
 /*   Comunicados de ciudad      */
@@ -1452,13 +1500,15 @@ iframe {
   border: none;
 }
 .contenido-comunicado {
-  width: 25%;
+  width: 20%;
+  margin: 5px;
+  display: inline-block;
 }
 
 .contenido-comunicado .modal-content {
   display: none;
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   left: 0;
   top: 0;
   width: 100%;
@@ -1489,7 +1539,7 @@ iframe {
   }
   .fecha-comunicado {
     margin: 10px 0px 0px 0px;
-    font-size: 2.7vw;
+    font-size: 2.6vw;
   }
 }
 .cerrarVentana {
