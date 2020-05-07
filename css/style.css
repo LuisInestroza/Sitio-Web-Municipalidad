@@ -493,16 +493,62 @@ header label:hover {
     font-size: 3em;
     margin: auto;
     top: 120px;
-    left: 25px;
+    left: 15px;
     right: 0px;
   }
 }
 @media (max-width: 768px) {
   .slider {
+    overflow: hidden;
     position: relative;
+    height: 60vh;
+    margin-bottom: 20px;
   }
   .slider li {
     width: 100%;
+  }
+  .overlay {
+    width: 100%;
+    height: 60vh;
+  }
+  .slider ul li img {
+    width: 360px;
+    height: 60vh;
+  }
+  .slider ul {
+    list-style: none;
+    width: 100vh;
+    display: flex;
+    animation: slide 20s infinite linear;
+  }
+  @keyframes slide {
+    0% {
+      margin-left: 0px;
+    }
+    20% {
+      margin-left: 0px;
+    }
+
+    25% {
+      margin-left: -360px;
+    }
+    45% {
+      margin-left: -360px;
+    }
+    50% {
+      margin-left: -720px;
+    }
+
+    70% {
+      margin-left: -720px;
+    }
+    75% {
+      margin-left: -1080px;
+    }
+
+    100% {
+      margin-left: -1080px;
+    }
   }
 }
 /*  ------ Fin del slider -------------*/
@@ -1479,7 +1525,7 @@ iframe {
   }
   .contenido-noticias {
     width: 100%;
-    margin: 0px;  
+    margin: 0px;
   }
   .fecha-noticias {
     font-size: 3vw;

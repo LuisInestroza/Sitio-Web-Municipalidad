@@ -68,7 +68,7 @@
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="/view/Noticias/noticias.php">
             <i class="fas fa-newspaper"></i>
             <b>Noticias</b>
           </a>
