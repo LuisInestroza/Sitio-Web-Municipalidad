@@ -233,7 +233,7 @@
           </section>
           <!-- Boton de ver mas noticias -->
           <div class="btn-noticias">
-            <a href="">LEER MAS NOTICIAS</a>
+            <a href="/view/Noticias/noticias.php">LEER MAS NOTICIAS</a>
           </div>
 
         </div><!-- /content -->
