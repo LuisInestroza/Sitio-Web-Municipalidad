@@ -1111,6 +1111,9 @@ iframe {
 }
 
 @media (min-width: 768px) {
+  .alcaldía {
+    margin-top: 140px;
+  }
   .alcaldía .contenedor img {
     display: block;
     margin: auto;
@@ -1337,6 +1340,7 @@ iframe {
 }
 .tittle {
   padding: 60px 60px 30px 60px;
+  margin-top: 90px;
 }
 .tittle h1 {
   text-align: center;
@@ -1371,6 +1375,7 @@ iframe {
 @media (max-width: 768px) {
   .tittle {
     padding: 20px;
+    margin-top: 0px;
   }
   .universidad {
     padding: 20px;
