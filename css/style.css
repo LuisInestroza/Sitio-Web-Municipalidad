@@ -1635,6 +1635,9 @@ iframe {
   background: transparent;
   border: none;
 }
+.comunicados-ciudad section {
+  margin: 0 auto;
+}
 .contenido-comunicado {
   width: 20%;
   margin: 5px;

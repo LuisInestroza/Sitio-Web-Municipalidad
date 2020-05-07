@@ -269,24 +269,16 @@
         <!-- Contenido de los comunicados -->
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">12 Marzo, 2020</p>
           </button>
-          <div id="modalContenedor" class="modal-content">
-            <span class="cerrarVentana">&times;</span>
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-          </div>
-
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
           </button>
-          <div id="modalContenedor" class="modal-content">
-            <span class="cerrarVentana">&times;</span>
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
-          </div>
+
         </div>
       </div>
   </section>
