@@ -177,9 +177,8 @@
           <section id="infraestructura">
             <h1>Noticias Infraestructura</h1>
             <div class="content-noticia">
-
               <div class="contenido-noticia">
-                <a href="">
+                <a href="/view/Noticias/infraestructura.php">
                   <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
@@ -232,13 +231,19 @@
           <section id="economía">
             <h1>Noticias Economía</h1>
           </section>
+          <!-- Boton de ver mas noticias -->
+          <div class="btn-noticias">
+            <a href="">LEER MAS NOTICIAS</a>
+          </div>
 
         </div><!-- /content -->
+
       </div><!-- /tabs -->
 
-
     </section>
+
   </div>
+
 </div>
 
 

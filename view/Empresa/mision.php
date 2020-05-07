@@ -4,11 +4,17 @@
   require_once '../layouts/header.php';
 ?>
 
+<div class="tittle">
+  <h1>MISIÓN</h1>
+</div>
 <!-- Contenido -->
-<div class="contenido">
-  <p class="texto">Misión</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus quas voluptate, autem molestias deleniti
-    temporibus quaerat minus corrupti et natus rerum repellat cum odit inventore. Laborum, illo vero. In, veniam.</p>
+<div>
+
+  <p>
+    Generar las condiciones necesarias para la oportuna prestación de los servicios, a través de la planificación del
+    desarrollo económico, social, ambiental y del territorio, administración efectiva de los recursos, propiciando la
+    participación ciudadana en la gestión pública, con el fin de mejorar su calidad de vida"
+  </p>
 
 </div>
 

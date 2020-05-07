@@ -4,12 +4,13 @@
   require_once '../layouts/header.php';   
 ?>
 
+
 <div class="tittle">
   <h1>NÚMEROS DE TELEFONO</h1>
 </div>
-
 <!-- Contenido de catastro -->
 <div class="oficina">
+
   <table class="table">
     <tbody>
       <tr>

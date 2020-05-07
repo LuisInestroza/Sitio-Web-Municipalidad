@@ -4,12 +4,16 @@
   require_once '../layouts/header.php'; 
 ?>
 
+<div class="tittle">
+  <h1>VISIÓN</h1>
+</div>
 <!-- Contenido -->
 <div>
-  <p class="texto">Visión</p>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, cumque vel? Dolore odit quas harum quidem
-    incidunt blanditiis voluptates atque officia similique accusamus iure doloribus, perspiciatis reiciendis ullam
-    beatae nemo.</p>
+  <p>
+    Para el 2022 seremos una institución de servicios, que ofrece a los usuarios soluciones inmediatas y de calidad, con
+    una gestión transparente; con participación ciudadana; con inclusión social, defensora de los espacios públicos y la
+    naturaleza, con disciplina urbanística, integración territorial y eficiencia administrativa.
+  </p>
 </div>
 <!-- footer -->
 <?php require_once '../layouts/footer.php'; ?>
