@@ -269,16 +269,38 @@
         <!-- Contenido de los comunicados -->
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">12 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
           </button>
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
           </button>
-
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
         </div>
       </div>
   </section>
