@@ -1008,6 +1008,7 @@ iframe {
 /* ---------- Estilo de los departamentos----------- */
 /* ------------------------------------------------- */
 .oficina {
+  margin-top: 80px;
   padding: 60px 60px 0px 60px;
   text-align: justify;
 }
@@ -1050,6 +1051,7 @@ iframe {
 @media (max-width: 768px) {
   .oficina {
     padding: 20px;
+    margin: 0;
   }
   .oficina .aside img {
     margin: 0;
@@ -1229,7 +1231,12 @@ iframe {
 /* -------- Estilo de lugares turísticos----------------- */
 /* -------- Estilo de departamentos    ----------------- */
 /* ---------------------------------------------------- */
-
+.lista-departamentos {
+  margin-bottom: 30px;
+}
+.lista-lugares {
+  margin-bottom: 30px;
+}
 .educacionSuperior,
 .lugares,
 .deptos {
@@ -1326,6 +1333,9 @@ iframe {
 /* ----------------------------------------- */
 /* -----------Estilo de universidad--------- */
 /* ----------------------------------------- */
+.lista-universidades {
+  margin-bottom: 30px;
+}
 .universidad {
   padding: 0 60px;
 }
