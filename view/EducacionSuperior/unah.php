@@ -13,7 +13,8 @@
     <div>
       <h4>CARRERAS</h4>
       <ol type="disc">
-        <li><a href="">Licenciatura en Pedagogía</a></li>
+        <li><a href="https://www.unah.edu.hn/assets/UNAH/plan-de-estudios/PLAN-DE-ESTUDIOS-PEDAGOGIA5">Licenciatura
+            en Pedagogía</a></li>
         <li><a
             href="https://sed.unah.edu.hn/dmsdocument/1362-plan-de-estudios-administracion-empresas-agropecuarias-sued">Licenciatura
             en Administración de Empresas Agropecuarias</a></li>

@@ -297,6 +297,7 @@ header label:hover {
   border-bottom-width: 2px;
   border-bottom-style: solid;
 }
+
 .busqueda input {
   width: 250px;
   height: 35px;
@@ -329,6 +330,9 @@ header label:hover {
 .fa-search {
   color: var(--colorBlanco);
   font-size: 1.2rem;
+}
+.busqueda fieldset input::placeholder {
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {
@@ -1607,6 +1611,10 @@ iframe {
   color: var(--colorAzul);
 }
 @media (max-width: 768px) {
+  .content-wrap h1 {
+    margin: 0;
+    padding-top: 20px;
+  }
   .content-noticia {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1616,6 +1624,7 @@ iframe {
     width: 100%;
   }
   .fecha-noticia {
+    width: 70%;
     font-size: 3vw;
     font-weight: bold;
   }

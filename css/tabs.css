@@ -76,6 +76,11 @@
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .content-wrap {
+    padding: 1px;
+  }
+}
 .content-wrap section {
   display: none;
   margin: 0 auto;
