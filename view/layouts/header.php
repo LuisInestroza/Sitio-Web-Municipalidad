@@ -152,7 +152,7 @@
     <form class="busqueda">
       <fieldset>
         <input type="search" placeholder="Buscar..">
-        <button type="submit"><i class="fas fa-search"></i></button>
+        <button type="submit">Buscar</button>
       </fieldset>
     </form>
   </div>

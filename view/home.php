@@ -178,7 +178,7 @@
             <h1>Noticias Infraestructura</h1>
             <div class="content-noticia">
               <div class="contenido-noticia">
-                <a href="/view/Noticias/infraestructura.php">
+                <a href="/view/Noticias/Infraestructura/entregaOficialProyecto.php">
                   <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>

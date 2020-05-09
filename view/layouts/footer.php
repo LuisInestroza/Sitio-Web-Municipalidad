@@ -25,7 +25,7 @@
     <!-- Contenido de noticias -->
     <div class="noticias-recientes">
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
-      <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="">
+      <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
     </div>
 
     <!-- Contenido de redes sociales -->

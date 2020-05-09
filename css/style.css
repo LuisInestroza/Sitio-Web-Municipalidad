@@ -305,9 +305,11 @@ header label:hover {
 .busqueda button {
   background: var(--colorNegro);
   border: none;
-  width: 40px;
+  color: var(--colorBlanco);
+  width: 70px;
   height: 35px;
   left: 0;
+  font-weight: bold;
   margin-left: -3px;
 }
 .buscarResponsive {
@@ -368,8 +370,11 @@ header label:hover {
   .buscarResponsive .fa-search {
     color: var(--colorNegro);
   }
+  .busqueda fieldset button {
+    margin-left: -75px;
+  }
   .busqueda input {
-    width: 87%;
+    width: 100%;
   }
 }
 /*------------------------ Fin del diseño de barra de búsqueda -------------------*/
@@ -1692,6 +1697,19 @@ iframe {
     font-weight: bold;
   }
 }
+
+/* ------------------------------------- */
+/* ----- CONTENIDO DE NOTICIAS----------- */
+/* -------------------------------------- */
+.informacion-noticia {
+  margin: 0 60px;
+}
+.fecha-informacion {
+  color: var(--colorVerde);
+  font-weight: bold;
+}
+
+/* --  Fin de diseño de contenido noticias- */
 
 /* ------------------ */
 /* footer */
