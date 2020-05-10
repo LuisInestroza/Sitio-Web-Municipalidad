@@ -1,7 +1,5 @@
 <div class="slider">
   <div class="overlay"></div>
-
-
   <ul>
     <li class="active">
       <div class="hero-slider">

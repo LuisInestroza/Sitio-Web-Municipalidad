@@ -302,6 +302,7 @@ header label:hover {
   width: 250px;
   height: 35px;
   border: none;
+  padding: 0 1em;
 }
 .busqueda button {
   background: var(--colorNegro);
