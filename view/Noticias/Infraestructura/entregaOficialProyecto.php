@@ -9,6 +9,13 @@
 
 <div class="informacion-noticia">
   <p class="fa fa-calendar fecha-informacion"> 29 NOVIEMBRE 2019</p>
+  <div class="contenedor-imagenes">
+    <img src="../../../img/Infraestructura/imagen1.jpg" alt="">
+    <img src="../../../img/Infraestructura/imagen2.jpg" alt="">
+    <img src="../../../img/Infraestructura/imagen3.jpg" alt="">
+    <img src="../../../img/Infraestructura/imagen4.jpg" alt="">
+    <img src="../../../img/Infraestructura/imagen5.jpg" alt="">
+  </div>
   <p class="detalle-informacion">
     Autoridades Municipales realizan la entrega oficial del proyecto de construcción de techado de la cancha
     multiusos en el CEB Ernestina Flores.

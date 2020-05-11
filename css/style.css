@@ -1728,7 +1728,23 @@ iframe {
   color: var(--colorVerde);
   font-weight: bold;
 }
+.contenedor-imagenes {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  width: 100%;
+  /* padding: 1rem; */
+}
 
+.detalle-informacion {
+  margin: 10px;
+}
+@media (max-width: 768px) {
+  .informacion-noticia {
+    margin: 0 30px;
+  }
+}
 /* --  Fin de diseño de contenido noticias- */
 
 /* ------------------ */
