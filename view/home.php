@@ -38,7 +38,7 @@
   <div class="lugares">
     <div class="contenedorFiestas">
       <a href="/view/Festivales/feriaPatronal.php">
-        <img src="/img/feriaSanPablo.png" alt="" srcset="">
+        <img src="../img/feriaSanPablo.png" alt="" srcset="">
         <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
 
       </a>
@@ -46,13 +46,13 @@
     </div>
     <div class="contenedorFiestas">
       <a href="/view/Festivales/fesivalFlores.php">
-        <img src="/img/festivalDeLasFlores.png"" alt="" srcset="">
+        <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
           <p class=" text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
       </a>
     </div>
     <div class="contenedorFiestas">
       <a href="/view/Festivales/festivalPino.php">
-        <img src="/img/festivalDelPino.png" alt="" srcset="">
+        <img src="../img/festivalDelPino.png" alt="" srcset="">
         <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
       </a>
     </div>
