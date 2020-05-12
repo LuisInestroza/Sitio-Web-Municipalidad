@@ -178,6 +178,7 @@ header label:hover {
   header {
     height: 50px;
     position: relative;
+    background: var(--colorAzul);
   }
   header label {
     display: block;
