@@ -641,6 +641,7 @@ header label:hover {
 .servicios {
   background-image: url(/img/servicio.jpg);
   margin: 40px 0;
+
   width: 100%;
   color: var(--colorNegro);
   font-weight: bolder;

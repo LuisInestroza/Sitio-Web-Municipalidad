@@ -65,17 +65,17 @@
 </div>
 
 <!-- Servicios para la ciudadanía -->
-<div class="servicios" style="text-align: center;font-weight: bold;font-size: 1em;">
+<div class="servicios">
   <div class="servicios-contenedor">
-    <p class="texto" style="text-align: center;font-weight: bold;">SERVICIOS PARA LA CIUDADANÍA.</p>
+    <h1>SERVICIOS PARA LA CIUDADANÍA.</h1>
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <div class="text">
-          <p class="textoServicios">Servicios Regulares <br><br></p>
-          <div>
+        <div >
+          <h2 >Servicios Regulares</h2>
+          <div class="item-servicio">
             <ol>
               <li>Agua potable.</li>
               <li>Alcantarillado sanitario.</li>
@@ -96,9 +96,9 @@
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <div class="text">
-          <p class="textoServicios">Servicios Permanentes<br><br></p>
-          <div>
+        <div >
+          <h2>Servicios Permanentes</h2>
+          <div class="item-servicio">
             <ol>
               <li>Mercados y abastos</li>
               <li>Rasto municipal de carnes</li>
@@ -120,9 +120,9 @@
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
         <!-- <img src="img3.jpg" style="width:100%"> -->
-        <div class="text">
-          <p class="textoServicios">Servicios Eventuales <br><br></p>
-          <div class="servicios-samp">
+        <div>
+          <h2 >Servicios Eventuales </h2>
+          <div class="item-servicio">
             <ol>
               <li>Autorización de libros contables otros</li>
               <li>Permisos para apertura y operación de negocios</li>
@@ -163,7 +163,7 @@
 <!-- Sección de noticias de la ciudad -->
 <div class="noticias-ciudad">
   <div class="noticias-contenedor">
-    <p class="texto">NOTICIAS DE CIUDAD</p>
+    <h1>NOTICIAS DE CIUDAD</h1>
     <section>
       <div class="tabs tabs-style-tzoid">
         <nav>
