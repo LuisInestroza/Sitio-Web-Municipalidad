@@ -34,28 +34,32 @@
 
 <!-- Sección de ferias y celebridades de Siguatepeque -->
 <div class="fiestas">
-  <p class="texto" style="text-align: center;font-weight: bold;">Festivales - Ferias Oficiales</p>
-  <div class="lugares">
-    <div class="contenedorFiestas">
+  
+  <h1>FESTIVALES - FERIAS OFICIALES</h1>
+  <div class="lista-fiestas">
+    <div class="contenedor-fiestas">
       <a href="/view/Festivales/feriaPatronal.php">
-        <img src="../img/feriaSanPablo.jpg" alt="" srcset="">
-        <p class="text2" style="font-size: 1.5em;">FERIA PATRONAL</p>
-
+        <img src="../img/feriaSanPablo.png" alt="" srcset="">
+        <h4>FERIA PATRONAL</h4>
+        <p class="fa fa-calendar fecha-fiesta"> 17 - 25 Enero</p>
       </a>
-
     </div>
-    <div class="contenedorFiestas">
+    <div class="contenedor-fiestas">
       <a href="/view/Festivales/fesivalFlores.php">
-        <img src="../img/festivalDeLasFlores.jpg" alt="" srcset="">
-          <p class=" text2" style="font-size: 1.5em;">FESTIVAL DE LAS FLORES</p>
+        <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
+          <h4>FESTIVAL DE LAS FLORES</h4>
+          <p class="fa fa-calendar fecha-fiesta"> Primera Semana de Octubre</p>
       </a>
     </div>
-    <div class="contenedorFiestas">
+    <div class="contenedor-fiestas">
       <a href="/view/Festivales/festivalPino.php">
-        <img src="../img/festivalDelPino.jpg" alt="" srcset="">
-        <p class="text2" style="font-size: 1.5em;">FESTIVAL DEL PINO</p>
+        <img src="../img/festivalDelPino.png" alt="" srcset="">
+        <h4>FESTIVAL DEL PINO</h4>
+        <p class="fa fa-calendar fecha-fiesta"> 26 - 29 de Abril</p>
+        
       </a>
     </div>
+
   </div>
 </div>
 </div>

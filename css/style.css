@@ -563,6 +563,64 @@ header label:hover {
 }
 /*  ------ Fin del slider -------------*/
 
+/* ------------------------------------- */
+/* --------- Estilo de las fiestas ----- */
+/* -------------------------------------- */
+.fiestas {
+  width: 100%;
+  padding: 50px 0 50px 0;
+}
+.fiestas h1 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+.lista-fiestas {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contenedor-fiestas h4 {
+  color: var(--colorBlanco);
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem;
+  font-size: 2vw;
+}
+.contenedor-fiestas img {
+  width: 50%;
+  display: block;
+  margin: 1rem auto;
+  padding-top: 1rem;
+}
+.contenedor-fiestas {
+  background: var(--colorAzul);
+  margin: 0 10px;
+  text-align: center;
+}
+.fecha-fiesta {
+  color: var(--colorNegro);
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5vw;
+}
+@media (max-width: 768px) {
+  .lista-fiestas {
+    width: 100%;
+  }
+  .contenedor-fiestas img {
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+  }
+  .contenedor-fiestas h4 {
+    padding: 0;
+    margin: 0;
+  }
+}
+/* -------- Fin de estilo de fiestas --------- */
+
 /* Botón de arriba */
 .arriba {
   display: none;
@@ -657,17 +715,6 @@ iframe {
 
 /* ---------------------------- */
 
-/* Mensaje de Bienvenida */
-.letras {
-  color: var(--colorBlanco);
-  font-weight: bold;
-  padding-top: 300px;
-  font-size: 1em;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
 /* Mensaje responsive */
 
 /* -------------------------- */
@@ -675,11 +722,9 @@ iframe {
   padding: 20px 0px 0px 0px;
   text-align: center;
   font-weight: bold;
-
   font-size: 2.25em;
   line-height: 1.3em;
   font-weight: 700;
-  /* padding: 120px; */
 }
 
 .textoIndex {
@@ -711,7 +756,6 @@ iframe {
   .carreras ul {
     font-size: 0.9em;
     padding: 0px 0px 0px 0px;
-    /* margin: 0; */
   }
   .carreras ul li a:focus {
     color: var(--colorAzul);
@@ -721,12 +765,6 @@ iframe {
 /*  */
 
 @media (max-width: 768px) {
-  .letras {
-    padding-top: 150px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .texto {
     padding: 20px 0 20px 0px;
     font-size: 1.5rem;
@@ -785,43 +823,7 @@ iframe {
   border-radius: 10rem;
 }
 
-.fiestas {
-  background-color: var(--colorVerdeOpaco);
-  padding: 40px 0px 40px 0px;
-}
 @media (max-width: 768px) {
-}
-.text2 {
-  color: var(--colorBlanco);
-  text-align: center;
-  font-weight: bold;
-  font-size: 1rem;
-}
-.contenedorFiestas {
-  align-self: center;
-  background-color: var(--colorVerde);
-  border-radius: 0.5rem;
-}
-
-.contenedorFiestas:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
-}
-.contenedorFiestas:hover .informacion {
-  opacity: 100;
-  color: var(--colorNegro);
-}
-.contenedorFiestas img {
-  width: 65%;
-  display: block;
-  margin: 20px auto auto auto;
-}
-
-@media (max-width: 768px) {
-  .contenedorFiestas {
-    /* Desplazar las columnas */
-    grid-column: 1/5;
-  }
   .button {
     padding: 10px;
   }
@@ -895,10 +897,11 @@ iframe {
 }
 @media (max-width: 768px) {
   .prev {
-    left: 0;
+    left: -35px;
   }
   .next {
-    right: 0;
+    /* right: 0; */
+    left: 290rpx;
   }
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
