@@ -9,7 +9,7 @@
   <h1>NÚMEROS DE TELEFONO</h1>
 </div>
 <!-- Contenido de catastro -->
-<div class="oficina">
+<div class="contactos-numeros">
 
   <table class="table">
     <tbody>

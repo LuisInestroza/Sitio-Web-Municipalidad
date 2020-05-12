@@ -22,6 +22,8 @@ html {
   box-sizing: border-box;
   min-height: 100%;
   font-size: 15px;
+  height: 100%;
+  width: 100%;
 }
 * {
   box-sizing: border-box;
@@ -383,7 +385,7 @@ header label:hover {
     margin-left: -75px;
   }
   .busqueda input {
-    width: 100%;
+    width: 98%;
   }
 }
 /*------------------------ Fin del diseño de barra de búsqueda -------------------*/
@@ -632,6 +634,7 @@ header label:hover {
     font-size: 5vw;
   }
 }
+
 /* -------- Fin de estilo de fiestas --------- */
 
 /*------------------------------------------------ */
@@ -1130,9 +1133,25 @@ iframe {
 .lista-lugares {
   margin-bottom: 30px;
 }
-.educacionSuperior,
-.lugares,
+
 .deptos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+.educacionSuperior {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.lugares {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -1201,8 +1220,16 @@ iframe {
   font-size: 1rem;
 }
 @media (min-width: 768px) {
-  .educacionSuperior,
-  .lugares,
+  .educacionSuperior {
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .lugares {
+    width: 95%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .deptos {
     width: 95%;
     grid-template-columns: repeat(3, 1fr);

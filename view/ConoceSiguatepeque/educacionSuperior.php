@@ -13,39 +13,39 @@ require_once '../layouts/header.php';
   <div class="educacionSuperior">
     <div class="contenedor">
       <a href="/view/EducacionSuperior/uth.php">
-        <img src="/img/logosUniversidades/logoUTH.png" alt="">
+        <img src="../../img/logosUniversidades/logoUTH.png" alt="">
         <p class="nombreUniversidad">Universidad Tecnológica de Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/umh.php">
-        <img src="/img/logosUniversidades/logoUMH.png" alt="">
+        <img src="../../img/logosUniversidades/logoUMH.png" alt="">
         <p class="nombreUniversidad">Universidad Metropolitana de Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unacifor.php">
-        <img src="/img/logosUniversidades/logoUnacifor.png" alt="">
+        <img src="../../img/logosUniversidades/logoUnacifor.png" alt="">
         <p class="nombreUniversidad">UNACIFOR Siguatepeque Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/upnfm.php">
-        <img src="/img/logosUniversidades/logoUPNFM.png" alt="">
+        <img src="../../img/logosUniversidades/logoUPNFM.png" alt="">
 
         <p class="nombreUniversidad">Universidad Pedagógica Francisco Morazán</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unah.php">
-        <img src="/img/logosUniversidades/logoUNAH.png" alt="">
+        <img src="../../img/logosUniversidades/logoUNAH.png" alt="">
 
         <p class="nombreUniversidad">UNAH-CREAD Siguatepeque Honduras</p>
       </a>
     </div>
     <div class="contenedor">
       <a href="/view/EducacionSuperior/unicah.php">
-        <img src="/img/logosUniversidades/logoUnicah.png" alt="">
+        <img src="../../img/logosUniversidades/logoUnicah.png" alt="">
         <p class="nombreUniversidad">Universidad Católica de Honduras</p>
       </a>
     </div>
