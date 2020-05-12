@@ -577,7 +577,7 @@ header label:hover {
 }
 .lista-fiestas {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -589,7 +589,7 @@ header label:hover {
   font-size: 2vw;
 }
 .contenedor-fiestas img {
-  width: 50%;
+  width: 60%;
   display: block;
   margin: 1rem auto;
   padding-top: 1rem;
@@ -598,6 +598,7 @@ header label:hover {
   background: var(--colorAzul);
   margin: 0 10px;
   text-align: center;
+  border-radius: 30px;
 }
 .fecha-fiesta {
   color: var(--colorNegro);
@@ -607,16 +608,24 @@ header label:hover {
 }
 @media (max-width: 768px) {
   .lista-fiestas {
-    width: 100%;
+    width: 90%;
+    display: block;
   }
+
   .contenedor-fiestas img {
-    padding-top: 0px;
+    padding-top: 10px;
     margin-bottom: 0px;
     margin-top: 15px;
+    width: 60%;
   }
   .contenedor-fiestas h4 {
     padding: 0;
     margin: 10px 0 0 0;
+    font-size: 5vw;
+  }
+  .fecha-fiesta {
+    padding: 1rem;
+    font-size: 5vw;
   }
 }
 /* -------- Fin de estilo de fiestas --------- */
@@ -900,8 +909,7 @@ iframe {
     left: -35px;
   }
   .next {
-    /* right: 0; */
-    left: 290px;
+    left: 280px;
   }
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
