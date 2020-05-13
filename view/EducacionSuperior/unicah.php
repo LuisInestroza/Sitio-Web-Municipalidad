@@ -19,6 +19,7 @@ require_once '../layouts/header.php';
         <li><a href="https://www.unicah.edu/programaIndustrial.html">Ingeniería Industrial</a></li>
         <li><a href="https://www.unicah.edu/programaComputacion.html">Ingeniería en Ciencias de la Computación</a></li>
         <li><a href="https://www.unicah.edu/programaGestion.html">Gestión Estratégica de Empresas</a></li>
+        <li><a href="https://www.unicah.edu/programaDerecho.html">Derecho</a></li>
         <li><a href="https://www.unicah.edu/programaFinanzas.html">Finanzas</a></li>
         <li><a href="https://www.unicah.edu/programaPsicologia.html">Psicología</a></li>
         <li><a href="https://www.unicah.edu/programaMedicina.html">Medicina (1re Año)</a></li>
