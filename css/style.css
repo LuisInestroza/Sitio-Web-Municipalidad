@@ -13,7 +13,13 @@
   --colorFondo: #f3f3f0;
   --colorFacebook: #3a599d;
   --colorTwitter: #00c1ff;
-  --colorInstagram: #d42f99;
+  --colorInstagram: linear-gradient(
+    -135deg,
+    #4e60d3 0%,
+    #913baf 33%,
+    #d52d88 66%,
+    #f26d4f 100%
+  );
   --colorYouTube: #ff380b;
   --colorGris: #b8b8b6;
 }
@@ -884,7 +890,7 @@ iframe {
 }
 
 .contenedorContactos li .fab.fa-instagram {
-  background-color: var(--colorInstagram);
+  background: var(--colorInstagram);
 }
 
 .contenedorContactos li .fab.fa-youtube {
