@@ -24,7 +24,7 @@ require_once '../layouts/header.php';
     </div>
     <!-- Contenido de redes sociales -->
     <div class="contenedorContactos">
-      <h4>CONTACTOS</h4>
+      <h4>REDES</h4>
       <div>
         <ul class="icons">
           <li>
