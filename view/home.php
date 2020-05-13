@@ -31,10 +31,8 @@
 
 
 
-
 <!-- Sección de ferias y celebridades de Siguatepeque -->
 <div class="fiestas">
-  
   <h1>FESTIVALES - FERIAS OFICIALES</h1>
   <div class="lista-fiestas">
     <div class="contenedor-fiestas">
@@ -47,8 +45,8 @@
     <div class="contenedor-fiestas">
       <a href="/view/Festivales/fesivalFlores.php">
         <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
-          <h4>FESTIVAL DE LAS FLORES</h4>
-          <p class="fa fa-calendar fecha-fiesta"> Primera Semana de Octubre</p>
+        <h4>FESTIVAL DE LAS FLORES</h4>
+        <p class="fa fa-calendar fecha-fiesta"> Primera Semana de Octubre</p>
       </a>
     </div>
     <div class="contenedor-fiestas">
@@ -56,7 +54,6 @@
         <img src="../img/festivalDelPino.png" alt="" srcset="">
         <h4>FESTIVAL DEL PINO</h4>
         <p class="fa fa-calendar fecha-fiesta"> 26 - 29 de Abril</p>
-        
       </a>
     </div>
 
@@ -64,17 +61,22 @@
 </div>
 </div>
 
+
+
 <!-- Servicios para la ciudadanía -->
+
 <div class="servicios">
+  <h1>SERVICIOS PARA LA CIUDADANÍA.</h1>
+
   <div class="servicios-contenedor">
-    <h1>SERVICIOS PARA LA CIUDADANÍA.</h1>
+
     <!-- Slideshow container -->
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <div >
-          <h2 >Servicios Regulares</h2>
+        <div>
+          <h2>Servicios Regulares</h2>
           <div class="item-servicio">
             <ol>
               <li>Agua potable.</li>
@@ -96,7 +98,7 @@
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <div >
+        <div>
           <h2>Servicios Permanentes</h2>
           <div class="item-servicio">
             <ol>
@@ -121,7 +123,7 @@
         <div class="numbertext">3 / 3</div>
         <!-- <img src="img3.jpg" style="width:100%"> -->
         <div>
-          <h2 >Servicios Eventuales </h2>
+          <h2>Servicios Eventuales </h2>
           <div class="item-servicio">
             <ol>
               <li>Autorización de libros contables otros</li>
@@ -251,7 +253,7 @@
 
 <!-- Sección de eventos -->
 <div class="eventos-ciudad">
-  <p class="texto">EVENTOS</p>
+  <h1>EVENTOS</h1>
 
   <section>
     <div class="tabs tabs-style-tzoid">
@@ -264,7 +266,7 @@
 
 <!-- Sección de comunicados -->
 <div class="comunicados-ciudad">
-  <p class="texto">COMUNICADOS</p>
+  <h1>COMUNICADOS</h1>
   <section>
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap content-comunicado">

@@ -643,9 +643,7 @@ header label:hover {
 /*------------------------------------------------ */
 
 .servicios {
-  background-image: url(/img/servicio.jpg);
   margin: 40px 0;
-
   width: 100%;
   color: var(--colorNegro);
   font-weight: bolder;
@@ -654,7 +652,12 @@ header label:hover {
   text-align: center;
   padding-top: 2rem;
   font-weight: bold;
+  padding: 1rem;
 }
+.servicios-contenedor {
+  background-image: url(/img/servicio.jpg);
+}
+
 .servicios h2 {
   padding: 1rem;
   font-weight: bold;
@@ -1570,9 +1573,26 @@ iframe {
 
 /* -------------- Fin de estilo noticias -------------------- */
 
+/* -------------------------------------- */
+/* ------ Contenido de noticas ---------- */
+/* -------------------------------------- */
+.eventos-ciudad h1 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/* -------- Fin de estilo de noticias ------ */
+
 /* -----------------------------*/
 /*   Comunicados de ciudad      */
 /* -----------------------------*/
+
+.comunicados-ciudad h1 {
+  text-align: center;
+  padding: 1rem;
+  font-weight: bold;
+}
 
 .content-wrap {
   padding: 10px;
