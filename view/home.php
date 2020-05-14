@@ -5,19 +5,19 @@
       <div class="hero-slider">
         <h1>BIENVENIDO A NUESTRO SITIO WEB</h1>
       </div>
-      <img src="/img/slider/parqueCentral@2x.png">
+      <img src="/img/slider/parqueCentral.jpg">
     </li>
     <li>
       <div class="hero-slider">
         <h1>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h1>
       </div>
-      <img src="/img/slider/banner-1@2x.png">
+      <img src="/img/slider/banner.jpg">
     </li>
     <li>
       <div class="hero-slider">
         <h1>VEN A NUESTRO FESTIVAL DE LAS FLORES</h1>
       </div>
-      <img src="/img/slider/festivalFlores-1@2x.png">
+      <img src="/img/slider/festivalFlores.jpg">
     </li>
     <li>
       <div class="hero-slider">
