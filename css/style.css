@@ -508,7 +508,6 @@ header label:hover {
 @media screen and (min-width: 980px) {
   .hero-slider {
     width: 1200px;
-    text-align: center;
   }
 }
 @media screen and (max-width: 640px) {
@@ -516,8 +515,8 @@ header label:hover {
     width: 320px;
     font-size: 3em;
     margin: auto;
-    top: 50%;
-    left: 50%;
+    top: 100px;
+    left: 14px;
     right: 0px;
   }
 }
