@@ -15,8 +15,8 @@
       <div class="links-empresa">
         <p class="tituloFooter"><b>Empresa</b></p>
         <ul>
-          <li><a href="/view/Empresa/mision.php">Misión</a></li>
-          <li><a href="/view/Empresa/vision.php">Visión</a></li>
+          <li><a href="http://localhost/Sitio-Web-Municipalidad/view/Empresa/mision.php">Misión</a></li>
+          <li><a href="http://localhost/Sitio-Web-Municipalidad/view/Empresa/vision.php">Visión</a></li>
           <li><a href="">Valores</a></li>
         </ul>
       </div>
@@ -25,7 +25,7 @@
     <!-- Contenido de noticias -->
     <div class="noticias-recientes">
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
-      <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+      <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
     </div>
 
     <!-- Contenido de redes sociales -->
@@ -56,14 +56,14 @@
   <!-- Script de las funciones de animaciones de JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script src="/js/slider.js"></script>
-  <script src="/js/menu.js"></script>
-  <script src="/js/botonArriba.js"></script>
-  <script src="/js/cbpFWTabs.js"></script>
-  <script src="/js/slideTab.js"></script>
-  <script src="/js/modal.js"></script>
-  <script src="/js/buscador.js"></script>
-  <script src="/js/slider-nav.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/slider.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/menu.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/botonArriba.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/cbpFWTabs.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/slideTab.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/modal.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/buscador.js"></script>
+  <script src="http://localhost/Sitio-Web-Municipalidad/js/slider-nav.js"></script>
 
 
   </html>
