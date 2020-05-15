@@ -1,6 +1,6 @@
 <!-- Header -->
 <?php
-  $tittle ="Misión- Municipalidad de Siguatepeque";
+  $tittle ="Misión - Municipalidad de Siguatepeque";
   require_once '../layouts/header.php';
 ?>
 
@@ -14,6 +14,7 @@
     Generar las condiciones necesarias para la oportuna prestación de los servicios, a través de la planificación del
     desarrollo económico, social, ambiental y del territorio, administración efectiva de los recursos, propiciando la
     participación ciudadana en la gestión pública, con el fin de mejorar su calidad de vida"
+  
   </p>
 
 </div>

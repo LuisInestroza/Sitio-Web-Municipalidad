@@ -16,17 +16,17 @@
     class="imagenFerias">
   <p>El festival de las flores es para todas las edades donde podemos apreciar varios dias con actividades llenas de
     colores.</p>
-  <p>Sobre unas de las activades:</p>
+  <p>Sobre unas de las actividades:</p>
   <ol type="disc" class="contenedor">
     <li>Galería urbana</li>
     <li>Danza de las flores</li>
     <li>Noche de talento de música</li>
-    <li>Exposicion de jardines tematicos</li>
+    <li>Exposición de jardines temáticos</li>
     <li>Mercados libres</li>
     <li>Talleres</li>
-    <li>Gastronomia</li>
-    <li>Presentaciones artisticas</li>
-    <li>Concursos de fotografias</li>
+    <li>Gastronomía</li>
+    <li>Presentaciones artísticas</li>
+    <li>Concursos de fotografías</li>
     <li>Senderos de flores</li>
     <li>Tour del barro, de la carne y del café</li>
   </ol>
