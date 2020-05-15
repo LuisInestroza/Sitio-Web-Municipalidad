@@ -661,7 +661,7 @@ header label:hover {
   padding: 1rem;
 }
 .servicios-contenedor {
-  background-image: url(http://localhost/Sitio-Web-Municipalidad/img/servicio.jpg);
+  background-image: url(/img/servicio.jpg);
 }
 
 .servicios h2 {

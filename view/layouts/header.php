@@ -6,19 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Link de icoco -->
-  <link rel="icon" type="image/png" href="http://localhost/Sitio-Web-Municipalidad/logo.ico" />
+  <link rel="icon" type="image/png" href="/logo.ico" />
 
   <!-- Link de las hojas de estilos  Principales-->
-  <link rel="stylesheet" href="http://localhost/Sitio-Web-Municipalidad/css/normalize.css">
-  <link rel="stylesheet" href="http://localhost/Sitio-Web-Municipalidad/css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/style.css">
 
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="http://localhost/Sitio-Web-Municipalidad/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap.css">
 
 
-  <link rel="stylesheet" href="http://localhost/Sitio-Web-Municipalidad/css/tabs.css">
-  <link rel="stylesheet" href="http://localhost/Sitio-Web-Municipalidad/css/tabstyles.css">
+  <link rel="stylesheet" href="/css/tabs.css">
+  <link rel="stylesheet" href="/css/tabstyles.css">
 
 
 
@@ -46,7 +46,7 @@
   <header class="header">
     <!-- Action Bar Responsive -->
     <div class="actionBar">
-      <img class="logo" src="http://localhost/Sitio-Web-Municipalidad/img/logoMuni.png" alt="" srcset="">
+      <img class="logo" src="/img/logoMuni.png" alt="" srcset="">
       <p class="msg">
         Municipalidad de Siguatepeque
         <br>Gobierno Municipal (2018-2020)
@@ -62,13 +62,13 @@
     <nav class=menu>
       <ul>
         <li>
-          <a href="http://localhost/Sitio-Web-Municipalidad/index.php">
+          <a href="/index.php">
             <i class="fas fa-home"></i>
             <b>Inicio</b>
           </a>
         </li>
         <li>
-          <a href="http://localhost/Sitio-Web-Municipalidad/view/Noticias/noticias.php">
+          <a href="/view/Noticias/noticias.php">
             <i class="fas fa-newspaper"></i>
             <b>Noticias</b>
           </a>
@@ -81,20 +81,20 @@
           </a>
           <ul class="children">
             <li>
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/Gobierno/alcaldeMunicipal.php">
+              <a href="/view/Gobierno/alcaldeMunicipal.php">
                 <i class="fa fa-user-tie"></i>
                 <b>Alcalde Municipal</b>
               </a>
             </li>
             <li>
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/Gobierno/departamentosMunicipalidad.php">
+              <a href="/view/Gobierno/departamentosMunicipalidad.php">
                 <i class="fa fa-building"></i>
                 <b>Departamentos</b>
               </a>
             </li>
             <li>
 
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/Gobierno/regidores.php">
+              <a href="/view/Gobierno/regidores.php">
                 <i class="fa fa-users"></i>
                 <b>Regidores</b>
               </a>
@@ -116,20 +116,20 @@
           <ul class="children">
             <li>
 
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/ConoceSiguatepeque/contactos.php">
+              <a href="/view/ConoceSiguatepeque/contactos.php">
                 <i class="fa fa-phone-square" style="transform: rotate(90deg);"></i>
                 <b>Números Telefónicos</b>
               </a>
             </li>
             <li>
 
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/Relax/relax.php">
+              <a href="/view/Relax/relax.php">
                 <i class="fa fa-map-marked"></i>
                 <b>Lugares Populares</b>
               </a>
             </li>
             <li>
-              <a href="http://localhost/Sitio-Web-Municipalidad/view/ConoceSiguatepeque/educacionSuperior.php">
+              <a href="/view/ConoceSiguatepeque/educacionSuperior.php">
                 <i class="fa fa-graduation-cap"></i>
                 <b>Educación Superior</b>
               </a>

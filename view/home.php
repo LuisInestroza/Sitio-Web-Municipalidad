@@ -5,25 +5,25 @@
       <div class="hero-slider">
         <h1>BIENVENIDO A NUESTRO SITIO WEB</h1>
       </div>
-      <img src="http://localhost/Sitio-Web-Municipalidad/img/slider/parqueCentral.jpg">
+      <img src="/img/slider/parqueCentral.jpg">
     </li>
     <li>
       <div class="hero-slider">
         <h1>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h1>
       </div>
-      <img src="http://localhost/Sitio-Web-Municipalidad/img/slider/banner.jpg">
+      <img src="/img/slider/banner.jpg">
     </li>
     <li>
       <div class="hero-slider">
         <h1>VEN A NUESTRO FESTIVAL DE LAS FLORES</h1>
       </div>
-      <img src="http://localhost/Sitio-Web-Municipalidad/img/slider/festivalFlores.jpg">
+      <img src="/img/slider/festivalFlores.jpg">
     </li>
     <li>
       <div class="hero-slider">
         <h1>DISFRUTA DE NUESTRA CIUDAD</h1>
       </div>
-      <img src="http://localhost/Sitio-Web-Municipalidad/img/slider/parqueCentral@2x.png" alt="">
+      <img src="/img/slider/parqueCentral@2x.png" alt="">
     </li>
   </ul>
 
@@ -36,22 +36,22 @@
   <h1>FESTIVALES - FERIAS OFICIALES</h1>
   <div class="lista-fiestas">
     <div class="contenedor-fiestas">
-      <a href="http://localhost/Sitio-Web-Municipalidad/view/Festivales/feriaPatronal.php">
-        <img src="http://localhost/Sitio-Web-Municipalidad/img/feriaSanPablo.png" alt="" srcset="">
+      <a href="/view/Festivales/feriaPatronal.php">
+        <img src="../img/feriaSanPablo.png" alt="" srcset="">
         <h4>FERIA PATRONAL</h4>
         <p class="fa fa-calendar fecha-fiesta"> 17 - 25 Enero</p>
       </a>
     </div>
     <div class="contenedor-fiestas">
-      <a href="http://localhost/Sitio-Web-Municipalidad/view/Festivales/fesivalFlores.php">
-        <img src="http://localhost/Sitio-Web-Municipalidad/img/festivalDeLasFlores.png" alt="" srcset="">
+      <a href="/view/Festivales/fesivalFlores.php">
+        <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
         <h4>FESTIVAL DE LAS FLORES</h4>
         <p class="fa fa-calendar fecha-fiesta"> Primera Semana de Octubre</p>
       </a>
     </div>
     <div class="contenedor-fiestas">
-      <a href="http://localhost/Sitio-Web-Municipalidad/view/Festivales/festivalPino.php">
-        <img src="http://localhost/Sitio-Web-Municipalidad/img/festivalDelPino.png" alt="" srcset="">
+      <a href="/view/Festivales/festivalPino.php">
+        <img src="../img/festivalDelPino.png" alt="" srcset="">
         <h4>FESTIVAL DEL PINO</h4>
         <p class="fa fa-calendar fecha-fiesta"> 26 - 29 de Abril</p>
       </a>
@@ -182,43 +182,43 @@
             <h1>Noticias Infraestructura</h1>
             <div class="content-noticia">
               <div class="contenido-noticia">
-                <a href="http://localhost/Sitio-Web-Municipalidad/view/Noticias/Infraestructura/entregaOficialProyecto.php">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                <a href="/view/Noticias/Infraestructura/entregaOficialProyecto.php">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
               </div>
               <div class="contenido-noticia">
                 <a href="">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
               </div>
               <div class="contenido-noticia">
                 <a href="">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
               </div>
               <div class="contenido-noticia">
                 <a href="">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
               </div>
               <div class="contenido-noticia">
                 <a href="">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
               </div>
               <div class="contenido-noticia">
                 <a href="">
-                  <img src="http://localhost/Sitio-Web-Municipalidad/uploads/Noticias/noticias.jpg" alt="" srcset="">
+                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
                   <p class="fecha-noticia">30 Marzo, 2020</p>
                   <p class="titulo-noticia">Entrega oficial de proyecto</p>
                 </a>
@@ -237,7 +237,7 @@
           </section>
           <!-- Boton de ver mas noticias -->
           <div class="btn-noticias">
-            <a href="http://localhost/Sitio-Web-Municipalidad/view/Noticias/noticias.php">LEER MAS NOTICIAS</a>
+            <a href="/view/Noticias/noticias.php">LEER MAS NOTICIAS</a>
           </div>
 
         </div><!-- /content -->
@@ -273,35 +273,35 @@
         <!-- Contenido de los comunicados -->
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">12 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
         </div>
         <div class="contenido-comunicado">
           <button id="modalImagen" class="modal-imagen">
-            <img src="http://localhost/Sitio-Web-Municipalidad/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">30 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
