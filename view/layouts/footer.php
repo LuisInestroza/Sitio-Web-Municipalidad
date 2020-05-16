@@ -63,7 +63,7 @@
   <script src="/js/slideTab.js"></script>
   <script src="/js/modal.js"></script>
   <script src="/js/buscador.js"></script>
-  <script src="/js/slider-nav.js"></script>
+ 
 
 
   </html>
