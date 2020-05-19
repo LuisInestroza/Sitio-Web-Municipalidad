@@ -428,6 +428,7 @@ header label:hover {
   margin: 0 auto;
   right: 0;
   left: 0;
+  z-index: 3;
   color: var(--colorBlanco);
   width: 100%;
   text-transform: uppercase;
@@ -481,6 +482,9 @@ header label:hover {
   .overlay {
     width: 100%;
     height: 60vh;
+  }
+  .content .contenido-slider {
+    top: 40%;
   }
   .images .hero-slider img {
     height: 60vh;
