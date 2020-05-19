@@ -1,34 +1,40 @@
-<div class="slider">
-  <div class="overlay"></div>
-  <ul>
-    <li class="active">
-      <div class="hero-slider">
-        <h1>BIENVENIDO A NUESTRO SITIO WEB</h1>
+<div class="content">
+  <div class="images">
+    <div class="overlay"></div>
+    <div class="hero-slider">
+      <img src="/img/slider/parqueCentral.jpg" alt="">
+      <div class="contenido-slider">
+        <h2>BIENVENIDO A NUESTRO SITIO WEB</h2>
       </div>
-      <img src="/img/slider/parqueCentral.jpg">
-    </li>
-    <li>
-      <div class="hero-slider">
-        <h1>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h1>
+    </div>
+    <div class="hero-slider">
+      <img src="/img/slider/banner.jpg" alt="">
+      <div class="contenido-slider">
+        <h2>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h2>
       </div>
-      <img src="/img/slider/banner.jpg">
-    </li>
-    <li>
-      <div class="hero-slider">
-        <h1>VEN A NUESTRO FESTIVAL DE LAS FLORES</h1>
+    </div>
+    <div class="hero-slider">
+      <img src="/img/slider/festivalFlores.jpg" alt="">
+      <div class="contenido-slider"> 
+        <h2>VEN A NUESTRO FESTIVAL DE LAS FLORES</h2>
       </div>
-      <img src="/img/slider/festivalFlores.jpg">
-    </li>
-    <li>
-      <div class="hero-slider">
-        <h1>DISFRUTA DE NUESTRA CIUDAD</h1>
+    </div>
+    <div class="hero-slider">
+      <img src="/img/slider/parqueCentral.jpg" alt="">
+      <div class="contenido-slider"> 
+        <h2>DISFRUTA DE NUESTRA CIUDAD</h2>
       </div>
-      <img src="/img/slider/parqueCentral@2x.png" alt="">
-    </li>
-  </ul>
+    </div>
+   
+  </div>
 
+  <div class="btn-sliders">
+    <span onclick="btnSlide(1)"></span>
+    <span onclick="btnSlide(2)"></span>
+    <span onclick="btnSlide(3)"></span>
+    <span onclick="btnSlide(4)"></span>
+  </div>
 </div>
-<div>
 
 
 
