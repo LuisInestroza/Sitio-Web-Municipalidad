@@ -477,7 +477,7 @@ header label:hover {
 
 @media (max-width: 768px) {
   .content {
-    height: 60vh;
+    height: 60%;
   }
   .overlay {
     width: 100%;
