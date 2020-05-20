@@ -13,8 +13,10 @@ function currentSlide(n) {
 // Mostrar los slides
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+  var slides = document.querySelectorAll(
+    ".servicios .servicios-contenedor .item-servicio"
+  );
+  var dots = document.querySelectorAll(".btn-slider span");
   if (n > slides.length) {
     slideIndex = 1;
   }
@@ -25,8 +27,8 @@ function showSlides(n) {
     slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].style.background = "rgba(255, 255, 255, 0.1)";
   }
   slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
+  dots[slideIndex - 1].style.background = "black";
 }

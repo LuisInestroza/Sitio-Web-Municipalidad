@@ -71,103 +71,77 @@
 
 
 <!-- Servicios para la ciudadanía -->
-
+<h1 class="titulo-servicio">SERVICIOS PARA LA CIUDADANÍA.</h1>
 <div class="servicios">
-  <h1>SERVICIOS PARA LA CIUDADANÍA.</h1>
-
   <div class="servicios-contenedor">
-
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-      <!-- Full-width images with number and caption text -->
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <div>
-          <h2>Servicios Regulares</h2>
-          <div class="item-servicio">
-            <ol>
-              <li>Agua potable.</li>
-              <li>Alcantarillado sanitario.</li>
-              <li>Recolección de basura</li>
-              <li>Alumbrado público</li>
-              <li>Limpieza de solares baldíos, calles, avenidas, parque</li>
-              <li>Bomberos</li>
-              <li>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</li>
-              <li>Cementerios</li>
-              <li>Policia y vigilancia</li>
-              <li>Escuelas de educación especial</li>
-              <li>Colaboración en el mantenimiento de escuelas públicas y privadas</li>
-              <li>Mantenimiento y conservación del ambiente</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <div>
-          <h2>Servicios Permanentes</h2>
-          <div class="item-servicio">
-            <ol>
-              <li>Mercados y abastos</li>
-              <li>Rasto municipal de carnes</li>
-              <li>Cementerio de propiedad y/o administración municipal</li>
-              <li>Servicios para estacionamiento de vehículos</li>
-              <li>Utilización de bienes municipales o ejidales</li>
-              <li>Postes de teléfonos y torres de electricidad</li>
-              <li>Tendido de alambre y cables de toda clase</li>
-              <li>Espacios para rótulos</li>
-              <li>Ocupación de calles y aceras en forma temporal</li>
-              <li>Facilidad para destace de ganado y similares</li>
-              <li>Terminal de transporte</li>
-              <li>Comité vial</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <!-- <img src="img3.jpg" style="width:100%"> -->
-        <div>
-          <h2>Servicios Eventuales </h2>
-          <div class="item-servicio">
-            <ol>
-              <li>Autorización de libros contables otros</li>
-              <li>Permisos para apertura y operación de negocios</li>
-              <li>Autorización y permisos para espectáculos públicos</li>
-              <li>Recepción por matrícula de vehículos, trocos y armas de fuego, etc.</li>
-              <li>Tramitación y celebración de matrimonios civiles</li>
-              <li>Permisos de construcción, urbanizaciones, edificaciones, adiciones y
-                remodelaciones</li>
-              <li>Autorización y permisos de instalación de antenas de comunicación</li>
-              <li>Servicios de inspección avalúo, medición y elaboración de planos</li>
-              <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de
-                la
-                alcaldía</li>
-              <li>Acceso, control y administración a los sitios de explotación y recursos de
-                canteras</li>
-              <li>Otros permitidos por las disposiciones legales</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-      <!-- Next and previous buttons -->
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      <br>
+    <div class="item-servicio">
+      <h2>Servicios Regulares</h2>
+      <ul type="1"> 
+        <li>Agua potable.</li>
+        <li>Alcantarillado sanitario.</li>
+        <li>Recolección de basura</li>
+        <li>Alumbrado público</li>
+        <li>Limpieza de solares baldíos, calles, avenidas, parque</li>
+        <li>Bomberos</li>
+        <li>Aseo y ornato de parques, sanitarios, forestales, áreas verdes viveros</li>
+        <li>Cementerios</li>
+        <li>Policia y vigilancia</li>
+        <li>Escuelas de educación especial</li>
+        <li>Colaboración en el mantenimiento de escuelas públicas y privadas</li>
+        <li>Mantenimiento y conservación del ambiente</li>
+      </ul>
+     
+    </div>
+    <div class="item-servicio">
+      <h2>Servicios Permanentes </h2>
+      <ul type="1">
+        <li>Mercados y abastos</li>
+        <li>Rasto municipal de carnes</li>
+        <li>Cementerio de propiedad y/o administración municipal</li>
+        <li>Servicios para estacionamiento de vehículos</li>
+        <li>Utilización de bienes municipales o ejidales</li>
+        <li>Postes de teléfonos y torres de electricidad</li>
+        <li>Tendido de alambre y cables de toda clase</li>
+        <li>Espacios para rótulos</li>
+        <li>Ocupación de calles y aceras en forma temporal</li>
+        <li>Facilidad para destace de ganado y similares</li>
+        <li>Terminal de transporte</li>
+        <li>Comité vial</li>
+        
+      </ul>
+    </div>
+    <div class="item-servicio">
+      <h2>Servicios Eventuales </h2>
+      <ul type="1">
+        <li>Autorización de libros contables otros</li>
+        <li>Permisos para apertura y operación de negocios</li>
+        <li>Autorización y permisos para espectáculos públicos</li>
+        <li>Recepción por matrícula de vehículos, trocos y armas de fuego, etc.</li>
+        <li>Tramitación y celebración de matrimonios civiles</li>
+        <li>Permisos de construcción, urbanizaciones, edificaciones, adiciones y remodelaciones</li>
+        <li>Autorización y permisos de instalación de antenas de comunicación</li>
+        <li>Servicios de inspección avalúo, medición y elaboración de planos</li>
+        <li>Extensión de certificaciones, constancias y transcripciones de los actos propios de la alcaldía</li>
+        <li>Acceso, control y administración a los sitios de explotación y recursos de canteras</li>
+        <li>Otros permitidos por las disposiciones legales</li>
+      </ul>
+    </div>
+    <div onclick="plusSlides(-1)" class="slide left">
+      <span class="fas fa-angle-left"></span>
+    </div>
+    <div onclick="plusSlides(1)" class="slide right">
+      <span class="fas fa-angle-right"></span>
+    </div>
+    <div class="btn-slider">
+      <span onclick="currentSlide(1)"></span>
+      <span onclick="currentSlide(2)"></span>
+      <span onclick="currentSlide(3)"></span>
     </div>
 
-
-
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
   </div>
 </div>
+
+
 
 <!-- Sección de noticias de la ciudad -->
 <div class="noticias-ciudad">
