@@ -24,7 +24,7 @@
 
 
   <!-- Link de el estilo de las fuentes -->
-
+<link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap" rel="stylesheet"> 
 
   <!-- Links de iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
