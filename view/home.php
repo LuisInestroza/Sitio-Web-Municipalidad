@@ -208,13 +208,16 @@
           </section>
           <section id="sociales">
             <h1>Noticias Sociales</h1>
+            <div class="content-noticia"></div>
 
           </section>
           <section id="eventos">
             <h1>Noticias Eventos</h1>
+            <div class="content-noticia"></div>
           </section>
           <section id="economía">
             <h1>Noticias Economía</h1>
+            <div class="content-noticia"></div>
           </section>
           <!-- Boton de ver mas noticias -->
           <div class="btn-noticias">
@@ -256,6 +259,27 @@
           <button id="modalImagen" class="modal-imagen">
             <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
             <p class="fecha-comunicado">12 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
+            <p>Comunicado MDS-001</p>
+          </button>
+        </div>
+        <div class="contenido-comunicado">
+          <button id="modalImagen" class="modal-imagen">
+            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+            <p class="fecha-comunicado">30 Marzo, 2020</p>
             <p>Comunicado MDS-001</p>
           </button>
         </div>
