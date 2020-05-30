@@ -23,5 +23,6 @@ function showImg(e) {
     sliders[i].style.background = "rgba(255,255,255,0.1)";
   }
   img[indexValue - 1].style.display = "block";
+
   sliders[indexValue - 1].style.background = "white";
 }

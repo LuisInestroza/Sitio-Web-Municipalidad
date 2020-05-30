@@ -16,13 +16,15 @@
     <div class="hero-slider">
       <img src="/img/slider/festivalFlores.jpg" alt="">
       <div class="contenido-slider"> 
-        <h2>VEN A NUESTRO FESTIVAL DE LAS FLORES</h2>
+        <h2>NUESTRO FESTIVAL DE LAS FLORES</h2>
+        <a href="../view/Festivales/fesivalFlores.php">Ver Detalles</a>
       </div>
     </div>
     <div class="hero-slider">
       <img src="/img/slider/parqueCentral.jpg" alt="">
       <div class="contenido-slider"> 
         <h2>DISFRUTA DE NUESTRA CIUDAD</h2>
+        <a href="../view/Relax/relax.php">Ver Lugares</a>
       </div>
     </div>
    
