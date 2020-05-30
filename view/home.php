@@ -2,13 +2,13 @@
   <div class="images">
     <div class="overlay"></div>
     <div class="hero-slider">
-      <img src="/img/slider/parqueCentral.jpg" alt="">
+      <img src="/img/slider/Siguatepeque04.JPG" alt="">
       <div class="contenido-slider">
         <h2>BIENVENIDO A NUESTRO SITIO WEB</h2>
       </div>
     </div>
     <div class="hero-slider">
-      <img src="/img/slider/banner.jpg" alt="">
+      <img src="/img/slider/panoramica.jpg" alt="">
       <div class="contenido-slider">
         <h2>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h2>
       </div>
@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="hero-slider">
-      <img src="/img/slider/parqueCentral.jpg" alt="">
+      <img src="/img/slider/banner.jpg" alt="">
       <div class="contenido-slider"> 
         <h2>DISFRUTA DE NUESTRA CIUDAD</h2>
         <a href="../view/Relax/relax.php">Ver Lugares</a>
