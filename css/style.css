@@ -467,7 +467,7 @@ header label:hover {
 .btn-sliders {
   display: flex;
   position: absolute;
-  bottom: 40px;
+  bottom: 65px;
   left: 50%;
   transform: translateX(-50%);
 }
