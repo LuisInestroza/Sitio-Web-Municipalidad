@@ -558,6 +558,32 @@ header label:hover {
   font-weight: bold;
   font-size: 1.5vw;
 }
+/* Contenido de las fiestas */
+.imagen-fiesta {
+  float: left;
+  width: 50%;
+  margin: 1em;
+}
+.contenido-fiestas {
+  padding: 30px;
+  text-align: justify;
+}
+.contenido-fiestas img {
+  display: block;
+}
+.imagenes-fiestas {
+  margin: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.imagenes-fiestas img:nth-child(1) {
+  grid-row: 1/3;
+}
+.actividades {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 @media (max-width: 768px) {
   .lista-fiestas {
     width: 90%;
@@ -578,6 +604,16 @@ header label:hover {
   .fecha-fiesta {
     padding: 1rem;
     font-size: 5vw;
+  }
+  .contenido-fiestas {
+    font-size: none;
+  }
+  .actividades {
+    display: block;
+  }
+  .imagen-fiesta {
+    float: none;
+    width: 100%;
   }
 }
 
@@ -691,6 +727,7 @@ header label:hover {
     text-align: justify;
   }
 }
+
 /* ----------- Fin Slider  de los servicios publicos ----------*/
 
 /*------------------------------- */

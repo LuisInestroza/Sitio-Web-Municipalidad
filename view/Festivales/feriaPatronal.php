@@ -1,7 +1,7 @@
 <!-- Header -->
 <?php
   $tittle ="Feria Patronal - Municipalidad de Siguatepeque";
-  require_once '../layouts/header.php'; 
+  require_once '../layouts/header.php';
 ?>
 
 
@@ -9,11 +9,11 @@
   <h1>FERIA PATRONAL</h1>
 </div>
 <!-- Contenido -->
-<div class="contenido">
+<div class="contenido-fiestas">
 
   <img
     src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2016/01/feria-aptrol-san-pablo-2-e1571765993366.jpg"
-    alt="" class="imagenFerias">
+    alt="" >
   <p> La feligresía católica de esta ciudad celebrará del 17 al 25 de enero de este año la feria patronal en honor a San
     Pablo Apóstol
     <br>
