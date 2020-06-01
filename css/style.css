@@ -584,6 +584,15 @@ header label:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.fenapin {
+  width: 30%;
+}
+.festival-flores {
+  width: 40%;
+}
+.fiesta-patronal {
+  width: 35%;
+}
 @media (max-width: 768px) {
   .lista-fiestas {
     width: 90%;
@@ -614,6 +623,7 @@ header label:hover {
   .imagen-fiesta {
     float: none;
     width: 100%;
+    margin: 0;
   }
 }
 

@@ -9,7 +9,7 @@
 </div>  
 <!-- Contenido -->
 <div class="contenido-fiestas">
-  <img src="/img/festivales/festival-de-las-rosa.jpg" class="imagen-fiesta">
+  <img src="/img/festivales/festival-de-las-rosa.jpg" class="imagen-fiesta festival-flores">
   <br>
   <p>
     El festival de las flores es para todas las edades donde podemos apreciar varios dias con actividades llenas de
