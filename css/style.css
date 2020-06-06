@@ -545,8 +545,8 @@ header label:hover {
 /* --------- Estilo de las fiestas ----- */
 /* -------------------------------------- */
 .fiestas {
-  width: 100%;
-  padding: 50px 0 50px 0;
+  margin: 30px 0;
+  padding: 20px;
 }
 .fiestas h1 {
   text-align: center;
@@ -554,36 +554,36 @@ header label:hover {
   font-weight: bold;
 }
 .lista-fiestas {
-  display: flex;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.contenedor-fiestas h4 {
-  color: var(--colorBlanco);
-  font-weight: bold;
-  text-align: center;
-  padding: 1rem;
-  font-size: 2vw;
-}
-.contenedor-fiestas img {
-  width: 60%;
-  display: block;
-  margin: 1rem auto;
-  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 .contenedor-fiestas {
-  background: var(--colorAzul);
-  margin: 0 10px;
-  text-align: center;
-  border-radius: 30px;
+  background: var(--colorBlanco);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  grid-gap: 1rem;
 }
-.fecha-fiesta {
+.contenedor-fiestas img {
+  width: 180px;
+  height: 150px;
+  position: relative;
+  top: 20%;
+}
+.datos-fiesta {
+  padding: 1rem;
+  font-size: 13px;
+}
+.datos-fiesta h4,
+.fa-calendar {
+  color: var(--colorAzul);
+}
+.datos-fiesta p {
+  text-align: justify;
   color: var(--colorNegro);
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5vw;
 }
+
 /* Contenido de las fiestas */
 .imagen-fiesta {
   float: left;
@@ -620,26 +620,6 @@ header label:hover {
   width: 35%;
 }
 @media (max-width: 768px) {
-  .lista-fiestas {
-    width: 90%;
-    display: block;
-  }
-
-  .contenedor-fiestas img {
-    padding-top: 10px;
-    margin-bottom: 0px;
-    margin-top: 15px;
-    width: 60%;
-  }
-  .contenedor-fiestas h4 {
-    padding: 0;
-    margin: 10px 0 0 0;
-    font-size: 5vw;
-  }
-  .fecha-fiesta {
-    padding: 1rem;
-    font-size: 5vw;
-  }
   .contenido-fiestas {
     font-size: none;
   }

@@ -13,7 +13,7 @@
         <h2>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h2>
         <div class="datos-ciudad">
           <div class="dato"><p>606,5<br>km2</p></div>
-          <div class="dato"><p><i class="fa fa-cloud-sun"></i><br>SU TEMPERATURA OSCILA ENTRE <br> 20º C Y 25º C</p></div>
+          <div class="dato"><i class="fa fa-cloud-sun"></i><br>SU TEMPERATURA OSCILA ENTRE 20º C Y 25º C</div>
           <div class="dato"><p>1926 <br>AÑO DE FUNDACIÓN</p></div>
           <div class="dato"><P>100,000<br>POBLACIÓN APROXIMADA</P></div>
         </div>
@@ -35,7 +35,6 @@
     </div>
    
   </div>
-
   <div class="btn-sliders">
     <span onclick="btnSlide(1)"></span>
     <span onclick="btnSlide(2)"></span>
@@ -51,27 +50,43 @@
   <h1>FESTIVALES - FERIAS OFICIALES</h1>
   <div class="lista-fiestas">
     <div class="contenedor-fiestas">
-      <a href="/view/Festivales/feriaPatronal.php">
-        <img src="../img/feriaSanPablo.png" alt="" srcset="">
+      <img src="../img/feriaSanPablo.png" alt="" srcset="">
+      <div class="datos-fiesta">
         <h4>FERIA PATRONAL</h4>
-        <p class="fa fa-calendar fecha-fiesta"> 17 - 25 Enero</p>
-      </a>
+        <i class="fa fa-calendar fecha-fiesta"> 17-25 Enero</i>
+        <p>
+          La parroquia San Pablo Apóstol, celebra el día de su santo patrón,
+          con varias actividades religiosas, culturales y artísticas: Eucaristías, 
+          en honor a San Pablo, procesión por las calles de la ciudad y conciertos 
+          con grupos musicales de la zona. 
+        </p>
+        <a href="/view/Festivales/feriaPatronal.php">Más Información</a>
+      </div>
     </div>
     <div class="contenedor-fiestas">
-      <a href="/view/Festivales/fesivalFlores.php">
-        <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
+      <img src="../img/festivalDeLasFlores.png" alt="" srcset="">
+      <div class="datos-fiesta">
         <h4>FESTIVAL DE LAS FLORES</h4>
-        <p class="fa fa-calendar fecha-fiesta"> Primera Semana de Octubre</p>
-      </a>
+        <i class="fa fa-calendar fecha-fiesta"> 1re Semana de Octubre</i>
+        <p>El festival de las flores es para todas las edades donde podemos apreciar 
+          varios dias con actividades llenas de colores. Es un Festival 100% familiar contiene 
+          una oferta de entretenimiento, alimentación y apreciación natural única en su clase. 
+        </p>
+          <a href="/view/Festivales/fesivalFlores.php">Más Información</a>
+      </div>
     </div>
     <div class="contenedor-fiestas">
-      <a href="/view/Festivales/festivalPino.php">
-        <img src="../img/festivalDelPino.png" alt="" srcset="">
+      <img src="../img/festivalDelPino.png" alt="" srcset="">
+      <div class="datos-fiesta">
         <h4>FESTIVAL DEL PINO</h4>
-        <p class="fa fa-calendar fecha-fiesta"> 26 - 29 de Abril</p>
-      </a>
+        <i class="fa fa-calendar fecha-fiesta"> 26-29 de Abril</i>
+        <p>
+          El Festival Nacional del Pino, es un evento que nació por la necesidad de mostrar a Honduras 
+          y el mundo la abundante foresta que tiene Siguatepeque, lo que deriva un clima agradable y cuantiosa agua. 
+        </p>
+        <a href="/view/Festivales/festivalPino.php">Más Información</a>
+      </div>
     </div>
-
   </div>
 </div>
 </div>
