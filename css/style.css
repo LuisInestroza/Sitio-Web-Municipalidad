@@ -490,6 +490,21 @@ header label:hover {
   background: rgba(255, 255, 255, 0.1);
   cursor: pointer;
 }
+.content .contenido-slider .datos-ciudad {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  grid-gap: 5rem;
+  position: relative;
+  top: 89px;
+}
+
+.content .contenido-slider .datos-ciudad p {
+  font-size: 20px;
+}
+.fa-cloud-sun {
+  font-size: 40px;
+}
 
 @media (max-width: 768px) {
   .content {
@@ -510,6 +525,17 @@ header label:hover {
   }
   .content .contenido-slider a {
     width: 40%;
+  }
+  .content .contenido-slider .datos-ciudad {
+    grid-gap: 1rem;
+    margin: 0 20px;
+    top: 0;
+  }
+  .content .contenido-slider .datos-ciudad p {
+    font-size: 9px;
+  }
+  .fa-cloud-sun {
+    font-size: 20px;
   }
 }
 
