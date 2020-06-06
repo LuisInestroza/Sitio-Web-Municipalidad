@@ -583,7 +583,19 @@ header label:hover {
   text-align: justify;
   color: var(--colorNegro);
 }
-
+@media (max-width: 768px) {
+  .contenedor-fiestas img {
+    display: block;
+    margin: 0 auto;
+  }
+  .lista-fiestas {
+    display: block;
+  }
+  .contenedor-fiestas {
+    display: block;
+    margin: 1rem 0;
+  }
+}
 /* Contenido de las fiestas */
 .imagen-fiesta {
   float: left;
@@ -652,6 +664,8 @@ header label:hover {
   padding: 45px;
   margin: 0 0 50px 0;
   background-image: url("/img/servicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .servicios .servicios-contenedor {
   height: 100%;
