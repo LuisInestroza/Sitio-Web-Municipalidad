@@ -9,7 +9,7 @@ function btnSlide(e) {
   showImg((indexValue = e));
 }
 
-// LLamar la funcionde cambio de cada slider
+// Funcion de cambio de cada slider
 // Por cada 4 segundos
 setInterval(function tiempo() {
   showImg((indexValue += 1));
