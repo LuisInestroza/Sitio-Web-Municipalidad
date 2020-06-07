@@ -493,8 +493,9 @@ header label:hover {
 .content .contenido-slider .datos-ciudad {
   align-items: center;
   justify-content: center;
-  display: flex;
-  grid-gap: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
   position: relative;
   top: 89px;
 }
@@ -527,7 +528,6 @@ header label:hover {
     width: 40%;
   }
   .content .contenido-slider .datos-ciudad {
-    grid-gap: 1rem;
     margin: 0 20px;
     top: 0;
   }
