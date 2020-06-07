@@ -13,7 +13,7 @@
         <h2>LA CIUDAD MAS EMOCIONANTE DEL CENTRO</h2>
         <div class="datos-ciudad">
           <div class="dato"><p>606,5<br>km2</p></div>
-          <div class="dato"><i class="fa fa-cloud-sun"></i><br>SU TEMPERATURA OSCILA ENTRE 20º C Y 25º C</div>
+          <div class="dato"><p><i class="fa fa-cloud-sun"></i><br>SU TEMPERATURA OSCILA <br> ENTRE 20º C Y 25º C</p></div>
           <div class="dato"><p>1926 <br>AÑO DE FUNDACIÓN</p></div>
           <div class="dato"><P>100,000<br>POBLACIÓN APROXIMADA</P></div>
         </div>
