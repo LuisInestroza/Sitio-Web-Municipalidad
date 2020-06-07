@@ -8,7 +8,7 @@
 </div>
 
 <div class="informacion-noticia">
-  <p class="fa fa-calendar fecha-informacion"> 29 NOVIEMBRE 2019</p>
+  <i class="fa fa-calendar fecha-informacion"> 29 NOVIEMBRE 2019</i>
   <div class="contenedor-imagenes">
     <img src="../../../img/Infraestructura/imagen1.jpg" alt="">
     <img src="../../../img/Infraestructura/imagen2.jpg" alt="">

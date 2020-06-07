@@ -1,6 +1,6 @@
 <?php
   $tittle ="Plaza de San Pedro - Municipalidad de Siguatepeque";
-  require_once '../layouts/header.php'; 
+  require_once '../layouts/header.php';
 ?>
 
 <div class="tittle">
@@ -21,7 +21,7 @@
 
   <div class="informacion-lugar">
 
-    <img src="/img/slider/plazaSanPedro.png">
+    <img src="http://municipalidaddesiguatepeque.com/wp-content/uploads/2019/10/plaza-sanpedro2.jpg">
     <p>
       PROYECTO PLAZA RECREATIVA SAN PEDRO APÓSTOL, BARRIO EL PARNASO DE SIGUATEPEQUE
     </p>

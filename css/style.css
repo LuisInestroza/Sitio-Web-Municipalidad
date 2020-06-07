@@ -450,7 +450,7 @@ header label:hover {
   text-decoration: none;
   text-align: center;
   font-weight: bold;
-  background: coral;
+  background: var(--colorVerde);
   width: 15%;
   display: block;
   font-size: 15px;

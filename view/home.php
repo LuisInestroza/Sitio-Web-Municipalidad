@@ -23,7 +23,7 @@
       <img src="/img/slider/festivalFlores.jpg" alt="">
       <div class="contenido-slider"> 
         <h2>NUESTRO FESTIVAL DE LAS FLORES</h2>
-        <a href="../view/Festivales/fesivalFlores.php">Ver Detalles</a>
+        <a href="../view/Festivales/fesivalFlores.php">Información</a>
       </div>
     </div>
     <div class="hero-slider">
