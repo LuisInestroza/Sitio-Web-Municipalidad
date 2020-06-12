@@ -11,7 +11,12 @@
         $titulo = $noticia['tituloNoticia'];
         $fecha= $noticia['fechaNoticia'];
         $descripcion = $noticia['descripcionNoticia'];
-        $imagenUser = $noticia['imagen'];
+        $imagen = $noticia['imagen'];
+        $imagen2 = $noticia['imagen2'];
+        $imagen3 = $noticia['imagen3'];
+        $imagen4 = $noticia['imagen4'];
+        $imagen5 = $noticia['imagen5'];
+        $imagen6 = $noticia['imagen6'];
       }
     }
   }
@@ -27,11 +32,13 @@
 <div class="informacion-noticia">
   <i class="fa fa-calendar fecha-informacion"> <?php echo $fecha; ?></i>
   <div class="contenedor-imagenes">
-    <img src="../../../img/Infraestructura/imagen1.jpg" alt="">
-    <img src="../../../img/Infraestructura/imagen2.jpg" alt="">
-    <img src="../../../img/Infraestructura/imagen3.jpg" alt="">
-    <img src="../../../img/Infraestructura/imagen4.jpg" alt="">
-    <img src="../../../img/Infraestructura/imagen5.jpg" alt="">
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen)."' />";; ?>
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen2)."' />";; ?>
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen3)."' />";; ?>
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen4)."' />";; ?>
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen5)."' />";; ?>
+    <?php echo "<img src = 'data:image/;base64,".base64_encode($imagen6)."' />";; ?>
+
   </div>
   <p class="detalle-informacion">
     <?php echo $descripcion; ?>
