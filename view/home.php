@@ -1,3 +1,22 @@
+<!-- PHP -->
+<?php  
+  // Incluir el archivo de la conexion a la bade de datos
+  include("./config/db.php");
+  // Llamar a la funcion de la conexion a la base de datos.
+  $con = conexion();
+
+  // Query de para mostrar las noticas
+  $queryNoticasInfraestructura = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
+  $queryNoticasSociales = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
+  $queryNoticasEventos = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
+  $queryNoticasEconomia = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
+
+  // Query de comunicados
+  $queryComunicados = "SELECT * FROM comunicado"
+
+
+?>
+
 <div class="content">
   <div class="images">
     <div class="overlay"></div>
@@ -185,62 +204,67 @@
           <section id="infraestructura">
             <h1>Noticias Infraestructura</h1>
             <div class="content-noticia">
-              <div class="contenido-noticia">
-                <a href="/view/Noticias/Infraestructura/entregaOficialProyecto.php">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
-              <div class="contenido-noticia">
-                <a href="">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
-              <div class="contenido-noticia">
-                <a href="">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
-              <div class="contenido-noticia">
-                <a href="">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
-              <div class="contenido-noticia">
-                <a href="">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
-              <div class="contenido-noticia">
-                <a href="">
-                  <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-                  <p class="fecha-noticia">30 Marzo, 2020</p>
-                  <p class="titulo-noticia">Entrega oficial de proyecto</p>
-                </a>
-              </div>
+              <?php  if ($infraestructura = mysqli_query($con, $queryNoticasInfraestructura) or die("Error en la consulta")):?>
+                <?php while ($columna = mysqli_fetch_assoc($infraestructura)): ?>
+                  <div class="contenido-noticia">
+                    <a href="/view/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idnoticia'] ?>">
+                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
+                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                    </a>
+                  </div>           
+                <?php endwhile; ?>
+              <?php  endif;  ?>
             </div>
           </section>
           <section id="sociales">
             <h1>Noticias Sociales</h1>
-            <div class="content-noticia"></div>
+            <div class="content-noticia">
+              <?php  if ($sociales = mysqli_query($con, $queryNoticasSociales) or die("Error en la consulta")):?>
+                <?php while ($columna = mysqli_fetch_assoc($sociales)): ?>
+                  <div class="contenido-noticia">
+                    <a href="/view/Noticias/Sociales/sociales.php?id=<?php echo $columna['idnoticia'] ?>">
+                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
+                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                    </a>
+                  </div>                
+                <?php endwhile; ?>
+              <?php  endif;  ?>
+            </div>
 
           </section>
           <section id="eventos">
             <h1>Noticias Eventos</h1>
-            <div class="content-noticia"></div>
+            <div class="content-noticia">
+              <?php  if ($eventos = mysqli_query($con, $queryNoticasEventos) or die("Error en la consulta")):?>
+                <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
+                  <div class="contenido-noticia">
+                    <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idnoticia'] ?>">
+                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
+                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                    </a>
+                  </div>          
+                <?php endwhile; ?>
+              <?php  endif;  ?>
+            </div>
           </section>
           <section id="economía">
             <h1>Noticias Economía</h1>
-            <div class="content-noticia"></div>
+            <div class="content-noticia">
+              <?php  if ($economia = mysqli_query($con, $queryNoticasEconomia) or die("Error en la consulta")):?>
+                <?php while ($columna = mysqli_fetch_assoc($economia)): ?>
+                  <div class="contenido-noticia">
+                    <a href="/view/Noticias/Economia/economia.php?id=<?php echo $columna['idnoticia'] ?>">
+                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
+                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                    </a>
+                  </div>          
+                <?php endwhile; ?>
+              <?php  endif;  ?>
+            </div>
           </section>
           <!-- Boton de ver mas noticias -->
           <div class="btn-noticias">
@@ -261,11 +285,20 @@
 <!-- Sección de eventos -->
 <div class="eventos-ciudad">
   <h1>EVENTOS</h1>
-
   <section>
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap">
-        <p>Mostrar Eventos</p>
+        <?php  if ($eventos = mysqli_query($con, $queryNoticasEventos) or die("Error en la consulta")):?>
+          <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
+            <div class="contenido-noticia">
+              <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idnoticia'] ?>">
+                <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
+                <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+              </a>
+            </div>          
+          <?php endwhile; ?>
+        <?php  endif;  ?>
       </div>
     </div>
   </section>
@@ -278,62 +311,17 @@
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap content-comunicado">
         <!-- Contenido de los comunicados -->
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">12 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
-        <div class="contenido-comunicado">
-          <button id="modalImagen" class="modal-imagen">
-            <img src="../uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
-            <p class="fecha-comunicado">30 Marzo, 2020</p>
-            <p>Comunicado MDS-001</p>
-          </button>
-        </div>
+        <?php  if ($comunicados = mysqli_query($con, $queryComunicados) or die("Error en la consulta")):?>
+          <?php while ($columna = mysqli_fetch_assoc($comunicados)): ?>
+            <div class="contenido-comunicado">
+              <button id="modalImagen" class="modal-imagen">
+                <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' onclick='imagen(this)' />";; ?>
+                <p class="fecha-comunicado"><?php echo $columna['fechaComunicado']; ?></p>
+                <p><?php echo $columna['codigoComunicado']; ?></p>
+              </button>
+            </div>  
+          <?php endwhile; ?>
+        <?php  endif;  ?>
       </div>
   </section>
 </div>

@@ -1,4 +1,10 @@
 <?php 
+
+  include("../../config/db.php");
+  $con = conexion();
+
+  $query = "SELECT * FROM noticia";
+
   $tittle="Noticias - Municipalidad de Siguatepeque";
   require_once '../layouts/header.php'; 
 ?>
@@ -10,89 +16,20 @@
 </div>
 <div class="list-noticias">
   <div class="content-noticias">
-    <div class="contenido-noticias">
-      <a href="/view/Noticias/infraestructura.php">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de
-            techado de la cancha
-            multiusos en el CEB Ernestina...</p>
+    <?php  if ($noticia = mysqli_query($con, $query) or die("Error en la consulta")):?>
+      <?php while ($columna = mysqli_fetch_assoc($noticia)): ?>
+        <div class="contenido-noticia">
+          <a href="../noticia.php?id=<?php echo $columna['idnoticia'] ?>">
+            <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."'/>";; ?>
+            <div class="noticias-detalles">
+              <p class="titulo-noticias"><?php echo $columna["tituloNoticia"]; ?></p>
+              <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+              <p class="noticia-informacion"><?php echo $columna["descripcionNoticia"]; ?></p>
+            </div>
+          </a>    
         </div>
-
-      </a>
-    </div>
-    <div class="contenido-noticias">
-      <a href="">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de
-            techado de la cancha
-            multiusos en el CEB Ernestina...</p>
-        </div>
-
-      </a>
-    </div>
-    <div class="contenido-noticias">
-      <a href="">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de techado de la cancha multiusos en el CEB Ernestina...</p>
-        </div>
-
-
-      </a>
-    </div>
-    <div class="contenido-noticias">
-      <a href="">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de techado de la cancha multiusos en el CEB Ernestina...</p>
-        </div>
-
-      </a>
-    </div>
-    <div class="contenido-noticias">
-      <a href="">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de techado de la cancha multiusos en el CEB Ernestina...</p>
-        </div>
-
-      </a>
-    </div>
-    <div class="contenido-noticias">
-      <a href="">
-        <img src="/uploads/Noticias/noticias.jpg" alt="" srcset="">
-        <div class="noticias-detalles">
-          <p class="titulo-noticias">Entrega oficial de proyecto</p>
-          <p class="fecha-noticias fa fa-calendar"> 30 Marzo, 2020</p>
-          <p class="noticia-informacion">Autoridades Municipales realizan la entrega oficial del proyecto de
-            construcción
-            de techado de la cancha multiusos en el CEB Ernestina...</p>
-        </div>
-
-      </a>
-    </div>
+      <?php endwhile; ?>
+    <?php  endif;  ?>
   </div>
 
 </div>
