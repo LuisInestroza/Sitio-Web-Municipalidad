@@ -61,9 +61,10 @@
   <script src="/js/botonArriba.js"></script>
   <script src="/js/cbpFWTabs.js"></script>
   <script src="/js/slideTab.js"></script>
-  <script src="/js/modal.js"></script>
   <script src="/js/buscador.js"></script>
   <script src="/js/slider-index.js"></script>
+  <script src="/js/modal.js"></script>
+  <script src="/js/galeria.js"></script>
  
 
 

@@ -37,12 +37,22 @@ require_once '../layouts/header.php';
       <li>El carnaval el cual reúne conjuntos musicales y la Marimba</li>
       
     </ul>
-  <div class="imagenes-fiestas">
-    <img src="/img/festivales/festivalPino5.jpg" alt="">
-    <img src="/img/festivales/festivalPino1.jpg" alt="">
-    <img src="/img/festivales/festivalPino2.jpg" alt="">
-    <img src="/img/festivales/festivalPino3.jpg" alt="">
-    <img src="/img/festivales/festivalPino4.jpg" alt="">
+  <div class="galeria">
+    <div class="imagenes-galeria">
+      <img src="/img/festivales/festivalPino5.jpg" alt="">
+      <img src="/img/festivales/festivalPino1.jpg" alt="">
+      <img src="/img/festivales/festivalPino2.jpg" alt="">
+      <img src="/img/festivales/festivalPino3.jpg" alt="">
+      <img src="/img/festivales/festivalPino4.jpg" alt="">
+
+    </div>
+    <div onclick="mover(-1)" class="izquiera">
+      <span class ="fas fa-angle-left"></span>
+    </div>
+    <div onclick="mover(1)" class="derecha">
+      <span class ="fas fa-angle-right"></span>
+    </div>
+    
     
   </div>
 

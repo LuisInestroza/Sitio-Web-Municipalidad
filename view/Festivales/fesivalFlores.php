@@ -46,12 +46,22 @@
     <li>Tour del barro, de la carne y del café</li>
   </ul>
   <br>
-  <div class="imagenes-fiestas">
-    <img src="/img/festivales/festival-de-las-flores3.jpg" alt="">
-    <img src="/img/festivales/festival-de-las-flores.jpg" alt="">
-    <img src="/img/festivales/festival-de-las-flores5.jpg" alt="">
-    <img src="/img/festivales/festival-de-las-floresd.jpg" alt="">
-    <img src="/img/festivales/festivalFlores.jpg" alt="">
+  <div class="galeria">
+    <div class="imagenes-galeria">
+      <img src="/img/festivales/festival-de-las-flores3.jpg" alt="">
+      <img src="/img/festivales/festival-de-las-flores.jpg" alt="">
+      <img src="/img/festivales/festival-de-las-flores5.jpg" alt="">
+      <img src="/img/festivales/festival-de-las-floresd.jpg" alt="">
+      <img src="/img/festivales/festivalFlores.jpg" alt="">
+
+    </div>
+    <div onclick="mover(-1)" class="izquiera">
+      <span class ="fas fa-angle-left"></span>
+    </div>
+    <div onclick="mover(1)" class="derecha">
+      <span class ="fas fa-angle-right"></span>
+    </div>
+    
   </div>
 </div>
 

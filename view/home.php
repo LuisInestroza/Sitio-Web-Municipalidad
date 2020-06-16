@@ -5,14 +5,16 @@
   // Llamar a la funcion de la conexion a la base de datos.
   $con = conexion();
 
+  mysqli_query($con, "SET lc_time_names = 'es_ES'");
+
   // Query de para mostrar las noticas
-  $queryNoticasInfraestructura = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
-  $queryNoticasSociales = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
-  $queryNoticasEventos = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
-  $queryNoticasEconomia = "SELECT * FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
+  $queryNoticasInfraestructura = "SELECT idnoticia, tituloNoticia, descripcionNoticia, imagen, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
+  $queryNoticasSociales = "SELECT idnoticia, tituloNoticia, descripcionNoticia, imagen, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
+  $queryNoticasEventos = "SELECT idnoticia, tituloNoticia, descripcionNoticia, imagen, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
+  $queryNoticasEconomia = "SELECT idnoticia, tituloNoticia, descripcionNoticia, imagen, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
 
   // Query de comunicados
-  $queryComunicados = "SELECT * FROM comunicado"
+  $queryComunicados = "SELECT imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado";
 
 
 ?>
@@ -208,7 +210,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($infraestructura)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idnoticia'] ?>">
-                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";; ?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -224,7 +226,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($sociales)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Sociales/sociales.php?id=<?php echo $columna['idnoticia'] ?>">
-                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";; ?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -241,7 +243,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idnoticia'] ?>">
-                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";; ?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -257,7 +259,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($economia)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Economia/economia.php?id=<?php echo $columna['idnoticia'] ?>">
-                      <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";; ?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -292,7 +294,7 @@
           <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
             <div class="contenido-noticia">
               <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idnoticia'] ?>">
-                <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' />";; ?>
+                <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";; ?>
                 <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                 <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
               </a>
@@ -314,8 +316,8 @@
         <?php  if ($comunicados = mysqli_query($con, $queryComunicados) or die("Error en la consulta")):?>
           <?php while ($columna = mysqli_fetch_assoc($comunicados)): ?>
             <div class="contenido-comunicado">
-              <button id="modalImagen" class="modal-imagen">
-                <?php echo "<img src = 'data:image/;base64,".base64_encode($columna['imagen'])."' onclick='imagen(this)' />";; ?>
+              <button  id="modalImagen" class="modal-imagen">
+                <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." 'onclick='imagen(this)'/>";; ?>
                 <p class="fecha-comunicado"><?php echo $columna['fechaComunicado']; ?></p>
                 <p><?php echo $columna['codigoComunicado']; ?></p>
               </button>

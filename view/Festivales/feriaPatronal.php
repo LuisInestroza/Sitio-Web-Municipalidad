@@ -14,7 +14,7 @@
   <img src="/img/festivales/FERIA-PATRON.jpg" alt="" class="imagen-fiesta fiesta-patronal">
   <p> 
     La feligresía católica de esta ciudad celebrará del 17 al 25 de enero de este año la feria patronal en honor a San
-    Pablo Apóstol
+    Pablo Apóstol.
     <br><br>
     La parroquia San Pablo Apóstol, celebra el día de su santo patrón, con varias actividades religiosas,
     culturales y artísticas: Eucaristías, en honor a San Pablo, procesión por las calles de la ciudad y
@@ -32,17 +32,22 @@
     a las 6:00 de la tarde la celebración de la Santa Eucaristía, 7:00 de la noche la procesión con el patrón San Pablo, 
     a las 8:00 de la noche la animación y música de banda y a las 9:00 de la noche el show de luces y quema del toro fuego
   </p>
-  <div class="imagenes-fiestas">
-    <img src="/img/festivales/feria-aptrol-san-pablo3.jpg" alt="">
-    <img src="/img/festivales/feriaSanPablo1.jpg" alt="">
-    <img src="/img/festivales/feriaSanPablo4.jpg" alt="">
-    <img src="/img/festivales/feriaSanPablo3.jpg" alt="">
-    <img src="/img/festivales/feriaSanPablo2.jpg" alt="">
+
+  <div class="galeria">
+    <div class="imagenes-galeria">
+      <img src="/img/festivales/feria-aptrol-san-pablo3.jpg" alt="">
+      <img src="/img/festivales/feriaSanPablo1.jpg" alt="">
+      <img src="/img/festivales/feriaSanPablo4.jpg" alt="">
+      <img src="/img/festivales/feriaSanPablo3.jpg" alt="">
+      <img src="/img/festivales/feriaSanPablo2.jpg" alt="">
+    </div>
+    <div onclick="mover(-1)" class="izquiera">
+      <span class ="fas fa-angle-left"></span>
+    </div>
+    <div onclick="mover(1)" class="derecha">
+      <span class ="fas fa-angle-right"></span>
+    </div>
   </div>
-
-
-
-
 </div>
 
 
