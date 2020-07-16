@@ -14,7 +14,7 @@
   $queryNoticasEconomia = "SELECT idnoticia, tituloNoticia, descripcionNoticia, imagen, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
 
   // Query de comunicados
-  $queryComunicados = "SELECT imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado";
+  $queryComunicados = "SELECT idcomunicado, imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado";
 
 
 ?>
@@ -310,20 +310,24 @@
 <div class="comunicados-ciudad">
   <h1>COMUNICADOS</h1>
   <section>
-    <div class="tabs tabs-style-tzoid">
-      <div class="content-wrap content-comunicado">
-        <!-- Contenido de los comunicados -->
-        <?php  if ($comunicados = mysqli_query($con, $queryComunicados) or die("Error en la consulta")):?>
-          <?php while ($columna = mysqli_fetch_assoc($comunicados)): ?>
-            <div class="contenido-comunicado">
-              <button  id="modalImagen" class="modal-imagen">
-                <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." 'onclick='imagen(this)'/>";; ?>
-                <p class="fecha-comunicado"><?php echo $columna['fechaComunicado']; ?></p>
-                <p><?php echo $columna['codigoComunicado']; ?></p>
-              </button>
-            </div>  
-          <?php endwhile; ?>
-        <?php  endif;  ?>
-      </div>
-  </section>
+
 </div>
+
+<div class="comunicados">
+  <div class="carousel" data-flickity='{ "groupCells": true }'>
+    <?php  if ($comunicados = mysqli_query($con, $queryComunicados) or die("Error en la consulta")):?>
+    <?php while ($columna = mysqli_fetch_assoc($comunicados)): ?>
+      <div class="carousel-cell"> 
+        <a href="/view/Comunicados/comunicado.php?id=<?php echo $columna['idcomunicado'] ?>">
+          <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." '/>";; ?>
+          <p class="fecha-comunicado"><?php echo $columna['fechaComunicado']; ?></p>
+          <p><?php echo $columna['codigoComunicado']; ?></p>
+        </a>
+        
+      </div>
+    <?php endwhile; ?>
+    <?php  endif;  ?>   
+    </div>
+</div>
+
+

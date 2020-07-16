@@ -1,5 +1,5 @@
 <?php
-  include("../config/db.php");
+  include("../../config/db.php");
   $con = conexion();
   mysqli_query($con, "SET lc_time_names = 'es_ES'");
 
@@ -24,7 +24,7 @@
   }
 
   $tittle = "$titulo - Municipalidad de Siguatepeque";
-  require_once './layouts/header.php';
+  require_once '../layouts/header.php';
 ?>
 
 <div class="tittle">
@@ -58,4 +58,4 @@
 </div>
 
 
-<?php require_once './layouts/footer.php'; ?>
+<?php require_once '../layouts/footer.php'; ?>

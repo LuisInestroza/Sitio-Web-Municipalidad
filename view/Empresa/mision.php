@@ -8,7 +8,7 @@
   <h1>MISIÓN</h1>
 </div>
 <!-- Contenido -->
-<div>
+<div class="empresa">
 
   <p>
     Generar las condiciones necesarias para la oportuna prestación de los servicios, a través de la planificación del

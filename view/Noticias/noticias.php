@@ -21,7 +21,7 @@
     <?php  if ($noticia = mysqli_query($con, $query) or die("Error en la consulta")):?>
       <?php while ($columna = mysqli_fetch_assoc($noticia)): ?>
         <div class="contenido-noticia">
-          <a href="../noticia.php?id=<?php echo $columna['idnoticia'] ?>">
+          <a href="../Noticia/noticia.php?id=<?php echo $columna['idnoticia'] ?>">
             <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."'/>";; ?>
             <div class="noticias-detalles">
               <p class="titulo-noticias"><?php echo $columna["tituloNoticia"]; ?></p>

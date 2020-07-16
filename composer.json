@@ -1,4 +1,11 @@
 {
   "name": "Sitio-Adminisitrativo-Municipalidad",
-  "description": "Sitio web administrativo para la municipalidad"
+  "description": "Sitio web administrativo para la municipalidad",
+  "license": "top-secret",
+  "authors": [
+    {
+      "name": "Luis Darío Rodríguez Inestroza",
+      "email": "luisdario500@gmai.com"
+    }
+  ]
 }

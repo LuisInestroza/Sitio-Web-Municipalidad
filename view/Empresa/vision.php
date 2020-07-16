@@ -8,7 +8,7 @@
   <h1>VISIÓN</h1>
 </div>
 <!-- Contenido -->
-<div>
+<div class="empresa">
   <p>
     Para el 2022 seremos una institución de servicios, que ofrece a los usuarios soluciones inmediatas y de calidad, con
     una gestión transparente; con participación ciudadana; con inclusión social, defensora de los espacios públicos y la

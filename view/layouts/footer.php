@@ -1,3 +1,21 @@
+<?php
+  // Definicion de variables
+  $host = "localhost";
+  $user = "root";
+  $password = "";
+  $db = "muni2020";
+
+  // Hacer la conexion a la base de datos
+  $con = mysqli_connect($host, $user, $password) or die("Error al conectar al servidor");
+
+  // coneccion a la base de datos
+  $dbConect = mysqli_select_db($con, $db) or die("Error al conectar a la base de datos");
+
+  $imagenNoticia= "SELECT idnoticia, imagen, tituloNoticia FROM noticia WHERE fechaNoticia = (SELECT MAX(fechaNoticia) FROM noticia);";
+
+  
+?>
+
   <!-- footer -->
   <footer class="footer">
     <div class="links-footer">
@@ -5,9 +23,9 @@
       <div>
         <ul>
           <li><a href=" https://www.presidencia.gob.hn/">Casa Presidencial</a></li>
-          <li><a href="">Noticias</a></li>
-          <li><a href="">Agenda</a></li>
-          <li><a href="">Contacto</a></li>
+          <li><a href="/view//Noticias/noticias.php">Noticias</a></li>
+          <li><a href="#">Agenda</a></li>
+          <li><a href="/view/ConoceSiguatepeque/contactos.php">Contacto</a></li>
         </ul>
       </div>
     </div>
@@ -17,15 +35,25 @@
         <ul>
           <li><a href="/view/Empresa/mision.php">Misión</a></li>
           <li><a href="/view/Empresa/vision.php">Visión</a></li>
-          <li><a href="">Valores</a></li>
+          <li><a href="#">Valores</a></li>
         </ul>
       </div>
     </div>
+    
 
     <!-- Contenido de noticias -->
     <div class="noticias-recientes">
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
-      <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)">
+       <?php  if ($eventos = mysqli_query($con, $imagenNoticia) or die("Error en la consulta")):?>
+          <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
+            <a href="/view/Noticia/noticia.php?id=<?php echo $columna['idnoticia'] ?>">
+              <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." ' />";; ?>
+              <p class="titulo-noticia-reciente"><?php echo $columna['tituloNoticia']; ?></p>
+            </a>
+            
+          <?php endwhile; ?>
+        <?php  endif;  ?>
+      <!-- <img src="/uploads/comunicados/comunicado.jpg" alt="" srcset="" onclick="imagen(this)"> -->
     </div>
 
     <!-- Contenido de redes sociales -->
@@ -65,6 +93,9 @@
   <script src="/js/slider-index.js"></script>
   <script src="/js/modal.js"></script>
   <script src="/js/galeria.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  
  
 
 

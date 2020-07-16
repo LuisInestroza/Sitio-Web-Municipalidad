@@ -4,39 +4,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <!-- Link de icoco -->
   <link rel="icon" type="image/png" href="/logo.ico" />
-
   <!-- Link de las hojas de estilos  Principales-->
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/style.css">
-
-
   <!-- Bootstrap -->
   <link rel="stylesheet" href="/css/bootstrap.css">
-
-
   <link rel="stylesheet" href="/css/tabs.css">
   <link rel="stylesheet" href="/css/tabstyles.css">
 
-
-
-
   <!-- Link de el estilo de las fuentes -->
-<link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap" rel="stylesheet"> 
-
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap" rel="stylesheet"> 
   <!-- Links de iconos -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+
 
   <title><?php echo $tittle ?></title>
 </head>
 
 <body>
-
-
-
   <!-- Botón de desplazar hacia arriba -->
   <span class="arriba">
     <i class="fa fa-angle-up"></i>
@@ -148,11 +139,12 @@
   </header>
 
   <!-- Barra de búsqueda -->
+
   <div id="hero" class="hero">
-    <form class="busqueda">
+    <form action="/view/search/search.php" method="POST" class="busqueda">
       <fieldset>
-        <input type="search" placeholder="Buscar..">
-        <button type="submit">Buscar</button>
+        <input type="search" name="buscar" placeholder="Buscar..">
+        <button type="submit" value="Buscar">Buscar</button>
       </fieldset>
     </form>
   </div>
