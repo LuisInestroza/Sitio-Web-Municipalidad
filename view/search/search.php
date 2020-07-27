@@ -1,7 +1,7 @@
-<?php 
+<?php
   
     $tittle ="Busqueda- Municipalidad de Siguatepeque";
-    require_once '../layouts/header.php'; 
+    require_once '../layouts/header.php';
 ?>
 
 <div class="tittle">
@@ -12,8 +12,8 @@
     <?php include "../../helpers/busqueda.php"; ?>
       <?php while ($row = mysqli_fetch_assoc($resultadoBusqueda)): ?>
         <div class="contenido-noticia">
-          <a href="../Noticia/noticia.php?id=<?php echo $row['idnoticia'] ?>">
-            <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($row['imagen'])."'/>";; ?>
+          <a href="../Noticia/noticia.php?id=<?php echo $row['idNoticia'] ?>">
+            <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($row['imagen'])."'/>";;?>
             <div class="noticias-detalles">
               <p class="titulo-noticias"><?php echo $row["tituloNoticia"]; ?></p>
               <p class="fecha-noticias fa fa-calendar"> <?php echo $row["fechaNoticia"]; ?></p>

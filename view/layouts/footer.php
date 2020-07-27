@@ -11,7 +11,7 @@
   // coneccion a la base de datos
   $dbConect = mysqli_select_db($con, $db) or die("Error al conectar a la base de datos");
 
-  $imagenNoticia= "SELECT idnoticia, imagen, tituloNoticia FROM noticia WHERE fechaNoticia = (SELECT MAX(fechaNoticia) FROM noticia);";
+  $imagenNoticia= "SELECT idNoticia, tituloNoticia FROM noticia WHERE fechaNoticia = (SELECT MAX(fechaNoticia) FROM noticia);";
 
   
 ?>
@@ -46,8 +46,8 @@
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
        <?php  if ($eventos = mysqli_query($con, $imagenNoticia) or die("Error en la consulta")):?>
           <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
-            <a href="/view/Noticia/noticia.php?id=<?php echo $columna['idnoticia'] ?>">
-              <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." ' />";; ?>
+            <a href="/view/Noticia/noticia.php?id=<?php echo $columna['idNoticia'] ?>">
+              <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." ' />";;?>
               <p class="titulo-noticia-reciente"><?php echo $columna['tituloNoticia']; ?></p>
             </a>
             

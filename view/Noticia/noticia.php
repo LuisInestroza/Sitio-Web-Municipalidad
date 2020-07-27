@@ -5,22 +5,19 @@
 
   //si existe "id" en la url
   if (isset($_GET['id'])) {
-    $id = $_GET['id'];//le asigno una variable
-    $query = "SELECT  tituloNoticia, descripcionNoticia, imagen, imagen2, imagen3, imagen4, imagen5, imagen6, 
-              date_format(fechaNoticia, '%d de %M del %Y') as fechaNoticia FROM noticia WHERE idnoticia =".$id; 
-    if ($resultado = mysqli_query($con, $query)) { //si obtengo resultados ejecutando la consulta anterior
+      $id = $_GET['id'];//le asigno una variable
+      $query = "SELECT  tituloNoticia, descripcionNoticia,
+              date_format(fechaNoticia, '%d de %M del %Y') as fechaNoticia FROM noticia WHERE idNoticia =".$id;
+      if ($resultado = mysqli_query($con, $query)) { //si obtengo resultados ejecutando la consulta anterior
       while ($noticia = mysqli_fetch_assoc($resultado)) { //asigno ese resultado a un array asociativo $user
-        $titulo = $noticia['tituloNoticia'];
-        $fecha= $noticia['fechaNoticia'];
-        $descripcion = $noticia['descripcionNoticia'];
-        $imagen = $noticia['imagen'];
-        $imagen2 = $noticia['imagen2'];
-        $imagen3 = $noticia['imagen3'];
-        $imagen4 = $noticia['imagen4'];
-        $imagen5 = $noticia['imagen5'];
-        $imagen6 = $noticia['imagen6'];
+          $titulo = $noticia['tituloNoticia'];
+          $fecha= $noticia['fechaNoticia'];
+          $descripcion = $noticia['descripcionNoticia'];
       }
-    }
+      }
+
+      $mostrarFotos = "SELECT imagen from detallenoticia WHERE noticia_idNoticia =  '$id'";
+      $galeriaFotos = mysqli_query($con, $mostrarFotos);
   }
 
   $tittle = "$titulo - Municipalidad de Siguatepeque";
@@ -34,12 +31,10 @@
 <div class="informacion-noticia">
   <div class="galeria">
     <div class="imagenes-galeria">
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen)."' />";; ?>
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen2)."' />";; ?>
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen3)."' />";; ?>
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen4)."' />";; ?>
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen5)."' />";; ?>
-      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen6)."' />";; ?>
+      <?php while ($filas = mysqli_fetch_assoc($galeriaFotos)):?>
+      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($filas["imagen"])."' />";;?>
+       <?php  endwhile;?>
+ 
     </div>
     <div onclick="mover(-1)" class="izquiera">
       <span class ="fas fa-angle-left"></span>
