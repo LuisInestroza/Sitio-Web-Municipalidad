@@ -1,4 +1,4 @@
-<?php  
+<?php
     // Definicion de variables
     $host = "localhost";
     $user = "root";
@@ -16,4 +16,3 @@
     $queyBusqueda= "SELECT * FROM noticia WHERE  tituloNoticia LIKE '%".$buscar."%' OR descripcionNoticia LIKE '%".$buscar."%'";
 
     $resultadoBusqueda = mysqli_query($con, $queyBusqueda);
-?>

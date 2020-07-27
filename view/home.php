@@ -8,10 +8,10 @@
   mysqli_query($con, "SET lc_time_names = 'es_ES'");
 
   // Query de para mostrar las noticas
-  $queryNoticasInfraestructura = "SELECT idNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
-  $queryNoticasSociales = "SELECT idNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
-  $queryNoticasEventos = "SELECT idNoticia, tituloNoticia, descripcionNoticia, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
-  $queryNoticasEconomia = "SELECT idNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
+  $queryNoticasInfraestructura = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
+  $queryNoticasSociales = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
+  $queryNoticasEventos = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
+  $queryNoticasEconomia = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
 
   // Query de comunicados
   $queryComunicados = "SELECT idComunicado, imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado";
@@ -210,7 +210,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($infraestructura)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idNoticia'] ?>">
-                      <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";;?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -226,7 +226,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($sociales)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Sociales/sociales.php?id=<?php echo $columna['idNoticia'] ?>">
-                      <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";;?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -243,7 +243,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
-                      <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";;?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -259,7 +259,7 @@
                 <?php while ($columna = mysqli_fetch_assoc($economia)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Economia/economia.php?id=<?php echo $columna['idNoticia'] ?>">
-                      <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";;?>
+                      <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                       <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                       <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                     </a>
@@ -294,7 +294,7 @@
           <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
             <div class="contenido-noticia">
               <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
-                <?php //echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])."' />";;?>
+                <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                 <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
                 <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
               </a>
