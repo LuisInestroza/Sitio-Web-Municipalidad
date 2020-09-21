@@ -1,7 +1,7 @@
 <?php
   
-    $tittle ="Busqueda- Municipalidad de Siguatepeque";
-    require_once '../layouts/header.php';
+  $tittle ="Busqueda- Municipalidad de Siguatepeque";
+  require_once '../layouts/header.php';
 ?>
 
 <div class="tittle">
