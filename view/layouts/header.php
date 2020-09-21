@@ -125,6 +125,12 @@
                 <b>Educación Superior</b>
               </a>
             </li>
+            <li>
+              <a href="/view/ConoceSiguatepeque/historiaSiguatepeque.php">
+                <i class="fa fa-city"></i>
+                <b>Acerca de Siguatepeque</b>
+              </a>
+            </li>
           </ul>
         </li>
         <li>

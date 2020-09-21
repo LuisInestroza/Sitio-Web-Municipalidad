@@ -6,15 +6,16 @@
 
 
 <div class="oficina">
-  <p class="texto">Historia de Siguatepeque</p>
+  <h1>Historia de Siguatepeque</h1>
   <div class="contenido">
-    <img src="/img/ImagenesSiguatepeque/iglasiasp640px.jpg" alt="iglesia" style="float: right;" class="imagenes">
+    <img src="/img/imagenSigua.jpg" alt="">
     El actual emplazamiento de <b>Siguatepeque</b> era habitado por indígenas de la
     etnia Lenca, que vivían de casas de paja yen la ribera de los ríos y
     riachuelos. De este grupo humano han sido hallados algunos utensilios
     como piedras de moler, vasijas, jarrones, ollas, objetos de adornos para
     sala, imágenes de deidades de diferentes formas y tamaños.
   </div>
+  
   <br>
   <div class="contenido">
     El <b>7 de diciembre de 1537</b>, el adelantado Alonso de Cáceres recorrió el
@@ -36,12 +37,19 @@
     religiosa del país al instalarse en el lugar el Obispo de Honduras, Fray Manuel Francisco Vélez,
     quien había adquirido el inmueble del que fue el antiguo edificio del Instituto Genaro Muñoz
     Hernández, el cual era en esos tiempos, casa de retiro para los sacerdotes de su parroquia.
+    <b>El 12 de Noviembre de 1940 se crea el Distrito Local de Siguatepeque.</b>
+  </div>
+  <br>
+  <div class="contenido">
+    Significado de su Nombre
+
+    Siguatepeque viene del vocablo nahautl “cihualtepec”, <b>cihuatl</b>(mujer), <b>tepec</b>(cerro) que significa: <b>el cerro de las mujeres</b>.
+
+    En mexicano significa: <b>En el cerro de la mujer</b>
   </div>
 
 </div>
-<div class="button">
-  <a href="">LEER MAS</a>
-</div>
+
 
 <!-- Fooer -->
 <?php require_once '../layouts/footer.php'; ?>
