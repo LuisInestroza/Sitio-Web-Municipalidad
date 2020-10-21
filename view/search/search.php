@@ -2,14 +2,14 @@
   
   $tittle ="Busqueda- Municipalidad de Siguatepeque";
   require_once '../layouts/header.php';
+  require_once '../../helpers/busqueda.php';
 ?>
 
 <div class="tittle">
-  <h1>Busqueda</h1>
+  <h1>Busqueda: "<?php echo $buscar?>"</h1>
 </div>
 <div class="list-noticias">
   <div class="content-noticias">
-    <?php include "../../helpers/busqueda.php"; ?>
       <?php while ($row = mysqli_fetch_assoc($resultadoBusqueda)): ?>
         <div class="contenido-noticia">
           <a href="../Noticia/noticia.php?id=<?php echo $row['idNoticia'] ?>">
@@ -19,9 +19,10 @@
               <p class="fecha-noticias fa fa-calendar"> <?php echo $row["fechaNoticia"]; ?></p>
               <p class="noticia-informacion"><?php echo $row["descripcionNoticia"]; ?></p>
             </div>
-            Más Informacion
+            <b>Más Informacion</b>
           </a>    
         </div>
+ 
       <?php endwhile; ?>
   </div>
 

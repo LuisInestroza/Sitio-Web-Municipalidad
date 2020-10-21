@@ -211,8 +211,10 @@
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idNoticia'] ?>">
                       <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
-                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      <div class="noticia-detalles">
+                        <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                        <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      </div>
                     </a>
                   </div>           
                 <?php endwhile; ?>
@@ -227,8 +229,10 @@
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Sociales/sociales.php?id=<?php echo $columna['idNoticia'] ?>">
                       <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
-                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      <div class="noticia-detalles">
+                        <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                        <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      </div>
                     </a>
                   </div>                
                 <?php endwhile; ?>
@@ -244,8 +248,10 @@
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
                       <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
-                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      <div class="noticia-detalles">
+                        <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                        <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                      </div>
                     </a>
                   </div>          
                 <?php endwhile; ?>
@@ -260,8 +266,10 @@
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Economia/economia.php?id=<?php echo $columna['idNoticia'] ?>">
                       <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                      <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
-                      <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                     <div class="noticia-detalles">
+                        <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                        <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                     </div>
                     </a>
                   </div>          
                 <?php endwhile; ?>
@@ -295,8 +303,10 @@
             <div class="contenido-noticia">
               <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
                 <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                <p class="fecha-noticia"><?php echo $columna['fechaNoticia']; ?></p>
-                <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                <div class="noticia -detalles">
+                  <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                  <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
+                </div>
               </a>
             </div>          
           <?php endwhile; ?>
@@ -320,10 +330,9 @@
       <div class="carousel-cell"> 
         <a href="/view/Comunicados/comunicado.php?id=<?php echo $columna['idComunicado'] ?>">
           <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." '/>";; ?>
-          <p class="fecha-comunicado"><?php echo $columna['fechaComunicado']; ?></p>
-          <p><?php echo $columna['codigoComunicado']; ?></p>
+          <p class="fecha-comunicado fa fa-calendar"> <?php echo $columna["fechaComunicado"]; ?></p>
+          <p class="codigo-comunicado"><?php echo $columna['codigoComunicado']; ?></p>
         </a>
-        
       </div>
     <?php endwhile; ?>
     <?php  endif;  ?>   

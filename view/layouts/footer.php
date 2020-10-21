@@ -11,7 +11,9 @@
   // coneccion a la base de datos
   $dbConect = mysqli_select_db($con, $db) or die("Error al conectar a la base de datos");
 
-  $imagenNoticia= "SELECT idNoticia, imagenNoticia, tituloNoticia FROM noticia WHERE fechaNoticia = (SELECT MAX(fechaNoticia) FROM noticia);";
+  $imagenNoticia= "SELECT idNoticia, imagenNoticia, tituloNoticia 
+                      FROM noticia WHERE idNoticia = 
+                      (SELECT MAX(idNoticia) FROM noticia);";
 
   
 ?>
