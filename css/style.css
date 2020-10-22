@@ -60,6 +60,83 @@ img {
 ol {
   padding: 0;
 }
+/* Mensajers de barra de busqueda */
+.msg-error{
+   
+  margin: 100px auto;
+}
+
+.alerta-error{
+  margin: 90px auto;
+  width: 100%;
+  text-align: center;
+}
+.alerta-error h1{
+  font-weight: bolder;
+}
+/* Error 404 */
+.error-404{
+  margin: 100px auto;
+  text-align: center;
+  height: auto;
+}
+.error-404 p{
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 1.3rem;
+}
+.error-404 h1{
+  padding: 90px 90px 0 90px;
+  font-weight: bolder;
+}
+.btn-page {
+  margin: 30px auto;
+  text-align: center;
+}
+.btn-page a {
+  padding: 15px;
+  color: var(--colorBlanco);
+  font-size: 1.4rem;
+  text-align: center;
+  background: var(--colorAzul);
+  border-radius: 10px;
+  font-weight: bold;
+}
+.btn-page :hover {
+  background: var(--colorBlanco);
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.btn-page a:hover {
+  color: var(--colorAzul);
+}
+@media(max-width: 768px){
+
+  .alerta-error h1{
+    text-align: center;
+    font-size: 5vh;
+  }
+  .error-404{
+    margin: 20px auto;
+    text-align: center;
+  }
+  .error-404 h1{
+    padding-top: 50px;
+    font-size: 25px;
+  }
+  .btn-page{
+    margin-bottom: 60px;
+  }
+  .btn-page a{
+    font-size: 1rem;
+  }
+}
 .empresa {
   margin: 30px;
   font-size: 1.5rem;
@@ -132,6 +209,7 @@ header {
   height: 102px;
   position: absolute;
   top: 0;
+
 }
 
 #btnMenu {
@@ -274,7 +352,7 @@ header label:hover {
     margin: 0;
   }
   .menu li ul {
-    background: #2b406d;
+    background: #EDEDED;
   }
   .menu li a {
     padding: 15px 15px;
@@ -1310,7 +1388,7 @@ iframe {
 }
 .tittle {
   padding: 60px 60px 30px 60px;
-  margin-top: 90px;
+  margin-top: 70px;
 }
 .tittle h1 {
   text-align: center;

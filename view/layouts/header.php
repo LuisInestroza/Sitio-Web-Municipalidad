@@ -147,9 +147,9 @@
   <!-- Barra de búsqueda -->
 
   <div id="hero" class="hero">
-    <form action="/view/search/search.php" method="POST" class="busqueda">
+    <form action="/view/search/search.php"  class="busqueda">
       <fieldset>
-        <input type="search" name="buscar" placeholder="Buscar..">
+        <input type="search" name="busqueda" placeholder="Buscar..">
         <button type="submit" value="Buscar">Buscar</button>
       </fieldset>
     </form>
