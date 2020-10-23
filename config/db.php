@@ -1,18 +1,17 @@
-<?php  
-    function conexion()
-    {
+<?php
+ 
+// Definir variables para la conexion a la base de datos
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_NAME', 'muni2020');
 
-        // Definicion de variables
-        $host = "localhost";
-        $user = "root";
-        $password = "";
-        $db = "muni2020";
+// Conexion
+$conexion = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-        // Hacer la conexion a la base de datos
-        $con = mysqli_connect($host, $user, $password) or die("Error al conectar al servidor");
-        // coneccion a la base de datos
-        $dbConect = mysqli_select_db($con, $db) or die("Error al conectar a la base de datos");
-        mysqli_query($con, "SET lc_time_names = 'es_ES'");
-        return $con;
-    }
+// Virificar que se haga la conexion
+if($conexion === false){
+    die("ERROR: no hay conexión". mysqli_connect_error());
+}
 ?>
+   

@@ -1,7 +1,7 @@
 <?php
-  include("../../../config/db.php");
-  $con = conexion();
-  mysqli_query($con, "SET lc_time_names = 'es_ES'");
+  require_once '../../../config/db.php';
+
+  mysqli_query($conexion, "SET lc_time_names = 'es_ES'");
 
   //si existe "id" en la url
   if (isset($_GET['id'])) {
@@ -9,7 +9,7 @@
       $query = "SELECT  tituloNoticia, descripcionNoticia,  
               date_format(fechaNoticia, '%d de %M del %Y') as fechaNoticia FROM noticia WHERE idNoticia =".$id;
 
-      if ($resultado = mysqli_query($con, $query)) { //si obtengo resultados ejecutando la consulta anterior
+      if ($resultado = mysqli_query($conexion, $query)) { //si obtengo resultados ejecutando la consulta anterior
       while ($noticia = mysqli_fetch_assoc($resultado)) { //asigno ese resultado a un array asociativo $user
         $titulo = $noticia['tituloNoticia'];
           $fecha= $noticia['fechaNoticia'];
@@ -17,7 +17,7 @@
       }
       }
       $mostrarFotos = "SELECT imagen from detallenoticia WHERE noticia_idNoticia =  '$id'";
-      $galeriaFotos = mysqli_query($con, $mostrarFotos);
+      $galeriaFotos = mysqli_query($conexion, $mostrarFotos);
   }
 
   $tittle = "$titulo - Municipalidad de Siguatepeque";

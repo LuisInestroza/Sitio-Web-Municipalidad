@@ -1786,6 +1786,9 @@ div.content-wrap:nth-child(1) {
   width: 250px;
   cursor: pointer;
 }
+.carousel-cell a img{
+  height: 300px;
+}
 .flickity-page-dots {
   display: none;
 }

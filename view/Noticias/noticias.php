@@ -1,9 +1,9 @@
 <?php
 
-  include("../../config/db.php");
-  $con = conexion();
+  require_once '../../config/db.php';
 
-  mysqli_query($con, "SET lc_time_names = 'es_ES'");
+
+  mysqli_query($conexion, "SET lc_time_names = 'es_ES'");
 
   $query = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia, date_format(fechaNoticia, '%d de %M del %Y') as fechaNoticia FROM noticia";
 
@@ -18,7 +18,7 @@
 </div>
 <div class="list-noticias">
   <div class="content-noticias">
-    <?php  if ($noticia = mysqli_query($con, $query) or die("Error en la consulta")):?>
+    <?php  if ($noticia = mysqli_query($conexion, $query) or die("Error en la consulta")):?>
       <?php while ($columna = mysqli_fetch_assoc($noticia)): ?>
         <div class="contenido-noticia">
           <a href="../Noticia/noticia.php?id=<?php echo $columna['idNoticia'] ?>">

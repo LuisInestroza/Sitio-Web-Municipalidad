@@ -1,11 +1,10 @@
 <!-- PHP -->
 <?php
   // Incluir el archivo de la conexion a la bade de datos
-  include("./config/db.php");
+ require_once './config/db.php';
   // Llamar a la funcion de la conexion a la base de datos.
-  $con = conexion();
-
-  mysqli_query($con, "SET lc_time_names = 'es_ES'");
+ 
+  mysqli_query($conexion, "SET lc_time_names = 'es_ES'");
 
   // Query de para mostrar las noticas
   $queryNoticasInfraestructura = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
@@ -206,7 +205,7 @@
           <section id="infraestructura">
             <h1>Noticias Infraestructura</h1>
             <div class="content-noticia">
-              <?php  if ($infraestructura = mysqli_query($con, $queryNoticasInfraestructura) or die("Error en la consulta")):?>
+              <?php  if ($infraestructura = mysqli_query($conexion, $queryNoticasInfraestructura) or die("Error en la consulta")):?>
                 <?php while ($columna = mysqli_fetch_assoc($infraestructura)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idNoticia'] ?>">
@@ -224,7 +223,7 @@
           <section id="sociales">
             <h1>Noticias Sociales</h1>
             <div class="content-noticia">
-              <?php  if ($sociales = mysqli_query($con, $queryNoticasSociales) or die("Error en la consulta")):?>
+              <?php  if ($sociales = mysqli_query($conexion, $queryNoticasSociales) or die("Error en la consulta")):?>
                 <?php while ($columna = mysqli_fetch_assoc($sociales)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Sociales/sociales.php?id=<?php echo $columna['idNoticia'] ?>">
@@ -243,7 +242,7 @@
           <section id="eventos">
             <h1>Noticias Eventos</h1>
             <div class="content-noticia">
-              <?php  if ($eventos = mysqli_query($con, $queryNoticasEventos) or die("Error en la consulta")):?>
+              <?php  if ($eventos = mysqli_query($conexion, $queryNoticasEventos) or die("Error en la consulta")):?>
                 <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
@@ -261,7 +260,7 @@
           <section id="economía">
             <h1>Noticias Economía</h1>
             <div class="content-noticia">
-              <?php  if ($economia = mysqli_query($con, $queryNoticasEconomia) or die("Error en la consulta")):?>
+              <?php  if ($economia = mysqli_query($conexion, $queryNoticasEconomia) or die("Error en la consulta")):?>
                 <?php while ($columna = mysqli_fetch_assoc($economia)): ?>
                   <div class="contenido-noticia">
                     <a href="/view/Noticias/Economia/economia.php?id=<?php echo $columna['idNoticia'] ?>">
@@ -298,7 +297,7 @@
   <section>
     <div class="tabs tabs-style-tzoid">
       <div class="content-wrap">
-        <?php  if ($eventos = mysqli_query($con, $queryNoticasEventos) or die("Error en la consulta")):?>
+        <?php  if ($eventos = mysqli_query($conexion, $queryNoticasEventos) or die("Error en la consulta")):?>
           <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
             <div class="contenido-noticia">
               <a href="/view/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
@@ -325,7 +324,7 @@
 
 <div class="comunicados">
   <div class="carousel" data-flickity='{ "groupCells": true }'>
-    <?php  if ($comunicados = mysqli_query($con, $queryComunicados) or die("Error en la consulta")):?>
+    <?php  if ($comunicados = mysqli_query($conexion, $queryComunicados) or die("Error en la consulta")):?>
     <?php while ($columna = mysqli_fetch_assoc($comunicados)): ?>
       <div class="carousel-cell"> 
         <a href="/view/Comunicados/comunicado.php?id=<?php echo $columna['idComunicado'] ?>">

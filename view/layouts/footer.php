@@ -1,15 +1,18 @@
 <?php
   // Definicion de variables
-  $host = "localhost";
-  $user = "root";
-  $password = "";
-  $db = "muni2020";
+  // Definir variables para la conexion a la base de datos
+  define('SERVER', 'localhost');
+  define('USERNAME', 'root');
+  define('PASSWORD', '');
+  define('NAME', 'muni2020');
 
-  // Hacer la conexion a la base de datos
-  $con = mysqli_connect($host, $user, $password) or die("Error al conectar al servidor");
+    // Conexion
+  $conexion = mysqli_connect(SERVER, USERNAME, PASSWORD, NAME);
 
-  // coneccion a la base de datos
-  $dbConect = mysqli_select_db($con, $db) or die("Error al conectar a la base de datos");
+  // Virificar que se haga la conexion
+  if($conexion === false){
+    die("ERROR: no hay conexión". mysqli_connect_error());
+  }
 
   $imagenNoticia= "SELECT idNoticia, imagenNoticia, tituloNoticia 
                       FROM noticia WHERE idNoticia = 
@@ -46,7 +49,7 @@
     <!-- Contenido de noticias -->
     <div class="noticias-recientes">
       <p class="tituloFooter"><b>Noticias Recientes</b></p>
-       <?php  if ($eventos = mysqli_query($con, $imagenNoticia) or die("Error en la consulta")):?>
+       <?php  if ($eventos = mysqli_query($conexion, $imagenNoticia) or die("Error en la consulta")):?>
           <?php while ($columna = mysqli_fetch_assoc($eventos)): ?>
             <a href="/view/Noticia/noticia.php?id=<?php echo $columna['idNoticia'] ?>">
               <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])." ' />";;?>

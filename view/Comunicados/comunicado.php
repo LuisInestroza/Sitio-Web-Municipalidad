@@ -1,14 +1,13 @@
 <?php 
     
-    include("../../config/db.php");
-    $con = conexion();
-    mysqli_query($con, "SET lc_time_names = 'es_ES'");
+  require_once '../../config/db.php';
+    mysqli_query($conexion, "SET lc_time_names = 'es_ES'");
 
     if (isset($_GET['id'])) {
     $id = $_GET['id'];//le asigno una variable
     $query =  "SELECT imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado WHERE idcomunicado = ".$id; 
 
-    if ($resultado = mysqli_query($con, $query)) { //si obtengo resultados ejecutando la consulta anterior
+    if ($resultado = mysqli_query($conexion, $query)) { //si obtengo resultados ejecutando la consulta anterior
       while ($comunicado = mysqli_fetch_assoc($resultado)) { //asigno ese resultado a un array asociativo $user
         $fecha = $comunicado['fechaComunicado'];
         $codigoComunicado= $comunicado['codigoComunicado'];

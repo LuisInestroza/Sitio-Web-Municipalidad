@@ -3,7 +3,7 @@
   $tittle ="Busqueda- Municipalidad de Siguatepeque";
   require_once '../layouts/header.php';
   require_once '../../config/db.php';
-  $con = conexion();
+
   $error ="";
 
   
@@ -11,7 +11,7 @@
   if(!empty($buscar=$_GET['busqueda'])){
     $buscar = $_GET['busqueda'];
     $sql = "SELECT * FROM noticia WHERE  tituloNoticia LIKE '%".$buscar."%' OR descripcionNoticia LIKE '%".$buscar."%'";
-    $resultadoBusqueda = mysqli_query($con, $sql)or die(mysqli_error());
+    $resultadoBusqueda = mysqli_query($conexion, $sql)or die(mysqli_error());
 
     if(mysqli_num_rows($resultadoBusqueda) < 1){
       echo 
