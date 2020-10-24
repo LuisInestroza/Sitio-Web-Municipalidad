@@ -1174,6 +1174,7 @@ iframe {
   color: var(--colorNegro);
   line-height: 1.2;
   font-weight: bolder;
+ 
   padding: 1rem 0px 0px 0px;
 }
 .regidores .contenedor {
@@ -1187,15 +1188,22 @@ iframe {
 .regidores .informacion-regidor .regidor {
   color: var(--colorVerde);
   float: none;
+  font-size: 20px;
 }
 .regidores .informacion-regidor .nombre-regidor {
   float: none;
+  font-size: 25px;
 }
 .regidores .informacion-regidor .email-regidor {
   float: none;
+  font-size: 20px;
+}
+.regidores img{
+  width: 100%;
 }
 .regidores .informacion-regidor .phone-regidor {
   float: none;
+  font-size: 20px;
 }
 @media (min-width: 768px) {
   .regidores {
@@ -1223,9 +1231,11 @@ iframe {
   }
   .regidores .informacion-regidor .phone-regidor {
     float: left;
+    font-size: 15px;
   }
   .regidores .informacion-regidor .email-regidor {
     float: left;
+    font-size: 15px;
   }
 }
 /* ---------------------------------------------------- */
