@@ -1266,6 +1266,7 @@ iframe {
   margin: 0 auto;
 }
 
+
 .deptos p {
   text-align: center;
   color: var(--colorNegro);
@@ -1273,6 +1274,7 @@ iframe {
   font-weight: bolder;
   padding: 1rem 0px 0px 0px;
 }
+
 .educacionSuperior p {
   text-align: center;
   color: var(--colorNegro);
@@ -1346,6 +1348,12 @@ iframe {
   .educacionSuperior .contenedor img {
     height: 354px;
     width: 354px;
+  }
+  .deptos .nombre-depto{
+    font-size: 25px;
+  }
+  .lugares a p{
+    font-size: 25px;
   }
 
   .lugares .contenedor img {

@@ -23,6 +23,6 @@
     
 ?>
 <div align="center" class="comunicado">
-     <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen)."' />";; ?>
+    <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($imagen)."' />";; ?>
 </div>
 <?php require_once '../layouts/footer.php'; ?>
