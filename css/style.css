@@ -46,7 +46,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   min-height: 100%;
- 
 }
 .imagenMostrar {
   display: block;
@@ -61,31 +60,30 @@ ol {
   padding: 0;
 }
 /* Mensajers de barra de busqueda */
-.msg-error{
-   
+.msg-error {
   margin: 100px auto;
 }
 
-.alerta-error{
+.alerta-error {
   margin: 90px auto;
   width: 100%;
   text-align: center;
 }
-.alerta-error h1{
+.alerta-error h1 {
   font-weight: bolder;
 }
 /* Error 404 */
-.error-404{
+.error-404 {
   margin: 100px auto;
   text-align: center;
   height: auto;
 }
-.error-404 p{
+.error-404 p {
   margin-top: 30px;
   margin-bottom: 50px;
   font-size: 1.3rem;
 }
-.error-404 h1{
+.error-404 h1 {
   padding: 90px 90px 0 90px;
   font-weight: bolder;
 }
@@ -116,24 +114,23 @@ ol {
 .btn-page a:hover {
   color: var(--colorAzul);
 }
-@media(max-width: 768px){
-
-  .alerta-error h1{
+@media (max-width: 768px) {
+  .alerta-error h1 {
     text-align: center;
     font-size: 5vh;
   }
-  .error-404{
+  .error-404 {
     margin: 20px auto;
     text-align: center;
   }
-  .error-404 h1{
+  .error-404 h1 {
     padding-top: 50px;
     font-size: 25px;
   }
-  .btn-page{
+  .btn-page {
     margin-bottom: 60px;
   }
-  .btn-page a{
+  .btn-page a {
     font-size: 1rem;
   }
 }
@@ -141,8 +138,8 @@ ol {
   margin: 30px;
   font-size: 1.5rem;
 }
-.contenido img{
-  margin: .5rem;
+.contenido img {
+  margin: 0.5rem;
   padding: 0 1rem 0 0;
   width: 0%;
   width: 40%;
@@ -194,11 +191,10 @@ ol {
     width: 100%;
     height: 300px;
   }
-  .galeria img{
+  .galeria img {
     width: 100%;
     height: 300px;
   }
-
 }
 /* --------- Fin de diseño de galeria de imagens */
 
@@ -209,7 +205,6 @@ header {
   height: 102px;
   position: absolute;
   top: 0;
-
 }
 
 #btnMenu {
@@ -352,7 +347,7 @@ header label:hover {
     margin: 0;
   }
   .menu li ul {
-    background: #EDEDED;
+    background: #ededed;
   }
   .menu li a {
     padding: 15px 15px;
@@ -717,8 +712,7 @@ header label:hover {
 .contenedor-fiestas img {
   width: 180px;
   height: 150px;
-  position: relative;
-  top: 20%;
+  margin: auto;
 }
 .datos-fiesta {
   padding: 1rem;
@@ -813,7 +807,7 @@ header label:hover {
   width: 100%;
 }
 .servicios .servicios-contenedor .item-servicio {
-  height: 100%;
+  height: 430px;
   width: 100%;
 }
 .servicios .servicios-contenedor .item-servicio h2 {
@@ -894,7 +888,7 @@ header label:hover {
     font-size: 0.8rem;
     position: relative;
     left: 10%;
-    line-height: 25px;
+    line-height: 22px;
     text-align: justify;
   }
 }
@@ -1097,15 +1091,15 @@ iframe {
 .alcaldía {
   display: grid;
   grid-gap: 2rem;
-  max-width: 1200px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto 40px auto;
-  margin-top: 60px;
+  margin-top: 140px;
 }
 .alcaldía .contenedor {
   background: var(--colorBlanco);
   padding: 1rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  display: flex;
 }
 .alcaldía p {
   text-align: center;
@@ -1115,42 +1109,45 @@ iframe {
   padding: 1rem 0px 0px 0px;
 }
 .alcaldía .informacion-alcalde {
-  float: none;
-  margin: 0;
-}
+  margin: auto;
+  width: 50%;
+  height: 100%;
+  margin: 60px;
+  overflow: auto;
+    
+  }
 .alcaldía .informacion-alcalde .alcalde-municipal {
   color: var(--colorVerde);
 }
-
-@media (min-width: 768px) {
-  .alcaldía {
-    margin-top: 140px;
-  }
-  .alcaldía .contenedor img {
-    display: block;
-    margin: auto;
-    float: right;
-  }
-
-  .alcaldía .informacion-alcalde {
-    position: relative;
-    top: 30%;
-    width: 50%;
-    height: 100%;
-    float: left;
-    overflow: auto;
-    line-height: normal;
-  }
-  .alcaldía .informacion-alcalde .nombre-alcalde {
-    font-size: 1.5rem;
-  }
-  .alcaldía .informacion-alcalde .alcalde-municipal {
-    font-size: 1.7rem;
-  }
-  .alcaldía .informacion-alcalde .periodo-gobierno {
-    font-size: 1.4rem;
-  }
+.alcaldía .informacion-alcalde .nombre-alcalde {
+  font-size: 1.5rem;
 }
+.alcaldía .informacion-alcalde .alcalde-municipal {
+  font-size: 1.7rem;
+}
+.alcaldía .informacion-alcalde .periodo-gobierno {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 768px) {
+  .alcaldía {
+    margin: 30px;
+    width: auto;
+  }
+  .alcaldía .contenedor{
+    display: block;
+    
+  }
+  .alcaldía .contenedor img{
+    width: 100%;
+  }
+  .alcaldía .informacion-alcalde{
+    margin: 0;
+    width: 100%;
+  }
+  
+  
+} 
 /* ----- Fin de css alcalde municipal -------------- */
 
 /*-------------------------------------- */
@@ -1163,80 +1160,94 @@ iframe {
 
 .regidores {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
-  max-width: 1200px;
-  width: 95%;
+  width: 80%;
   margin: 0 auto;
+}
+.regidores .contenedor img {
+  width: 200px;
+
 }
 .regidores p {
   text-align: center;
   color: var(--colorNegro);
   line-height: 1.2;
   font-weight: bolder;
- 
-  padding: 1rem 0px 0px 0px;
+  padding-top: 1rem;
 }
 .regidores .contenedor {
   background: var(--colorBlanco);
   padding: 1rem;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  display: flex;
 }
 .regidores .informacion-regidor {
-  float: none;
+ margin: auto 3rem;
+ text-align: center;
 }
 .regidores .informacion-regidor .regidor {
   color: var(--colorVerde);
-  float: none;
-  font-size: 20px;
+  font-size: 18px;
 }
 .regidores .informacion-regidor .nombre-regidor {
-  float: none;
+  
   font-size: 25px;
 }
 .regidores .informacion-regidor .email-regidor {
-  float: none;
-  font-size: 20px;
+  
+  font-size: 19px;
 }
-.regidores img{
-  width: 100%;
-}
+
 .regidores .informacion-regidor .phone-regidor {
-  float: none;
-  font-size: 20px;
+  font-size: 16px;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .regidores {
-    width: 75%;
-    grid-template-columns: repeat(2, 1fr);
-    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .lista-regidores{
+    padding: 0;
+  }
+  
+  .regidores .contenedor{
+    width: 100%;
+    display: block
   }
   .regidores .contenedor img {
-    height: 200px;
-    width: 200px;
+    /* height: fit-content; */
+    width: 100%;
   }
   .regidores .informacion-regidor {
-    width: 45%;
-    float: right;
-    overflow: auto;
-    line-height: normal;
+    width: 100%;
+    margin: auto;
+    text-align: center;
   }
   .regidores .informacion-regidor .regidor {
-    float: left;
+   
     color: var(--colorVerde);
   }
-  .regidores .informacion-regidor .nombre-regidor {
-    float: left;
-    font-size: 1.5rem;
+  .regidores .informacion-regidor .regidor {
+    color: var(--colorVerde);
+    font-size: 20px;
   }
-  .regidores .informacion-regidor .phone-regidor {
-    float: left;
-    font-size: 15px;
+  .regidores .informacion-regidor .nombre-regidor {
+  
+    font-size: 30px;
   }
   .regidores .informacion-regidor .email-regidor {
-    float: left;
-    font-size: 15px;
+    
+    font-size: 20px;
   }
+
+  .regidores .informacion-regidor .phone-regidor {
+    font-size: 20px;
+  }
+ 
 }
 /* ---------------------------------------------------- */
 /* -------- Estilo de  educación superior  --------------*/
@@ -1267,7 +1278,7 @@ iframe {
   margin: 0 auto;
 }
 
-.lugares {
+.noticias{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
@@ -1276,6 +1287,14 @@ iframe {
   margin: 0 auto;
 }
 
+.lugares {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
 
 .deptos p {
   text-align: center;
@@ -1304,6 +1323,16 @@ iframe {
   .educacionSuperior {
     margin: 20px 0px 0 10px;
   }
+  .noticias .fecha-noticias{
+    font-size: 12px;
+  }
+  .noticias .noticia-informacion  {
+    font-size: 11px;
+  }
+  .noticias{
+    display: grid;
+    grid-gap: 1rem;
+  }
 }
 .educacionSuperior p:hover {
   color: var(--colorAzul);
@@ -1315,22 +1344,35 @@ iframe {
 .deptos p:hover {
   color: var(--colorAzul);
 }
+.noticias .contenedor{
+  background: #f7f7f7;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.noticias .contenedor .noticias-detalles{
+  height: 160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  margin-bottom: 15px;
+}
 
 .educacionSuperior .contenedor {
   background: var(--colorBlanco);
   padding: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 
 .lugares .contenedor {
   background: var(--colorBlanco);
   padding: 1rem;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 .deptos .contenedor {
   background: var(--colorBlanco);
   padding: 1rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
 .educacionSuperior .lugares .contenedor img {
   height: 150px;
@@ -1341,6 +1383,10 @@ iframe {
   font-size: 1rem;
 }
 @media (min-width: 768px) {
+  .noticias{
+    width: 95%;
+    grid-template-columns: repeat(3,1fr);
+  }
   .educacionSuperior {
     width: 95%;
     grid-template-columns: repeat(3, 1fr);
@@ -1355,17 +1401,21 @@ iframe {
     width: 95%;
     grid-template-columns: repeat(3, 1fr);
   }
+  .noticias .contenedor img{
+    width: 100%;
+    height: 300px;
+  }
   .educacionSuperior .contenedor img {
     height: 354px;
     width: 354px;
   }
-  .deptos .nombre-depto{
+  .deptos .nombre-depto {
     font-size: 25px;
   }
-  .educacionSuperior .nombreUniversidad{
+  .educacionSuperior .nombreUniversidad {
     font-size: 25px;
   }
-  .lugares a p{
+  .lugares a p {
     font-size: 25px;
   }
 
@@ -1384,6 +1434,9 @@ iframe {
 /* -----------Estilo de universidad--------- */
 /* ----------------------------------------- */
 .lista-universidades {
+  margin-bottom: 30px;
+}
+.lista-noticias{
   margin-bottom: 30px;
 }
 .universidad {
@@ -1560,6 +1613,13 @@ iframe {
 /* ----------------------------------- */
 /* ------ Lista de noticias    ------- */
 /* ----------------------------------- */
+
+
+
+.content-noticias{
+  margin: 0 auto;
+  width: 99%;
+}
 .content-wrap {
   padding: 10px;
   margin-bottom: 30px;
@@ -1592,7 +1652,7 @@ iframe {
 .fa-calendar {
   padding-right: 10px;
 }
-.fecha-informacion{
+.fecha-informacion {
   padding-top: 20px;
 }
 .noticia-informacion {
@@ -1604,15 +1664,15 @@ iframe {
 }
 .titulo-noticias {
   color: var(--colorNegro);
-  
+
   font-weight: bold;
 }
-.contenido-noticia img{
+.contenido-noticia img {
   width: 100%;
   height: 300px;
 }
 @media (max-width: 768px) {
-  .noticias-detalles{
+  .noticias-detalles {
     height: 160px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1625,15 +1685,13 @@ iframe {
   .contenido-noticias {
     width: 100%;
     margin: 0px;
-
   }
-  .contenido-noticia a{
+  .contenido-noticia a {
     font-size: x-small;
   }
-  .titulo-noticias{
+  .titulo-noticias {
     font-size: 11px;
   }
-  
 }
 
 /* -------------- Fin de estilo de todas las noticias -------------------- */
@@ -1659,8 +1717,7 @@ iframe {
   text-align: center;
   position: initial;
   width: 30%;
-  margin: 1em .6em;
- 
+  margin: 1em 0.6em;
   display: inline-block;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
@@ -1703,7 +1760,6 @@ iframe {
 .content-noticia {
   overflow-y: scroll;
   height: 480px;
-  
 }
 
 div.content-wrap:nth-child(1) {
@@ -1720,14 +1776,13 @@ div.content-wrap:nth-child(1) {
   .content-noticia {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: .9rem;
-    margin: .5em;
+    grid-gap: 0.9rem;
+    margin: 0.5em;
   }
   .contenido-noticia {
     width: 95%;
-    margin: 5px; 
-    height: auto;
-    
+    margin: 5px;
+    height: fit-content;
   }
   .fecha-noticia {
     width: 70%;
@@ -1744,19 +1799,15 @@ div.content-wrap:nth-child(1) {
   div.content-wrap:nth-child(1) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: .9rem;
+    grid-gap: 0.9rem;
     height: auto;
-    margin: .5em;
+    margin: 0.5em;
   }
-  
-   div.content-wrap:nth-child(1) img {
+
+  div.content-wrap:nth-child(1) img {
     width: 100%;
     height: 150px;
   }
- 
-  
-
-
 }
 
 /* -------------- Fin de estilo noticias -------------------- */
@@ -1781,8 +1832,7 @@ div.content-wrap:nth-child(1) {
   /* align-items: center; */
 }
 .comunicado img {
-  padding: 3rem;
-  margin-top: 90px;
+  padding: 1rem;
 }
 .comunicados {
   text-align: center;
@@ -1807,7 +1857,7 @@ div.content-wrap:nth-child(1) {
   width: 250px;
   cursor: pointer;
 }
-.carousel-cell a img{
+.carousel-cell a img {
   height: 300px;
 }
 .flickity-page-dots {
@@ -1834,27 +1884,24 @@ div.content-wrap:nth-child(1) {
   .carousel-cell {
     width: 100%;
   }
-  .carousel .fecha-comunicado{
+  .carousel .fecha-comunicado {
     display: block;
     font-size: 25px;
   }
-  .carousel .codigo-comunicado{
+  .carousel .codigo-comunicado {
     font-size: 25px;
   }
   .fecha-comunicado {
     font-size: 3vw;
     width: 250px;
     font-weight: bold;
-    
   }
 }
 
 /* ------------------------------------- */
 /* ----- CONTENIDO DE NOTICIAS----------- */
 /* -------------------------------------- */
-.list-noticias {
-  margin: 1rem;
-}
+
 .informacion-noticia {
   margin: 0 60px;
 }

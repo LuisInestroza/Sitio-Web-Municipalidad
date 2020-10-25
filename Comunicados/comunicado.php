@@ -20,6 +20,9 @@ $tittle = "Comunicado - Municipalidad de Siguatepeque";
 require_once "../layouts/header.php";
 
 ?>
+<div class="tittle">
+    <h1><?php  echo $codigoComunicado;?></h1>
+</div>
 <div align="center" class="comunicado">
     <?php echo "<img src = 'data:image/jpeg;base64," . base64_encode($imagen) . "' />";; ?>
 </div>

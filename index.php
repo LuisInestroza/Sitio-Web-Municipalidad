@@ -83,7 +83,7 @@
         <div class="contenedor-fiestas">
             <img src="/img/feriaSanPablo.png" alt="" srcset="">
             <div class="datos-fiesta">
-                <h4>FERIA PATRONAL</h4>
+                <h4><b>FERIA PATRONAL SAN PABLO</b></h4>
                 <i class="fa fa-calendar fecha-fiesta"> 17-25 Enero</i>
                 <p>
                     La parroquia San Pablo Apóstol, celebra el día de su santo patrón,
@@ -91,32 +91,32 @@
                     en honor a San Pablo, procesión por las calles de la ciudad y conciertos
                     con grupos musicales de la zona.
                 </p>
-                <a href="/Festivales/feriaPatronal.php">Más Información</a>
+                <a href="/Festivales/feriaPatronal.php"><b>Más Información</b></a>
             </div>
         </div>
         <div class="contenedor-fiestas">
             <img src="/img/festivalDeLasFlores.png" alt="" srcset="">
             <div class="datos-fiesta">
-                <h4>FESTIVAL DE LAS FLORES</h4>
+                <h4><b>FESTIVAL DE LAS FLORES</b></h4>
                 <i class="fa fa-calendar fecha-fiesta"> 1re Semana de Octubre</i>
                 <p>El festival de las flores es para todas las edades donde podemos apreciar
                     varios dias con actividades llenas de colores. Es un Festival 100% familiar contiene
                     una oferta de entretenimiento, alimentación y apreciación natural única en su clase.
                 </p>
-                <a href="/Festivales/fesivalFlores.php">Más Información</a>
+                <a href="/Festivales/fesivalFlores.php"><b>Más Información</b></a>
             </div>
         </div>
         <div class="contenedor-fiestas">
             <img src="/img/festivalDelPino.png" alt="" srcset="">
             <div class="datos-fiesta">
-                <h4>FESTIVAL DEL PINO</h4>
+                <h4><b>FESTIVAL DEL PINO</b></h4>
                 <i class="fa fa-calendar fecha-fiesta"> 26-29 de Abril</i>
                 <p>
                     El Festival Nacional del Pino, es un evento que nació por la necesidad de mostrar a Honduras
                     y el mundo la abundante foresta que tiene Siguatepeque, lo que deriva un clima agradable y cuantiosa
                     agua.
                 </p>
-                <a href="/Festivales/festivalPino.php">Más Información</a>
+                <a href="/Festivales/festivalPino.php"><b>Más Información</b></a>
             </div>
         </div>
     </div>
