@@ -1362,6 +1362,9 @@ iframe {
   .deptos .nombre-depto{
     font-size: 25px;
   }
+  .educacionSuperior .nombreUniversidad{
+    font-size: 25px;
+  }
   .lugares a p{
     font-size: 25px;
   }
