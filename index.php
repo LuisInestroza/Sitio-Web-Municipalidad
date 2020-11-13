@@ -335,7 +335,7 @@
 <!-- Sección de comunicados -->
 <div class="comunicados-ciudad">
     <h1>COMUNICADOS</h1>
-    <section>
+    
 
 </div>
 

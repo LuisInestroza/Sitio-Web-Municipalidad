@@ -1,6 +1,6 @@
 <?php 
 $tittle = "No se encontro la pagina - Municipalidad de Siguatepeque";
-require_once 'view/layouts/header.php'; ?>
+require_once './layouts/header.php'; ?>
 
 <div class="error-404">
     <h1>¡LO SENTIMOS! ¡ERROR 404!</h1>
@@ -12,4 +12,5 @@ require_once 'view/layouts/header.php'; ?>
     </div>
 </div>
 
-<?php require_once 'view/layouts/footer.php'; ?>
+<?php require_once './config/db.php'; ?>
+<?php require_once './layouts/footer.php'; ?>
