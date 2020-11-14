@@ -40,20 +40,15 @@
         fuego
     </p>
 
-    <div class="galeria">
-        <div class="imagenes-galeria">
-            <img src="/img/festivales/feria-aptrol-san-pablo3.jpg" alt="">
-            <img src="/img/festivales/feriaSanPablo1.jpg" alt="">
-            <img src="/img/festivales/feriaSanPablo4.jpg" alt="">
-            <img src="/img/festivales/feriaSanPablo3.jpg" alt="">
-            <img src="/img/festivales/feriaSanPablo2.jpg" alt="">
-        </div>
-        <div onclick="mover(-1)" class="izquiera">
-            <span class="fas fa-angle-left"></span>
-        </div>
-        <div onclick="mover(1)" class="derecha">
-            <span class="fas fa-angle-right"></span>
-        </div>
+    <div class="carousel-img" data-flickity>
+       
+        <img class="carousel-cell-img" src="/img/festivales/feria-aptrol-san-pablo3.jpg" alt="">
+        <img class="carousel-cell-img" src="/img/festivales/feriaSanPablo1.jpg" alt="">
+        <img class="carousel-cell-img" src="/img/festivales/feriaSanPablo4.jpg" alt="">
+        <img class="carousel-cell-img" src="/img/festivales/feriaSanPablo3.jpg" alt="">
+        <img class="carousel-cell-img" src="/img/festivales/feriaSanPablo2.jpg" alt="">
+        
+      
     </div>
 </div>
 <!-- Footer -->

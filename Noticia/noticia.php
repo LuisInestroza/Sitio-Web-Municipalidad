@@ -29,20 +29,12 @@
 </div>
 
 <div class="informacion-noticia">
-    <div class="galeria">
-        <div class="imagenes-galeria">
-            <?php while ($filas = mysqli_fetch_assoc($galeriaFotos)):?>
-            <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($filas["imagen"])."' />";;?>
-            <?php  endwhile;?>
-        </div>
-        <div onclick="mover(-1)" class="izquiera">
-            <span class="fas fa-angle-left"></span>
-        </div>
-        <div onclick="mover(1)" class="derecha">
-            <span class="fas fa-angle-right"></span>
-        </div>
-
-
+    <div class="carousel-img" data-flickity>
+        
+        <?php while ($filas = mysqli_fetch_assoc($galeriaFotos)):?>
+        <?php echo "<img class='carousel-cell-img' src = 'data:image/jpeg;base64,".base64_encode($filas["imagen"])."' />";;?>
+        <?php  endwhile;?>
+        
     </div>
     <p class="fecha-informacion">
         <i class="fa fa-calendar"></i> 

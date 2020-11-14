@@ -157,7 +157,25 @@ ol {
 /* -----------------------------------------------*/
 /* ------ Diseño de Galeria de Imagenes---------- */
 /* ---------------------------------------------- */
-.galeria {
+
+
+.carousel-cell-img {
+  width: 65%;
+  height: 400px;
+  margin-right: 70px;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+
+
+@media(max-width:768px){
+  .carousel-cell-img{
+    width: 100%;
+  }
+}
+
+
+/* .galeria {
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -190,6 +208,7 @@ ol {
 }
 .galeria .fa-angle-left {
   left: 30px;
+
 }
 .galeria .fa-angle-right {
   right: 30px;
@@ -204,7 +223,7 @@ ol {
     width: 100%;
     height: 300px;
   }
-}
+} */
 /* --------- Fin de diseño de galeria de imagens */
 
 /* Diseño del header */
@@ -1650,6 +1669,8 @@ div.content-wrap:nth-child(2) {
 .content-wrap section{
   max-width: max-content;
 }
+
+
 
 .content-noticias{
   margin: 0 auto;
