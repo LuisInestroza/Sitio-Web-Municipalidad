@@ -1731,6 +1731,7 @@ div.content-wrap:nth-child(2) {
 }
 .fecha-informacion {
   padding-top: 20px;
+  font-size: 1.2rem;
 }
 .noticia-informacion {
   color: var(--colorNegro);
@@ -1771,6 +1772,9 @@ div.content-wrap:nth-child(2) {
   }
   .fecha-noticias .fa-calendar{
     font-size: 12px;
+  }
+  .detalle-informacion{
+    font-size: 20px;
   }
 }
 
@@ -2018,6 +2022,8 @@ div.content-wrap:nth-child(1) {
 
 .detalle-informacion {
   margin: 10px;
+  font-size: 1.2rem;
+
 }
 @media (max-width: 768px) {
   .informacion-noticia {
