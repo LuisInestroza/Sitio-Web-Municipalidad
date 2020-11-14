@@ -26,7 +26,7 @@
             <ul>
                 <li><a href="/Empresa/mision.php">Misión</a></li>
                 <li><a href="/Empresa/vision.php">Visión</a></li>
-                <li><a href="#">Valores</a></li>
+                <li><a href="/Empresa/valores.php">Valores</a></li>
             </ul>
         </div>
     </div>

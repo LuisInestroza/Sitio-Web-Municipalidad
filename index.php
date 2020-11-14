@@ -324,7 +324,7 @@
                 <div class="contenido-noticia">
                     <a href="/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
                         <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
-                        <div class="noticia -detalles">
+                        <div class="noticia-detalles">
                             <p class="fecha-noticias">
                                 <i class="fa fa-calendar"></i> 
                                 <?php echo $columna["fechaNoticia"]; ?>

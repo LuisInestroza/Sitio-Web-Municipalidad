@@ -55,6 +55,7 @@ body {
 img {
   max-width: 100%;
   /* max-height: 100%; */
+  
 }
 ol {
   padding: 0;
@@ -137,6 +138,14 @@ ol {
 .empresa {
   margin: 30px;
   font-size: 1.5rem;
+}
+.empresa ul {
+  columns: 2;
+}
+@media(max-width:768px){
+  .empresa ul{
+    columns: 1;
+  }
 }
 .contenido img {
   margin: 0.5rem;
@@ -1631,7 +1640,16 @@ iframe {
 /* ------ Lista de noticias    ------- */
 /* ----------------------------------- */
 
-
+div.content-wrap:nth-child(2) {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 0;
+  
+  padding-right: 0;
+}
+.content-wrap section{
+  max-width: max-content;
+}
 
 .content-noticias{
   margin: 0 auto;
@@ -1640,12 +1658,15 @@ iframe {
 .content-wrap {
   padding: 10px;
   margin-bottom: 30px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
   
 }
+
 .noticias-ciudad h1 {
   text-align: center;
   padding: 1rem;
-
   font-weight: bold;
 }
 .contenido-noticias {
@@ -1663,10 +1684,21 @@ iframe {
   padding: 1rem;
   height: 200px;
 }
+.contenido-noticia .noticia-detalles .titulo-noticia{
+  font-size: 14px;
+}
+.contenido-noticia .noticia-detalles .fecha-noticias{
+  font-size: 15px;
+}
+.contenido-noticia .noticia-detalles .fa-calendar{
+  font-size: 17px;
+}
+
 .fecha-noticias {
   font-weight: bold;
   color: var(--colorAzul);
   margin: 15px 0;
+  
 }
 .fa-calendar {
   font-size: 20px;
@@ -1690,7 +1722,7 @@ iframe {
 }
 .contenido-noticia img {
   width: 100%;
-  height: 300px;
+  height: 250px;
 }
 @media (max-width: 768px) {
   .noticias-detalles {
@@ -1791,6 +1823,8 @@ div.content-wrap:nth-child(1) {
   height: 480px;
   padding: 10px;
   margin: 0 3rem;
+  
+
 }
 @media (max-width: 768px) {
 
@@ -1850,7 +1884,11 @@ div.content-wrap:nth-child(1) {
 .eventos-ciudad h1 {
   text-align: center;
   padding: 1rem;
+  margin-top: 40px;
   font-weight: bold;
+}
+.eventos-ciudad section{
+  background: var(--colorBlanco);
 }
 
 /* -------- Fin de estilo de noticias ------ */
