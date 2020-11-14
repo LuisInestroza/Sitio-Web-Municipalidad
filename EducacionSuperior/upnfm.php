@@ -24,11 +24,29 @@
             <h4>REDES</h4>
             <div>
                 <ul class="icons">
-                    <li><a href="https://www.upnfm.edu.hn/" class="fas fa-globe-americas"></a></li>
-                    <li><a href="https://www.facebook.com/UPNFMWEB/?fref=ts" class="fab fa-facebook"></a></li>
-                    <li><a href="https://twitter.com/upnfm?lang=es" class="fab fa-twitter"></a></li>
-                    <li><a href="#" class="fab fa-instagram"></a></li>
-                    <li><a href="https://www.youtube.com/channel/UC3xlEkR1psEb5cslUJic5bg" class="fab fa-youtube"></a>
+                    <li>
+                        <a href="https://www.upnfm.edu.hn/" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/UPNFMWEB/?fref=ts" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/upnfm?lang=es" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li><a href="#" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UC3xlEkR1psEb5cslUJic5bg" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

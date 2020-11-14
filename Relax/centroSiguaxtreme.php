@@ -18,15 +18,25 @@
             <h4>REDES</h4>
             <div>
                 <ul class="icons">
-
                     <li>
-                        <a href="https://www.facebook.com/SiguaXtreme/" class="fab fa-facebook"></a>
+                        <a href="https://www.facebook.com/SiguaXtreme/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="" class="fab fa-twitter"></a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/sigua_xtreme/" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/sigua_xtreme/" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

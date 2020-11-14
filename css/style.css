@@ -1003,32 +1003,35 @@ iframe {
 .contenedorContactos li {
   display: inline;
 }
-.contenedorContactos li a {
+
+.contenedorContactos li a{
   border-radius: 10px;
+  
 }
 /* Fondos de colores de cada etiqueta de contacto */
-.contenedorContactos li .fas.fa-globe-americas {
+.contenedorContactos li .globe{
   background-color: blue;
 }
 
-.contenedorContactos li .fab.fa-facebook {
+.contenedorContactos li .facebook {
   background-color: var(--colorFacebook);
 }
 
-.contenedorContactos li .fab.fa-twitter {
+.contenedorContactos li .twitter {
   background-color: var(--colorTwitter);
 }
 
-.contenedorContactos li .fab.fa-instagram {
+.contenedorContactos li .instagram {
   background: var(--colorInstagram);
 }
 
-.contenedorContactos li .fab.fa-youtube {
+.contenedorContactos li .youtube {
   background-color: var(--colorYouTube);
 }
 
 /* ----------------------------------------------- */
-.contenedorContactos li a {
+.contenedorContactos li a{
+  margin: 5px;
   padding: 10px;
   font-size: 1.5em;
   color: var(--colorBlanco);

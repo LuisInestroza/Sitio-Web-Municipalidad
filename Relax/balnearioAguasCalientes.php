@@ -15,20 +15,31 @@
         <!-- Contenido de redes sociales -->
         <div class="contenedorContactos">
             <h4>REDES</h4>
-            <di>
+            <div>
                 <ul class="icons">
                     <li>
-                        <a href="https://www.facebook.com/Lekessiguatepeque/" class="fab fa-facebook"></a>
+                        <a href="https://www.facebook.com/Lekessiguatepeque/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
                         <a href="https://www.instagram.com/centrorecreativolekes/?hl=es-la"
-                            class="fab fa-instagram"></a>
+                            class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
-            </di>
+            </div>
         </div>
         <div>
             <h4>UBICACIÓN</h4>

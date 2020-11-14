@@ -20,16 +20,29 @@
             <div>
                 <ul class="icons">
                     <li>
-                        <a href="http://granjadelia.com/" class="fas fa-globe-americas"></a>
+                        <a href="http://granjadelia.com/" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/granjadeliahn/" class="fab fa-facebook"></a>
+                        <a href="https://www.facebook.com/granjadeliahn/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/granjadelia/" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/granjadelia/" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

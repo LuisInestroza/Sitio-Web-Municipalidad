@@ -29,20 +29,29 @@ require_once '../layouts/header.php';
             <div>
                 <ul class="icons">
                     <li>
-                        <a href="http://www.unacifor.edu.hn/" class="fas fa-globe-americas"></a>
+                        <a href="http://www.unacifor.edu.hn/" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/UNACIFORHN/ " class="fab fa-facebook"></a>
+                        <a href="https://www.facebook.com/UNACIFORHN/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/unaciforhn" class="fab fa-twitter"></a>
+                        <a href="https://twitter.com/unaciforhn" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/unaciforhn/?hl=es" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/unaciforhn/?hl=es" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.youtube.com/channel/UCcoa_0FU0eLKJBR7nudKo_Q?view_as=subscriber"
-                            class=" fab fa-youtube"></a>
+                        <a href="https://www.youtube.com/channel/UCcoa_0FU0eLKJBR7nudKo_Q?view_as=subscriber" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

@@ -34,16 +34,29 @@ require_once '../layouts/header.php';
             <div>
                 <ul class="icons">
                     <li>
-                        <a href="https://www.unicah.edu" class="fas fa-globe-americas"></a>
+                        <a href="https://www.unicah.edu" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://es-la.facebook.com/UNICAHCJS/  " class="fab fa-facebook"></a>
+                        <a href="https://es-la.facebook.com/UNICAHCJS/" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/unicahjs" class="fab fa-twitter"></a>
+                        <a href="https://twitter.com/unicahjs" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/unicahcjs/" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/unicahcjs/" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

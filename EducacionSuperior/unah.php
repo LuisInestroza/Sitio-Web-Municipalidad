@@ -32,12 +32,31 @@
             <h4>REDES</h4>
             <div>
                 <ul class="icons">
-                    <li><a href="https://sed.unah.edu.hn/craed/craed-siguatepeque" class="fas fa-globe-americas"></a>
+                    <li>
+                        <a href="https://sed.unah.edu.hn/craed/craed-siguatepeque" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
                     </li>
-                    <li><a href="https://www.facebook.com/profile.php?id=100015703836795" class="fab fa-facebook"></a>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100015703836795" class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
-                    <li><a href="#" class="fab fa-twitter"></a></li>
-                    <li><a href="#" class="fab fa-instagram"></a></li>
+                    <li>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

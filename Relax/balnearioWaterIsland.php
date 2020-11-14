@@ -19,13 +19,24 @@
 
                     <li>
                         <a href="https://www.facebook.com/Water-Island-Siguatepeque-1391323324433228/"
-                            class="fab fa-facebook"></a>
+                            class="facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/waterislandsigua/?hl=es-la" class="fab fa-instagram"></a>
+                        <a href="https://www.instagram.com/waterislandsigua/?hl=es-la" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </li>
                 </ul>
             </div>

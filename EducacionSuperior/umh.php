@@ -41,11 +41,31 @@ require_once '../layouts/header.php';
             <h4>REDES</h4>
             <div>
                 <ul class="icons">
-                    <li><a href="https://www.unimetro.edu.hn/" class="fas fa-globe-americas"></a></li>
-                    <li><a href="https://www.facebook.com/UniversidadMetropolitanaDeHondurasSiguatepeque/"
-                            class="fab fa-facebook"></a></li>
-                    <li><a href="https://twitter.com/UMHHonduras" class="fab fa-twitter"></a></li>
-                    <li><a href="https://www.instagram.com/umh.unimetro/?hl=es-la" class="fab fa-instagram"></a></li>
+                    <li>
+                        <a href="https://www.unimetro.edu.hn/" class="globe">
+                            <i class="fas fa-globe-americas"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/UniversidadMetropolitanaDeHondurasSiguatepeque/" class="facebook">
+                            <i class="fab fa-facebook"></i> 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/UMHHonduras" class="twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/umh.unimetro/?hl=es-la" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

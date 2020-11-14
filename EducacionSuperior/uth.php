@@ -32,10 +32,30 @@ require_once '../layouts/header.php';
                 <h4>Redes</h4>
                 <div>
                     <ul class="icons">
-                        <li><a href="http://www.uth.hn/" class="fas fa-globe-americas"></a></li>
-                        <li><a href="https://es-la.facebook.com/uthsigua" class="fab fa-facebook"></a></li>
-                        <li><a href="https://www.instagram.com/uthedu/" class="fab fa-twitter"></a></li>
-                        <li><a href="https://twitter.com/uthedu" class="fab fa-instagram"></a></li>
+                        <li>
+                            <a href="http://www.uth.hn/" class="globe">
+                                <i class="fas fa-globe-americas"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://es-la.facebook.com/uthsigua" class="facebook">
+                                <i class="fab fa-facebook"></i></a>
+                            </li>
+                        <li>
+                            <a href="https://www.instagram.com/uthedu/" class="twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/uthedu" class="instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
