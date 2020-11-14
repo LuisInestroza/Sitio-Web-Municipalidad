@@ -296,6 +296,7 @@ header label:hover {
   font-size: 1.5em;
   float: right;
 }
+
 .msg {
   display: none;
 }
@@ -722,7 +723,17 @@ header label:hover {
 .fa-calendar {
   color: var(--colorAzul);
 }
-.datos-fiesta p {
+.datos-fiesta .fa-calendar{
+  font-size: 20px;
+  padding: 0;
+  margin-right: 5px;
+}
+.datos-fiesta .fecha-fiesta{
+  color: var(--colorAzul);
+  font-weight: bold;
+
+}
+.datos-fiesta .detalle-fiesta{
   text-align: justify;
   color: var(--colorNegro);
 }
@@ -877,11 +888,14 @@ header label:hover {
 .servicios .right {
   margin-right: 10px;
   right: 0;
+  font-size: 35px;
 }
 .servicios .left {
   margin-left: 10px;
   left: 0;
+  font-size: 35px;
 }
+
 @media (max-width: 768px) {
   .servicios .servicios-contenedor .item-servicio ul {
     margin: 0;
@@ -911,7 +925,7 @@ header label:hover {
   text-transform: none;
   z-index: 2;
 }
-.arriba i {
+.arriba .fa-angle-up{
   color: #ffffff;
 }
 /* -------- Final del diseño deñ botón arriba  ----------*/
@@ -1326,6 +1340,9 @@ iframe {
   .noticias .fecha-noticias{
     font-size: 12px;
   }
+  .noticias .fa-calendar{
+    font-size: 15px;
+  }
   .noticias .noticia-informacion  {
     font-size: 11px;
   }
@@ -1649,9 +1666,12 @@ iframe {
 .fecha-noticias {
   font-weight: bold;
   color: var(--colorAzul);
+  margin: 15px 0;
 }
 .fa-calendar {
-  padding-right: 10px;
+  font-size: 20px;
+  padding: 0;
+  margin-right: 5px;
 }
 .fecha-informacion {
   padding-top: 20px;
@@ -1692,6 +1712,9 @@ iframe {
   }
   .titulo-noticias {
     font-size: 11px;
+  }
+  .fecha-noticias .fa-calendar{
+    font-size: 12px;
   }
 }
 
@@ -1795,6 +1818,11 @@ div.content-wrap:nth-child(1) {
   .titulo-noticia {
     font-size: 4vw;
   }
+  @media(max-width: 768px){
+    .titulo-noticia{
+      font-size: 12px;
+    }
+  }
   .contenido-noticia img {
     width: 100%;
     height: 150px;
@@ -1882,6 +1910,7 @@ div.content-wrap:nth-child(1) {
 .fecha-comunicado {
   margin: 10px auto;
   font-weight: bolder;
+  color: var(--colorAzul);
 }
 
 @media (max-width: 768px) {
@@ -1912,6 +1941,9 @@ div.content-wrap:nth-child(1) {
 .fecha-informacion {
   color: var(--colorVerde);
   font-weight: bold;
+}
+.fecha-informacion .fa-calendar{
+  color: var(--colorVerde);
 }
 .contenedor-imagenes {
   margin: 10px;

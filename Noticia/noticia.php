@@ -44,7 +44,10 @@
 
 
     </div>
-    <i class="fa fa-calendar fecha-informacion"> <?php echo $fecha; ?></i>
+    <p class="fecha-informacion">
+        <i class="fa fa-calendar"></i> 
+        <?php echo $fecha; ?>
+    </p>
 
     <p class="detalle-informacion">
         <?php echo $descripcion; ?>

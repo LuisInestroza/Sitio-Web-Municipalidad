@@ -84,8 +84,9 @@
             <img src="/img/feriaSanPablo.png" alt="" srcset="">
             <div class="datos-fiesta">
                 <h4><b>FERIA PATRONAL SAN PABLO</b></h4>
-                <i class="fa fa-calendar fecha-fiesta"> 17-25 Enero</i>
-                <p>
+                <p class="fecha-fiesta"><i class="fa fa-calendar "></i> 17-25 Enero</p>
+                
+                <p class="detalle-fiesta">
                     La parroquia San Pablo Apóstol, celebra el día de su santo patrón,
                     con varias actividades religiosas, culturales y artísticas: Eucaristías,
                     en honor a San Pablo, procesión por las calles de la ciudad y conciertos
@@ -98,8 +99,8 @@
             <img src="/img/festivalDeLasFlores.png" alt="" srcset="">
             <div class="datos-fiesta">
                 <h4><b>FESTIVAL DE LAS FLORES</b></h4>
-                <i class="fa fa-calendar fecha-fiesta"> 1re Semana de Octubre</i>
-                <p>El festival de las flores es para todas las edades donde podemos apreciar
+                <p class="fecha-fiesta"><i class="fa fa-calendar"></i> 1re Semana de Octubre</p>
+                <p class="detalle-fiesta">El festival de las flores es para todas las edades donde podemos apreciar
                     varios dias con actividades llenas de colores. Es un Festival 100% familiar contiene
                     una oferta de entretenimiento, alimentación y apreciación natural única en su clase.
                 </p>
@@ -110,8 +111,8 @@
             <img src="/img/festivalDelPino.png" alt="" srcset="">
             <div class="datos-fiesta">
                 <h4><b>FESTIVAL DEL PINO</b></h4>
-                <i class="fa fa-calendar fecha-fiesta"> 26-29 de Abril</i>
-                <p>
+                <p class="fecha-fiesta"><i class="fa fa-calendar"></i> 26-29 de Abril</p>
+                <p class="detalle-fiesta">
                     El Festival Nacional del Pino, es un evento que nació por la necesidad de mostrar a Honduras
                     y el mundo la abundante foresta que tiene Siguatepeque, lo que deriva un clima agradable y cuantiosa
                     agua.
@@ -224,7 +225,8 @@
                                     href="/Noticias/Infraestructura/infraestructura.php?id=<?php echo $columna['idNoticia'] ?>">
                                     <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                                     <div class="noticia-detalles">
-                                        <p class="fecha-noticias fa fa-calendar">
+                                        <p class="fecha-noticias">
+                                            <i class="fa fa-calendar"></i>
                                             <?php echo $columna["fechaNoticia"]; ?></p>
                                         <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                                     </div>
@@ -243,7 +245,8 @@
                                 <a href="/Noticias/Sociales/sociales.php?id=<?php echo $columna['idNoticia'] ?>">
                                     <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                                     <div class="noticia-detalles">
-                                        <p class="fecha-noticias fa fa-calendar">
+                                        <p class="fecha-noticias">
+                                            <i class="fa fa-calendar"></i>
                                             <?php echo $columna["fechaNoticia"]; ?></p>
                                         <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                                     </div>
@@ -263,7 +266,8 @@
                                 <a href="/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
                                     <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                                     <div class="noticia-detalles">
-                                        <p class="fecha-noticias fa fa-calendar">
+                                        <p class="fecha-noticias">
+                                            <i class="fa fa-calendar"></i>
                                             <?php echo $columna["fechaNoticia"]; ?></p>
                                         <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                                     </div>
@@ -282,7 +286,8 @@
                                 <a href="/Noticias/Economia/economia.php?id=<?php echo $columna['idNoticia'] ?>">
                                     <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                                     <div class="noticia-detalles">
-                                        <p class="fecha-noticias fa fa-calendar">
+                                        <p class="fecha-noticias">
+                                            <i class="fa fa-calendar"></i>
                                             <?php echo $columna["fechaNoticia"]; ?></p>
                                         <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                                     </div>
@@ -320,7 +325,10 @@
                     <a href="/Noticias/Eventos/eventos.php?id=<?php echo $columna['idNoticia'] ?>">
                         <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."' />";;?>
                         <div class="noticia -detalles">
-                            <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                            <p class="fecha-noticias">
+                                <i class="fa fa-calendar"></i> 
+                                <?php echo $columna["fechaNoticia"]; ?>
+                            </p>
                             <p class="titulo-noticia"><?php echo $columna['tituloNoticia']; ?></p>
                         </div>
                     </a>
@@ -346,7 +354,10 @@
         <div class="carousel-cell">
             <a href="/Comunicados/comunicado.php?id=<?php echo $columna['idComunicado'] ?>">
                 <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagen'])." '/>";; ?>
-                <p class="fecha-comunicado fa fa-calendar"> <?php echo $columna["fechaComunicado"]; ?></p>
+                <p class="fecha-comunicado">
+                    <i class="fa fa-calendar"></i>
+                    <?php echo $columna["fechaComunicado"]; ?>
+                </p>
                 <p class="codigo-comunicado"><?php echo $columna['codigoComunicado']; ?></p>
             </a>
         </div>

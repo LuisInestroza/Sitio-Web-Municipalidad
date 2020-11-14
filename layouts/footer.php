@@ -53,16 +53,16 @@
         <div class="links">
             <ul class="icons">
                 <li>
-                    <a href="https://es-la.facebook.com/siguatepequealcaldia" class="fab fa-facebook"></a>
+                    <a href="https://es-la.facebook.com/siguatepequealcaldia"><i class="fab fa-facebook"></i></a>
                 </li>
                 <li>
-                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="#" class="fab fa-google-plus"></a>
+                    <a href="#"><i class="fab fa-google-plus"></i></a>
                 </li>
                 <li>
-                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
@@ -73,8 +73,8 @@
 
 
 <!-- Script de las funciones de animaciones de JavaScript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery-1.11.3.min.js"></script>
 <script src="/js/slider.js"></script>
 <script src="/js/menu.js"></script>
 <script src="/js/botonArriba.js"></script>
@@ -84,7 +84,9 @@
 <script src="/js/slider-index.js"></script>
 <script src="/js/modal.js"></script>
 <script src="/js/galeria.js"></script>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="/js/flickity.pkgd.min.js"></script>
+<script src="/js/all.min.js"></script>
+
 
 
 

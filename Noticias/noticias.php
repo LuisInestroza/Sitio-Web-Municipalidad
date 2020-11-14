@@ -21,7 +21,10 @@
                 <?php echo "<img src = 'data:image/jpeg;base64,".base64_encode($columna['imagenNoticia'])."'/>";;?>
                 <div class="noticias-detalles">
                     <p class="titulo-noticias"><?php echo $columna["tituloNoticia"]; ?></p>
-                    <p class="fecha-noticias fa fa-calendar"> <?php echo $columna["fechaNoticia"]; ?></p>
+                    <p class="fecha-noticias"> 
+                        <i class="fa fa-calendar"></i>
+                        <?php echo $columna["fechaNoticia"]; ?>
+                    </p>
                     <p class="noticia-informacion"><?php echo $columna["descripcionNoticia"]; ?></p>
                 </div>
                 <b>Más Informacion</b>

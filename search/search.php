@@ -47,7 +47,7 @@
               <img src="data:image/jpeg;base64,'.base64_encode($row['imagenNoticia']).'" />
               <div class="noticias-detalles">
                 <p class="titulo-noticias">'.$row["tituloNoticia"].'</p>
-                <p class="fecha-noticias fa fa-calendar"> '.$row["fechaNoticia"].'</p>
+                <p class="fecha-noticias"> <i class="fa fa-calendar"></i>'.$row["fechaNoticia"].'</p>
                 <p class="noticia-informacion">'.$row["descripcionNoticia"].'</p>
               </div>
               <b>Más Informacion</b>
