@@ -25,7 +25,9 @@
                         <i class="fa fa-calendar"></i>
                         <?php echo $columna["fechaNoticia"]; ?>
                     </p>
-                    <p class="noticia-informacion"><?php echo $columna["descripcionNoticia"]; ?></p>
+                    <div class="noticia-informacion">
+                        <?php echo $columna["descripcionNoticia"]; ?>
+                    </div>
                 </div>
                 <b>Más Informacion</b>
             </a>

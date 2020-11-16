@@ -48,7 +48,7 @@
               <div class="noticias-detalles">
                 <p class="titulo-noticias">'.$row["tituloNoticia"].'</p>
                 <p class="fecha-noticias"> <i class="fa fa-calendar"></i>'.$row["fechaNoticia"].'</p>
-                <p class="noticia-informacion">'.$row["descripcionNoticia"].'</p>
+                <div class="noticia-informacion">'.$row["descripcionNoticia"].'</div>
               </div>
               <b>Más Informacion</b>
             </a>

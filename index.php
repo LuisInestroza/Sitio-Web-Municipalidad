@@ -10,13 +10,25 @@
   mysqli_query($conexion, "SET lc_time_names = 'es_ES'");
 
   // Query de para mostrar las noticas
-  $queryNoticasInfraestructura = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 1";
-  $queryNoticasSociales = "SELECT idNoticia, imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 2";
-  $queryNoticasEventos = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia, date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 3";
-  $queryNoticasEconomia = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  FROM noticia WHERE categoriaNoticia_idcategoriaNoticia = 4";
+  $queryNoticasInfraestructura = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  
+                                    FROM noticia a INNER JOIN categoriaNoticia b on b.idCategoriaNoticia = a.categoriaNoticia_idcategoriaNoticia  
+                                WHERE b.claveCategoriaNoticia = 'CAT-INFRA'";
+
+  $queryNoticasSociales = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  
+                                FROM noticia a INNER JOIN categoriaNoticia b on b.idCategoriaNoticia = a.categoriaNoticia_idcategoriaNoticia  
+                            WHERE b.claveCategoriaNoticia = 'CAT-SS'";
+                            
+  $queryNoticasEventos = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  
+                            FROM noticia a INNER JOIN categoriaNoticia b on b.idCategoriaNoticia = a.categoriaNoticia_idcategoriaNoticia 
+                        WHERE b.claveCategoriaNoticia = 'CAT-EVENT'";
+
+  $queryNoticasEconomia = "SELECT idNoticia,imagenNoticia, tituloNoticia, descripcionNoticia,  date_format(fechaNoticia, '%d %M, %Y') as fechaNoticia  
+                                FROM noticia a INNER JOIN categoriaNoticia b on b.idCategoriaNoticia = a.categoriaNoticia_idcategoriaNoticia  
+                            WHERE b.claveCategoriaNoticia = 'CAT-ECON'";
 
   // Query de comunicados
-  $queryComunicados = "SELECT idComunicado, imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado FROM comunicado";
+  $queryComunicados = "SELECT idComunicado, imagen, codigoComunicado, date_format(fechaComunicado, '%d %M, %Y') as fechaComunicado 
+                        FROM comunicado";
 
 
 ?>
