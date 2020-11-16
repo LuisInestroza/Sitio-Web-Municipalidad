@@ -59,10 +59,10 @@
                     <a href="#"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-google-plus"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
                 </li>
             </ul>
         </div>

@@ -24,7 +24,7 @@
         <div class="contenedor">
             <a href="/Departamentos/catastroMunicipal.php">
                 <img class="imagen" src="/img/deptos/catastro-municipal.png" alt="catastro-municipal">
-                <p class="nombre-depto">Catastro Municipalipal</p>
+                <p class="nombre-depto">Catastro Municipal</p>
             </a>
             <p>Servicios Prestados.</p>
 
